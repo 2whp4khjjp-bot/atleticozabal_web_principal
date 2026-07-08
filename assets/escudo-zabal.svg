@@ -1,1 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 96" width="54" height="96"><image href="data:image/png;base64,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" width="54" height="96" preserveAspectRatio="xMidYMid meet"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" role="img" aria-label="Escudo Atlético Zabal Linense">
+  <defs>
+    <clipPath id="shield"><path d="M24 24h192l-22 144-74 92-74-92z"/></clipPath>
+  </defs>
+  <path d="M24 24h192l-22 144-74 92-74-92z" fill="#f5d400" stroke="#061a44" stroke-width="8"/>
+  <g clip-path="url(#shield)">
+    <rect x="34" y="36" width="172" height="70" fill="#fff"/>
+    <rect x="34" y="104" width="172" height="140" fill="#061a44"/>
+    <rect x="54" y="104" width="26" height="140" fill="#f5d400"/>
+    <rect x="108" y="104" width="26" height="140" fill="#f5d400"/>
+    <rect x="162" y="104" width="26" height="140" fill="#f5d400"/>
+    <path d="M24 116 210 52l12 38L38 154z" fill="#fff" stroke="#061a44" stroke-width="5"/>
+  </g>
+  <g fill="#f5d400" stroke="#061a44" stroke-width="4">
+    <rect x="58" y="55" width="22" height="18"/>
+    <rect x="84" y="49" width="22" height="24"/>
+    <rect x="110" y="55" width="22" height="18"/>
+    <rect x="64" y="75" width="64" height="20"/>
+    <rect x="76" y="95" width="40" height="18"/>
+  </g>
+  <text x="72" y="142" transform="rotate(-19 72 142)" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#061a44">ATL. ZABAL LINENSE</text>
+  <g transform="translate(92 154)">
+    <circle cx="28" cy="28" r="30" fill="#fff" stroke="#061a44" stroke-width="5"/>
+    <polygon points="28,8 42,20 37,38 19,38 14,20" fill="#061a44"/>
+    <path d="M28 8v-7M42 20l8-8M37 38l10 10M19 38 9 48M14 20 6 12" stroke="#061a44" stroke-width="4"/>
+  </g>
+</svg>
