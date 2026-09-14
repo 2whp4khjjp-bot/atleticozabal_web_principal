@@ -88,3 +88,5 @@ function clean(value) {
     await browser.close();
   }
 })().catch(error => { console.error(error.stack || error.message); process.exitCode = 1; });
+
+// Fin del actualizador.
