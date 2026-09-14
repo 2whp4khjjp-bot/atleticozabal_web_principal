@@ -1,219 +1,386 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Atlético Zabal Linense//Benjamín A 2026-27//ES
+PRODID:-//Atletico Zabal Linense//Benjamin A 2026-27//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Atlético Zabal · Benjamín A
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-benjamin-a-1@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;TZID=Europe/Madrid:20260912T160000
 DTEND;TZID=Europe/Madrid:20260912T170000
-SUMMARY:J1 · Atlético Zabal – Salesianos Algeciras
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\n16:00 · Virgen del Carmen\n\nCreado por Raúl Cote
+SUMMARY:J1 · ATLETICO ZABAL – C.D. SALESIANOS ALGECIRAS
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 1\nH
+ ora: 16:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LIN
+ EA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-2@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20260919
-SUMMARY:J2 · Trasmallo F.C. – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20260920
+SUMMARY:J2 · TRASMALLO F.C. C.D. – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 2\nH
+ ora pendiente\nCampo: Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAE
+ L SANCHEZ (F11-F7\,1) (A)\n\nCreado por Raúl Cote
+LOCATION:Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11
+ -F7\,1) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-3@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20260926
-SUMMARY:J3 · Atlético Zabal – San José Obrero
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20260927
+SUMMARY:J3 · ATLETICO ZABAL – C.F. SAN JOSE OBRERO
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 3\nH
+ ora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA 
+ LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-4@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261003
-SUMMARY:J4 · La Salle Puerto Real – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261004
+SUMMARY:J4 · C.D. LA SALLE – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 4\nH
+ ora pendiente\nCampo: Puerto Real - PACO GALLEGO (A)\n\nCreado por Raúl 
+ Cote
+LOCATION:Puerto Real - PACO GALLEGO (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-5@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261010
-SUMMARY:J5 · Atlético Zabal – S.M. El Mirador
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261011
+SUMMARY:J5 · ATLETICO ZABAL – C.D. S.M. MIRADOR
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 5\nH
+ ora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA 
+ LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-6@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261017
-SUMMARY:J6 · Arcos C.F. – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261018
+SUMMARY:J6 · ARCOS C.F. – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 6\nH
+ ora pendiente\nCampo: Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)
+ \n\nCreado por Raúl Cote
+LOCATION:Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-7@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261024
-SUMMARY:J7 · Escuela Bahía SF – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261025
+SUMMARY:J7 · BAHIA SAN FERNANDO C.D. – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 7\nH
+ ora pendiente\nCampo: San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)\n
+ \nCreado por Raúl Cote
+LOCATION:San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-8@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261031
-SUMMARY:J8 · Atlético Zabal – C.D. San Bernardo
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261101
+SUMMARY:J8 · ATLETICO ZABAL – C.D. SAN BERNARDO
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 8\nH
+ ora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA 
+ LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-9@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261107
-SUMMARY:J9 · A.D. Taraguilla – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261108
+SUMMARY:J9 · A.D. TARAGUILLA – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 9\nH
+ ora pendiente\nCampo: San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-
+ F7) (A)\n\nCreado por Raúl Cote
+LOCATION:San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-10@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261114
-SUMMARY:J10 · Atlético Zabal – A.D. Marianistas
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261115
+SUMMARY:J10 · ATLETICO ZABAL – A.D. MARIANISTAS C.D.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 10\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-11@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261121
-SUMMARY:J11 · Isla de León – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261122
+SUMMARY:J11 · C.D. ISLA DE LEON FUTBOL BASE – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 11\n
+ Hora pendiente\nCampo: San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)\
+ n\nCreado por Raúl Cote
+LOCATION:San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-12@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261128
-SUMMARY:J12 · Atlético Zabal – A.D. Burreños
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261129
+SUMMARY:J12 · ATLETICO ZABAL – A.D. LOS BURREÑOS
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 12\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-13@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261205
-SUMMARY:J13 · Estrella Portuense – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261206
+SUMMARY:J13 · C.D. ESTRELLA PORTUENSE F.C. – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 13\n
+ Hora pendiente\nCampo: Puerto De Santa María (El) - EL JUNCAL CAMPO MPAL 
+ (F11-F7) (A)\n\nCreado por Raúl Cote
+LOCATION:Puerto De Santa María (El) - EL JUNCAL CAMPO MPAL (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-14@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261212
-SUMMARY:J14 · Atlético Zabal – A.P.A. Sancti Petri
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261213
+SUMMARY:J14 · ATLETICO ZABAL – A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA
+  C.F.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 14\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-15@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20261219
-SUMMARY:J15 · A.D. Pueblo Nuevo – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20261220
+SUMMARY:J15 · C.D. AD PUEBLO NUEVO LA GRANJA – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 15\n
+ Hora pendiente\nCampo: Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES
+  (F7\, 1) (A)\n\nCreado por Raúl Cote
+LOCATION:Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F7\, 1) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-16@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270109
-SUMMARY:J16 · Salesianos Algeciras – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270110
+SUMMARY:J16 · C.D. SALESIANOS ALGECIRAS – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 16\n
+ Hora pendiente\nCampo: Algeciras - LA MENACHA JULIO CABELLO (F-7) (A)\n\n
+ Creado por Raúl Cote
+LOCATION:Algeciras - LA MENACHA JULIO CABELLO (F-7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-17@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270116
-SUMMARY:J17 · Atlético Zabal – Trasmallo F.C.
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270117
+SUMMARY:J17 · ATLETICO ZABAL – TRASMALLO F.C. C.D.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 17\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-18@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270123
-SUMMARY:J18 · San José Obrero – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270124
+SUMMARY:J18 · C.F. SAN JOSE OBRERO – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 18\n
+ Hora pendiente\nCampo: Jerez De La Frontera - JUAN SIMON (F11\, F7) (A)\n
+ \nCreado por Raúl Cote
+LOCATION:Jerez De La Frontera - JUAN SIMON (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-19@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270130
-SUMMARY:J19 · Atlético Zabal – La Salle Puerto Real
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270131
+SUMMARY:J19 · ATLETICO ZABAL – C.D. LA SALLE
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 19\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-20@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270206
-SUMMARY:J20 · S.M. El Mirador – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270207
+SUMMARY:J20 · C.D. S.M. MIRADOR – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 20\n
+ Hora pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nCreado por Raúl
+  Cote
+LOCATION:Algeciras - Sergio Martín (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-21@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270213
-SUMMARY:J21 · Atlético Zabal – Arcos C.F.
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270214
+SUMMARY:J21 · ATLETICO ZABAL – ARCOS C.F.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 21\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-22@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270220
-SUMMARY:J22 · Atlético Zabal – Escuela Bahía SF
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270221
+SUMMARY:J22 · ATLETICO ZABAL – BAHIA SAN FERNANDO C.D.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 22\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-23@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270306
-SUMMARY:J23 · C.D. San Bernardo – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270307
+SUMMARY:J23 · C.D. SAN BERNARDO – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 23\n
+ Hora pendiente\nCampo: San Roque - ALBERTO UMBRIA (F11\, F7) (A)\n\nCread
+ o por Raúl Cote
+LOCATION:San Roque - ALBERTO UMBRIA (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-24@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270313
-SUMMARY:J24 · Atlético Zabal – A.D. Taraguilla
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270314
+SUMMARY:J24 · ATLETICO ZABAL – A.D. TARAGUILLA
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 24\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-25@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270320
-SUMMARY:J25 · A.D. Marianistas – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270321
+SUMMARY:J25 · A.D. MARIANISTAS C.D. – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 25\n
+ Hora pendiente\nCampo: Jerez De La Frontera - SANTA FE (A)\n\nCreado por 
+ Raúl Cote
+LOCATION:Jerez De La Frontera - SANTA FE (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-26@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270403
-SUMMARY:J26 · Atlético Zabal – Isla de León
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270404
+SUMMARY:J26 · ATLETICO ZABAL – C.D. ISLA DE LEON FUTBOL BASE
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 26\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-27@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270410
-SUMMARY:J27 · A.D. Burreños – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270411
+SUMMARY:J27 · A.D. LOS BURREÑOS – ATLETICO ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 27\n
+ Hora pendiente\nCampo: Conil De La Frontera - BURREÑOS (F11-F7) (A)\n\nC
+ reado por Raúl Cote
+LOCATION:Conil De La Frontera - BURREÑOS (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-28@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270417
-SUMMARY:J28 · Atlético Zabal – Estrella Portuense
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270418
+SUMMARY:J28 · ATLETICO ZABAL – C.D. ESTRELLA PORTUENSE F.C.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 28\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-29@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270424
-SUMMARY:J29 · A.P.A. Sancti Petri – Atlético Zabal
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora y campo pendientes\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270425
+SUMMARY:J29 · A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F. – ATLETICO 
+ ZABAL
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 29\n
+ Hora pendiente\nCampo: Chiclana De La Frontera - EL TROVADOR (F11-F7) (A)
+ \n\nCreado por Raúl Cote
+LOCATION:Chiclana De La Frontera - EL TROVADOR (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-a-30@atleticozabal.com
-DTSTAMP:20260914T150000Z
+DTSTAMP:20260914T154843Z
 DTSTART;VALUE=DATE:20270508
-SUMMARY:J30 · Atlético Zabal – A.D. Pueblo Nuevo
-DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+DTEND;VALUE=DATE:20270509
+SUMMARY:J30 · ATLETICO ZABAL – C.D. AD PUEBLO NUEVO LA GRANJA
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo único\nJornada 30\n
+ Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
+  LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-a.html
 END:VEVENT
 END:VCALENDAR
