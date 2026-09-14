@@ -47,7 +47,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
       !/TRASMALLO/i.test(matches[1].home)) {
       throw new Error('Los 30 partidos del Zabal no coinciden con el grupo esperado');
     }
-    const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542&codjornada=1';
+    const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542';
     const classificationResponse = await page.goto(classificationUrl, {
       waitUntil: 'domcontentloaded', timeout: 45000
     });
@@ -57,7 +57,8 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
       if (!row) return null;
       return {
         cells: [...row.querySelectorAll('td')].map(el => (el.innerText || '').trim()),
-        heading: (row.closest('table')?.querySelector('thead')?.innerText || '').trim().slice(0, 400)
+        heading: (row.closest('table')?.querySelector('thead')?.innerText || '').trim().slice(0, 400),
+        roundLabel: (document.body.innerText || '').match(/Jornada\s+\d+/i)?.[0] || null
       };
     });
     console.log('Clasificación HTTP ' + classificationResponse.status() +
