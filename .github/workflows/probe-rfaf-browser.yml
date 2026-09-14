@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/probe-rfaf-browser.yml'
+      - 'scripts/probe-rfaf-browser.js'
 permissions:
   contents: read
 jobs:
