@@ -6,7 +6,7 @@ on:
       - '.github/workflows/probe-rfaf-browser.yml'
       - 'scripts/probe-rfaf-browser.js'
 permissions:
-  contents: read
+  contents: write
 jobs:
   browser:
     runs-on: ubuntu-latest
@@ -19,3 +19,10 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Consultar calendario en navegador anónimo
         run: node scripts/probe-rfaf-browser.js
+      - name: Guardar datos comprobados
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/benjamin-a-rfaf.json
+          git diff --cached --quiet || git commit -m "Actualiza partidos oficiales Benjamín A"
+          git push
