@@ -1,16 +1,16 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Atletico Zabal Linense//Benjamin A 2026-2027//ES
+PRODID:-//Atletico Zabal Linense//Benjamin B 2026-2027//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Atletico Zabal A 2026-2027
+X-WR-CALNAME:Atletico Zabal B 2026-2027
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-a-20261003-atunara@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:Atletico Zabal A - Atunara Atletico C.D.
+SUMMARY:Atletico Zabal B - Atunara Atletico C.D.
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 1 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -20,7 +20,7 @@ UID:zabal-a-20261010-balon@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-SUMMARY:Balon Linense C.F. C.D. - Atletico Zabal A
+SUMMARY:Balon Linense C.F. C.D. - Atletico Zabal B
 LOCATION:Antonio Reyes, La Linea de la Concepcion
 DESCRIPTION:Jornada 2 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -30,7 +30,7 @@ UID:zabal-a-20261017-puente@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:Atletico Zabal A - Puente Mayorga RVO
+SUMMARY:Atletico Zabal B - Puente Mayorga RVO
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 3 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -40,7 +40,7 @@ UID:zabal-a-20261024-tesorillo@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-SUMMARY:U.D. Tesorillo C.D. - Atletico Zabal A
+SUMMARY:U.D. Tesorillo C.D. - Atletico Zabal B
 LOCATION:Municipal La Era, San Martin del Tesorillo
 DESCRIPTION:Jornada 4 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -50,7 +50,7 @@ UID:zabal-a-20261107-guadiaro@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-SUMMARY:Atletico Zabal A - C.D. Guadiaro
+SUMMARY:Atletico Zabal B - C.D. Guadiaro
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 5 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -60,7 +60,7 @@ UID:zabal-a-20261114-cortijillos@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:A.D. Los Cortijillos - Atletico Zabal A
+SUMMARY:A.D. Los Cortijillos - Atletico Zabal B
 LOCATION:Antonio Gavira, Los Cortijillos
 DESCRIPTION:Jornada 6 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -70,7 +70,7 @@ UID:zabal-a-20261121-sanbernardo@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:Atletico Zabal A - C.D. San Bernardo
+SUMMARY:Atletico Zabal B - C.D. San Bernardo
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 7 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -80,7 +80,7 @@ UID:zabal-a-20261128-historico@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:Historico Recreativo Linense A - Atletico Zabal A
+SUMMARY:Historico Recreativo Linense A - Atletico Zabal B
 LOCATION:Francisco Pozo, La Linea de la Concepcion
 DESCRIPTION:Jornada 8 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -90,7 +90,7 @@ UID:zabal-a-20261212-olivillos@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:Atletico Zabal A - C.D. Olivillos 87
+SUMMARY:Atletico Zabal B - C.D. Olivillos 87
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 9 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -100,7 +100,7 @@ UID:zabal-a-20261219-jimena@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:C.D. Athletic Club Jimena - Atletico Zabal A
+SUMMARY:C.D. Athletic Club Jimena - Atletico Zabal B
 LOCATION:Jorge Rocha, Jimena de la Frontera
 DESCRIPTION:Jornada 10 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -110,7 +110,7 @@ UID:zabal-a-20270123-atunara@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:Atunara Atletico C.D. - Atletico Zabal A
+SUMMARY:Atunara Atletico C.D. - Atletico Zabal B
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 12 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -120,7 +120,7 @@ UID:zabal-a-20270130-balon@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:Atletico Zabal A - Balon Linense C.F. C.D.
+SUMMARY:Atletico Zabal B - Balon Linense C.F. C.D.
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 13 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -130,7 +130,7 @@ UID:zabal-a-20270206-puente@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:Puente Mayorga RVO - Atletico Zabal A
+SUMMARY:Puente Mayorga RVO - Atletico Zabal B
 LOCATION:Manuel Mateo, Puente Mayorga
 DESCRIPTION:Jornada 14 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -140,7 +140,7 @@ UID:zabal-a-20270213-tesorillo@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
-SUMMARY:Atletico Zabal A - U.D. Tesorillo C.D.
+SUMMARY:Atletico Zabal B - U.D. Tesorillo C.D.
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 15 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -150,7 +150,7 @@ UID:zabal-a-20270220-guadiaro@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-SUMMARY:C.D. Guadiaro - Atletico Zabal A
+SUMMARY:C.D. Guadiaro - Atletico Zabal B
 LOCATION:La Union, Guadiaro
 DESCRIPTION:Jornada 16 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -160,7 +160,7 @@ UID:zabal-a-20270306-cortijillos@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-SUMMARY:Atletico Zabal A - A.D. Los Cortijillos
+SUMMARY:Atletico Zabal B - A.D. Los Cortijillos
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 17 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -170,7 +170,7 @@ UID:zabal-a-20270313-sanbernardo@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-SUMMARY:C.D. San Bernardo - Atletico Zabal A
+SUMMARY:C.D. San Bernardo - Atletico Zabal B
 LOCATION:Alberto Umbria, San Roque
 DESCRIPTION:Jornada 18 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -180,7 +180,7 @@ UID:zabal-a-20270403-historico@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-SUMMARY:Atletico Zabal A - Historico Recreativo Linense A
+SUMMARY:Atletico Zabal B - Historico Recreativo Linense A
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 19 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -190,7 +190,7 @@ UID:zabal-a-20270410-olivillos@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
-SUMMARY:C.D. Olivillos 87 - Atletico Zabal A
+SUMMARY:C.D. Olivillos 87 - Atletico Zabal B
 LOCATION:Los Olivillos, San Roque
 DESCRIPTION:Jornada 20 - Visitante\nHora pendiente de confirmar.
 STATUS:TENTATIVE
@@ -200,7 +200,7 @@ UID:zabal-a-20270417-jimena@atleticozabal.com
 DTSTAMP:20260914T120000Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
-SUMMARY:Atletico Zabal A - C.D. Athletic Club Jimena
+SUMMARY:Atletico Zabal B - C.D. Athletic Club Jimena
 LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
 DESCRIPTION:Jornada 21 - Local\nHora pendiente de confirmar.
 STATUS:TENTATIVE
