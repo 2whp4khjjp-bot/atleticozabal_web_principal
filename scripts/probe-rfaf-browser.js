@@ -20,8 +20,8 @@ const calendar = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&c
     const hasFixture = matches > 0 && hasOpponent && /Jornada\s*1/i.test(html);
     console.log('Calendario: ' + html.length + ' caracteres, Zabal ' + matches +
       ' menciones, rival ' + (hasOpponent ? 'presente' : 'ausente') + '.');
-    const samples = await page.evaluate(() => [...document.querySelectorAll('span.font-responsive')]
-      .filter(el => /ATLETICO ZABAL/i.test(el.textContent || '')).slice(0, 2)
+    const samples = await page.evaluate(() => [...document.querySelectorAll('*')]
+      .filter(el => el.children.length === 0 && /ATLETICO ZABAL/i.test(el.textContent || '')).slice(0, 2)
       .map(el => {
         const parents = [];
         for (let node = el, depth = 0; node && depth < 8; node = node.parentElement, depth++) {
