@@ -1,0 +1,359 @@
+{
+  "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
+  "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
+  "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
+  "updatedAt": "2026-09-14T21:15:37.601Z",
+  "standing": {
+    "position": 15,
+    "points": 1,
+    "played": 1
+  },
+  "matches": [
+    {
+      "round": 1,
+      "date": "2026-09-06",
+      "time": "12:00",
+      "home": "Arenas de Armilla",
+      "away": "Atletico Zabal",
+      "ground": "Campo Municipal de Armilla",
+      "score": [
+        2,
+        1
+      ],
+      "actaUrl": null
+    },
+    {
+      "round": 2,
+      "date": "2026-09-13",
+      "time": "12:00",
+      "home": "Atletico Zabal",
+      "away": "U.D. Tomares",
+      "ground": "Estadio Virgen del Carmen",
+      "score": [
+        1,
+        1
+      ],
+      "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693219"
+    },
+    {
+      "round": 3,
+      "date": "2026-09-16",
+      "time": "18:00",
+      "home": "Atletico Zabal",
+      "away": "C.F. Alhendin Balompie",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 4,
+      "date": "2026-09-20",
+      "time": "12:30",
+      "home": "Calavera C.F.",
+      "away": "Atletico Zabal",
+      "ground": "IDM Calavera",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 5,
+      "date": "2026-10-04",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "C.D. San Felix",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 6,
+      "date": "2026-10-11",
+      "time": null,
+      "home": "Granada C.F.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 7,
+      "date": "2026-10-18",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Marbella F.C.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 8,
+      "date": "2026-10-25",
+      "time": null,
+      "home": "Sevilla F.C.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 9,
+      "date": "2026-10-28",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "U.D. Almeria",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 10,
+      "date": "2026-11-01",
+      "time": null,
+      "home": "Atletico Melilla C.F.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 11,
+      "date": "2026-11-08",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "C.D. Utrera",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 12,
+      "date": "2026-11-22",
+      "time": null,
+      "home": "Cadiz C.F.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 13,
+      "date": "2026-11-29",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "C.D. Mosquito",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 14,
+      "date": "2026-12-06",
+      "time": null,
+      "home": "Cordoba C.F.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 15,
+      "date": "2026-12-13",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Malaga C.F.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 16,
+      "date": "2026-12-16",
+      "time": null,
+      "home": "Real Betis",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 17,
+      "date": "2026-12-20",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Sporting Atletico",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 18,
+      "date": "2027-01-10",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Arenas de Armilla",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 19,
+      "date": "2027-01-24",
+      "time": null,
+      "home": "U.D. Tomares",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 20,
+      "date": "2027-01-31",
+      "time": null,
+      "home": "C.F. Alhendin Balompie",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 21,
+      "date": "2027-02-07",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Calavera C.F.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 22,
+      "date": "2027-02-10",
+      "time": null,
+      "home": "C.D. San Felix",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 23,
+      "date": "2027-02-14",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Granada C.F.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 24,
+      "date": "2027-02-21",
+      "time": null,
+      "home": "Marbella F.C.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 25,
+      "date": "2027-02-28",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Sevilla F.C.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 26,
+      "date": "2027-03-03",
+      "time": null,
+      "home": "U.D. Almeria",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 27,
+      "date": "2027-03-07",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Atletico Melilla C.F.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 28,
+      "date": "2027-03-14",
+      "time": null,
+      "home": "C.D. Utrera",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 29,
+      "date": "2027-03-21",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Cadiz C.F.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 30,
+      "date": "2027-04-04",
+      "time": null,
+      "home": "C.D. Mosquito",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 31,
+      "date": "2027-04-11",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Cordoba C.F.",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 32,
+      "date": "2027-04-18",
+      "time": null,
+      "home": "Malaga C.F.",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 33,
+      "date": "2027-04-25",
+      "time": null,
+      "home": "Atletico Zabal",
+      "away": "Real Betis",
+      "ground": "Virgen del Carmen\\, La Linea de la Concepcion",
+      "score": null,
+      "actaUrl": null
+    },
+    {
+      "round": 34,
+      "date": "2027-05-02",
+      "time": null,
+      "home": "Sporting Atletico",
+      "away": "Atletico Zabal",
+      "ground": null,
+      "score": null,
+      "actaUrl": null
+    }
+  ]
+}
