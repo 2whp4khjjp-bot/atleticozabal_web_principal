@@ -1,0 +1,45 @@
+name: Sincronizar Juvenil DH · RFEF
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 7 * * 1,4'
+    - cron: '15 15 * * 2'
+  push:
+    paths:
+      - '.github/workflows/sync-juvenil-dh-rfef.yml'
+      - 'scripts/sync-juvenil-dh-rfef.js'
+      - 'scripts/render-juvenil-dh-ics.js'
+      - 'scripts/validate-juvenil-dh.js'
+permissions:
+  contents: write
+concurrency:
+  group: sync-juvenil-dh-rfef
+  cancel-in-progress: false
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar Playwright y Chromium
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar Marcadores RFEF
+        run: node scripts/sync-juvenil-dh-rfef.js
+      - name: Generar calendario de suscripción
+        run: node scripts/render-juvenil-dh-ics.js
+      - name: Validar datos y calendario
+        run: node scripts/validate-juvenil-dh.js
+      - name: Publicar cambios oficiales
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/juvenil-dh-rfef.json calendario-division-honor.ics
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza partidos oficiales Juvenil DH"
+          git pull --rebase origin main
+          git push origin HEAD:main
