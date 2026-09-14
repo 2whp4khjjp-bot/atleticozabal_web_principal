@@ -30,7 +30,7 @@ function clean(value) {
         for (const card of cards) {
           const home = norm(card.querySelector('.font_widgetL h4')?.textContent);
           const away = norm(card.querySelector('.font_widgetV h4')?.textContent);
-          if (!/Atlético Zabal/i.test(home + ' ' + away)) continue;
+          if (!/atl[eé]tico zabal/i.test(home + ' ' + away)) continue;
           const center = card.querySelector('td[width="20%"]');
           const info = norm(center?.innerText);
           const date = info.match(/\b(\d{2})-(\d{2})-(\d{4})\b/);
@@ -56,14 +56,14 @@ function clean(value) {
     }
     if (matches.length !== 34 ||
       !/Arenas de Armilla/i.test(matches[0].home) ||
-      !/Atlético Zabal/i.test(matches[0].away) ||
+      !/atl[eé]tico zabal/i.test(matches[0].away) ||
       !/UD Tomares/i.test(matches[1].away)) {
       throw new Error('Las 34 jornadas no coinciden con el Grupo 4 del Juvenil');
     }
     const response = await page.goto(classificationSource, { waitUntil: 'domcontentloaded', timeout: 45000 });
     if (!response || !response.ok()) throw new Error('No se pudo abrir la clasificación RFEF');
     const standing = await page.evaluate(() => {
-      const row = [...document.querySelectorAll('tr')].find(node => /Atlético Zabal/i.test(node.innerText || ''));
+      const row = [...document.querySelectorAll('tr')].find(node => /atl[eé]tico zabal/i.test(node.innerText || ''));
       const cells = row ? [...row.querySelectorAll('td')].map(cell => cell.innerText.replace(/\s+/g, ' ').trim()) : [];
       const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
       return { position: number(1), points: number(3), played: number(4) };
