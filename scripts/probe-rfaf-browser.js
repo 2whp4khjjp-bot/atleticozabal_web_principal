@@ -61,10 +61,38 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
         roundLabel: (document.body.innerText || '').match(/Jornada\s+\d+/i)?.[0] || null
       };
     });
-    console.log('Clasificación HTTP ' + classificationResponse.status() +
-      ', ruta ' + new URL(page.url()).pathname +
-      ', fila Zabal: ' + JSON.stringify(standingSample));
-    const output = { source, updatedAt: new Date().toISOString(), matches };
+    const cells = standingSample?.cells || [];
+    const teamIndex = cells.findIndex(value => /^ATLETICO ZABAL$/i.test(value));
+    const number = index => /^\\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
+    const standing = teamIndex >= 1 ? {
+      position: number(teamIndex - 1),
+      points: number(teamIndex + 2),
+      played: number(teamIndex + 3),
+      goalsFor: number(teamIndex + 11),
+      goalsAgainst: number(teamIndex + 12),
+      round: Number(standingSample.roundLabel?.match(/\\d+/)?.[0]) || null
+    } : null;
+    if (!classificationResponse.ok ||
+        !page.url().includes('NFG_VisClasificacion') ||
+        !standing || standing.position < 1 || standing.position > 16 ||
+        standing.points === null || standing.played === null ||
+        standing.goalsFor === null || standing.goalsAgainst === null) {
+      throw new Error('No se puede verificar la clasificación del Benjamín A');
+    }
+    // Un solo partido oficial permite deducir su marcador del total de goles de la tabla.
+    if (standing.played === 1 && matches[0].score === null &&
+        matches[0].date < matches[1].date && standing.goalsFor >= 0 &&
+        standing.goalsAgainst >= 0) {
+      const zabalHome = /^ATLETICO ZABAL$/i.test(matches[0].home);
+      matches[0].score = zabalHome
+        ? [standing.goalsFor, standing.goalsAgainst]
+        : [standing.goalsAgainst, standing.goalsFor];
+      matches[0].scoreSource = 'classification-inference-single-match';
+    }
+    console.log('Clasificación verificada: ' + standing.position + 'º, ' +
+      standing.points + ' puntos, ' + standing.played + ' partidos (J' + standing.round + ').');
+    const output = { source, classificationSource: classificationUrl,
+      updatedAt: new Date().toISOString(), standing, matches };
     fs.mkdirSync('data', { recursive: true });
     fs.writeFileSync('data/benjamin-a-rfaf.json', JSON.stringify(output, null, 2) + '\n');
     console.log('Verificados ' + matches.length + ' partidos, ' +
