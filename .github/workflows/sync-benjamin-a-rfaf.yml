@@ -1,12 +1,6 @@
 name: Sincronizar Benjamín A RFAF
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/sync-benjamin-a-rfaf.js'
-      - '.github/workflows/sync-benjamin-a-rfaf.yml'
-  schedule:
-    - cron: '15 6 * * *'
 permissions:
   contents: write
 jobs:
