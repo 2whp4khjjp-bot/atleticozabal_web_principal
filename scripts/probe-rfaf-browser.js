@@ -63,14 +63,14 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     });
     const cells = standingSample?.cells || [];
     const teamIndex = cells.findIndex(value => /^ATLETICO ZABAL$/i.test(value));
-    const number = index => /^\\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
+    const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
     const standing = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
       points: number(teamIndex + 2),
       played: number(teamIndex + 3),
       goalsFor: number(teamIndex + 11),
       goalsAgainst: number(teamIndex + 12),
-      round: Number(standingSample.roundLabel?.match(/\\d+/)?.[0]) || null
+      round: Number(standingSample.roundLabel?.match(/\d+/)?.[0]) || null
     } : null;
     if (!classificationResponse.ok ||
         !page.url().includes('NFG_VisClasificacion') ||
