@@ -26,7 +26,7 @@ function clean(value) {
       if (!response || !response.ok()) throw new Error('RFEF HTTP en jornada ' + round);
       const match = await page.evaluate(() => {
         const norm = value => String(value || '').replace(/\s+/g, ' ').trim();
-        const cards = [...document.querySelectorAll('table.table.table-bordered.table-striped.table-light')];
+        const cards = [...document.querySelectorAll('table[width="100%"]')];
         for (const card of cards) {
           const home = norm(card.querySelector('.font_widgetL h4')?.textContent);
           const away = norm(card.querySelector('.font_widgetV h4')?.textContent);
