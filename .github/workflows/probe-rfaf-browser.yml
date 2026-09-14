@@ -11,6 +11,9 @@ on:
       - 'scripts/validate-benjamin-a.js'
 permissions:
   contents: write
+concurrency:
+  group: sync-benjamin-a-rfaf
+  cancel-in-progress: false
 jobs:
   browser:
     runs-on: ubuntu-latest
@@ -32,5 +35,10 @@ jobs:
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
           git add data/benjamin-a-rfaf.json calendario-benjamin-a.ics
-          git diff --cached --quiet || git commit -m "Actualiza partidos oficiales Benjamín A"
-          git push
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza partidos oficiales Benjamín A"
+          git pull --rebase origin main
+          git push origin HEAD:main
