@@ -1,4 +1,4 @@
-name: Probar navegador RFAF sin cuenta
+name: Sincronizar Benjamín A · RFAF
 on:
   workflow_dispatch:
   schedule:
@@ -8,6 +8,7 @@ on:
       - '.github/workflows/probe-rfaf-browser.yml'
       - 'scripts/probe-rfaf-browser.js'
       - 'scripts/render-benjamin-a-ics.js'
+      - 'scripts/validate-benjamin-a.js'
 permissions:
   contents: write
 jobs:
@@ -24,6 +25,8 @@ jobs:
         run: node scripts/probe-rfaf-browser.js
       - name: Generar calendario de suscripción
         run: node scripts/render-benjamin-a-ics.js
+      - name: Validar página y suscripción
+        run: node scripts/validate-benjamin-a.js
       - name: Guardar datos comprobados
         run: |
           git config user.name "Atlético Zabal · Actualizador"
