@@ -20,6 +20,17 @@ const calendar = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&c
     const hasFixture = matches > 0 && hasOpponent && /Jornada\s*1/i.test(html);
     console.log('Calendario: ' + html.length + ' caracteres, Zabal ' + matches +
       ' menciones, rival ' + (hasOpponent ? 'presente' : 'ausente') + '.');
+    const samples = await page.evaluate(() => [...document.querySelectorAll('span.font-responsive')]
+      .filter(el => /ATLETICO ZABAL/i.test(el.textContent || '')).slice(0, 2)
+      .map(el => {
+        const parents = [];
+        for (let node = el, depth = 0; node && depth < 8; node = node.parentElement, depth++) {
+          parents.push({ tag: node.tagName, css: String(node.className || '').slice(0, 100),
+            text: (node.innerText || '').trim().slice(0, 240) });
+        }
+        return parents;
+      }));
+    console.log('Estructura de dos partidos (solo texto público): ' + JSON.stringify(samples));
     if (!hasFixture) throw new Error('Chromium tampoco obtuvo partidos verificables de RFAF');
     console.log('La sesión anónima del navegador permite leer los partidos.');
   } finally {
