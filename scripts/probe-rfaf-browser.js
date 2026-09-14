@@ -47,6 +47,22 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
       !/TRASMALLO/i.test(matches[1].home)) {
       throw new Error('Los 30 partidos del Zabal no coinciden con el grupo esperado');
     }
+    const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542&codjornada=1';
+    const classificationResponse = await page.goto(classificationUrl, {
+      waitUntil: 'domcontentloaded', timeout: 45000
+    });
+    const standingSample = await page.evaluate(() => {
+      const row = [...document.querySelectorAll('tr')].find(el =>
+        /ATLETICO ZABAL/i.test(el.innerText || ''));
+      if (!row) return null;
+      return {
+        cells: [...row.querySelectorAll('td')].map(el => (el.innerText || '').trim()),
+        heading: (row.closest('table')?.querySelector('thead')?.innerText || '').trim().slice(0, 400)
+      };
+    });
+    console.log('Clasificación HTTP ' + classificationResponse.status() +
+      ', ruta ' + new URL(page.url()).pathname +
+      ', fila Zabal: ' + JSON.stringify(standingSample));
     const output = { source, updatedAt: new Date().toISOString(), matches };
     fs.mkdirSync('data', { recursive: true });
     fs.writeFileSync('data/benjamin-a-rfaf.json', JSON.stringify(output, null, 2) + '\n');
