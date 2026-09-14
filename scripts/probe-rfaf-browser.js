@@ -31,6 +31,15 @@ const calendar = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&c
         return parents;
       }));
     console.log('Estructura de dos partidos (solo texto público): ' + JSON.stringify(samples));
+    const rows = await page.evaluate(() => [...document.querySelectorAll('span.font_responsive')]
+      .filter(el => /ATLETICO ZABAL/i.test(el.textContent || '')).slice(0, 3)
+      .map(el => {
+        const row = el.closest('div.row');
+        const cells = [...row.querySelectorAll('table td')].map(td => (td.innerText || '').trim());
+        return { cells, rowText: (row.innerText || '').trim().slice(0, 320) };
+      }));
+    console.log('Celdas de tres partidos: ' + JSON.stringify(rows));
+
     if (!hasFixture) throw new Error('Chromium tampoco obtuvo partidos verificables de RFAF');
     console.log('La sesión anónima del navegador permite leer los partidos.');
   } finally {
