@@ -1,0 +1,3 @@
+const fs=require('fs');
+const url='https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&cod_agrupacion=1';
+(async()=>{const r=await fetch(url,{headers:{'user-agent':'Mozilla/5.0 (compatible; AtleticoZabalCalendar/1.0)','accept':'text/html,application/xhtml+xml','accept-language':'es-ES,es;q=0.9'}});const html=await r.text();if(!r.ok||html.length<500)throw new Error('RFAF no devolvió una página de calendario válida ('+r.status+').');const out={source:url,updatedAt:new Date().toISOString(),status:r.status,bytes:html.length};fs.mkdirSync('data',{recursive:true});fs.writeFileSync('data/benjamin-a-rfaf-status.json',JSON.stringify(out,null,2)+'\n');})();
