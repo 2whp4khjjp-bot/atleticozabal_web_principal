@@ -1,0 +1,21 @@
+name: Sincronizar Benjamín A RFAF
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 6 * * *'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Consultar RFAF
+        run: node scripts/sync-benjamin-a-rfaf.js
+      - name: Guardar lectura
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/benjamin-a-rfaf-status.json
+          git diff --cached --quiet || git commit -m "Actualiza lectura RFAF Benjamín A"
+          git push
