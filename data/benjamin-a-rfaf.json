@@ -1,6 +1,15 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-09-14T15:56:27.611Z",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
+  "updatedAt": "2026-09-14T19:50:39.179Z",
+  "standing": {
+    "position": 3,
+    "points": 3,
+    "played": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "round": 1
+  },
   "matches": [
     {
       "round": 1,
@@ -9,7 +18,11 @@
       "home": "ATLETICO ZABAL",
       "away": "C.D. SALESIANOS ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null
+      "score": [
+        6,
+        2
+      ],
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
