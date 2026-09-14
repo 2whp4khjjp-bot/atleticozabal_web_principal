@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Atlético Zabal Linense//Benjamín A 2026-27//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlético Zabal · Benjamín A
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:zabal-benjamin-a-1@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;TZID=Europe/Madrid:20260912T160000
+DTEND;TZID=Europe/Madrid:20260912T170000SUMMARY:FINAL · Atlético Zabal – Salesianos Algeciras 6–2
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nResultado: Atlético Zabal 6–2 Salesianos Algeciras\n16:00 · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-2@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20260919
+SUMMARY:J2 · Trasmallo F.C. – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-3@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20260926
+SUMMARY:J3 · Atlético Zabal – San José Obrero
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-4@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:J4 · La Salle Puerto Real – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-5@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:J5 · Atlético Zabal – S.M. El Mirador
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-6@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261017
+SUMMARY:J6 · Arcos C.F. – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-7@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:J7 · Escuela Bahía SF – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-8@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261031
+SUMMARY:J8 · Atlético Zabal – C.D. San Bernardo
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-9@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261107
+SUMMARY:J9 · A.D. Taraguilla – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-10@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261114
+SUMMARY:J10 · Atlético Zabal – A.D. Marianistas
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-11@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261121
+SUMMARY:J11 · Isla de León – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-12@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261128
+SUMMARY:J12 · Atlético Zabal – A.D. Burreños
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-13@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261205
+SUMMARY:J13 · Estrella Portuense – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-14@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261212
+SUMMARY:J14 · Atlético Zabal – A.P.A. Sancti Petri
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-15@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20261219
+SUMMARY:J15 · A.D. Pueblo Nuevo – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-16@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270109
+SUMMARY:J16 · Salesianos Algeciras – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-17@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270116
+SUMMARY:J17 · Atlético Zabal – Trasmallo F.C.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-18@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270123
+SUMMARY:J18 · San José Obrero – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-19@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270130
+SUMMARY:J19 · Atlético Zabal – La Salle Puerto Real
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-20@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270206
+SUMMARY:J20 · S.M. El Mirador – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-21@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270213
+SUMMARY:J21 · Atlético Zabal – Arcos C.F.
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-22@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270220
+SUMMARY:J22 · Atlético Zabal – Escuela Bahía SF
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-23@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270306
+SUMMARY:J23 · C.D. San Bernardo – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-24@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270313
+SUMMARY:J24 · Atlético Zabal – A.D. Taraguilla
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-25@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270320
+SUMMARY:J25 · A.D. Marianistas – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-26@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270403
+SUMMARY:J26 · Atlético Zabal – Isla de León
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-27@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270410
+SUMMARY:J27 · A.D. Burreños – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-28@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270417
+SUMMARY:J28 · Atlético Zabal – Estrella Portuense
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-29@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270424
+SUMMARY:J29 · A.P.A. Sancti Petri – Atlético Zabal
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora y campo pendientes\n\nCreado por Raúl Cote
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-a-30@atleticozabal.com
+DTSTAMP:20260914T150000Z
+DTSTART;VALUE=DATE:20270508
+SUMMARY:J30 · Atlético Zabal – A.D. Pueblo Nuevo
+DESCRIPTION:Segunda Andaluza Cádiz Benjamín · Grupo 1\nHora pendiente · Virgen del Carmen\n\nCreado por Raúl Cote
+END:VEVENT
+END:VCALENDAR
