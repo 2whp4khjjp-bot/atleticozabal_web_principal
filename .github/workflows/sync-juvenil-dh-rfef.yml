@@ -2,8 +2,7 @@ name: Sincronizar Juvenil DH · RFEF
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 7 * * 1,4'
-    - cron: '15 15 * * 2'
+    - cron: '0 8,9 * * *'
 permissions:
   contents: write
 concurrency:
@@ -14,18 +13,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: echo "run=$(TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
       - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
         run: |
           npm install --no-save --package-lock=false playwright@1.63.0
           npx playwright install --with-deps chromium
       - name: Consultar Marcadores RFEF
+        if: steps.window.outputs.run == 'true'
         run: node scripts/sync-juvenil-dh-rfef.js
       - name: Generar calendario de suscripción
+        if: steps.window.outputs.run == 'true'
         run: node scripts/render-juvenil-dh-ics.js
       - name: Validar datos y calendario
+        if: steps.window.outputs.run == 'true'
         run: node scripts/validate-juvenil-dh.js
       - name: Publicar cambios oficiales
+        if: steps.window.outputs.run == 'true'
         run: |
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
