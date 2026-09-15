@@ -1,6 +1,9 @@
 const fs = require('node:fs');
 for (const path of ['calendario-alevin-a.html', 'proximos-partidos.html']) {
   const html = fs.readFileSync(path, 'utf8');
+  if (!html.includes('Alevín A · Segunda Andaluza')) {
+    throw new Error('Categoría incorrecta del Alevín A en ' + path);
+  }
   const script = html.match(/<script>([\s\S]*?)<\/script>/);
   if (!script) throw new Error('Falta script en ' + path);
   new Function(script[1]);

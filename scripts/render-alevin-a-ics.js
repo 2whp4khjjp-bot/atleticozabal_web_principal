@@ -5,7 +5,7 @@ if (!Array.isArray(data.matches) || data.matches.length < 2) {
   throw new Error('No se genera ICS sin las jornadas verificadas');
 }
 const stamp = new Date(data.updatedAt).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
-const escape = value => String(value).replace(/\\/g, '\\\\').replace(/\n/g, '\\n')
+const escape = value => String(value).replace(/\u00a0/g, ' ').replace(/\\/g, '\\\\').replace(/\n/g, '\\n')
   .replace(/,/g, '\\,').replace(/;/g, '\\;');
 function fold(line) {
   let result = '', width = 0;
@@ -46,7 +46,7 @@ for (const match of data.matches) {
     ? match.score[0] + '–' + match.score[1] : null;
   const title = (result ? 'FINAL · ' : 'J' + match.round + ' · ') + match.home +
     ' – ' + match.away + (result ? ' ' + result : '');
-  const notes = ['Alevín A · Competición RFAF',
+  const notes = ['Alevín A · Segunda Andaluza Cádiz · Grupo único',
     'Jornada ' + match.round,
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];

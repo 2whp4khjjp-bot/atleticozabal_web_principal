@@ -11,11 +11,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;TZID=Europe/Madrid:20260919T123000
 DTEND;TZID=Europe/Madrid:20260919T133000
 SUMMARY:J1 · ATLETICO ZABAL – C.D. SAN ROQUE
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 1\nHora: 12:30\nCampo: 
- La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n\nCr
- eado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ \nHora: 12:30\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA 
+ LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -24,10 +24,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:J2 · C.D. AD PUEBLO NUEVO LA GRANJA – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 2\nHora pendiente\nCamp
- o: Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F7\, 1) (A)\n\nCr
- eado por Raúl Cote
-LOCATION:Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F7\, 1) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ \nHora pendiente\nCampo: Jerez De La Frontera - LA GRANJA CENTRO DE DEPORT
+ ES (F7\, 1) (A)\n\nCreado por Raúl Cote
+LOCATION:Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F7\, 1) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -36,11 +36,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:J3 · ATLETICO ZABAL – C.F. SAN JOSE OBRERO
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 3\nHora pendiente\nCamp
- o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n\
- nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 3
+ \nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (
+ LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -49,9 +49,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:J4 · C.D. LA SALLE – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 4\nHora pendiente\nCamp
- o: Puerto Real - PACO GALLEGO (A)\n\nCreado por Raúl Cote
-LOCATION:Puerto Real - PACO GALLEGO (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 4
+ \nHora pendiente\nCampo: Puerto Real - PACO GALLEGO (A)\n\nCreado por Raú
+ l Cote
+LOCATION:Puerto Real - PACO GALLEGO (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -60,11 +61,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:J5 · ATLETICO ZABAL – TARIFA U.D.
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 5\nHora pendiente\nCamp
- o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n\
- nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 5
+ \nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (
+ LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -73,10 +74,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J6 · ARCOS C.F. – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 6\nHora pendiente\nCamp
- o: Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)\n\nCreado por Raú
- l Cote
-LOCATION:Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 6
+ \nHora pendiente\nCampo: Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (
+ A)\n\nCreado por Raúl Cote
+LOCATION:Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -85,10 +86,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:J7 · C.D. SAN FERNANDO 1940 – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 7\nHora pendiente\nCamp
- o: San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)\n\nCreado por Raúl 
- Cote
-LOCATION:San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 7
+ \nHora pendiente\nCampo: San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)
+ \n\nCreado por Raúl Cote
+LOCATION:San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -97,11 +98,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J8 · ATLETICO ZABAL – U.D. LA ALGAIDA
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 8\nHora pendiente\nCamp
- o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n\
- nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 8
+ \nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (
+ LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -110,10 +111,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J9 · A.D. TARAGUILLA – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 9\nHora pendiente\nCamp
- o: San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)\n\nCreado 
- por Raúl Cote
-LOCATION:San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 9
+ \nHora pendiente\nCampo: San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F
+ 11-F7) (A)\n\nCreado por Raúl Cote
+LOCATION:San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -122,11 +123,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:J10 · ATLETICO ZABAL – A.D. MARIANISTAS C.D.
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 10\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 0\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -135,10 +136,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:J11 · A.D. LOS BURREÑOS – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 11\nHora pendiente\nCam
- po: Conil De La Frontera - BURREÑOS (F11-F7) (A)\n\nCreado por Raúl Cot
- e
-LOCATION:Conil De La Frontera - BURREÑOS (F11-F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 1\nHora pendiente\nCampo: Conil De La Frontera - BURREÑOS (F11-F7) (A)\n\
+ nCreado por Raúl Cote
+LOCATION:Conil De La Frontera - BURREÑOS (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -147,11 +148,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:J12 · ATLETICO ZABAL – SPORTING CHICLANA C.D.
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 12\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 2\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -160,10 +161,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J13 · CADIZ C.F.\, S.A.D. – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 13\nHora pendiente\nCam
- po: Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2) (A)\n\nCreado por R
- aúl Cote
-LOCATION:Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 3\nHora pendiente\nCampo: Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2
+ ) (A)\n\nCreado por Raúl Cote
+LOCATION:Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -172,11 +173,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J14 · ATLETICO ZABAL – MONITORES FUTBOL DE ALGECIRAS
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 14\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 4\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -185,10 +186,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:J15 · C.D. DIVINA PASTORA SANLUQUEÑA – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 15\nHora pendiente\nCam
- po: Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F7) (A)\n\nCreado por 
- Raúl Cote
-LOCATION:Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 5\nHora pendiente\nCampo: Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F
+ 7) (A)\n\nCreado por Raúl Cote
+LOCATION:Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -197,10 +198,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J16 · C.D. SAN ROQUE – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 16\nHora pendiente\nCam
- po: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)\n\nCreado po
- r Raúl Cote
-LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 6\nHora pendiente\nCampo: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\,
+  F7) (A)\n\nCreado por Raúl Cote
+LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -209,11 +210,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:J17 · ATLETICO ZABAL – C.D. AD PUEBLO NUEVO LA GRANJA
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 17\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 7\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -222,10 +223,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J18 · C.F. SAN JOSE OBRERO – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 18\nHora pendiente\nCam
- po: Jerez De La Frontera - JUAN SIMON (F11\, F7) (A)\n\nCreado por Raúl 
- Cote
-LOCATION:Jerez De La Frontera - JUAN SIMON (F11\, F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 8\nHora pendiente\nCampo: Jerez De La Frontera - JUAN SIMON (F11\, F7) (A)
+ \n\nCreado por Raúl Cote
+LOCATION:Jerez De La Frontera - JUAN SIMON (F11\, F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -234,11 +235,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J19 · ATLETICO ZABAL – C.D. LA SALLE
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 19\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 9\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -247,9 +248,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J20 · TARIFA U.D. – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 20\nHora pendiente\nCam
- po: Tarifa - PARQUE FERIA  (A)\n\nCreado por Raúl Cote
-LOCATION:Tarifa - PARQUE FERIA  (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 0\nHora pendiente\nCampo: Tarifa - PARQUE FERIA  (A)\n\nCreado por Raúl C
+ ote
+LOCATION:Tarifa - PARQUE FERIA  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -258,11 +260,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J21 · ATLETICO ZABAL – ARCOS C.F.
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 21\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 1\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -271,11 +273,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J22 · ATLETICO ZABAL – C.D. SAN FERNANDO 1940
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 22\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 2\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -284,10 +286,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:J23 · U.D. LA ALGAIDA – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 23\nHora pendiente\nCam
- po: Sanlúcar de Barrameda -Doro Stadium (F11-F7) (A)\n\nCreado por Raúl
-  Cote
-LOCATION:Sanlúcar de Barrameda -Doro Stadium (F11-F7) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 3\nHora pendiente\nCampo: Sanlúcar de Barrameda -Doro Stadium (F11-F7) (A
+ )\n\nCreado por Raúl Cote
+LOCATION:Sanlúcar de Barrameda -Doro Stadium (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -296,11 +298,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J24 · ATLETICO ZABAL – A.D. TARAGUILLA
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 24\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 4\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -309,9 +311,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J25 · A.D. MARIANISTAS C.D. – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 25\nHora pendiente\nCam
- po: Jerez De La Frontera - SANTA FE (A)\n\nCreado por Raúl Cote
-LOCATION:Jerez De La Frontera - SANTA FE (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 5\nHora pendiente\nCampo: Jerez De La Frontera - SANTA FE (A)\n\nCreado po
+ r Raúl Cote
+LOCATION:Jerez De La Frontera - SANTA FE (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -320,11 +323,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J26 · ATLETICO ZABAL – A.D. LOS BURREÑOS
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 26\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 6\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -333,10 +336,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:J27 · SPORTING CHICLANA C.D. – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 27\nHora pendiente\nCam
- po: Chiclana De La Frontera.- Isabel la Catolica (A)\n\nCreado por Raúl 
- Cote
-LOCATION:Chiclana De La Frontera.- Isabel la Catolica (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 7\nHora pendiente\nCampo: Chiclana De La Frontera.- Isabel la Catolica (A)
+ \n\nCreado por Raúl Cote
+LOCATION:Chiclana De La Frontera.- Isabel la Catolica (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -345,11 +348,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:J28 · ATLETICO ZABAL – CADIZ C.F.\, S.A.D.
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 28\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 8\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -358,10 +361,10 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J29 · MONITORES FUTBOL DE ALGECIRAS – ATLETICO ZABAL
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 29\nHora pendiente\nCam
- po: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)\n\nCreado por Ra
- úl Cote
-LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 9\nHora pendiente\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1)
+  (A)\n\nCreado por Raúl Cote
+LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 BEGIN:VEVENT
@@ -370,11 +373,11 @@ DTSTAMP:20260915T110520Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:J30 · ATLETICO ZABAL – C.D. DIVINA PASTORA SANLUQUEÑA
-DESCRIPTION:Alevín A · Competición RFAF\nJornada 30\nHora pendiente\nCam
- po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n
- \nCreado por Raúl Cote
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
- A)
+DESCRIPTION:Alevín A · Segunda Andaluza Cádiz · Grupo único\nJornada 3
+ 0\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
+ )
 URL:https://www.atleticozabal.com/calendario-alevin-a.html
 END:VEVENT
 END:VCALENDAR
