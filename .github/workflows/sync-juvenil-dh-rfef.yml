@@ -4,12 +4,6 @@ on:
   schedule:
     - cron: '15 7 * * 1,4'
     - cron: '15 15 * * 2'
-  push:
-    paths:
-      - '.github/workflows/sync-juvenil-dh-rfef.yml'
-      - 'scripts/sync-juvenil-dh-rfef.js'
-      - 'scripts/render-juvenil-dh-ics.js'
-      - 'scripts/validate-juvenil-dh.js'
 permissions:
   contents: write
 concurrency:
