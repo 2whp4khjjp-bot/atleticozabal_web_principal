@@ -1,0 +1,53 @@
+name: Sincronizar Alevín A · RFAF
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8,9 * * *'
+  push:
+    paths:
+      - '.github/workflows/sync-alevin-a-rfaf.yml'
+      - 'scripts/sync-alevin-a-rfaf.js'
+      - 'scripts/render-alevin-a-ics.js'
+      - 'scripts/validate-alevin-a.js'
+permissions:
+  contents: write
+concurrency:
+  group: sync-alevin-a-rfaf
+  cancel-in-progress: false
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: echo "run=$(TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar calendario en navegador anónimo
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/sync-alevin-a-rfaf.js
+      - name: Generar calendario de suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-alevin-a-ics.js
+      - name: Validar página y suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-alevin-a.js
+      - name: Publicar cambios oficiales
+        if: steps.window.outputs.run == 'true'
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/alevin-a-rfaf.json calendario-alevin-a.ics
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza partidos oficiales Alevín A"
+          git pull --rebase origin main
+          git push origin HEAD:main
