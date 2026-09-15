@@ -40,9 +40,12 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
         };
       });
     });
-    if (matches.length < 2 ||
-      matches.some(match => !match.date || !match.home || !match.away ||
-        !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away))) {
+    const invalid = matches.find(match => !match.date || !match.home || !match.away ||
+      !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away));
+    if (matches.length < 2 || invalid) {
+      console.error('Partidos detectados: ' + matches.length);
+      console.error('Muestra: ' + JSON.stringify(matches.slice(0, 3)));
+      if (invalid) console.error('Partido no válido: ' + JSON.stringify(invalid));
       throw new Error('El calendario del Sénior no coincide con el grupo esperado');
     }
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558';
