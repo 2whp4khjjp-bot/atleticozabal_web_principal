@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 for (const path of ['calendario-division-honor.html','proximos-partidos.html']) {
-  const script = fs.readFileSync(path,'utf8').match(/<script>([\s\S]*?)<\\/script>/);
+  const script = fs.readFileSync(path,'utf8').match(/<script>([\s\S]*?)<\/script>/);
   if (!script) throw new Error('Falta script en ' + path);
   new Function(script[1]);
 }
