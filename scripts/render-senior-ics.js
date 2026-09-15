@@ -46,7 +46,7 @@ for (const match of data.matches) {
     ? match.score[0] + '–' + match.score[1] : null;
   const title = (result ? 'FINAL · ' : 'J' + match.round + ' · ') + match.home +
     ' – ' + match.away + (result ? ' ' + result : '');
-  const notes = ['Sénior · Primera Andaluza Cádiz · Grupo único',
+  const notes = ['Sénior · Tercera Andaluza Cádiz · Grupo único',
     'Jornada ' + match.round,
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];

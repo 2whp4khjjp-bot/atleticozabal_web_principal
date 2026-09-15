@@ -2,6 +2,9 @@
 const fs = require('node:fs');
 for (const path of ['calendario-senior.html', 'proximos-partidos.html']) {
   const html = fs.readFileSync(path, 'utf8');
+  if (!html.includes('Sénior · Tercera Andaluza')) {
+    throw new Error('Categoría incorrecta del Sénior en ' + path);
+  }
   const script = html.match(/<script>([\s\S]*?)<\/script>/);
   if (!script) throw new Error('Falta script en ' + path);
   new Function(script[1]);

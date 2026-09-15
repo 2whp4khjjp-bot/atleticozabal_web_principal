@@ -11,7 +11,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;TZID=Europe/Madrid:20260920T113000
 DTEND;TZID=Europe/Madrid:20260920T133000
 SUMMARY:J1 · C.D. LA ROCK PUENTE F.C. – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 1\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 1\n
  Hora: 11:30\nCampo: Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLE
  Z JAVI - PALMONES (F11-F7) (A)\n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PAL
@@ -24,7 +24,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:J2 · ATLETICO ZABAL – C.D. SAN ROQUE
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 2\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 2\n
  Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
   LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -36,7 +36,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:J3 · FACINAS C.F. – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 3\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 3\n
  Hora pendiente\nCampo: Facinas - JOAQUIN MAQUEDA CAMPO MPAL (A)\n\nCreado
   por Raúl Cote
 LOCATION:Facinas - JOAQUIN MAQUEDA CAMPO MPAL (A)
@@ -48,7 +48,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:J4 · ATLETICO ZABAL – MONITORES FUTBOL DE ALGECIRAS
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 4\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 4\n
  Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
   LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -61,7 +61,7 @@ DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:J5 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – ATLETICO ZAB
  AL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 5\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 5\n
  Hora pendiente\nCampo: La Línea de La Concepción - Francisco Pozo (A)\n
  \nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - Francisco Pozo (A)
@@ -73,7 +73,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:J6 · ATLETICO ZABAL – C.D. TARIFA FUTBOL ACADEMY
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 6\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 6\n
  Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
   LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -85,7 +85,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:J8 · ATLETICO ZABAL – C.D. JUVENTUD PALMONES C.F.
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 8\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 8\n
  Hora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
   LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -97,7 +97,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:J9 · C.D. SAN BERNARDO – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 9\n
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 9\n
  Hora pendiente\nCampo: San Roque - ALBERTO UMBRIA (F11\, F7) (A)\n\nCread
  o por Raúl Cote
 LOCATION:San Roque - ALBERTO UMBRIA (F11\, F7) (A)
@@ -109,7 +109,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:J10 · ATLETICO ZABAL – CLUB DEPORTIVO LEGADO ATLÉTICO
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 10\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 10\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -121,7 +121,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:J11 · ATLETICO ZABAL – U.D. LOS BARRIOS
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 11\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 11\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -133,7 +133,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:J12 · PEÑA RECREATIVA LOLUBA C.F. – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 12\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 12\
  nHora pendiente\nCampo: Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)\n\nCrea
  do por Raúl Cote
 LOCATION:Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)
@@ -145,7 +145,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:J13 · ATLETICO ZABAL – C.D. BALON LINENSE C.F.
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 13\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 13\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -157,7 +157,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:J14 · C.D. A.D. SAN GARCIA – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 14\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 14\
  nHora pendiente\nCampo: Algeciras - SAN GARCIA (A)\n\nCreado por Raúl Co
  te
 LOCATION:Algeciras - SAN GARCIA (A)
@@ -169,7 +169,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:J15 · ATLETICO ZABAL – TARIFA U.D.
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 15\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 15\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -181,7 +181,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:J16 · ATLETICO ZABAL – C.D. LA ROCK PUENTE F.C.
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 16\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 16\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -193,7 +193,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:J17 · C.D. SAN ROQUE – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 17\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 17\
  nHora pendiente\nCampo: San Roque - MANOLO MESA CAMPO MUNICIPAL (F11\, F7)
   (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - MANOLO MESA CAMPO MUNICIPAL (F11\, F7) (A)
@@ -205,7 +205,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:J18 · ATLETICO ZABAL – FACINAS C.F.
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 18\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 18\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -217,7 +217,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:J19 · MONITORES FUTBOL DE ALGECIRAS – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 19\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 19\
  nHora pendiente\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) 
  (A)\n\nCreado por Raúl Cote
 LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
@@ -230,7 +230,7 @@ DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:J20 · ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB DE FÚT
  BOL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 20\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 20\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -242,7 +242,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:J21 · C.D. TARIFA FUTBOL ACADEMY – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 21\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 21\
  nHora pendiente\nCampo: Tarifa - ANTONIO LOPEZ PUA ESTADIO MUNICIPAL (NAT)
   (N)\n\nCreado por Raúl Cote
 LOCATION:Tarifa - ANTONIO LOPEZ PUA ESTADIO MUNICIPAL (NAT) (N)
@@ -254,7 +254,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:J23 · C.D. JUVENTUD PALMONES C.F. – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 23\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 23\
  nHora pendiente\nCampo: Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZ
  ÁLEZ JAVI - PALMONES (F11-F7) (A)\n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PAL
@@ -267,7 +267,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:J24 · ATLETICO ZABAL – C.D. SAN BERNARDO
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 24\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 24\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -279,7 +279,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:J25 · CLUB DEPORTIVO LEGADO ATLÉTICO – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 25\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 25\
  nHora pendiente\nCampo: Pendiente de asignar\n\nCreado por Raúl Cote
 LOCATION:Pendiente de asignar
 URL:https://www.atleticozabal.com/calendario-senior.html
@@ -290,7 +290,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:J26 · U.D. LOS BARRIOS – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 26\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 26\
  nHora pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)
  \n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)
@@ -302,7 +302,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:J27 · ATLETICO ZABAL – PEÑA RECREATIVA LOLUBA C.F.
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 27\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 27\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -314,7 +314,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:J28 · C.D. BALON LINENSE C.F. – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 28\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 28\
  nHora pendiente\nCampo: La Línea de La Concepción - ANTONIO REYES (CDAD 
  DVA) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
@@ -326,7 +326,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:J29 · ATLETICO ZABAL – C.D. A.D. SAN GARCIA
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 29\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 29\
  nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
  A LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -338,7 +338,7 @@ DTSTAMP:20260915T113405Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:J30 · TARIFA U.D. – ATLETICO ZABAL
-DESCRIPTION:Sénior · Primera Andaluza Cádiz · Grupo único\nJornada 30\
+DESCRIPTION:Sénior · Tercera Andaluza Cádiz · Grupo único\nJornada 30\
  nHora pendiente\nCampo: Tarifa - ANTONIO LOPEZ PUA ESTADIO MUNICIPAL (NAT)
   (N)\n\nCreado por Raúl Cote
 LOCATION:Tarifa - ANTONIO LOPEZ PUA ESTADIO MUNICIPAL (NAT) (N)
