@@ -3,12 +3,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 8,9 * * *'
-  push:
-    paths:
-      - '.github/workflows/sync-senior-rfaf.yml'
-      - 'scripts/sync-senior-rfaf.js'
-      - 'scripts/render-senior-ics.js'
-      - 'scripts/validate-senior.js'
 permissions:
   contents: write
 concurrency:
@@ -23,23 +17,23 @@ jobs:
         id: window
         run: echo "run=$(TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
-        if: github.event_name == 'push' || steps.window.outputs.run == 'true'
+        if: steps.window.outputs.run == 'true'
       - name: Instalar Playwright y Chromium
-        if: github.event_name == 'push' || steps.window.outputs.run == 'true'
+        if: steps.window.outputs.run == 'true'
         run: |
           npm install --no-save --package-lock=false playwright@1.63.0
           npx playwright install --with-deps chromium
       - name: Consultar calendario en navegador anónimo
-        if: github.event_name == 'push' || steps.window.outputs.run == 'true'
+        if: steps.window.outputs.run == 'true'
         run: node scripts/sync-senior-rfaf.js
       - name: Generar calendario de suscripción
-        if: github.event_name == 'push' || steps.window.outputs.run == 'true'
+        if: steps.window.outputs.run == 'true'
         run: node scripts/render-senior-ics.js
       - name: Validar página y suscripción
-        if: github.event_name == 'push' || steps.window.outputs.run == 'true'
+        if: steps.window.outputs.run == 'true'
         run: node scripts/validate-senior.js
       - name: Publicar cambios oficiales
-        if: github.event_name == 'push' || steps.window.outputs.run == 'true'
+        if: steps.window.outputs.run == 'true'
         run: |
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
