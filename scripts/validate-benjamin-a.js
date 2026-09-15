@@ -18,3 +18,5 @@ for (const line of ics.split('\r\n').filter(Boolean)) {
   if (Buffer.byteLength(line) > 75) throw new Error('Línea ICS sin plegar');
 }
 console.log('Calendario ICS válido: 30 partidos.');
+
+// Ejecución extraordinaria solicitada el 15-09-2026.
