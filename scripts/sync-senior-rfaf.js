@@ -38,7 +38,8 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
           ground: lines.length >= 3 ? lines[1] : null,
           score: score ? [Number(score[1]), Number(score[2])] : null
         };
-      });
+      }).filter(match => !/^Descansa$/i.test(match.home || '') &&
+        !/^Descansa$/i.test(match.away || ''));
     });
     const invalid = matches.find(match => !match.date || !match.home || !match.away ||
       !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away));
