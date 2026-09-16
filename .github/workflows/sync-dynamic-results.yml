@@ -2,7 +2,7 @@ name: Actualizar resultados según horario
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5,20,35,50 * * * *'
+    - cron: '0,15,30,45 * * * *'
 permissions:
   contents: write
 concurrency:
