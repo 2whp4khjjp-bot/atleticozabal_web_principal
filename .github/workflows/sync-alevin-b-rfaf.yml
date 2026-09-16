@@ -43,5 +43,4 @@ jobs:
             exit 0
           fi
           git commit -m "Actualiza partidos oficiales Infantil A"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          bash scripts/push-calendar-update.sh

@@ -3,6 +3,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: sync-benjamin-a-rfaf
+  cancel-in-progress: false
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -15,5 +18,9 @@ jobs:
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
           git add data/benjamin-a-rfaf-status.json
-          git diff --cached --quiet || git commit -m "Actualiza lectura RFAF Benjamín A"
-          git push
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza lectura RFAF Benjamín A"
+          bash scripts/push-calendar-update.sh

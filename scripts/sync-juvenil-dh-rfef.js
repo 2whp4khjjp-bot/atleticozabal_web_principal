@@ -18,7 +18,13 @@ function clean(value) {
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
+    const previous = fs.existsSync('data/juvenil-dh-rfef.json')
+      ? JSON.parse(fs.readFileSync('data/juvenil-dh-rfef.json', 'utf8'))
+      : { matches: [] };
+    const previousByRound = new Map((previous.matches || [])
+      .map(match => [Number(match.round), match]));
     const matches = [];
+    let freshMatches = 0;
     for (let round = 1; round <= 34; round++) {
       const url = base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=' +
         competition + '&CodGrupo=' + group + '&CodTemporada=' + season + '&CodJornada=' + round;
@@ -50,11 +56,18 @@ function clean(value) {
         return null;
       });
       if (!match || !match.date || !match.home || !match.away) {
-        throw new Error('No se pudo leer el partido del Zabal en jornada ' + round);
+        const fallback = previousByRound.get(round);
+        if (!fallback) {
+          throw new Error('No se pudo leer ni conservar el partido del Zabal en jornada ' + round);
+        }
+        console.warn('Jornada ' + round + ' no disponible en Marcadores RFEF; se conserva el dato anterior.');
+        matches.push(fallback);
+        continue;
       }
+      freshMatches++;
       matches.push({ round, ...match });
     }
-    if (matches.length !== 34 ||
+    if (freshMatches < 2 || matches.length !== 34 ||
       !/Arenas de Armilla/i.test(matches[0].home) ||
       !/atl[eé]tico zabal/i.test(matches[0].away) ||
       !/UD Tomares/i.test(matches[1].away)) {
@@ -82,8 +95,8 @@ function clean(value) {
     };
     fs.mkdirSync('data', { recursive: true });
     fs.writeFileSync('data/juvenil-dh-rfef.json', JSON.stringify(output, null, 2) + '\n');
-    console.log('RFEF verificada: ' + matches.length + ' jornadas, clasificación ' +
-      standing.position + 'º · ' + standing.points + ' puntos.');
+    console.log('RFEF verificada: ' + freshMatches + ' jornadas actualizadas de ' +
+      matches.length + ', clasificación ' + standing.position + 'º · ' + standing.points + ' puntos.');
   } finally {
     await browser.close();
   }
