@@ -42,7 +42,13 @@ function clean(value) {
           const date = info.match(/\b(\d{2})-(\d{2})-(\d{4})\b/);
           const time = info.match(/\b(\d{2}:\d{2})\b/);
           const goals = [...(center?.querySelectorAll('.wid2_resultado_cerrada') || [])]
-            .map(node => norm(node.innerText)).filter(value => /^\d{1,2}$/.test(value));
+            .map(node => {
+              const digits = [...node.querySelectorAll('i[id^="idh"]')].map(icon => {
+                const value = String(icon.className || '').match(/(?:^|\s)fa-(\d)(?:\s|$)/);
+                return value ? value[1] : null;
+              }).filter(Boolean);
+              return digits.length ? digits.join('') : norm(node.innerText).match(/\d{1,2}/)?.[0] || null;
+            }).filter(value => /^\d{1,2}$/.test(value || ''));
           const field = norm(card.querySelector('tr:nth-child(2) .col-sm-6.font_widgetL')?.childNodes?.[0]?.textContent);
           const acta = card.querySelector('a[title="Acta del partido"]')?.href || null;
           return {
