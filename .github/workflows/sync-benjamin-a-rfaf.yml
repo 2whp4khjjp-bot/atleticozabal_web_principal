@@ -1,26 +1,46 @@
-name: Sincronizar Benjamín A RFAF
+name: Sincronizar Benjamín A · RFAF
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 8,9 * * *'
 permissions:
   contents: write
 concurrency:
   group: sync-benjamin-a-rfaf
   cancel-in-progress: false
 jobs:
-  sync:
+  browser:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: echo "run=$(TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
-      - name: Consultar RFAF
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar calendario en navegador anónimo
+        if: steps.window.outputs.run == 'true'
         run: node scripts/sync-benjamin-a-rfaf.js
-      - name: Guardar lectura
+      - name: Generar calendario de suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-benjamin-a-ics.js
+      - name: Validar página y suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-benjamin-a.js
+      - name: Publicar cambios oficiales
+        if: steps.window.outputs.run == 'true'
         run: |
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
-          git add data/benjamin-a-rfaf-status.json
+          git add data/benjamin-a-rfaf.json calendario-benjamin-a.ics
           if git diff --cached --quiet; then
             echo "No hay cambios oficiales que publicar"
             exit 0
           fi
-          git commit -m "Actualiza lectura RFAF Benjamín A"
+          git commit -m "Actualiza partidos oficiales Benjamín A"
           bash scripts/push-calendar-update.sh

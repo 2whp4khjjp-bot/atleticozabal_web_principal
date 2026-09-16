@@ -1,53 +1,97 @@
-// Prueba de lectura pública: no utiliza credenciales ni guarda cookies.
+// Extrae únicamente partidos públicos de la RFAF en un navegador anónimo.
+// Nunca almacena ni registra cookies o el HTML completo.
 const fs = require('node:fs');
-const base = 'https://www.rfaf.es';
-const calendar = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1';
-const cookies = new Map();
-const headers = {
-  'user-agent': 'AtleticoZabalCalendar/1.0 (https://www.atleticozabal.com)',
-  accept: 'text/html,application/xhtml+xml',
-  'accept-language': 'es-ES,es;q=0.9'
-};
+const { chromium } = require('playwright');
 
-async function get(path) {
-  let url = new URL(path, base);
-  for (let redirects = 0; redirects < 5; redirects++) {
-    const cookie = [...cookies].map(([name, value]) => name + '=' + value).join('; ');
-    const response = await fetch(url, {
-      redirect: 'manual',
-      headers: { ...headers, ...(cookie ? { cookie } : {}) }
-    });
-    for (const entry of response.headers.getSetCookie()) {
-      const first = entry.split(';', 1)[0];
-      const separator = first.indexOf('=');
-      if (separator > 0) cookies.set(first.slice(0, separator), first.slice(separator + 1));
-    }
-    if (response.status >= 300 && response.status < 400) {
-      const next = new URL(response.headers.get('location') || '/', url);
-      if (next.origin !== base) throw new Error('Redirección fuera de la RFAF');
-      if (next.pathname.includes('/NLogin')) throw new Error('RFAF exige una sesión adicional');
-      url = next;
-      continue;
-    }
-    const html = await response.text();
-    console.log(url.pathname + ': HTTP ' + response.status + ', ' + html.length + ' caracteres');
-    return { response, html, url };
-  }
-  throw new Error('Demasiadas redirecciones de la RFAF');
-}
+const base = 'https://www.rfaf.es';
+const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1';
+const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=48909542&codgrupo=48909586';
 
 (async () => {
-  await get('/');
-  await get('/pnfg/');
-  const { response, html, url } = await get(calendar);
-  if (!response.ok || url.pathname.includes('/NLogin') ||
-      !/ATLETICO ZABAL/i.test(html) || !/SALESIANOS ALGECIRAS/i.test(html) ||
-      !/Jornada\s*1/i.test(html) || html.length < 10000) {
-    throw new Error('La sesión pública no devuelve los partidos: no se publican cambios');
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
+    for (const url of [base + '/', group, source]) {
+      const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+      if (!response.ok()) throw new Error('RFAF HTTP ' + response.status());
+    }
+    if (!page.url().includes('NFG_VisCalendario_Vis')) {
+      throw new Error('RFAF no abrió el calendario del grupo');
+    }
+    const matches = await page.evaluate(() => {
+      const nodes = [...document.querySelectorAll('span.font_responsive')]
+        .filter(el => /ATLETICO ZABAL/i.test(el.textContent || ''));
+      return nodes.map((el, index) => {
+        const row = el.closest('div.row');
+        const cells = [...row.querySelectorAll('table td')].slice(0, 3)
+          .map(cell => (cell.innerText || '').replace(/\s+/g, ' ').trim());
+        const text = row.innerText || '';
+        const date = text.match(/\b(\d{2})-(\d{2})-(\d{4})(?:\s*-\s*(\d{2}:\d{2}))?/);
+        const score = (cells[1] || '').match(/^(\d{1,2})\s+(\d{1,2})$/);
+        const lines = text.split(/\n+/).map(line => line.trim()).filter(Boolean);
+        return {
+          round: index + 1,
+          date: date ? date[3] + '-' + date[2] + '-' + date[1] : null,
+          time: date && date[4] ? date[4] : null,
+          home: cells[0] || null,
+          away: cells[2] || null,
+          ground: lines.length >= 3 ? lines[1] : null,
+          score: score ? [Number(score[1]), Number(score[2])] : null
+        };
+      }).filter(match => !/^Descansa$/i.test(match.home || '') &&
+        !/^Descansa$/i.test(match.away || ''));
+    });
+    const invalid = matches.find(match => !match.date || !match.home || !match.away ||
+      !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away));
+    if (matches.length < 2 || invalid) {
+      throw new Error('El calendario del Benjamín A no coincide con el grupo esperado');
+    }
+    const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542';
+    const classificationResponse = await page.goto(classificationUrl, {
+      waitUntil: 'domcontentloaded', timeout: 45000
+    });
+    const standingSample = await page.evaluate(() => {
+      const row = [...document.querySelectorAll('tr')].find(el =>
+        /ATLETICO ZABAL/i.test(el.innerText || ''));
+      if (!row) return null;
+      return {
+        cells: [...row.querySelectorAll('td')].map(el => (el.innerText || '').trim()),
+        roundLabel: (document.body.innerText || '').match(/Jornada\s+\d+/i)?.[0] || null
+      };
+    });
+    const cells = standingSample?.cells || [];
+    const teamIndex = cells.findIndex(value => /^ATLETICO ZABAL$/i.test(value));
+    const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
+    const standing = teamIndex >= 1 ? {
+      position: number(teamIndex - 1),
+      points: number(teamIndex + 2),
+      played: number(teamIndex + 3),
+      goalsFor: number(teamIndex + 11),
+      goalsAgainst: number(teamIndex + 12),
+      round: Number(standingSample.roundLabel?.match(/\d+/)?.[0]) || null
+    } : null;
+    if (!classificationResponse.ok || !page.url().includes('NFG_VisClasificacion') ||
+        !standing || standing.position < 1 || standing.position > 20 ||
+        standing.points === null || standing.played === null ||
+        standing.goalsFor === null || standing.goalsAgainst === null) {
+      throw new Error('No se puede verificar la clasificación del Benjamín A');
+    }
+    if (standing.played === 1 && matches[0].score === null &&
+        matches[0].date < matches[1].date && standing.goalsFor >= 0 &&
+        standing.goalsAgainst >= 0) {
+      const zabalHome = /^ATLETICO ZABAL$/i.test(matches[0].home);
+      matches[0].score = zabalHome
+        ? [standing.goalsFor, standing.goalsAgainst]
+        : [standing.goalsAgainst, standing.goalsFor];
+      matches[0].scoreSource = 'classification-inference-single-match';
+    }
+    const output = { source, classificationSource: classificationUrl,
+      updatedAt: new Date().toISOString(), standing, matches };
+    fs.mkdirSync('data', { recursive: true });
+    fs.writeFileSync('data/benjamin-a-rfaf.json', JSON.stringify(output, null, 2) + '\n');
+    console.log('Benjamín A verificado: ' + matches.length + ' partidos, ' +
+      matches.filter(match => match.score).length + ' marcadores completos.');
+  } finally {
+    await browser.close();
   }
-  const status = { source: calendar, updatedAt: new Date().toISOString(),
-    verified: true, bytes: html.length };
-  fs.mkdirSync('data', { recursive: true });
-  fs.writeFileSync('data/benjamin-a-rfaf-status.json', JSON.stringify(status, null, 2) + '\n');
-  console.log('Lectura de calendario verificada; resultados todavía no sincronizados.');
 })().catch(error => { console.error(error.message); process.exitCode = 1; });

@@ -1,0 +1,46 @@
+name: Actualizar resultados según horario
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5,20,35,50 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-dynamic-results
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Detectar partidos pendientes de actualización
+        id: due
+        run: echo "plan=$(node scripts/detect-result-refresh.js)" >> "$GITHUB_OUTPUT"
+      - name: Mostrar plan de actualización
+        if: steps.due.outputs.plan != '[]'
+        env:
+          RESULT_REFRESH_PLAN: ${{ steps.due.outputs.plan }}
+        run: node -e "console.log(JSON.stringify(JSON.parse(process.env.RESULT_REFRESH_PLAN), null, 2))"
+      - name: Instalar Playwright y Chromium
+        if: steps.due.outputs.plan != '[]'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Actualizar resultados oficiales
+        if: steps.due.outputs.plan != '[]'
+        env:
+          RESULT_REFRESH_PLAN: ${{ steps.due.outputs.plan }}
+        run: node scripts/run-result-refresh.js
+      - name: Publicar cambios oficiales
+        if: steps.due.outputs.plan != '[]'
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/*.json calendario-*.ics
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza resultados según horario de partido"
+          bash scripts/push-calendar-update.sh
