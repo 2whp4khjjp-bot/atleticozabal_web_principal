@@ -6,6 +6,7 @@ const commands = {
   senior: ['sync-senior-rfaf.js', 'render-senior-ics.js', 'validate-senior.js'],
   'juvenil-dh': ['sync-juvenil-dh-rfef.js', 'render-juvenil-dh-ics.js', 'validate-juvenil-dh.js'],
   cadete: ['sync-cadete-rfaf.js', 'render-cadete-ics.js', 'validate-cadete.js'],
+  'cadete-b': ['sync-cadete-b-rfaf.js', 'render-cadete-b-ics.js', 'validate-cadete-b.js'],
   'alevin-a': ['sync-alevin-a-rfaf.js', 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
   'alevin-c': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
   'alevin-atunara-a': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],

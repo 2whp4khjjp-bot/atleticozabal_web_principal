@@ -10,15 +10,16 @@ function render(){fixtures.sort((a,b)=>(a.date+' '+(a.time||'99:99')).localeComp
 const loadCalendar=path=>fetch(path,{cache:'no-store'}).then(response=>response.ok?response.json():Promise.reject());
 Promise.all([
   loadCalendar('data/senior-rfaf.json'),loadCalendar('data/juvenil-dh-rfef.json'),
-  loadCalendar('data/cadete-rfaf.json'),loadCalendar('data/alevin-a-rfaf.json'),
+  loadCalendar('data/cadete-rfaf.json'),loadCalendar('data/cadete-b-rfaf.json'),loadCalendar('data/alevin-a-rfaf.json'),
   loadCalendar('data/alevin-c-rfaf.json'),loadCalendar('data/alevin-atunara-a-rfaf.json'),
   loadCalendar('data/alevin-zabal-c-rfaf.json'),loadCalendar('data/alevin-atunara-b-rfaf.json'),
   loadCalendar('data/infantil-a-rfaf.json'),loadCalendar('data/benjamin-a-rfaf.json'),
   loadCalendar('data/benjamin-b-rfaf.json')
-]).then(([senior,juvenil,cadete,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,benjaminA,benjaminB])=>{
+]).then(([senior,juvenil,cadeteA,cadeteB,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,benjaminA,benjaminB])=>{
   appendMatches(senior,'Sénior · Tercera Andaluza · Grupo único');
   appendMatches(juvenil,'Juvenil · División de Honor · Grupo 4');
-  appendMatches(cadete,'Cadete · Segunda Andaluza · Grupo único');
+  appendMatches(cadeteA,'Cadete A · Segunda Andaluza · Grupo único');
+  appendMatches(cadeteB,'Cadete B · Tercera Andaluza');
   appendMatches(infantilA,'Infantil A · Segunda Andaluza · Grupo único');
   appendMatches(alevinA,'Alevín A · Segunda Andaluza · Grupo único');
   appendMatches(alevinC,'Alevín B · Berrocal · Tercera Andaluza · Grupo 4');
