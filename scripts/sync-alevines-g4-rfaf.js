@@ -27,15 +27,12 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     const officialNames = teams.map(team => team.official);
     const groupMatches = await page.evaluate(names => {
       const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
-      const headings = [...document.querySelectorAll('h5')]
-        .filter(heading => /Jornada\s+\d+/i.test(heading.innerText || ''));
       const rows = [...document.querySelectorAll('div.row')].filter(row => {
         const teams = [...row.querySelectorAll('table td')].slice(0, 3).map(cell => normal(cell.innerText));
         return names.some(name => teams.includes(name));
       });
       return [...new Set(rows)].map(row => {
-        const heading = headings.filter(item =>
-          item.compareDocumentPosition(row) & Node.DOCUMENT_POSITION_FOLLOWING).at(-1);
+        const heading = row.parentElement?.querySelector('h5');
         const roundInfo = (heading?.innerText || '').match(/Jornada\s+(\d+)\s*\((\d{2})-(\d{2})-(\d{4})\)/i);
         const cells = [...row.querySelectorAll('table td')].slice(0, 3)
           .map(cell => normal(cell.innerText));
