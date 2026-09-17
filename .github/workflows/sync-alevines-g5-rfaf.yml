@@ -1,0 +1,53 @@
+name: Sincronizar Alevines Grupo 5 · RFAF
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-alevines-g5-rfaf.js'
+      - 'scripts/render-alevines-g5-ics.js'
+      - 'scripts/validate-alevines-g5.js'
+      - '.github/workflows/sync-alevines-g5-rfaf.yml'
+  schedule:
+    - cron: '0 8,9 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-alevines-g5-rfaf
+  cancel-in-progress: false
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: echo "run=$([[ '${{ github.event_name }}' != 'schedule' ]] || TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar calendario y clasificación
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/sync-alevines-g5-rfaf.js
+      - name: Generar suscripciones
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-alevines-g5-ics.js
+      - name: Validar calendarios
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-alevines-g5.js
+      - name: Publicar cambios oficiales
+        if: steps.window.outputs.run == 'true'
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/alevin-zabal-c-rfaf.json data/alevin-atunara-b-rfaf.json calendario-alevin-zabal-c.ics calendario-alevin-atunara-b.ics
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza Alevines del Grupo 5"
+          bash scripts/push-calendar-update.sh

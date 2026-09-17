@@ -9,6 +9,8 @@ const commands = {
   'alevin-a': ['sync-alevin-a-rfaf.js', 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
   'alevin-c': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
   'alevin-atunara-a': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
+  'alevin-zabal-c': ['sync-alevines-g5-rfaf.js', 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
+  'alevin-atunara-b': ['sync-alevines-g5-rfaf.js', 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
   'infantil-a': ['sync-infantil-a-rfaf.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
   'benjamin-a': ['sync-benjamin-a-rfaf.js', 'render-benjamin-a-ics.js', 'validate-benjamin-a.js']
 };

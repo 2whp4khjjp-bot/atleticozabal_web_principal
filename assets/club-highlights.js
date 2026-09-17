@@ -8,7 +8,7 @@
 
   const isClubTeam = name => {
     const value = normalize(name);
-    return value.includes('ATLETICO ZABAL') || value.startsWith('ATLETICO ATUNARA C.D.');
+    return value.includes('ATLETICO ZABAL') || value.startsWith('ATLETICO ATUNARA C.D.') || value.startsWith('ATUNARA ATLETICO C.D.');
   };
 
   function highlightMatch(element) {
@@ -58,7 +58,7 @@
   function highlightAgendaLabel(element) {
     if (element.dataset.coachHighlight === '1') return;
     const parts = element.textContent.trim().split(/\s*·\s*/);
-    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian)$/i.test(part));
+    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián)$/i.test(part));
     if (coachIndex < 0) return;
     const fragment = document.createDocumentFragment();
     parts.forEach((part, index) => {

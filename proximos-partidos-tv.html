@@ -47,12 +47,14 @@ body{font-family:Outfit,system-ui,sans-serif;background:radial-gradient(circle a
 </div>
 <script>
 (function(){
-  var clubPattern=/atl[eé]tico zabal|atletico zabal|atl[eé]tico atunara|atletico atunara/i;
+  var clubPattern=/atl[eé]tico zabal|atletico zabal|atl[eé]tico atunara|atletico atunara|atunara atl[eé]tico|atunara atletico/i;
   var calendars=[
     ['data/senior-rfaf.json','Sénior · Tercera Andaluza'],['data/juvenil-dh-rfef.json','Juvenil · División de Honor'],
     ['data/cadete-rfaf.json','Cadete · Segunda Andaluza'],['data/infantil-a-rfaf.json','Infantil A · Segunda Andaluza'],
     ['data/alevin-a-rfaf.json','Alevín A · Segunda Andaluza'],['data/alevin-c-rfaf.json','Alevín B · Berrocal · Tercera Andaluza'],
-    ['data/alevin-atunara-a-rfaf.json','Alevín Atunara A · Cristian · Tercera Andaluza'],['data/benjamin-a-rfaf.json','Benjamín A · Segunda Andaluza']
+    ['data/alevin-atunara-a-rfaf.json','Alevín Atunara A · Cristian · Tercera Andaluza'],
+    ['data/alevin-zabal-c-rfaf.json','Alevín C · David · Tercera Andaluza'],['data/alevin-atunara-b-rfaf.json','Alevín Atunara B · Adrián · Tercera Andaluza'],
+    ['data/benjamin-a-rfaf.json','Benjamín A · Segunda Andaluza']
   ];
   var staticFixtures=[{round:1,date:'2026-10-03',time:null,home:'Atlético Zabal B',away:'Atunara Atlético C.D.',ground:'Virgen del Carmen',label:'Benjamín B · Segunda Andaluza'}];
   var pages=[],pageIndex=0,rotationTimer=null,daysNode=document.getElementById('days'),statusNode=document.getElementById('status'),pagerNode=document.getElementById('pager');

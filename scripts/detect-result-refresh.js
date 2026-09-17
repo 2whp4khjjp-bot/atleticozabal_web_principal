@@ -7,6 +7,8 @@ const teams = [
   ['alevin-a', 'data/alevin-a-rfaf.json'],
   ['alevin-c', 'data/alevin-c-rfaf.json'],
   ['alevin-atunara-a', 'data/alevin-atunara-a-rfaf.json'],
+  ['alevin-zabal-c', 'data/alevin-zabal-c-rfaf.json'],
+  ['alevin-atunara-b', 'data/alevin-atunara-b-rfaf.json'],
   ['infantil-a', 'data/infantil-a-rfaf.json'],
   ['benjamin-a', 'data/benjamin-a-rfaf.json']
 ];
