@@ -8,7 +8,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
 const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49286744&codgrupo=49286942';
 const classificationSource = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1';
 const teams = [
-  { key: 'alevin-c', official: 'ATLETICO ZABAL "A"', label: 'Alevín C' },
+  { key: 'alevin-c', official: 'ATLETICO ZABAL "A"', label: 'Alevín B' },
   { key: 'alevin-atunara-a', official: 'ATLETICO ATUNARA C.D. "A"', label: 'Alevín Atunara A' }
 ];
 const normal = value => String(value || '').replace(/\s+/g, ' ').trim();

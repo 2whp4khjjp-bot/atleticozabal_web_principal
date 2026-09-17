@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Atletico Zabal Linense//Alevín C · Berrocal 2026-27//ES
+PRODID:-//Atletico Zabal Linense//Alevín B · Berrocal 2026-27//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Alevín C · Berrocal
+X-WR-CALNAME:Alevín B · Berrocal
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-alevin-c-1@atleticozabal.com
@@ -11,7 +11,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;TZID=Europe/Madrid:20260918T170000
 DTEND;TZID=Europe/Madrid:20260918T180000
 SUMMARY:J1 · ATLETICO ZABAL "A" – C.D. S.M. MIRADOR "B"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 1\nHora: 17:00\nCampo: La Línea de La Concepción - VIRGEN DE
  L CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -24,7 +24,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:J2 · PUENTE MAYORGA RVO "A" – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 2\nHora pendiente\nCampo: San Roque - MANUEL MATEO (F11\, F7) 
  (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - MANUEL MATEO (F11\, F7) (A)
@@ -36,7 +36,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:J3 · ATLETICO ZABAL "A" – U.D. LOS BARRIOS "B"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 3\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN
   DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -50,7 +50,7 @@ DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:J4 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "A" – ATLETICO
   ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 4\nHora pendiente\nCampo: La Línea de La Concepción - Miguel
   Ángel Izaguirre\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - Miguel Ángel Izaguirre
@@ -62,7 +62,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:J5 · ATLETICO ZABAL "A" – C.D. OLIVILLOS 87 "B"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 5\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN
   DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -75,7 +75,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J6 · C.D. JUVENTUD PALMONES C.F. – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 6\nHora pendiente\nCampo: Barrios (Los) - POLIDEPORTIVO GABRIE
  L CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)\n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PAL
@@ -88,7 +88,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J8 · ATLETICO ZABAL "A" – C.D. GUADIARO
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 8\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN
   DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -101,7 +101,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J9 · C.D. SAN BERNARDO – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 9\nHora pendiente\nCampo: San Roque - ALBERTO UMBRIA (F11\, F7
  ) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - ALBERTO UMBRIA (F11\, F7) (A)
@@ -113,7 +113,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:J10 · ATLETICO ZABAL "A" – U.D. TESORILLO C.D.
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 10\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -126,7 +126,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:J11 · C.D. BALON LINENSE C.F. – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 11\nHora pendiente\nCampo: La Línea de La Concepción - ANTON
  IO REYES (CDAD DVA) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
@@ -138,7 +138,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:J12 · ATLETICO ZABAL "A" – A.D. TARAGUILLA
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 12\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -151,7 +151,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J13 · A.D. LOS CORTIJILLOS – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 13\nHora pendiente\nCampo: Barrios (Los) - ANTONIO GAVIRA - LO
  S CORTIJILLOS (F11-F7) (A)\n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)
@@ -163,7 +163,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J14 · ATLETICO ZABAL "A" – ATLETICO ATUNARA C.D. "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 14\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -176,7 +176,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:J15 · C.D. ATHLETIC CLUB JIMENA – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 15\nHora pendiente\nCampo: Jimena De La Frontera - JORGE ROCHA
   (A)\n\nCreado por Raúl Cote
 LOCATION:Jimena De La Frontera - JORGE ROCHA (A)
@@ -188,7 +188,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:J16 · C.D. S.M. MIRADOR "B" – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 16\nHora pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nC
  reado por Raúl Cote
 LOCATION:Algeciras - Sergio Martín (A)
@@ -200,7 +200,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J17 · ATLETICO ZABAL "A" – PUENTE MAYORGA RVO "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 17\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -213,7 +213,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:J18 · U.D. LOS BARRIOS "B" – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 18\nHora pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11
  -F7) (NAT) (N)\n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)
@@ -226,7 +226,7 @@ DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J19 · ATLETICO ZABAL "A" – HISTORICO RECREATIVO LINENSE CLUB DE 
  FÚTBOL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 19\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -239,7 +239,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J20 · C.D. OLIVILLOS 87 "B" – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 20\nHora pendiente\nCampo: San Roque - LOS OLIVILLOS (VICENTE 
  BLANCA)(F11\, F7) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
@@ -251,7 +251,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J21 · ATLETICO ZABAL "A" – C.D. JUVENTUD PALMONES C.F.
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 21\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -264,7 +264,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J23 · C.D. GUADIARO – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 23\nHora pendiente\nCampo: San Roque - LA UNION (F11\, F7) (A)
  \n\nCreado por Raúl Cote
 LOCATION:San Roque - LA UNION (F11\, F7) (A)
@@ -276,7 +276,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J24 · ATLETICO ZABAL "A" – C.D. SAN BERNARDO
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 24\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -289,7 +289,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J25 · U.D. TESORILLO C.D. – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 25\nHora pendiente\nCampo: San Martin del Tesorillo - MUNICIPA
  L LA ERA (A)\n\nCreado por Raúl Cote
 LOCATION:San Martin del Tesorillo - MUNICIPAL LA ERA (A)
@@ -301,7 +301,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J26 · ATLETICO ZABAL "A" – C.D. BALON LINENSE C.F.
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 26\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -314,7 +314,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J27 · A.D. TARAGUILLA – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 27\nHora pendiente\nCampo: San Roque - HERMANOS GARCIA MOTA CA
  MPO FÚTBOL (F11-F7) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)
@@ -326,7 +326,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:J28 · ATLETICO ZABAL "A" – A.D. LOS CORTIJILLOS
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 28\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
@@ -339,7 +339,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:J29 · ATLETICO ATUNARA C.D. "A" – ATLETICO ZABAL "A"
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 29\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
@@ -351,7 +351,7 @@ DTSTAMP:20260917T143201Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J30 · ATLETICO ZABAL "A" – C.D. ATHLETIC CLUB JIMENA
-DESCRIPTION:Alevín C · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
+DESCRIPTION:Alevín B · Berrocal\nTercera Andaluza Alevín Cádiz · Grupo
   4\nJornada 30\nHora pendiente\nCampo: La Línea de La Concepción - VIRGE
  N DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
