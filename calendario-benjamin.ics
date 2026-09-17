@@ -1,208 +1,260 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Atletico Zabal Linense//Benjamin B 2026-2027//ES
+PRODID:-//Atletico Zabal Linense//Benjamin B 2026-27//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Atletico Zabal B 2026-2027
+X-WR-CALNAME:Atlético Zabal · Benjamín B
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
-UID:zabal-a-20261003-atunara@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-1@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:Atletico Zabal B - Atunara Atletico C.D.
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 1 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J1 · ATLETICO ZABAL "A" – ATUNARA ATLETICO C.D.
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 1\nHora p
+ endiente\nCampo: ATLETICO ZABAL "A"	    	ATUNARA ATLETICO C.D.\n\nCreado
+  por Raúl Cote
+LOCATION:ATLETICO ZABAL "A"	    	ATUNARA ATLETICO C.D.
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261010-balon@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-2@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-SUMMARY:Balon Linense C.F. C.D. - Atletico Zabal B
-LOCATION:Antonio Reyes, La Linea de la Concepcion
-DESCRIPTION:Jornada 2 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J2 · BALON LINENSE C.F. C.D. – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 2\nHora p
+ endiente\nCampo: La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (
+ A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261017-puente@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-3@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:Atletico Zabal B - Puente Mayorga RVO
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 3 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J3 · ATLETICO ZABAL "A" – PUENTE MAYORGA RVO
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 3\nHora p
+ endiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA
+ ) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261024-tesorillo@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-4@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-SUMMARY:U.D. Tesorillo C.D. - Atletico Zabal B
-LOCATION:Municipal La Era, San Martin del Tesorillo
-DESCRIPTION:Jornada 4 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J4 · U.D. TESORILLO C.D. – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 4\nHora p
+ endiente\nCampo: San Martin del Tesorillo - MUNICIPAL LA ERA (A)\n\nCread
+ o por Raúl Cote
+LOCATION:San Martin del Tesorillo - MUNICIPAL LA ERA (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261107-guadiaro@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-5@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-SUMMARY:Atletico Zabal B - C.D. Guadiaro
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 5 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J5 · ATLETICO ZABAL "A" – C.D. GUADIARO
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 5\nHora p
+ endiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA
+ ) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261114-cortijillos@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-6@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:A.D. Los Cortijillos - Atletico Zabal B
-LOCATION:Antonio Gavira, Los Cortijillos
-DESCRIPTION:Jornada 6 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J6 · A.D. LOS CORTIJILLOS – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 6\nHora p
+ endiente\nCampo: Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7)
+  (A)\n\nCreado por Raúl Cote
+LOCATION:Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261121-sanbernardo@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-7@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:Atletico Zabal B - C.D. San Bernardo
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 7 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J7 · ATLETICO ZABAL "A" – C.D. SAN BERNARDO
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 7\nHora p
+ endiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA
+ ) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261128-historico@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-8@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:Historico Recreativo Linense A - Atletico Zabal B
-LOCATION:Francisco Pozo, La Linea de la Concepcion
-DESCRIPTION:Jornada 8 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J8 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "A" – ATLETICO
+  ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 8\nHora p
+ endiente\nCampo: La Línea de La Concepción - Francisco Pozo (A)\n\nCrea
+ do por Raúl Cote
+LOCATION:La Línea de La Concepción - Francisco Pozo (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261212-olivillos@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-9@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:Atletico Zabal B - C.D. Olivillos 87
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 9 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J9 · ATLETICO ZABAL "A" – C.D. OLIVILLOS 87
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 9\nHora p
+ endiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA
+ ) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20261219-jimena@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-10@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:C.D. Athletic Club Jimena - Atletico Zabal B
-LOCATION:Jorge Rocha, Jimena de la Frontera
-DESCRIPTION:Jornada 10 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J10 · C.D. ATHLETIC CLUB JIMENA – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 10\nHora 
+ pendiente\nCampo: Jimena De La Frontera - JORGE ROCHA (A)\n\nCreado por R
+ aúl Cote
+LOCATION:Jimena De La Frontera - JORGE ROCHA (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270123-atunara@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-12@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:Atunara Atletico C.D. - Atletico Zabal B
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 12 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J12 · ATUNARA ATLETICO C.D. – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 12\nHora 
+ pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINE
+ A) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270130-balon@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-13@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:Atletico Zabal B - Balon Linense C.F. C.D.
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 13 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J13 · ATLETICO ZABAL "A" – BALON LINENSE C.F. C.D.
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 13\nHora 
+ pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINE
+ A) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270206-puente@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-14@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:Puente Mayorga RVO - Atletico Zabal B
-LOCATION:Manuel Mateo, Puente Mayorga
-DESCRIPTION:Jornada 14 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J14 · PUENTE MAYORGA RVO – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 14\nHora 
+ pendiente\nCampo: San Roque - MANUEL MATEO (F11\, F7) (A)\n\nCreado por R
+ aúl Cote
+LOCATION:San Roque - MANUEL MATEO (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270213-tesorillo@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-15@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
-SUMMARY:Atletico Zabal B - U.D. Tesorillo C.D.
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 15 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J15 · ATLETICO ZABAL "A" – U.D. TESORILLO C.D.
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 15\nHora 
+ pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINE
+ A) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270220-guadiaro@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-16@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-SUMMARY:C.D. Guadiaro - Atletico Zabal B
-LOCATION:La Union, Guadiaro
-DESCRIPTION:Jornada 16 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J16 · C.D. GUADIARO – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 16\nHora 
+ pendiente\nCampo: San Roque - LA UNION (F11\, F7) (A)\n\nCreado por Raúl
+  Cote
+LOCATION:San Roque - LA UNION (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270306-cortijillos@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-17@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-SUMMARY:Atletico Zabal B - A.D. Los Cortijillos
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 17 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J17 · ATLETICO ZABAL "A" – A.D. LOS CORTIJILLOS
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 17\nHora 
+ pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINE
+ A) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270313-sanbernardo@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-18@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-SUMMARY:C.D. San Bernardo - Atletico Zabal B
-LOCATION:Alberto Umbria, San Roque
-DESCRIPTION:Jornada 18 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J18 · C.D. SAN BERNARDO – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 18\nHora 
+ pendiente\nCampo: San Roque - ALBERTO UMBRIA (F11\, F7) (A)\n\nCreado por
+  Raúl Cote
+LOCATION:San Roque - ALBERTO UMBRIA (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270403-historico@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-19@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-SUMMARY:Atletico Zabal B - Historico Recreativo Linense A
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 19 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J19 · ATLETICO ZABAL "A" – HISTORICO RECREATIVO LINENSE CLUB DE 
+ FÚTBOL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 19\nHora 
+ pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINE
+ A) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270410-olivillos@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-20@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
-SUMMARY:C.D. Olivillos 87 - Atletico Zabal B
-LOCATION:Los Olivillos, San Roque
-DESCRIPTION:Jornada 20 - Visitante\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J20 · C.D. OLIVILLOS 87 – ATLETICO ZABAL "A"
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 20\nHora 
+ pendiente\nCampo: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A
+ )\n\nCreado por Raúl Cote
+LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-a-20270417-jimena@atleticozabal.com
-DTSTAMP:20260914T120000Z
+UID:zabal-benjamin-b-21@atleticozabal.com
+DTSTAMP:20260917T211847Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
-SUMMARY:Atletico Zabal B - C.D. Athletic Club Jimena
-LOCATION:Virgen del Carmen (F7), La Linea de la Concepcion
-DESCRIPTION:Jornada 21 - Local\nHora pendiente de confirmar.
-STATUS:TENTATIVE
+SUMMARY:J21 · ATLETICO ZABAL "A" – C.D. ATHLETIC CLUB JIMENA
+DESCRIPTION:Tercera Andaluza Cádiz Benjamín · Grupo 4\nJornada 21\nHora 
+ pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINE
+ A) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin.html
 END:VEVENT
 END:VCALENDAR
