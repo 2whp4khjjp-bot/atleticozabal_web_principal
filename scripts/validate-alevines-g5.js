@@ -3,8 +3,9 @@ for (const team of ['alevin-zabal-c', 'alevin-atunara-b']) {
   const data = JSON.parse(fs.readFileSync('data/' + team + '-rfaf.json', 'utf8'));
   const html = fs.readFileSync('calendario-' + team + '.html', 'utf8');
   const ics = fs.readFileSync('calendario-' + team + '.ics', 'utf8');
-  if (!Array.isArray(data.matches) || data.matches.length < 20) {
-    throw new Error('El ' + team + ' no tiene un calendario oficial completo');
+  if (!Array.isArray(data.matches) || data.matches.length !== 28 ||
+      new Set(data.matches.map(match => match.round)).size !== 28) {
+    throw new Error('El ' + team + ' no tiene sus 28 jornadas oficiales únicas');
   }
   if (!html.includes('Tercera Andaluza Alevín Cádiz · Grupo 5')) {
     throw new Error('Categoría incorrecta en calendario-' + team + '.html');

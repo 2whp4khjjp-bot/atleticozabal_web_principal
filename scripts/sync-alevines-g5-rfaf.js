@@ -53,10 +53,19 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     }, officialNames);
     const matchesByTeam = {};
     for (const team of teams) {
-      const matches = groupMatches.filter(match =>
+      const candidates = groupMatches.filter(match =>
         (normal(match.home) === team.official || normal(match.away) === team.official) &&
         normal(match.home) !== 'Descansa' && normal(match.away) !== 'Descansa');
-      if (matches.length < 20 || matches.some(match =>
+      const byRound = new Map();
+      const detailScore = match => (match.time ? 4 : 0) +
+        (match.ground && !match.ground.includes('\t') ? 2 : 0) +
+        (Array.isArray(match.score) ? 1 : 0);
+      for (const match of candidates) {
+        const current = byRound.get(match.round);
+        if (!current || detailScore(match) > detailScore(current)) byRound.set(match.round, match);
+      }
+      const matches = [...byRound.values()].sort((a, b) => a.round - b.round);
+      if (matches.length !== 28 || matches.some(match =>
         !match.round || !match.date || !match.home || !match.away ||
         (normal(match.home) !== team.official && normal(match.away) !== team.official))) {
         throw new Error('El calendario del ' + team.label + ' no coincide con el grupo esperado');
