@@ -7,7 +7,6 @@ const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1';
 const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49189596&codgrupo=49196403';
 const classificationSource = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=1';
-const team = 'ATLETICO ZABAL "B"';
 const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
 
 (async () => {
@@ -21,12 +20,12 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     if (!page.url().includes('NFG_VisCalendario_Vis')) {
       throw new Error('RFAF no abrió el calendario del Cadete B');
     }
-    const rawMatches = await page.evaluate(official => {
+    const rawMatches = await page.evaluate(() => {
       const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
       const rows = [...document.querySelectorAll('div.row')].filter(row => {
         const cells = [...row.querySelectorAll('table td')].slice(0, 3)
           .map(cell => clean(cell.innerText));
-        return cells.includes(official);
+        return cells.some(value => /ATLETICO ZABAL/i.test(value));
       });
       return [...new Set(rows)].map(row => {
         const heading = row.parentElement?.querySelector('h5');
@@ -47,7 +46,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
           score: score ? [Number(score[1]), Number(score[2])] : null
         };
       });
-    }, team);
+    });
     const byRound = new Map();
     for (const match of rawMatches) {
       if (!match.round) continue;
@@ -59,7 +58,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     const matches = [...byRound.values()].sort((a, b) => a.round - b.round)
       .filter(match => !/^Descansa$/i.test(match.home || '') && !/^Descansa$/i.test(match.away || ''));
     const invalid = matches.find(match => !match.round || !match.date || !match.home || !match.away ||
-      (normal(match.home) !== team && normal(match.away) !== team));
+      !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away));
     if (matches.length < 18 || invalid) {
       throw new Error('El calendario del Cadete B no coincide con el grupo esperado (' + matches.length + ')');
     }
@@ -70,18 +69,18 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     if (!response || !response.ok() || !page.url().includes('NFG_VisClasificacion')) {
       throw new Error('RFAF no abrió la clasificación del Cadete B');
     }
-    const sample = await page.evaluate(official => {
+    const sample = await page.evaluate(() => {
       const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
       const row = [...document.querySelectorAll('tr')].find(element =>
-        [...element.querySelectorAll('td')].some(cell => clean(cell.innerText) === official));
+        [...element.querySelectorAll('td')].some(cell => /ATLETICO ZABAL/i.test(clean(cell.innerText))));
       if (!row) return null;
       return {
         cells: [...row.querySelectorAll('td')].map(cell => clean(cell.innerText)),
         roundLabel: (document.body.innerText || '').match(/Jornada\s+\d+/i)?.[0] || null
       };
-    }, team);
+    });
     const cells = sample?.cells || [];
-    const teamIndex = cells.findIndex(value => normal(value) === team);
+    const teamIndex = cells.findIndex(value => /ATLETICO ZABAL/i.test(normal(value)));
     const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
     const standing = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
@@ -97,7 +96,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       throw new Error('No se puede verificar la clasificación del Cadete B');
     }
     if (standing.played === 1 && matches[0].score === null && matches[0].date < matches[1].date) {
-      const home = normal(matches[0].home) === team;
+      const home = /ATLETICO ZABAL/i.test(normal(matches[0].home));
       matches[0].score = home
         ? [standing.goalsFor, standing.goalsAgainst]
         : [standing.goalsAgainst, standing.goalsFor];
