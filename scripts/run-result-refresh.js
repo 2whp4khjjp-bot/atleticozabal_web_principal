@@ -7,13 +7,19 @@ const commands = {
   'juvenil-dh': ['sync-juvenil-dh-rfef.js', 'render-juvenil-dh-ics.js', 'validate-juvenil-dh.js'],
   cadete: ['sync-cadete-rfaf.js', 'render-cadete-ics.js', 'validate-cadete.js'],
   'alevin-a': ['sync-alevin-a-rfaf.js', 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
+  'alevin-c': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
+  'alevin-atunara-a': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
   'infantil-a': ['sync-infantil-a-rfaf.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
   'benjamin-a': ['sync-benjamin-a-rfaf.js', 'render-benjamin-a-ics.js', 'validate-benjamin-a.js']
 };
 const dueTeams = [...new Set(plan.map(item => item.team))];
+const executed = new Set();
 
 for (const team of dueTeams) {
   if (!commands[team]) throw new Error('Equipo dinámico desconocido: ' + team);
+  const signature = commands[team].join('|');
+  if (executed.has(signature)) continue;
+  executed.add(signature);
   console.log('Actualización dinámica de resultados: ' + team);
   for (const script of commands[team]) {
     const result = spawnSync(process.execPath, ['scripts/' + script], { stdio: 'inherit' });

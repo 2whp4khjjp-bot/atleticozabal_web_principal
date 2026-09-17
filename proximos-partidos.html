@@ -7,6 +7,22 @@ const today=(()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMont
 const fixtures=[{date:'2026-10-03',time:null,home:'Atlético Zabal B',away:'Atunara Atlético C.D.',ground:'Virgen del Carmen',label:'Benjamín B · 3ª Andaluza'}];
 function appendMatches(data,label){if(!Array.isArray(data.matches)||data.matches.length<2)throw Error('Calendario incompleto');data.matches.filter(m=>m.date>=today&&!Array.isArray(m.score)).forEach(m=>fixtures.push({...m,label}))}
 function render(){fixtures.sort((a,b)=>(a.date+' '+(a.time||'99:99')).localeCompare(b.date+' '+(b.time||'99:99')));const days=new Map;for(const match of fixtures){let section=days.get(match.date);if(!section){const date=new Date(match.date+'T12:00:00');section=add(main,'section','day');section.dataset.date=match.date;add(section,'h2','',new Intl.DateTimeFormat('es-ES',{weekday:'long',day:'numeric',month:'long'}).format(date));days.set(match.date,section);main.insertBefore(section,loading)}const home=/atl[eé]tico zabal/i.test(match.home);const article=add(section,'article','fixture');article.dataset.side=home?'home':'away';const info=add(article,'div','');add(info,'div','team',match.label);add(info,'div','match',match.home+' – '+match.away);add(info,'div','meta',(match.time||'Hora pendiente')+' · '+(match.ground||'Campo pendiente'));add(article,'span','tag'+(home?' home':''),(home?'🏠 CASA':'🚌 FUERA'))}}
-Promise.all([fetch('data/senior-rfaf.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()),fetch('data/juvenil-dh-rfef.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()),fetch('data/cadete-rfaf.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()),fetch('data/alevin-a-rfaf.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()),fetch('data/infantil-a-rfaf.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()),fetch('data/benjamin-a-rfaf.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject())]).then(([senior,juvenil,cadete,alevinA,infantilA,benjamin])=>{appendMatches(senior,'Sénior · Tercera Andaluza · Grupo único');appendMatches(juvenil,'Juvenil · División de Honor · Grupo 4');appendMatches(cadete,'Cadete · Segunda Andaluza · Grupo único');appendMatches(alevinA,'Alevín A · Segunda Andaluza · Grupo único');appendMatches(infantilA,'Infantil A · Segunda Andaluza · Grupo único');appendMatches(benjamin,'Benjamín A · Segunda Andaluza · Grupo único');render();loading.remove();filter()}).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
+const loadCalendar=path=>fetch(path,{cache:'no-store'}).then(response=>response.ok?response.json():Promise.reject());
+Promise.all([
+  loadCalendar('data/senior-rfaf.json'),loadCalendar('data/juvenil-dh-rfef.json'),
+  loadCalendar('data/cadete-rfaf.json'),loadCalendar('data/alevin-a-rfaf.json'),
+  loadCalendar('data/alevin-c-rfaf.json'),loadCalendar('data/alevin-atunara-a-rfaf.json'),
+  loadCalendar('data/infantil-a-rfaf.json'),loadCalendar('data/benjamin-a-rfaf.json')
+]).then(([senior,juvenil,cadete,alevinA,alevinC,alevinAtunara,infantilA,benjamin])=>{
+  appendMatches(senior,'Sénior · Tercera Andaluza · Grupo único');
+  appendMatches(juvenil,'Juvenil · División de Honor · Grupo 4');
+  appendMatches(cadete,'Cadete · Segunda Andaluza · Grupo único');
+  appendMatches(infantilA,'Infantil A · Segunda Andaluza · Grupo único');
+  appendMatches(alevinA,'Alevín A · Segunda Andaluza · Grupo único');
+  appendMatches(alevinC,'Alevín C · Berrocal · Tercera Andaluza · Grupo 4');
+  appendMatches(alevinAtunara,'Alevín Atunara A · Cristian · Tercera Andaluza · Grupo 4');
+  appendMatches(benjamin,'Benjamín A · Segunda Andaluza · Grupo único');
+  render();loading.remove();filter();
+}).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
 filter();
 </script></body></html>

@@ -1,0 +1,267 @@
+{
+  "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
+  "updatedAt": "2026-09-17T14:32:01.411Z",
+  "standing": {
+    "position": 3,
+    "points": 0,
+    "played": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "round": 1
+  },
+  "matches": [
+    {
+      "round": 1,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-09-19",
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
+      "home": "C.D. SAN BERNARDO",
+      "score": null,
+      "time": "12:30"
+    },
+    {
+      "round": 2,
+      "away": "U.D. TESORILLO C.D.",
+      "date": "2026-09-26",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 3,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-10-03",
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
+      "home": "C.D. BALON LINENSE C.F.",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 4,
+      "away": "A.D. TARAGUILLA",
+      "date": "2026-10-10",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 5,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-10-17",
+      "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
+      "home": "A.D. LOS CORTIJILLOS",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 7,
+      "away": "C.D. ATHLETIC CLUB JIMENA",
+      "date": "2026-10-31",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 8,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-11-07",
+      "ground": "Algeciras - Sergio Martín (A)",
+      "home": "C.D. S.M. MIRADOR \"B\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 9,
+      "away": "PUENTE MAYORGA RVO \"A\"",
+      "date": "2026-11-14",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 10,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-11-21",
+      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
+      "home": "U.D. LOS BARRIOS \"B\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 11,
+      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "date": "2026-11-28",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 12,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-12-05",
+      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
+      "home": "C.D. OLIVILLOS 87 \"B\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 13,
+      "away": "C.D. JUVENTUD PALMONES C.F.",
+      "date": "2026-12-12",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 14,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2026-12-19",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "home": "ATLETICO ZABAL \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 15,
+      "away": "C.D. GUADIARO",
+      "date": "2027-01-09",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 16,
+      "away": "C.D. SAN BERNARDO",
+      "date": "2027-01-16",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 17,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-01-23",
+      "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
+      "home": "U.D. TESORILLO C.D.",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 18,
+      "away": "C.D. BALON LINENSE C.F.",
+      "date": "2027-01-30",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 19,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-02-06",
+      "ground": "San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)",
+      "home": "A.D. TARAGUILLA",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 20,
+      "away": "A.D. LOS CORTIJILLOS",
+      "date": "2027-02-13",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 22,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-02-27",
+      "ground": "Jimena De La Frontera - JORGE ROCHA (A)",
+      "home": "C.D. ATHLETIC CLUB JIMENA",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 23,
+      "away": "C.D. S.M. MIRADOR \"B\"",
+      "date": "2027-03-06",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 24,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-03-13",
+      "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
+      "home": "PUENTE MAYORGA RVO \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 25,
+      "away": "U.D. LOS BARRIOS \"B\"",
+      "date": "2027-04-03",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 26,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-04-10",
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
+      "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 27,
+      "away": "C.D. OLIVILLOS 87 \"B\"",
+      "date": "2027-04-17",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 28,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-04-24",
+      "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)",
+      "home": "C.D. JUVENTUD PALMONES C.F.",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 29,
+      "away": "ATLETICO ZABAL \"A\"",
+      "date": "2027-05-01",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "home": "ATLETICO ATUNARA C.D. \"A\"",
+      "score": null,
+      "time": null
+    },
+    {
+      "round": 30,
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "date": "2027-05-08",
+      "ground": "San Roque - LA UNION (F11, F7) (A)",
+      "home": "C.D. GUADIARO",
+      "score": null,
+      "time": null
+    }
+  ]
+}
