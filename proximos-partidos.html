@@ -4,7 +4,7 @@ const add=(p,t,c,x)=>{const n=document.createElement(t);if(c)n.className=c;if(x!
 function filter(){const chosen=document.querySelector('.filters button.active').dataset.filter;let count=0;document.querySelectorAll('.day').forEach(day=>{let visible=0;day.querySelectorAll('.fixture').forEach(fixture=>{const show=chosen==='all'||fixture.dataset.side===chosen;fixture.style.display=show?'grid':'none';if(show){visible++;count++}});day.style.display=visible?'block':'none'});empty.style.display=count?'none':'block'}
 document.querySelectorAll('.filters button').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('.filters button').forEach(other=>other.classList.remove('active'));button.classList.add('active');filter()}));
 const today=(()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')})();
-const fixtures=[{date:'2026-10-03',time:null,home:'Atlético Zabal B',away:'Atunara Atlético C.D.',ground:'Virgen del Carmen',label:'Benjamín B · 3ª Andaluza'}];
+const fixtures=[];
 function appendMatches(data,label){if(!Array.isArray(data.matches)||data.matches.length<2)throw Error('Calendario incompleto');data.matches.filter(m=>m.date>=today&&!Array.isArray(m.score)).forEach(m=>fixtures.push({...m,label}))}
 function render(){fixtures.sort((a,b)=>(a.date+' '+(a.time||'99:99')).localeCompare(b.date+' '+(b.time||'99:99')));const days=new Map;for(const match of fixtures){let section=days.get(match.date);if(!section){const date=new Date(match.date+'T12:00:00');section=add(main,'section','day');section.dataset.date=match.date;add(section,'h2','',new Intl.DateTimeFormat('es-ES',{weekday:'long',day:'numeric',month:'long'}).format(date));days.set(match.date,section);main.insertBefore(section,loading)}const home=/atl[eé]tico (zabal|atunara)|atunara atl[eé]tico/i.test(match.home);const article=add(section,'article','fixture');article.dataset.side=home?'home':'away';const info=add(article,'div','');add(info,'div','team',match.label);add(info,'div','match',match.home+' – '+match.away);add(info,'div','meta',(match.time||'Hora pendiente')+' · '+(match.ground||'Campo pendiente'));add(article,'span','tag'+(home?' home':''),(home?'🏠 CASA':'🚌 FUERA'))}}
 const loadCalendar=path=>fetch(path,{cache:'no-store'}).then(response=>response.ok?response.json():Promise.reject());
@@ -13,8 +13,9 @@ Promise.all([
   loadCalendar('data/cadete-rfaf.json'),loadCalendar('data/alevin-a-rfaf.json'),
   loadCalendar('data/alevin-c-rfaf.json'),loadCalendar('data/alevin-atunara-a-rfaf.json'),
   loadCalendar('data/alevin-zabal-c-rfaf.json'),loadCalendar('data/alevin-atunara-b-rfaf.json'),
-  loadCalendar('data/infantil-a-rfaf.json'),loadCalendar('data/benjamin-a-rfaf.json')
-]).then(([senior,juvenil,cadete,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,benjamin])=>{
+  loadCalendar('data/infantil-a-rfaf.json'),loadCalendar('data/benjamin-a-rfaf.json'),
+  loadCalendar('data/benjamin-b-rfaf.json')
+]).then(([senior,juvenil,cadete,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,benjaminA,benjaminB])=>{
   appendMatches(senior,'Sénior · Tercera Andaluza · Grupo único');
   appendMatches(juvenil,'Juvenil · División de Honor · Grupo 4');
   appendMatches(cadete,'Cadete · Segunda Andaluza · Grupo único');
@@ -24,7 +25,8 @@ Promise.all([
   appendMatches(alevinAtunara,'Alevín Atunara A · Cristian · Tercera Andaluza · Grupo 4');
   appendMatches(alevinZabalC,'Alevín C · David · Tercera Andaluza · Grupo 5');
   appendMatches(alevinAtunaraB,'Alevín Atunara B · Adrián · Tercera Andaluza · Grupo 5');
-  appendMatches(benjamin,'Benjamín A · Segunda Andaluza · Grupo único');
+  appendMatches(benjaminA,'Benjamín A · Segunda Andaluza · Grupo único');
+  appendMatches(benjaminB,'Benjamín B · Tercera Andaluza · Grupo 4');
   render();loading.remove();filter();
 }).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
 filter();

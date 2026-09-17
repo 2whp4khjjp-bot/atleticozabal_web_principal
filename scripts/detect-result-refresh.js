@@ -10,7 +10,8 @@ const teams = [
   ['alevin-zabal-c', 'data/alevin-zabal-c-rfaf.json'],
   ['alevin-atunara-b', 'data/alevin-atunara-b-rfaf.json'],
   ['infantil-a', 'data/infantil-a-rfaf.json'],
-  ['benjamin-a', 'data/benjamin-a-rfaf.json']
+  ['benjamin-a', 'data/benjamin-a-rfaf.json'],
+  ['benjamin-b', 'data/benjamin-b-rfaf.json']
 ];
 const statePath = 'data/result-refresh-state.json';
 const state = fs.existsSync(statePath)

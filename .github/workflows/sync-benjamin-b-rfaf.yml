@@ -1,0 +1,53 @@
+name: Sincronizar Benjamín B · RFAF
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-benjamin-b-rfaf.js'
+      - 'scripts/render-benjamin-b-ics.js'
+      - 'scripts/validate-benjamin-b.js'
+      - '.github/workflows/sync-benjamin-b-rfaf.yml'
+  schedule:
+    - cron: '0 8,9 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-benjamin-b-rfaf
+  cancel-in-progress: true
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: echo "run=$([[ '${{ github.event_name }}' != 'schedule' ]] || TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar calendario y clasificación
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/sync-benjamin-b-rfaf.js
+      - name: Generar calendario de suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-benjamin-b-ics.js
+      - name: Validar página y suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-benjamin-b.js
+      - name: Publicar cambios oficiales
+        if: steps.window.outputs.run == 'true'
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/benjamin-b-rfaf.json calendario-benjamin.ics
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza partidos oficiales Benjamín B"
+          bash scripts/push-calendar-update.sh

@@ -12,7 +12,8 @@ const commands = {
   'alevin-zabal-c': ['sync-alevines-g5-rfaf.js', 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
   'alevin-atunara-b': ['sync-alevines-g5-rfaf.js', 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
   'infantil-a': ['sync-infantil-a-rfaf.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
-  'benjamin-a': ['sync-benjamin-a-rfaf.js', 'render-benjamin-a-ics.js', 'validate-benjamin-a.js']
+  'benjamin-a': ['sync-benjamin-a-rfaf.js', 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
+  'benjamin-b': ['sync-benjamin-b-rfaf.js', 'render-benjamin-b-ics.js', 'validate-benjamin-b.js']
 };
 const dueTeams = [...new Set(plan.map(item => item.team))];
 const executed = new Set();
