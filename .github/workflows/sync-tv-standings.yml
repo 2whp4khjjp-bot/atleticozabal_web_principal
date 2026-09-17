@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-tv-standings.js'
-      - 'proximos-partidos-tv.html'
       - '.github/workflows/sync-tv-standings.yml'
   schedule:
     - cron: '0 8,9 * * *'

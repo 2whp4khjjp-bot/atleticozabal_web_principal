@@ -107,7 +107,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function updateClock(){var d=new Date();document.getElementById('clock').innerHTML=pad(d.getHours())+':'+pad(d.getMinutes());document.getElementById('today').innerHTML=daysNames[d.getDay()]+' '+d.getDate()+' de '+months[d.getMonth()]}
   function isClub(name){var s=String(name||'').toUpperCase();for(var i=0;i<clubWords.length;i++){if(s.indexOf(clubWords[i])!==-1)return true}return false}
   function teamKey(name){return String(name||'').toUpperCase().replace(/[ÁÀÄÂ]/g,'A').replace(/[ÉÈËÊ]/g,'E').replace(/[ÍÌÏÎ]/g,'I').replace(/[ÓÒÖÔ]/g,'O').replace(/[ÚÙÜÛ]/g,'U').replace(/[^A-Z0-9]+/g,' ').replace(/^\s+|\s+$/g,'').replace(/\s+/g,' ')}
-  function positionFor(standings,key,name){var list=standings&&standings.competitions&&standings.competitions[key],wanted=teamKey(name),i;if(!list)return null;for(i=0;i<list.length;i++){if(teamKey(list[i].team)===wanted)return list[i].position}return null}
+  function teamCompact(name){return teamKey(name).replace(/\s+/g,'')}
+  function positionFor(standings,key,name){var list=standings&&standings.competitions&&standings.competitions[key],wanted=teamKey(name),compact=teamCompact(name),i;if(!list)return null;for(i=0;i<list.length;i++){if(teamKey(list[i].team)===wanted||teamCompact(list[i].team)===compact)return list[i].position}return null}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
   function cleanGround(value){var g=String(value||'Campo pendiente').replace(/\\,/g,',').replace(/\s*\(A\)\s*$/,'').replace(/^\s+|\s+$/g,'');var p=g.split(' - ');if(p.length>1)g=p.slice(1).join(' - ');return g.replace(/\s+/g,' ')}
   function formatDay(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return daysNames[d.getDay()]+' '+parseInt(p[2],10)+' de '+months[parseInt(p[1],10)-1]}
