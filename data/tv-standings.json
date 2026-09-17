@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T21:22:55.121Z",
+  "updatedAt": "2026-09-17T21:44:29.133Z",
   "competitions": {
     "senior": [
       {
@@ -201,6 +201,56 @@
       {
         "team": "XEREZ DEPORTIVO F.C.",
         "position": 16
+      }
+    ],
+    "cadete-b": [
+      {
+        "team": "A.D. TARAGUILLA",
+        "position": 1
+      },
+      {
+        "team": "ATLETICO ZABAL",
+        "position": 2
+      },
+      {
+        "team": "C.D. ATHLETIC CLUB JIMENA",
+        "position": 3
+      },
+      {
+        "team": "C.D. BALON LINENSE C.F. \"A\"",
+        "position": 4
+      },
+      {
+        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
+        "position": 5
+      },
+      {
+        "team": "C.D. GUADIARO",
+        "position": 6
+      },
+      {
+        "team": "C.D. PUERTO DE LA LINEA",
+        "position": 7
+      },
+      {
+        "team": "C.D. SAN ROQUE \"A\"",
+        "position": 8
+      },
+      {
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "position": 9
+      },
+      {
+        "team": "U.D. CASTELLAR C.F.",
+        "position": 10
+      },
+      {
+        "team": "U.D. LOS BARRIOS \"B\"",
+        "position": 11
+      },
+      {
+        "team": "U.D. TESORILLO C.D.",
+        "position": 12
       }
     ],
     "infantil-a": [
