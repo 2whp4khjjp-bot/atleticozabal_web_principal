@@ -43,7 +43,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
           time: date && date[4] ? date[4] : null,
           home: cells[0] || null,
           away: cells[2] || null,
-          ground: lines.length >= 3 ? lines[1] : null,
+          ground: lines.find(line => /\s-\s/.test(line)) || null,
           score: score ? [Number(score[1]), Number(score[2])] : null
         };
       });
