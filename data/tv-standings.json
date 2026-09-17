@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T21:00:31.183Z",
+  "updatedAt": "2026-09-17T21:22:55.121Z",
   "competitions": {
     "senior": [
       {
@@ -523,6 +523,52 @@
       {
         "team": "A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F.",
         "position": 16
+      }
+    ],
+    "benjamin-b": [
+      {
+        "team": "A.D. LOS CORTIJILLOS",
+        "position": 1
+      },
+      {
+        "team": "ATLETICO ZABAL \"A\"",
+        "position": 2
+      },
+      {
+        "team": "ATUNARA ATLETICO C.D.",
+        "position": 3
+      },
+      {
+        "team": "BALON LINENSE C.F. C.D.",
+        "position": 4
+      },
+      {
+        "team": "C.D. ATHLETIC CLUB JIMENA",
+        "position": 5
+      },
+      {
+        "team": "C.D. GUADIARO",
+        "position": 6
+      },
+      {
+        "team": "C.D. OLIVILLOS 87",
+        "position": 7
+      },
+      {
+        "team": "C.D. SAN BERNARDO",
+        "position": 8
+      },
+      {
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+        "position": 9
+      },
+      {
+        "team": "PUENTE MAYORGA RVO",
+        "position": 10
+      },
+      {
+        "team": "U.D. TESORILLO C.D.",
+        "position": 11
       }
     ]
   }
