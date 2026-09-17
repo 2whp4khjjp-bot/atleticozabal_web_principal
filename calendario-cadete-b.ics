@@ -1,0 +1,272 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Atletico Zabal Linense//Cadete B 2026-27//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlético Zabal · Cadete B
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:zabal-cadete-b-1@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:J1 · C.D. ATHLETIC CLUB JIMENA – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 1\nHora pendiente\nCamp
+ o: Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)\n\nCreado por Raú
+ l Cote
+LOCATION:Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-2@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:J2 · ATLETICO ZABAL – U.D. CASTELLAR C.F.
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 2\nHora pendiente\nCamp
+ o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCre
+ ado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-3@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:J3 · C.D. BALON LINENSE C.F. "A" – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 3\nHora pendiente\nCamp
+ o: La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)\n\nCreado p
+ or Raúl Cote
+LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-4@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:J4 · ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB DE FÚTB
+ OL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 4\nHora pendiente\nCamp
+ o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCre
+ ado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-5@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:J5 · C.D. SAN ROQUE "A" – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 5\nHora pendiente\nCamp
+ o: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)\n\nCreado por
+  Raúl Cote
+LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-6@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:J6 · ATLETICO ZABAL – U.D. TESORILLO C.D.
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 6\nHora pendiente\nCamp
+ o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCre
+ ado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-7@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:J7 · ATLETICO ZABAL – C.D. GUADIARO
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 7\nHora pendiente\nCamp
+ o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCre
+ ado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-8@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:J8 · U.D. LOS BARRIOS "B" – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 8\nHora pendiente\nCamp
+ o: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)\n\nCreado por Raúl 
+ Cote
+LOCATION:Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-9@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:J9 · ATLETICO ZABAL – C.D. EPRO CAMPO DE GIBRALTAR
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 9\nHora pendiente\nCamp
+ o: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCre
+ ado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-10@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:J10 · C.D. PUERTO DE LA LINEA – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 10\nHora pendiente\nCam
+ po: La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)\n\nCreado 
+ por Raúl Cote
+LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-11@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:J11 · ATLETICO ZABAL – A.D. TARAGUILLA
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 11\nHora pendiente\nCam
+ po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCr
+ eado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-12@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:J12 · ATLETICO ZABAL – C.D. ATHLETIC CLUB JIMENA
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 12\nHora pendiente\nCam
+ po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCr
+ eado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-13@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:J13 · U.D. CASTELLAR C.F. – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 13\nHora pendiente\nCam
+ po: Castellar De La Frontera - MANUEL LEON MUNICIPAL (F11-F7)  (A)\n\nCre
+ ado por Raúl Cote
+LOCATION:Castellar De La Frontera - MANUEL LEON MUNICIPAL (F11-F7)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-14@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:J14 · ATLETICO ZABAL – C.D. BALON LINENSE C.F. "A"
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 14\nHora pendiente\nCam
+ po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCr
+ eado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-15@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:J15 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – ATLETICO ZA
+ BAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 15\nHora pendiente\nCam
+ po: La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)\n\nCreado 
+ por Raúl Cote
+LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-16@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:J16 · ATLETICO ZABAL – C.D. SAN ROQUE "A"
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 16\nHora pendiente\nCam
+ po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCr
+ eado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-17@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:J17 · U.D. TESORILLO C.D. – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 17\nHora pendiente\nCam
+ po: San Martin del Tesorillo - MUNICIPAL LA ERA (A)\n\nCreado por Raúl C
+ ote
+LOCATION:San Martin del Tesorillo - MUNICIPAL LA ERA (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-18@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:J18 · C.D. GUADIARO – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 18\nHora pendiente\nCam
+ po: San Roque - LA UNION (F11\, F7) (A)\n\nCreado por Raúl Cote
+LOCATION:San Roque - LA UNION (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-19@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:J19 · ATLETICO ZABAL – U.D. LOS BARRIOS "B"
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 19\nHora pendiente\nCam
+ po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCr
+ eado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-20@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:J20 · C.D. EPRO CAMPO DE GIBRALTAR – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 20\nHora pendiente\nCam
+ po: La Línea de La Concepción - PUYOL (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - PUYOL (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-21@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:J21 · ATLETICO ZABAL – C.D. PUERTO DE LA LINEA
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 21\nHora pendiente\nCam
+ po: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCr
+ eado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-cadete-b-22@atleticozabal.com
+DTSTAMP:20260917T214214Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:J22 · A.D. TARAGUILLA – ATLETICO ZABAL
+DESCRIPTION:Tercera Andaluza Cádiz Cadete\nJornada 22\nHora pendiente\nCam
+ po: San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)\n\nCreado
+  por Raúl Cote
+LOCATION:San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-cadete-b.html
+END:VEVENT
+END:VCALENDAR
