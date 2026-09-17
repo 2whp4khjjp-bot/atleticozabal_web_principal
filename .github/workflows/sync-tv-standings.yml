@@ -1,0 +1,47 @@
+name: Sincronizar clasificaciones · Vista TV
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-tv-standings.js'
+      - 'proximos-partidos-tv.html'
+      - '.github/workflows/sync-tv-standings.yml'
+  schedule:
+    - cron: '0 8,9 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-tv-standings
+  cancel-in-progress: true
+jobs:
+  standings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: echo "run=$([[ '${{ github.event_name }}' != 'schedule' ]] || TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar navegador
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar clasificaciones oficiales
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/sync-tv-standings.js
+      - name: Validar y publicar
+        if: steps.window.outputs.run == 'true'
+        run: |
+          node -e "const d=require('./data/tv-standings.json'); if(Object.keys(d.competitions||{}).length!==8) process.exit(1)"
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/tv-standings.json
+          if git diff --cached --quiet; then
+            echo "No hay cambios de clasificación"
+            exit 0
+          fi
+          git commit -m "Actualiza clasificaciones de la vista TV"
+          bash scripts/push-calendar-update.sh
