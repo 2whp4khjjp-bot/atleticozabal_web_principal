@@ -1,0 +1,28 @@
+.club-team,
+.coach-name {
+  display: inline-block;
+  padding: .08em .42em;
+  border-radius: .42em;
+  background: #173a6a;
+  color: #f4c800;
+  font-weight: 800;
+  line-height: 1.35;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.team-card h2 .club-team,
+.team-card h2 .coach-name {
+  padding: .08em .38em;
+}
+
+.coach .coach-name {
+  margin-left: .18em;
+}
+
+@media (max-width: 620px) {
+  .club-team,
+  .coach-name {
+    padding: .06em .34em;
+  }
+}
