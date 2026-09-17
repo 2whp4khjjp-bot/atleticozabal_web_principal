@@ -2,74 +2,115 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#102b50">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Próximos partidos · Vista TV | Atlético Zabal</title>
 <link rel="icon" type="image/png" href="assets/escudo-zabal.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#102b50;--navy2:#173a6a;--blue:#234f82;--yellow:#f4c800;--white:#f7f9fc;--muted:#b8cae0;--line:rgba(255,255,255,.16)}
+html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#fff;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
 *{box-sizing:border-box}
-html,body{width:100%;height:100%;margin:0;overflow:hidden}
-body{font-family:Outfit,system-ui,sans-serif;background:radial-gradient(circle at 18% 0%,#234f82 0,#173a6a 30%,#102b50 72%);color:#fff;cursor:none}
-.screen{height:100vh;display:grid;grid-template-rows:auto 1fr auto;padding:clamp(20px,2.2vw,42px);gap:clamp(14px,1.5vw,28px)}
-.top{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:2vw;border-bottom:3px solid var(--yellow);padding-bottom:clamp(12px,1.2vw,22px)}
-.crest{width:clamp(62px,5vw,98px);height:clamp(62px,5vw,98px);object-fit:contain}
-.heading p{margin:0 0 .18em;color:var(--yellow);font-size:clamp(15px,1.05vw,23px);font-weight:800;letter-spacing:.18em;text-transform:uppercase}
-.heading h1{margin:0;font-size:clamp(38px,3.5vw,72px);line-height:.95;letter-spacing:-.035em}
-.clock{text-align:right;font-variant-numeric:tabular-nums}
-.clock strong{display:block;color:var(--yellow);font-size:clamp(34px,3.2vw,66px);line-height:1;font-weight:800}
-.clock span{display:block;margin-top:.35em;color:var(--muted);font-size:clamp(14px,1vw,21px);font-weight:600;text-transform:capitalize}
-.days{min-height:0;display:grid;grid-template-columns:repeat(var(--columns,3),minmax(0,1fr));gap:clamp(14px,1.35vw,26px)}
-.day{min-width:0;display:flex;flex-direction:column;padding:clamp(14px,1.25vw,24px);border:1px solid var(--line);border-radius:clamp(16px,1.2vw,24px);background:rgba(5,24,48,.42);box-shadow:0 20px 45px rgba(0,0,0,.16)}
-.day-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:clamp(10px,.9vw,18px);padding-bottom:clamp(8px,.7vw,14px);border-bottom:1px solid var(--line)}
-.day-title h2{margin:0;color:var(--yellow);font-size:clamp(22px,1.75vw,36px);text-transform:capitalize}
-.day-title span{color:var(--muted);font-size:clamp(13px,.85vw,18px);font-weight:700}
-.fixtures{min-height:0;display:grid;grid-template-rows:repeat(var(--rows,1),minmax(0,1fr));gap:clamp(8px,.75vw,14px)}
-.fixture{min-height:0;display:grid;grid-template-columns:1fr auto;align-items:center;gap:clamp(10px,1vw,19px);padding:clamp(11px,1vw,19px);border-left:5px solid var(--yellow);border-radius:clamp(11px,.8vw,16px);background:rgba(255,255,255,.09)}
-.fixture-info{min-width:0}.team{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:clamp(12px,.83vw,17px);font-weight:800;text-transform:uppercase;letter-spacing:.035em}
-.match{margin-top:.2em;font-size:clamp(19px,1.5vw,31px);font-weight:800;line-height:1.08}.club{color:var(--yellow)}
-.meta{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:.42em;color:#d6e2f0;font-size:clamp(13px,.92vw,19px);font-weight:500}
-.fixture-side{display:grid;justify-items:end;gap:.55em}.time{font-size:clamp(23px,1.75vw,36px);font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}
-.side{padding:.4em .72em;border:1px solid rgba(255,255,255,.25);border-radius:999px;color:#dce8f5;font-size:clamp(11px,.72vw,15px);font-weight:800;white-space:nowrap}.side.home{border-color:var(--yellow);background:var(--yellow);color:var(--navy)}
-.bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;color:var(--muted);font-size:clamp(12px,.8vw,17px)}.status{white-space:nowrap}.pager{display:flex;align-items:center;gap:8px}.dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.25)}.dot.active{width:28px;border-radius:99px;background:var(--yellow)}.credit{white-space:nowrap;color:#dbe6f3;font-weight:700}
-.loading,.error{grid-column:1/-1;display:grid;place-items:center;text-align:center;color:var(--muted);font-size:clamp(24px,2vw,42px);font-weight:700}
-@media(max-aspect-ratio:4/3){.screen{padding:20px}.days{grid-template-columns:1fr 1fr}.day:nth-child(3){display:none}.heading h1{font-size:44px}}
+#screen{width:100%;height:100%;padding:22px 28px 16px 28px;background:#102b50}
+#header{width:100%;height:112px;border-bottom:4px solid #f4c800;position:relative}
+#crest{position:absolute;left:0;top:4px;width:86px;height:96px;object-fit:contain}
+#heading{position:absolute;left:112px;top:10px}
+#clubname{margin:0 0 4px 0;color:#f4c800;font-size:18px;font-weight:bold;letter-spacing:3px;text-transform:uppercase}
+#title{margin:0;color:#fff;font-size:46px;line-height:48px;font-weight:bold}
+#clockbox{position:absolute;right:0;top:8px;width:330px;text-align:right}
+#clock{display:block;color:#f4c800;font-size:46px;line-height:48px;font-weight:bold}
+#today{display:block;color:#c7d8ea;font-size:17px;margin-top:4px;text-transform:capitalize}
+#days{width:100%;height:760px;padding-top:18px;overflow:hidden;white-space:nowrap}
+.day{display:inline-block;vertical-align:top;width:32%;height:735px;margin-right:1.5%;padding:16px;background:#173a6a;border:1px solid #45678c;border-radius:16px;white-space:normal;overflow:hidden}
+.day.last{margin-right:0}
+.dayHead{height:62px;border-bottom:1px solid #45678c;margin-bottom:12px;position:relative}
+.dayName{margin:0;color:#f4c800;font-size:27px;line-height:32px;font-weight:bold;text-transform:capitalize}
+.dayCount{position:absolute;right:0;top:7px;color:#c7d8ea;font-size:14px;font-weight:bold}
+.fixture{width:100%;min-height:128px;margin-bottom:10px;padding:13px 14px 12px 16px;background:#234f82;border-left:6px solid #f4c800;border-radius:10px;position:relative}
+.category{padding-right:132px;color:#c7d8ea;font-size:14px;line-height:18px;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.match{padding-right:132px;margin-top:5px;color:#fff;font-size:24px;line-height:28px;font-weight:bold}
+.club{color:#f4c800}
+.ground{padding-right:132px;margin-top:8px;color:#d9e5f0;font-size:15px;line-height:19px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.timebox{position:absolute;right:13px;top:18px;width:110px;text-align:right}
+.time{color:#fff;font-size:28px;line-height:30px;font-weight:bold}
+.side{display:inline-block;margin-top:10px;padding:5px 9px;border:1px solid #95aac2;border-radius:12px;color:#fff;font-size:12px;font-weight:bold}
+.side.home{background:#f4c800;border-color:#f4c800;color:#102b50}
+#footer{position:absolute;left:28px;right:28px;bottom:12px;height:34px;color:#b8cae0;font-size:14px}
+#status{float:left;line-height:30px}
+#pager{position:absolute;left:45%;top:8px;height:18px;white-space:nowrap}
+.dot{display:inline-block;width:10px;height:10px;margin-right:8px;border-radius:10px;background:#6c84a0}
+.dot.active{width:28px;background:#f4c800}
+#credit{float:right;line-height:30px;color:#fff;font-weight:bold}
+.message{padding-top:220px;text-align:center;color:#c7d8ea;font-size:32px;font-weight:bold;white-space:normal}
+@media screen and (max-width:1100px){
+ #screen{padding:14px 18px 12px 18px}
+ #header{height:95px}
+ #crest{width:70px;height:80px}
+ #heading{left:92px;top:7px}
+ #clubname{font-size:14px}
+ #title{font-size:36px;line-height:38px}
+ #clockbox{width:260px}
+ #clock{font-size:36px;line-height:38px}
+ #today{font-size:14px}
+ #days{height:650px;padding-top:12px}
+ .day{height:625px;padding:12px}
+ .dayName{font-size:22px}
+ .fixture{min-height:108px;padding:10px 10px 9px 13px}
+ .category{padding-right:100px;font-size:11px}
+ .match{padding-right:100px;font-size:19px;line-height:22px}
+ .ground{padding-right:100px;font-size:12px}
+ .timebox{right:9px;width:88px}
+ .time{font-size:23px}
+ #footer{left:18px;right:18px}
+}
 </style>
 </head>
 <body>
-<div class="screen">
-  <header class="top"><img class="crest" src="assets/escudo-zabal.png" alt="Escudo Atlético Zabal"><div class="heading"><p>Atlético Zabal Linense</p><h1>Próximos partidos</h1></div><div class="clock"><strong id="clock">--:--</strong><span id="today">Cargando…</span></div></header>
-  <main class="days" id="days"><div class="loading">Actualizando partidos oficiales…</div></main>
-  <footer class="bottom"><span class="status" id="status">Conectando con los calendarios…</span><div class="pager" id="pager"></div><span class="credit">www.atleticozabal.com</span></footer>
+<div id="screen">
+  <div id="header">
+    <img id="crest" src="assets/escudo-zabal.png" alt="Atlético Zabal">
+    <div id="heading"><div id="clubname">Atlético Zabal Linense</div><h1 id="title">Próximos partidos</h1></div>
+    <div id="clockbox"><span id="clock">--:--</span><span id="today">Cargando…</span></div>
+  </div>
+  <div id="days"><div class="message">Actualizando partidos oficiales…</div></div>
+  <div id="footer"><span id="status">Conectando con los calendarios…</span><span id="pager"></span><span id="credit">www.atleticozabal.com</span></div>
 </div>
-<script>
+<script type="text/javascript">
 (function(){
-  var clubPattern=/atl[eé]tico zabal|atletico zabal|atl[eé]tico atunara|atletico atunara|atunara atl[eé]tico|atunara atletico/i;
   var calendars=[
-    ['data/senior-rfaf.json','Sénior · Tercera Andaluza'],['data/juvenil-dh-rfef.json','Juvenil · División de Honor'],
-    ['data/cadete-rfaf.json','Cadete · Segunda Andaluza'],['data/infantil-a-rfaf.json','Infantil A · Segunda Andaluza'],
-    ['data/alevin-a-rfaf.json','Alevín A · Segunda Andaluza'],['data/alevin-c-rfaf.json','Alevín B · Berrocal · Tercera Andaluza'],
+    ['data/senior-rfaf.json','Sénior · Tercera Andaluza'],
+    ['data/juvenil-dh-rfef.json','Juvenil · División de Honor'],
+    ['data/cadete-rfaf.json','Cadete · Segunda Andaluza'],
+    ['data/infantil-a-rfaf.json','Infantil A · Segunda Andaluza'],
+    ['data/alevin-a-rfaf.json','Alevín A · Segunda Andaluza'],
+    ['data/alevin-c-rfaf.json','Alevín B · Berrocal · Tercera Andaluza'],
     ['data/alevin-atunara-a-rfaf.json','Alevín Atunara A · Cristian · Tercera Andaluza'],
-    ['data/alevin-zabal-c-rfaf.json','Alevín C · David · Tercera Andaluza'],['data/alevin-atunara-b-rfaf.json','Alevín Atunara B · Adrián · Tercera Andaluza'],
+    ['data/alevin-zabal-c-rfaf.json','Alevín C · David · Tercera Andaluza'],
+    ['data/alevin-atunara-b-rfaf.json','Alevín Atunara B · Adrián · Tercera Andaluza'],
     ['data/benjamin-a-rfaf.json','Benjamín A · Segunda Andaluza']
   ];
   var staticFixtures=[{round:1,date:'2026-10-03',time:null,home:'Atlético Zabal B',away:'Atunara Atlético C.D.',ground:'Virgen del Carmen',label:'Benjamín B · Segunda Andaluza'}];
-  var pages=[],pageIndex=0,rotationTimer=null,daysNode=document.getElementById('days'),statusNode=document.getElementById('status'),pagerNode=document.getElementById('pager');
-  function madridDateKey(){var parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()),values={};parts.forEach(function(part){values[part.type]=part.value});return values.year+'-'+values.month+'-'+values.day}
-  function updateClock(){var now=new Date();document.getElementById('clock').textContent=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',hour:'2-digit',minute:'2-digit'}).format(now);document.getElementById('today').textContent=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',weekday:'long',day:'numeric',month:'long'}).format(now)}
-  function el(tag,className,text){var node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node}
-  function isClub(name){return clubPattern.test(String(name||''))}
-  function cleanGround(value){var ground=String(value||'Campo pendiente').replace(/\\,/g,',').replace(/\s*\(A\)\s*$/,'').trim(),parts=ground.split(' - ');if(parts.length>1)ground=parts.slice(1).join(' - ');return ground.replace(/\s+/g,' ')}
-  function addMatchName(parent,home,away){var homeNode=el('span',isClub(home)?'club':'',home),awayNode=el('span',isClub(away)?'club':'',away);parent.appendChild(homeNode);parent.appendChild(document.createTextNode(' – '));parent.appendChild(awayNode)}
-  function makeFixture(match){var article=el('article','fixture'),info=el('div','fixture-info'),sideBox=el('div','fixture-side');info.appendChild(el('div','team',match.label+' · J'+match.round));var matchNode=el('div','match');addMatchName(matchNode,match.home,match.away);info.appendChild(matchNode);info.appendChild(el('div','meta',cleanGround(match.ground)));var home=isClub(match.home);sideBox.appendChild(el('div','time',match.time||'—'));sideBox.appendChild(el('div','side'+(home?' home':''),home?'🏠 CASA':'🚌 FUERA'));article.appendChild(info);article.appendChild(sideBox);return article}
-  function clear(node){while(node.firstChild)node.removeChild(node.firstChild)}
-  function renderPage(){clear(daysNode);clear(pagerNode);if(!pages.length){daysNode.appendChild(el('div','error','No hay próximos partidos publicados.'));return}var page=pages[pageIndex];daysNode.style.setProperty('--columns',page.length);page.forEach(function(group){var date=new Date(group.date+'T12:00:00'),section=el('section','day'),title=el('div','day-title');title.appendChild(el('h2','',new Intl.DateTimeFormat('es-ES',{weekday:'long',day:'numeric',month:'long'}).format(date)));title.appendChild(el('span','',group.matches.length+(group.matches.length===1?' partido':' partidos')));section.appendChild(title);var list=el('div','fixtures');list.style.setProperty('--rows',group.matches.length);group.matches.forEach(function(match){list.appendChild(makeFixture(match))});section.appendChild(list);daysNode.appendChild(section)});pages.forEach(function(_,index){pagerNode.appendChild(el('span','dot'+(index===pageIndex?' active':'')))})}
-  function buildPages(fixtures){var grouped={},groups=[];fixtures.sort(function(a,b){return (a.date+' '+(a.time||'99:99')).localeCompare(b.date+' '+(b.time||'99:99'))});fixtures.forEach(function(match){if(!grouped[match.date]){grouped[match.date]={date:match.date,matches:[]};groups.push(grouped[match.date])}grouped[match.date].matches.push(match)});groups=groups.slice(0,9);pages=[];for(var i=0;i<groups.length;i+=3)pages.push(groups.slice(i,i+3));pageIndex=0;renderPage();if(rotationTimer)clearInterval(rotationTimer);if(pages.length>1)rotationTimer=setInterval(function(){pageIndex=(pageIndex+1)%pages.length;renderPage()},18000)}
-  function loadData(){var today=madridDateKey(),fixtures=staticFixtures.filter(function(match){return match.date>=today}),requests=calendars.map(function(config){return fetch(config[0]+'?v='+Date.now(),{cache:'no-store'}).then(function(response){if(!response.ok)throw Error();return response.json()}).then(function(data){return {data:data,label:config[1]}}).catch(function(){return null})});Promise.all(requests).then(function(results){var sources=0;results.forEach(function(result){if(!result||!Array.isArray(result.data.matches))return;sources++;result.data.matches.forEach(function(match){if(match.date>=today&&!Array.isArray(match.score))fixtures.push(Object.assign({},match,{label:result.label}))})});buildPages(fixtures);statusNode.textContent='Actualizado '+new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',hour:'2-digit',minute:'2-digit'}).format(new Date())+' · '+sources+' calendarios conectados'}).catch(function(){clear(daysNode);daysNode.appendChild(el('div','error','No se han podido cargar los calendarios. Reintentando…'));statusNode.textContent='Sin conexión · reintento automático'})}
-  updateClock();setInterval(updateClock,30000);loadData();setInterval(loadData,300000);
+  var pages=[];
+  var pageIndex=0;
+  var rotationTimer=null;
+  var clubWords=['ATLETICO ZABAL','ATLÉTICO ZABAL','ATLETICO ATUNARA','ATLÉTICO ATUNARA','ATUNARA ATLETICO','ATUNARA ATLÉTICO'];
+  var daysNode=document.getElementById('days');
+  var statusNode=document.getElementById('status');
+  var pagerNode=document.getElementById('pager');
+  var daysNames=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+  var months=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+  function pad(n){return n<10?'0'+n:String(n)}
+  function todayKey(){var d=new Date();return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())}
+  function updateClock(){var d=new Date();document.getElementById('clock').innerHTML=pad(d.getHours())+':'+pad(d.getMinutes());document.getElementById('today').innerHTML=daysNames[d.getDay()]+' '+d.getDate()+' de '+months[d.getMonth()]}
+  function isClub(name){var s=String(name||'').toUpperCase();for(var i=0;i<clubWords.length;i++){if(s.indexOf(clubWords[i])!==-1)return true}return false}
+  function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+  function cleanGround(value){var g=String(value||'Campo pendiente').replace(/\\,/g,',').replace(/\s*\(A\)\s*$/,'').replace(/^\s+|\s+$/g,'');var p=g.split(' - ');if(p.length>1)g=p.slice(1).join(' - ');return g.replace(/\s+/g,' ')}
+  function formatDay(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return daysNames[d.getDay()]+' '+parseInt(p[2],10)+' de '+months[parseInt(p[1],10)-1]}
+  function matchName(home,away){return '<span'+(isClub(home)?' class="club"':'')+'>'+esc(home)+'</span> – <span'+(isClub(away)?' class="club"':'')+'>'+esc(away)+'</span>'}
+  function makeFixture(m){var home=isClub(m.home);return '<div class="fixture"><div class="category">'+esc(m.label)+' · J'+esc(m.round)+'</div><div class="match">'+matchName(m.home,m.away)+'</div><div class="ground">'+esc(cleanGround(m.ground))+'</div><div class="timebox"><div class="time">'+esc(m.time||'—')+'</div><div class="side'+(home?' home':'')+'">'+(home?'⌂ CASA':'▣ FUERA')+'</div></div></div>'}
+  function render(){if(!pages.length){daysNode.innerHTML='<div class="message">No hay próximos partidos publicados.</div>';pagerNode.innerHTML='';return}var page=pages[pageIndex],html='',dots='',i,j,g;for(i=0;i<page.length;i++){g=page[i];html+='<div class="day'+(i===page.length-1?' last':'')+'"><div class="dayHead"><h2 class="dayName">'+esc(formatDay(g.date))+'</h2><span class="dayCount">'+g.matches.length+(g.matches.length===1?' partido':' partidos')+'</span></div>';for(j=0;j<g.matches.length;j++)html+=makeFixture(g.matches[j]);html+='</div>'}daysNode.innerHTML=html;for(i=0;i<pages.length;i++)dots+='<span class="dot'+(i===pageIndex?' active':'')+'"></span>';pagerNode.innerHTML=dots}
+  function buildPages(fixtures){var grouped={},groups=[],i,m;fixtures.sort(function(a,b){var aa=a.date+' '+(a.time||'99:99'),bb=b.date+' '+(b.time||'99:99');return aa<bb?-1:(aa>bb?1:0)});for(i=0;i<fixtures.length;i++){m=fixtures[i];if(!grouped[m.date]){grouped[m.date]={date:m.date,matches:[]};groups.push(grouped[m.date])}grouped[m.date].matches.push(m)}if(groups.length>9)groups=groups.slice(0,9);pages=[];for(i=0;i<groups.length;i+=3)pages.push(groups.slice(i,i+3));pageIndex=0;render();if(rotationTimer)window.clearInterval(rotationTimer);if(pages.length>1)rotationTimer=window.setInterval(function(){pageIndex=(pageIndex+1)%pages.length;render()},18000)}
+  function requestJSON(url,done){var xhr;try{xhr=new XMLHttpRequest()}catch(e){done(null);return}xhr.onreadystatechange=function(){if(xhr.readyState===4){if(xhr.status>=200&&xhr.status<300){try{done(JSON.parse(xhr.responseText))}catch(e){done(null)}}else done(null)}};xhr.open('GET',url+(url.indexOf('?')===-1?'?':'&')+'v='+(new Date().getTime()),true);try{xhr.setRequestHeader('Cache-Control','no-cache')}catch(e){}xhr.send(null)}
+  function loadData(){var today=todayKey(),fixtures=[],pending=calendars.length,sources=0,i;for(i=0;i<staticFixtures.length;i++){if(staticFixtures[i].date>=today)fixtures.push(staticFixtures[i])}if(!pending){buildPages(fixtures);return}for(i=0;i<calendars.length;i++){(function(config){requestJSON(config[0],function(data){var j,m;if(data&&data.matches&&typeof data.matches.length==='number'){sources++;for(j=0;j<data.matches.length;j++){m=data.matches[j];if(m&&m.date>=today&&Object.prototype.toString.call(m.score)!=='[object Array]'){m.label=config[1];fixtures.push(m)}}}pending--;if(pending===0){buildPages(fixtures);var d=new Date();statusNode.innerHTML='Actualizado '+pad(d.getHours())+':'+pad(d.getMinutes())+' · '+sources+' calendarios conectados'}})})(calendars[i])}}
+  updateClock();window.setInterval(updateClock,30000);loadData();window.setInterval(loadData,300000);
 })();
 </script>
 </body>
