@@ -34,7 +34,7 @@ jobs:
       - name: Validar y publicar
         if: steps.window.outputs.run == 'true'
         run: |
-          node -e "const d=require('./data/tv-standings.json'); if(Object.keys(d.competitions||{}).length!==8) process.exit(1)"
+          node -e "const d=require('./data/tv-standings.json'); if(Object.keys(d.competitions||{}).length!==9) process.exit(1)"
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
           git add data/tv-standings.json

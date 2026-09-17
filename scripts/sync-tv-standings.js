@@ -29,7 +29,10 @@ const sources = [
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1' },
   { key: 'benjamin-a', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=48909542&codgrupo=48909586',
-    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542' }
+    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542' },
+  { key: 'benjamin-b', root: rfaf,
+    warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49287953&codgrupo=49288292',
+    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=1' }
 ];
 
 const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
