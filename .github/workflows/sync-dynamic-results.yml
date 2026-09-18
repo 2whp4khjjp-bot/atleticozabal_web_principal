@@ -1,6 +1,10 @@
 name: Actualizar resultados según horario
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-dynamic-results.yml'
+      - 'scripts/detect-result-refresh.js'
   schedule:
     - cron: '0,15,30,45 * * * *'
 permissions:
