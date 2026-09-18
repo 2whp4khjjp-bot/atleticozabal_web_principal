@@ -38,12 +38,15 @@ for (const [team, path] of teams) {
     const [year, month, day] = match.date.split('-').map(Number);
     const [hour, minute] = match.time.split(':').map(Number);
     const kickoff = Date.UTC(year, month - 1, day, hour, minute);
+    const sinceKickoff = localNow - kickoff;
     // Tres comprobaciones horarias y una última comprobación de seguridad.
     for (const offset of [1, 2, 3, 5]) {
       const target = kickoff + offset * 60 * 60 * 1000;
       const elapsed = localNow - target;
       const key = [team, match.round, match.date, match.time, offset].join(':');
-      if (elapsed >= 0 && elapsed < 45 * 60 * 1000 && !state.completed?.[key]) {
+      // No perder una comprobación si GitHub retrasa el cron: aceptamos partidos
+      // de las últimas 12 horas y el estado evita repetir cada franja completada.
+      if (elapsed >= 0 && sinceKickoff < 12 * 60 * 60 * 1000 && !state.completed?.[key]) {
         plan.push({ team, round: match.round, offset, key });
       }
     }
