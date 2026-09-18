@@ -1,267 +1,271 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-09-17T14:32:01.411Z",
+  "updatedAt": "2026-09-18T18:04:50.145Z",
   "standing": {
-    "position": 4,
+    "position": 12,
     "points": 0,
-    "played": 0,
-    "goalsFor": 0,
-    "goalsAgainst": 0,
+    "played": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
     "round": 1
   },
   "matches": [
     {
       "round": 1,
-      "away": "C.D. S.M. MIRADOR \"B\"",
       "date": "2026-09-18",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": "17:00",
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": "17:00"
+      "away": "C.D. S.M. MIRADOR \"B\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": [
+        2,
+        3
+      ],
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2026-09-26",
-      "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
+      "time": null,
       "home": "PUENTE MAYORGA RVO \"A\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
+      "score": null
     },
     {
       "round": 3,
-      "away": "U.D. LOS BARRIOS \"B\"",
       "date": "2026-10-03",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "U.D. LOS BARRIOS \"B\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 4,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2026-10-10",
-      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
+      "time": null,
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
+      "score": null
     },
     {
       "round": 5,
-      "away": "C.D. OLIVILLOS 87 \"B\"",
       "date": "2026-10-17",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "C.D. OLIVILLOS 87 \"B\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 6,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2026-10-24",
-      "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)",
+      "time": null,
       "home": "C.D. JUVENTUD PALMONES C.F.",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)",
+      "score": null
     },
     {
       "round": 8,
-      "away": "C.D. GUADIARO",
       "date": "2026-11-07",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "C.D. GUADIARO",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 9,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2026-11-14",
-      "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
+      "time": null,
       "home": "C.D. SAN BERNARDO",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
+      "score": null
     },
     {
       "round": 10,
-      "away": "U.D. TESORILLO C.D.",
       "date": "2026-11-21",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "U.D. TESORILLO C.D.",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 11,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2026-11-28",
-      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
+      "time": null,
       "home": "C.D. BALON LINENSE C.F.",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
+      "score": null
     },
     {
       "round": 12,
-      "away": "A.D. TARAGUILLA",
       "date": "2026-12-05",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "A.D. TARAGUILLA",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 13,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2026-12-12",
-      "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
+      "time": null,
       "home": "A.D. LOS CORTIJILLOS",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
+      "score": null
     },
     {
       "round": 14,
-      "away": "ATLETICO ATUNARA C.D. \"A\"",
       "date": "2026-12-19",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ATUNARA C.D. \"A\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 15,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-01-09",
-      "ground": "Jimena De La Frontera - JORGE ROCHA (A)",
+      "time": null,
       "home": "C.D. ATHLETIC CLUB JIMENA",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "Jimena De La Frontera - JORGE ROCHA (A)",
+      "score": null
     },
     {
       "round": 16,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-01-16",
-      "ground": "Algeciras - Sergio Martín (A)",
+      "time": null,
       "home": "C.D. S.M. MIRADOR \"B\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "Algeciras - Sergio Martín (A)",
+      "score": null
     },
     {
       "round": 17,
-      "away": "PUENTE MAYORGA RVO \"A\"",
       "date": "2027-01-23",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "PUENTE MAYORGA RVO \"A\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 18,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-01-30",
-      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
+      "time": null,
       "home": "U.D. LOS BARRIOS \"B\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
+      "score": null
     },
     {
       "round": 19,
-      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
       "date": "2027-02-06",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 20,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-02-13",
-      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
+      "time": null,
       "home": "C.D. OLIVILLOS 87 \"B\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
+      "score": null
     },
     {
       "round": 21,
-      "away": "C.D. JUVENTUD PALMONES C.F.",
       "date": "2027-02-20",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "C.D. JUVENTUD PALMONES C.F.",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 23,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-03-06",
-      "ground": "San Roque - LA UNION (F11, F7) (A)",
+      "time": null,
       "home": "C.D. GUADIARO",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "San Roque - LA UNION (F11, F7) (A)",
+      "score": null
     },
     {
       "round": 24,
-      "away": "C.D. SAN BERNARDO",
       "date": "2027-03-13",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "C.D. SAN BERNARDO",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 25,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-04-03",
-      "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
+      "time": null,
       "home": "U.D. TESORILLO C.D.",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
+      "score": null
     },
     {
       "round": 26,
-      "away": "C.D. BALON LINENSE C.F.",
       "date": "2027-04-10",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "C.D. BALON LINENSE C.F.",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 27,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-04-17",
-      "ground": "San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)",
+      "time": null,
       "home": "A.D. TARAGUILLA",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)",
+      "score": null
     },
     {
       "round": 28,
-      "away": "A.D. LOS CORTIJILLOS",
       "date": "2027-04-24",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "A.D. LOS CORTIJILLOS",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     },
     {
       "round": 29,
-      "away": "ATLETICO ZABAL \"A\"",
       "date": "2027-05-01",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "time": null,
       "home": "ATLETICO ATUNARA C.D. \"A\"",
-      "score": null,
-      "time": null
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "score": null
     },
     {
       "round": 30,
-      "away": "C.D. ATHLETIC CLUB JIMENA",
       "date": "2027-05-08",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "time": null,
       "home": "ATLETICO ZABAL \"A\"",
-      "score": null,
-      "time": null
+      "away": "C.D. ATHLETIC CLUB JIMENA",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "score": null
     }
   ]
 }

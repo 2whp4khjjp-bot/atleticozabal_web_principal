@@ -1,13 +1,13 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-09-17T20:19:39.304Z",
+  "updatedAt": "2026-09-18T18:04:55.041Z",
   "standing": {
-    "position": 4,
+    "position": 14,
     "points": 0,
-    "played": 0,
+    "played": 1,
     "goalsFor": 0,
-    "goalsAgainst": 0,
+    "goalsAgainst": 9,
     "round": 1
   },
   "matches": [
@@ -18,7 +18,11 @@
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "C.D. SALESIANOS ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null
+      "score": [
+        0,
+        9
+      ],
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
