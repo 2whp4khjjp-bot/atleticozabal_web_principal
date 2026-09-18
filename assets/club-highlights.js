@@ -58,7 +58,7 @@
   function highlightAgendaLabel(element) {
     if (element.dataset.coachHighlight === '1') return;
     const parts = element.textContent.trim().split(/\s*·\s*/);
-    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián|Hugo|Machuca|Ramón|J\. del Río)$/i.test(part));
+    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián|Machuca|J\. del Río)$/i.test(part));
     if (coachIndex < 0) return;
     const fragment = document.createDocumentFragment();
     parts.forEach((part, index) => {
