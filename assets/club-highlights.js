@@ -58,7 +58,7 @@
   function highlightAgendaLabel(element) {
     if (element.dataset.coachHighlight === '1') return;
     const parts = element.textContent.trim().split(/\s*·\s*/);
-    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián)$/i.test(part));
+    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián|Hugo|Machuca|Ramón|J\. del Río)$/i.test(part));
     if (coachIndex < 0) return;
     const fragment = document.createDocumentFragment();
     parts.forEach((part, index) => {
@@ -82,7 +82,7 @@
     document.querySelectorAll('.team-card h2').forEach(highlightCardTitle);
     if (document.querySelector('.coach')) {
       const heading = document.querySelector('main h1');
-      if (heading) highlightCardTitle(heading);
+      if (heading && isClubTeam(heading.textContent)) highlightCardTitle(heading);
     }
     document.querySelectorAll('.team').forEach(highlightAgendaLabel);
   }

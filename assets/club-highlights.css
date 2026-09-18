@@ -2,4 +2,7 @@
 .coach-name {
   color: #f4c800;
   font-weight: 800;
+  -webkit-text-stroke: .5px #173a6a;
+  paint-order: stroke fill;
+  text-shadow: 0 0 .35px #173a6a;
 }
