@@ -38,7 +38,8 @@ for (const [team, path] of teams) {
     const [year, month, day] = match.date.split('-').map(Number);
     const [hour, minute] = match.time.split(':').map(Number);
     const kickoff = Date.UTC(year, month - 1, day, hour, minute);
-    for (const offset of [1, 2, 3]) {
+    // Tres comprobaciones horarias y una última comprobación de seguridad.
+    for (const offset of [1, 2, 3, 5]) {
       const target = kickoff + offset * 60 * 60 * 1000;
       const elapsed = localNow - target;
       const key = [team, match.round, match.date, match.time, offset].join(':');

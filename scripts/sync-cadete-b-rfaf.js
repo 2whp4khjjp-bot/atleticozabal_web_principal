@@ -34,7 +34,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
           .map(cell => clean(cell.innerText));
         const text = row.innerText || '';
         const date = text.match(/\b(\d{2})-(\d{2})-(\d{4})(?:\s*-\s*(\d{2}:\d{2}))?/);
-        const score = (cells[1] || '').match(/^(\d{1,2})\s+(\d{1,2})$/);
+        const score = (cells[1] || '').match(/^(\d{1,2})(?:\s+|\s*[-–:]\s*)(\d{1,2})$/);
         const lines = text.split(/\n+/).map(line => line.trim()).filter(Boolean);
         return {
           round: roundInfo ? Number(roundInfo[1]) : null,
