@@ -1,13 +1,13 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48893775&codgrupo=48894181&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48894181&codcompeticion=48893775",
-  "updatedAt": "2026-09-15T11:05:20.976Z",
+  "updatedAt": "2026-09-19T12:58:37.612Z",
   "standing": {
-    "position": 6,
-    "points": 0,
-    "played": 0,
-    "goalsFor": 0,
-    "goalsAgainst": 0,
+    "position": 1,
+    "points": 3,
+    "played": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 1,
     "round": 1
   },
   "matches": [
@@ -18,7 +18,11 @@
       "home": "ATLETICO ZABAL",
       "away": "C.D. SAN ROQUE",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null
+      "score": [
+        11,
+        1
+      ],
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
@@ -26,7 +30,7 @@
       "time": null,
       "home": "C.D. AD PUEBLO NUEVO LA GRANJA",
       "away": "ATLETICO ZABAL",
-      "ground": "Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F7, 1) (A)",
+      "ground": "Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F11, 2) (A)",
       "score": null
     },
     {
