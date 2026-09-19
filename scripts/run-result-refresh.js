@@ -68,6 +68,7 @@ function hasFinalScore(item) {
 for (const item of plan) {
   state.attempted[item.key] = checkedAt;
   if (hasFinalScore(item)) state.completed[item.key] = checkedAt;
+  else delete state.completed[item.key];
 }
 const cutoff = Date.now() - 120 * 24 * 60 * 60 * 1000;
 for (const bucket of ['completed', 'attempted']) {
