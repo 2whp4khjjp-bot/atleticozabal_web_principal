@@ -1,12 +1,12 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-09-15T11:59:08.799Z",
+  "updatedAt": "2026-09-19T18:53:55.385Z",
   "standing": {
-    "position": 6,
-    "points": 0,
-    "played": 0,
-    "goalsFor": 0,
+    "position": 2,
+    "points": 3,
+    "played": 1,
+    "goalsFor": 5,
     "goalsAgainst": 0,
     "round": 1
   },
@@ -18,7 +18,11 @@
       "home": "ATLETICO ZABAL",
       "away": "A.D. LOS CORTIJILLOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": [
+        5,
+        0
+      ],
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
