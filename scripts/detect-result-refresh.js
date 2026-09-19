@@ -29,7 +29,7 @@ const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
 const retryOffsets = [1, 2, 3, 5, 8, 12, 18, 24];
-const resultWindowHours = 30;
+const resultWindowHours = 30; // margen para resultados publicados al día siguiente
 
 function hasFinalScore(match) {
   return Array.isArray(match.score) && match.score.length === 2 &&

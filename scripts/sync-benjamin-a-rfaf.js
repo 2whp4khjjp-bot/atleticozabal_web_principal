@@ -46,6 +46,44 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     if (matches.length < 2 || invalid) {
       throw new Error('El calendario del Benjamín A no coincide con el grupo esperado');
     }
+    const today = new Intl.DateTimeFormat('sv-SE', {
+      timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date());
+    for (const match of matches.filter(item => item.score === null && item.date <= today)) {
+      const resultsUrl = base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
+        '&CodTemporada=22&CodGrupo=48909586&CodCompeticion=48909542' +
+        '&CodJornada=' + match.round;
+      const resultsResponse = await page.goto(resultsUrl, {
+        waitUntil: 'domcontentloaded', timeout: 45000
+      });
+      if (!resultsResponse.ok() || !page.url().includes('NFG_CmpJornada')) continue;
+      const officialScore = await page.evaluate(({ home, away }) => {
+        const normalize = value => (value || '').replace(/\s+/g, ' ').trim().toUpperCase();
+        const row = [...document.querySelectorAll('tr')].find(candidate => {
+          const cells = [...candidate.children].filter(child => child.tagName === 'TD');
+          return cells.length === 3 && normalize(cells[0].innerText) === normalize(home) &&
+            normalize(cells[2].innerText) === normalize(away);
+        });
+        if (!row) return null;
+        const scoreSpans = [...row.querySelectorAll('span.wid2_resultado_cerrada')];
+        if (scoreSpans.length !== 2) return null;
+        const readScore = span => {
+          const visible = (span.innerText || '').match(/\d+/);
+          if (visible) return Number(visible[0]);
+          const digits = [...span.querySelectorAll('i[id]')].map(icon => {
+            const digitClass = [...icon.classList].find(name => /^fa-\d+$/.test(name));
+            return digitClass ? digitClass.slice(3) : '';
+          }).join('');
+          return /^\d+$/.test(digits) ? Number(digits) : null;
+        };
+        const score = scoreSpans.map(readScore);
+        return score.every(value => value !== null) ? score : null;
+      }, { home: match.home, away: match.away });
+      if (officialScore) {
+        match.score = officialScore;
+        match.scoreSource = 'rfaf-round-results';
+      }
+    }
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542';
     const classificationResponse = await page.goto(classificationUrl, {
       waitUntil: 'domcontentloaded', timeout: 45000
@@ -65,7 +103,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     const standing = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
       points: number(teamIndex + 2),
-      played: number(teamIndex + 3),
+      played: (number(teamIndex + 3) ?? 0) + (number(teamIndex + 7) ?? 0),
       goalsFor: number(teamIndex + 11),
       goalsAgainst: number(teamIndex + 12),
       round: Number(standingSample.roundLabel?.match(/\d+/)?.[0]) || null
