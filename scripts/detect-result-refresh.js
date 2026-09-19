@@ -29,6 +29,7 @@ const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
 const retryOffsets = [1, 2, 3, 5, 8, 12, 18, 24];
+const resultWindowHours = 30;
 
 function hasFinalScore(match) {
   return Array.isArray(match.score) && match.score.length === 2 &&
@@ -54,7 +55,8 @@ for (const [team, path] of teams) {
       const key = [team, match.round, match.date, match.time, offset].join(':');
       // No perder una comprobación si GitHub retrasa el cron. Un intento sin
       // marcador no se considera completado y las franjas posteriores siguen activas.
-      if (elapsed >= 0 && sinceKickoff < 30 * 60 * 60 * 1000 && !state.attempted?.[key]) {
+      if (elapsed >= 0 && sinceKickoff < resultWindowHours * 60 * 60 * 1000 &&
+          !state.attempted?.[key]) {
         plan.push({
           team, round: match.round, date: match.date, time: match.time, offset, key
         });
