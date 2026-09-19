@@ -1,11 +1,11 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-09-19T12:58:51.751Z",
+  "updatedAt": "2026-09-19T13:14:32.966Z",
   "standing": {
     "position": 3,
     "points": 6,
-    "played": 1,
+    "played": 2,
     "goalsFor": 8,
     "goalsAgainst": 3,
     "round": 2
@@ -19,10 +19,10 @@
       "away": "C.D. SALESIANOS ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        8,
-        3
+        6,
+        2
       ],
-      "scoreSource": "classification-inference-single-match"
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 2,
@@ -31,7 +31,11 @@
       "home": "TRASMALLO F.C. C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
-      "score": null
+      "score": [
+        1,
+        2
+      ],
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 3,
