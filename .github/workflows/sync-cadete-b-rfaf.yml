@@ -9,7 +9,8 @@ on:
       - 'scripts/validate-cadete-b.js'
       - '.github/workflows/sync-cadete-b-rfaf.yml'
   schedule:
-    - cron: '0 8,9 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 9 * * *'
 permissions:
   contents: write
 concurrency:
@@ -22,7 +23,16 @@ jobs:
     steps:
       - name: Comprobar hora peninsular
         id: window
-        run: echo "run=$([[ '${{ github.event_name }}' != 'schedule' ]] || TZ=Europe/Madrid date +%H | grep -qx 10 && echo true || echo false)" >> "$GITHUB_OUTPUT"
+        run: |
+          offset="$(TZ=Europe/Madrid date +%z)"
+          schedule='${{ github.event.schedule }}'
+          if [ '${{ github.event_name }}' != 'schedule' ] || \
+             { [ "$schedule" = '0 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '0 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
         if: steps.window.outputs.run == 'true'
       - name: Instalar Playwright y Chromium

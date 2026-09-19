@@ -28,26 +28,36 @@ const parts = Object.fromEntries(formatter.formatToParts(now)
 const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
+const retryOffsets = [1, 2, 3, 5, 8, 12, 18, 24];
+
+function hasFinalScore(match) {
+  return Array.isArray(match.score) && match.score.length === 2 &&
+    match.score.every(value => value !== null && value !== undefined &&
+      String(value).trim() !== '');
+}
 
 for (const [team, path] of teams) {
   if (!fs.existsSync(path)) continue;
   const data = JSON.parse(fs.readFileSync(path, 'utf8'));
   for (const match of data.matches || []) {
+    if (hasFinalScore(match)) continue;
     if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date || '') ||
         !/^\d{2}:\d{2}$/.test(match.time || '')) continue;
     const [year, month, day] = match.date.split('-').map(Number);
     const [hour, minute] = match.time.split(':').map(Number);
     const kickoff = Date.UTC(year, month - 1, day, hour, minute);
     const sinceKickoff = localNow - kickoff;
-    // Tres comprobaciones horarias y una última comprobación de seguridad.
-    for (const offset of [1, 2, 3, 5]) {
+    // Tres comprobaciones horarias y reintentos de seguridad hasta el día siguiente.
+    for (const offset of retryOffsets) {
       const target = kickoff + offset * 60 * 60 * 1000;
       const elapsed = localNow - target;
       const key = [team, match.round, match.date, match.time, offset].join(':');
-      // No perder una comprobación si GitHub retrasa el cron: aceptamos partidos
-      // de las últimas 12 horas y el estado evita repetir cada franja completada.
-      if (elapsed >= 0 && sinceKickoff < 12 * 60 * 60 * 1000 && !state.completed?.[key]) {
-        plan.push({ team, round: match.round, offset, key });
+      // No perder una comprobación si GitHub retrasa el cron. Un intento sin
+      // marcador no se considera completado y las franjas posteriores siguen activas.
+      if (elapsed >= 0 && sinceKickoff < 30 * 60 * 60 * 1000 && !state.attempted?.[key]) {
+        plan.push({
+          team, round: match.round, date: match.date, time: match.time, offset, key
+        });
       }
     }
   }

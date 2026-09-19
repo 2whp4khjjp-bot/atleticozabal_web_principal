@@ -16,6 +16,20 @@ const commands = {
   'benjamin-a': ['sync-benjamin-a-rfaf.js', 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
   'benjamin-b': ['sync-benjamin-b-rfaf.js', 'render-benjamin-b-ics.js', 'validate-benjamin-b.js']
 };
+const teamFiles = {
+  senior: 'data/senior-rfaf.json',
+  'juvenil-dh': 'data/juvenil-dh-rfef.json',
+  cadete: 'data/cadete-rfaf.json',
+  'cadete-b': 'data/cadete-b-rfaf.json',
+  'alevin-a': 'data/alevin-a-rfaf.json',
+  'alevin-c': 'data/alevin-c-rfaf.json',
+  'alevin-atunara-a': 'data/alevin-atunara-a-rfaf.json',
+  'alevin-zabal-c': 'data/alevin-zabal-c-rfaf.json',
+  'alevin-atunara-b': 'data/alevin-atunara-b-rfaf.json',
+  'infantil-a': 'data/infantil-a-rfaf.json',
+  'benjamin-a': 'data/benjamin-a-rfaf.json',
+  'benjamin-b': 'data/benjamin-b-rfaf.json'
+};
 const dueTeams = [...new Set(plan.map(item => item.team))];
 const executed = new Set();
 
@@ -36,11 +50,30 @@ const state = fs.existsSync(statePath)
   ? JSON.parse(fs.readFileSync(statePath, 'utf8'))
   : { completed: {} };
 state.completed ||= {};
-const completedAt = new Date().toISOString();
-for (const item of plan) state.completed[item.key] = completedAt;
-const cutoff = Date.now() - 120 * 24 * 60 * 60 * 1000;
-for (const [key, value] of Object.entries(state.completed)) {
-  if (Date.parse(value) < cutoff) delete state.completed[key];
+state.attempted ||= {};
+const checkedAt = new Date().toISOString();
+
+function hasFinalScore(item) {
+  const path = teamFiles[item.team];
+  if (!path || !fs.existsSync(path)) return false;
+  const data = JSON.parse(fs.readFileSync(path, 'utf8'));
+  const match = (data.matches || []).find(candidate =>
+    String(candidate.round) === String(item.round) &&
+    candidate.date === item.date && candidate.time === item.time);
+  return Array.isArray(match?.score) && match.score.length === 2 &&
+    match.score.every(value => value !== null && value !== undefined &&
+      String(value).trim() !== '');
 }
-state.updatedAt = completedAt;
+
+for (const item of plan) {
+  state.attempted[item.key] = checkedAt;
+  if (hasFinalScore(item)) state.completed[item.key] = checkedAt;
+}
+const cutoff = Date.now() - 120 * 24 * 60 * 60 * 1000;
+for (const bucket of ['completed', 'attempted']) {
+  for (const [key, value] of Object.entries(state[bucket])) {
+    if (Date.parse(value) < cutoff) delete state[bucket][key];
+  }
+}
+state.updatedAt = checkedAt;
 fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
