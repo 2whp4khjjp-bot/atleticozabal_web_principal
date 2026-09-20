@@ -81,15 +81,21 @@ function clean(value) {
     }
     const response = await page.goto(classificationSource, { waitUntil: 'domcontentloaded', timeout: 45000 });
     if (!response || !response.ok()) throw new Error('No se pudo abrir la clasificación RFEF');
-    const standing = await page.evaluate(() => {
+    const currentStanding = await page.evaluate(() => {
       const row = [...document.querySelectorAll('tr')].find(node => /atl[eé]tico zabal/i.test(node.innerText || ''));
       const cells = row ? [...row.querySelectorAll('td')].map(cell => cell.innerText.replace(/\s+/g, ' ').trim()) : [];
-      const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
-      return { position: number(1), points: number(3), played: number(4) };
+      const values = cells.filter(value => /^\d+$/.test(value)).map(Number);
+      return { position: values[0] ?? null, points: values[1] ?? null, played: values[2] ?? null };
     });
+    let standing = currentStanding;
     if (!standing || standing.position < 1 || standing.position > 18 ||
       standing.points === null || standing.played === null) {
-      throw new Error('No se pudo verificar la clasificación del Juvenil');
+      // La RFEF cambia ocasionalmente la estructura de esta tabla. La
+      // clasificación es complementaria y nunca debe impedir que se guarde
+      // un marcador oficial que sí se ha podido leer.
+      standing = previous.standing || null;
+      if (!standing) throw new Error('No se pudo verificar ni conservar la clasificación del Juvenil');
+      console.warn('Clasificación RFEF no legible; se conserva la última clasificación válida.');
     }
     const output = {
       source: calendarSource,
