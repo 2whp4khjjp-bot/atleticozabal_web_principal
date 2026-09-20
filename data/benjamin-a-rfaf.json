@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-09-19T13:14:32.966Z",
+  "updatedAt": "2026-09-20T13:00:54.404Z",
   "standing": {
     "position": 3,
     "points": 6,
@@ -21,8 +21,7 @@
       "score": [
         6,
         2
-      ],
-      "scoreSource": "rfaf-round-results"
+      ]
     },
     {
       "round": 2,
@@ -31,11 +30,7 @@
       "home": "TRASMALLO F.C. C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
-      "score": [
-        1,
-        2
-      ],
-      "scoreSource": "rfaf-round-results"
+      "score": null
     },
     {
       "round": 3,
