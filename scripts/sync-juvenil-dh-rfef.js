@@ -43,9 +43,15 @@ function clean(value) {
           const time = info.match(/\b(\d{2}:\d{2})\b/);
           const goals = [...(center?.querySelectorAll('.wid2_resultado_cerrada') || [])]
             .map(node => {
-              const digits = [...node.querySelectorAll('i[id^="idh"]')].map(icon => {
-                const value = String(icon.className || '').match(/(?:^|\s)fa-(\d)(?:\s|$)/);
-                return value ? value[1] : null;
+              const digits = [...node.querySelectorAll('[id^="idh"]')].map(icon => {
+                const classValue = String(icon.className || '').match(/(?:^|\s)fa-(\d)(?:\s|$)/);
+                if (classValue) return classValue[1];
+                const generated = getComputedStyle(icon, '::after').content || '';
+                const generatedValue = generated.match(/\d/);
+                if (generatedValue) return generatedValue[0];
+                const rule = node.querySelector('style')?.textContent || '';
+                const ruleValue = rule.match(/content\s*:\s*["'](\d)["']/);
+                return ruleValue ? ruleValue[1] : null;
               }).filter(Boolean);
               return digits.length ? digits.join('') : norm(node.innerText).match(/\d{1,2}/)?.[0] || null;
             }).filter(value => /^\d{1,2}$/.test(value || ''));
