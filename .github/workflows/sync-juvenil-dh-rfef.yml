@@ -1,6 +1,10 @@
 name: Sincronizar Juvenil DH · RFEF
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-juvenil-dh-rfef.yml'
+      - 'scripts/sync-juvenil-dh-rfef.js'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
