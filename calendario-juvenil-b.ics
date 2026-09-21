@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Atletico Zabal Linense//Juvenil B 2026-27//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlético Zabal · Juvenil B
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:zabal-juvenil-b-1@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:J1 · PEÑA RECREATIVA LOLUBA C.F. – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 1\nHora
+  pendiente\nCampo: Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)\n\nCreado po
+ r Raúl Cote
+LOCATION:Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-2@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:J2 · ATLETICO ZABAL – CD ATLETICO PASTORES ALGECIRAS "A"
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 2\nHora
+  pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LIN
+ EA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-3@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:J3 · PUENTE MAYORGA RVO – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 3\nHora
+  pendiente\nCampo: San Roque - MANUEL MATEO (F11\, F7) (A)\n\nCreado por 
+ Raúl Cote
+LOCATION:San Roque - MANUEL MATEO (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-4@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:J4 · ATLETICO ZABAL – REAL BALOMPEDICA LINENSE
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 4\nHora
+  pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LIN
+ EA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-5@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:J5 · C.D. GUADIARO – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 5\nHora
+  pendiente\nCampo: San Roque - LA UNION (F11\, F7) (A)\n\nCreado por Raú
+ l Cote
+LOCATION:San Roque - LA UNION (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-6@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:J6 · ATLETICO ZABAL – MONITORES FUTBOL DE ALGECIRAS
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 6\nHora
+  pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LIN
+ EA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-7@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:J7 · C.D. SALESIANOS ALGECIRAS – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 7\nHora
+  pendiente\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)\n
+ \nCreado por Raúl Cote
+LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-8@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:J8 · ATLETICO ZABAL – C.D. ATLETICO ALGECIREÑO
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 8\nHora
+  pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LIN
+ EA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-9@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:J9 · C.D. S.M. MIRADOR – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 9\nHora
+  pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nCreado por Raúl Cot
+ e
+LOCATION:Algeciras - Sergio Martín (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-10@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:J10 · ATLETICO ZABAL – U.D. LOS BARRIOS
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 10\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-11@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:J11 · C.D. JUVENTUD PALMONES C.F. – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 11\nHor
+ a pendiente\nCampo: Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLE
+ Z JAVI - PALMONES (F11-F7) (A)\n\nCreado por Raúl Cote
+LOCATION:Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PAL
+ MONES (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-12@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:J12 · PEÑA MADRIDISTA LINENSE "B" – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 12\nHor
+ a pendiente\nCampo: La Línea de La Concepción - PUYOL (A)\n\nCreado por
+  Raúl Cote
+LOCATION:La Línea de La Concepción - PUYOL (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-13@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:J13 · ATLETICO ZABAL – CAETARIA C.D.
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 13\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-14@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:J14 · ATLETICO ZABAL – PEÑA RECREATIVA LOLUBA C.F.
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 14\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-15@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:J15 · CD ATLETICO PASTORES ALGECIRAS "A" – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 15\nHor
+ a pendiente\nCampo: Algeciras - Juan Gadiaga Pastores (F11) (A)\n\nCreado
+  por Raúl Cote
+LOCATION:Algeciras - Juan Gadiaga Pastores (F11) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-16@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:J16 · ATLETICO ZABAL – PUENTE MAYORGA RVO
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 16\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-17@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:J17 · REAL BALOMPEDICA LINENSE – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 17\nHor
+ a pendiente\nCampo: La Línea de La Concepción - Francisco Pozo (A)\n\nC
+ reado por Raúl Cote
+LOCATION:La Línea de La Concepción - Francisco Pozo (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-18@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:J18 · ATLETICO ZABAL – C.D. GUADIARO
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 18\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-19@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:J19 · MONITORES FUTBOL DE ALGECIRAS – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 19\nHor
+ a pendiente\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)\
+ n\nCreado por Raúl Cote
+LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-20@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:J20 · ATLETICO ZABAL – C.D. SALESIANOS ALGECIRAS
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 20\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-21@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:J21 · C.D. ATLETICO ALGECIREÑO – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 21\nHor
+ a pendiente\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)\
+ n\nCreado por Raúl Cote
+LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-22@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:J22 · ATLETICO ZABAL – C.D. S.M. MIRADOR
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 22\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-23@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:J23 · U.D. LOS BARRIOS – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 23\nHor
+ a pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)\n\n
+ Creado por Raúl Cote
+LOCATION:Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-24@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:J24 · ATLETICO ZABAL – C.D. JUVENTUD PALMONES C.F.
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 24\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-25@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:J25 · ATLETICO ZABAL – PEÑA MADRIDISTA LINENSE "B"
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 25\nHor
+ a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
+ NEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-juvenil-b-26@atleticozabal.com
+DTSTAMP:20260921T083254Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:J26 · CAETARIA C.D. – ATLETICO ZABAL
+DESCRIPTION:Juvenil B · Cuarta Andaluza Cádiz · Grupo 4\nJornada 26\nHor
+ a pendiente\nCampo: Algeciras - SAN GARCIA (A)\n\nCreado por Raúl Cote
+LOCATION:Algeciras - SAN GARCIA (A)
+URL:https://www.atleticozabal.com/calendario-juvenil-b.html
+END:VEVENT
+END:VCALENDAR
