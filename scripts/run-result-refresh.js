@@ -5,6 +5,7 @@ const plan = JSON.parse(process.env.RESULT_REFRESH_PLAN || '[]');
 const commands = {
   senior: ['sync-senior-rfaf.js', 'render-senior-ics.js', 'validate-senior.js'],
   'juvenil-dh': ['sync-juvenil-dh-rfef.js', 'render-juvenil-dh-ics.js', 'validate-juvenil-dh.js'],
+  'juvenil-b': ['sync-juvenil-b-rfaf.js', 'render-juvenil-b-ics.js', 'validate-juvenil-b.js'],
   cadete: ['sync-cadete-rfaf.js', 'render-cadete-ics.js', 'validate-cadete.js'],
   'cadete-b': ['sync-cadete-b-rfaf.js', 'render-cadete-b-ics.js', 'validate-cadete-b.js'],
   'alevin-a': ['sync-alevin-a-rfaf.js', 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
@@ -19,6 +20,7 @@ const commands = {
 const teamFiles = {
   senior: 'data/senior-rfaf.json',
   'juvenil-dh': 'data/juvenil-dh-rfef.json',
+  'juvenil-b': 'data/juvenil-b-rfaf.json',
   cadete: 'data/cadete-rfaf.json',
   'cadete-b': 'data/cadete-b-rfaf.json',
   'alevin-a': 'data/alevin-a-rfaf.json',

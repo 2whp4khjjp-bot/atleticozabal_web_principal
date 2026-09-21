@@ -1,0 +1,60 @@
+name: Sincronizar Juvenil B · RFAF
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-juvenil-b-rfaf.js'
+      - 'scripts/render-juvenil-b-ics.js'
+      - 'scripts/validate-juvenil-b.js'
+      - '.github/workflows/sync-juvenil-b-rfaf.yml'
+  schedule:
+    - cron: '0 8 * * *'
+    - cron: '0 9 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-juvenil-b-rfaf
+  cancel-in-progress: true
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Comprobar hora peninsular
+        id: window
+        run: |
+          offset="$(TZ=Europe/Madrid date +%z)"
+          schedule='${{ github.event.schedule }}'
+          if [ '${{ github.event_name }}' != 'schedule' ] || \
+             { [ "$schedule" = '0 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '0 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar calendario y clasificación
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/sync-juvenil-b-rfaf.js
+      - name: Generar calendario de suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-juvenil-b-ics.js
+      - name: Validar página y suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-juvenil-b.js
+      - name: Publicar cambios oficiales
+        if: steps.window.outputs.run == 'true'
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/juvenil-b-rfaf.json calendario-juvenil-b.ics
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Actualiza partidos oficiales Juvenil B"
+          bash scripts/push-calendar-update.sh

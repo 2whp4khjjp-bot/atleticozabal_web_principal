@@ -2,6 +2,7 @@
   const sources = {
     'calendario-senior.html': 'data/senior-rfaf.json',
     'calendario-division-honor.html': 'data/juvenil-dh-rfef.json',
+    'calendario-juvenil-b.html': 'data/juvenil-b-rfaf.json',
     'calendario-cadete.html': 'data/cadete-rfaf.json',
     'calendario-cadete-b.html': 'data/cadete-b-rfaf.json',
     'calendario-infantil-a.html': 'data/infantil-a-rfaf.json',

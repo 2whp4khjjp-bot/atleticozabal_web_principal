@@ -10,15 +10,16 @@ function appendMatches(data,label){if(!Array.isArray(data.matches)||data.matches
 function render(){fixtures.sort((a,b)=>(a.date+' '+(a.time||'99:99')).localeCompare(b.date+' '+(b.time||'99:99')));const days=new Map;for(const match of fixtures){let section=days.get(match.date);if(!section){const date=new Date(match.date+'T12:00:00');section=add(main,'section','day');section.dataset.date=match.date;add(section,'h2','',new Intl.DateTimeFormat('es-ES',{weekday:'long',day:'numeric',month:'long'}).format(date));days.set(match.date,section);main.insertBefore(section,loading)}const home=/atl[eé]tico (zabal|atunara)|atunara atl[eé]tico/i.test(match.home);const article=add(section,'article','fixture');article.dataset.side=home?'home':'away';const info=add(article,'div','');add(info,'div','team',match.label);add(info,'div','match',match.home+' – '+match.away);add(info,'div','meta',(match.time||'Hora pendiente')+' · '+(match.ground||'Campo pendiente'));add(article,'span','tag'+(home?' home':''),(home?'🏠 CASA':'🚌 FUERA'))}}
 const loadCalendar=path=>fetch(path,{cache:'no-store'}).then(response=>response.ok?response.json():Promise.reject());
 Promise.all([
-  loadCalendar('data/senior-rfaf.json'),loadCalendar('data/juvenil-dh-rfef.json'),
+  loadCalendar('data/senior-rfaf.json'),loadCalendar('data/juvenil-dh-rfef.json'),loadCalendar('data/juvenil-b-rfaf.json'),
   loadCalendar('data/cadete-rfaf.json'),loadCalendar('data/cadete-b-rfaf.json'),loadCalendar('data/alevin-a-rfaf.json'),
   loadCalendar('data/alevin-c-rfaf.json'),loadCalendar('data/alevin-atunara-a-rfaf.json'),
   loadCalendar('data/alevin-zabal-c-rfaf.json'),loadCalendar('data/alevin-atunara-b-rfaf.json'),
   loadCalendar('data/infantil-a-rfaf.json'),loadCalendar('data/benjamin-a-rfaf.json'),
   loadCalendar('data/benjamin-b-rfaf.json')
-]).then(([senior,juvenil,cadeteA,cadeteB,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,benjaminA,benjaminB])=>{
+]).then(([senior,juvenil,juvenilB,cadeteA,cadeteB,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,benjaminA,benjaminB])=>{
   appendMatches(senior,'Sénior · Tercera Andaluza · Grupo único');
   appendMatches(juvenil,'Juvenil · División de Honor · Grupo 4');
+  appendMatches(juvenilB,'Juvenil B · Cuarta Andaluza · Grupo 4');
   appendMatches(cadeteA,'Cadete A · Segunda Andaluza · Grupo único');
   appendMatches(cadeteB,'Cadete · Machuca · Tercera Andaluza · Grupo 2');
   appendMatches(infantilA,'Infantil A · Segunda Andaluza · Grupo único');
