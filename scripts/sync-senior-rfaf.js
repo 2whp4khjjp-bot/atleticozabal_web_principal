@@ -23,11 +23,25 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
         .filter(el => /ATLETICO ZABAL/i.test(el.textContent || ''));
       return nodes.map((el, index) => {
         const row = el.closest('div.row');
+        const scoreCell = row.querySelectorAll('table td')[1];
         const cells = [...row.querySelectorAll('table td')].slice(0, 3)
           .map(cell => (cell.innerText || '').replace(/\s+/g, ' ').trim());
         const text = row.innerText || '';
         const date = text.match(/\b(\d{2})-(\d{2})-(\d{4})(?:\s*-\s*(\d{2}:\d{2}))?/);
-        const score = (cells[1] || '').match(/^(\d{1,2})(?:\s+|\s*[-–:]\s*)(\d{1,2})$/);
+        const scoreParts = scoreCell ? [...scoreCell.querySelectorAll('strong')].map(node => {
+          const visible = (node.innerText || '').match(/\d{1,2}/);
+          if (visible) return visible[0];
+          const coded = [...node.querySelectorAll('[id^="idh"]')].map(icon => {
+            const classValue = String(icon.className || '').match(/(?:^|\s)fa-(\d)(?:\s|$)/);
+            if (classValue) return classValue[1];
+            const generated = getComputedStyle(icon, '::after').content || '';
+            const generatedValue = generated.match(/\d/);
+            if (generatedValue) return generatedValue[0];
+            const rule = node.querySelector('style')?.textContent || '';
+            return rule.match(/content\s*:\s*["'](\d)["']/)?.[1] || null;
+          }).filter(Boolean);
+          return coded.length ? coded.join('') : null;
+        }).filter(value => /^\d{1,2}$/.test(value || '')) : [];
         const lines = text.split(/\n+/).map(line => line.trim()).filter(Boolean);
         return {
           round: index + 1,
@@ -36,7 +50,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
           home: cells[0] || null,
           away: cells[2] || null,
           ground: lines.length >= 3 ? lines[1] : null,
-          score: score ? [Number(score[1]), Number(score[2])] : null
+          score: scoreParts.length === 2 ? scoreParts.map(Number) : null
         };
       }).filter(match => !/^Descansa$/i.test(match.home || '') &&
         !/^Descansa$/i.test(match.away || ''));
@@ -69,7 +83,8 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     const standing = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
       points: number(teamIndex + 2),
-      played: number(teamIndex + 3),
+      played: number(teamIndex + 3) !== null && number(teamIndex + 7) !== null
+        ? number(teamIndex + 3) + number(teamIndex + 7) : null,
       goalsFor: number(teamIndex + 11),
       goalsAgainst: number(teamIndex + 12),
       round: Number(standingSample.roundLabel?.match(/\d+/)?.[0]) || null
