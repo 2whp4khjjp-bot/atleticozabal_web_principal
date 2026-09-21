@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-09-20T14:01:35.224Z",
+  "updatedAt": "2026-09-21T14:46:17.744Z",
   "standing": {
     "position": 15,
     "points": 2,
