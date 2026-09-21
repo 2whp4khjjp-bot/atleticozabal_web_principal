@@ -11,6 +11,9 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
+    const previous = fs.existsSync('data/senior-rfaf.json')
+      ? JSON.parse(fs.readFileSync('data/senior-rfaf.json', 'utf8'))
+      : { matches: [] };
     for (const url of [base + '/', group, source]) {
       const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
       if (!response.ok()) throw new Error('RFAF HTTP ' + response.status());
@@ -80,7 +83,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     const cells = standingSample?.cells || [];
     const teamIndex = cells.findIndex(value => /^ATLETICO ZABAL$/i.test(value));
     const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
-    const standing = teamIndex >= 1 ? {
+    const currentStanding = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
       points: number(teamIndex + 2),
       played: number(teamIndex + 3) !== null && number(teamIndex + 7) !== null
@@ -89,12 +92,17 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
       goalsAgainst: number(teamIndex + 12),
       round: Number(standingSample.roundLabel?.match(/\d+/)?.[0]) || null
     } : null;
+    let standing = currentStanding;
     if (!classificationResponse.ok ||
         !page.url().includes('NFG_VisClasificacion') ||
         !standing || standing.position < 1 || standing.position > 20 ||
         standing.points === null || standing.played === null ||
         standing.goalsFor === null || standing.goalsAgainst === null) {
-      throw new Error('No se puede verificar la clasificación del Sénior');
+      // La clasificación es complementaria: un cambio en su tabla no debe
+      // impedir que se publiquen marcadores que sí se han leído del calendario.
+      standing = previous.standing || null;
+      if (!standing) throw new Error('No se puede verificar ni conservar la clasificación del Sénior');
+      console.warn('Clasificación RFAF no legible; se conserva la última clasificación válida.');
     }
     // Un solo partido oficial permite deducir su marcador del total de goles de la tabla.
     if (standing.played === 1 && matches[0].score === null &&
