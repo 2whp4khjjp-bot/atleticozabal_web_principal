@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-09-21T08:00:37.746Z",
+  "updatedAt": "2026-09-21T15:03:31.931Z",
   "standing": {
     "position": 3,
     "points": 6,
@@ -32,17 +32,13 @@
       "home": "TRASMALLO F.C. C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
-      "score": [
-        1,
-        2
-      ],
-      "scoreSource": "rfaf-round-results",
+      "score": null,
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723"
     },
     {
       "round": 3,
       "date": "2026-09-26",
-      "time": null,
+      "time": "16:30",
       "home": "ATLETICO ZABAL",
       "away": "C.F. SAN JOSE OBRERO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
