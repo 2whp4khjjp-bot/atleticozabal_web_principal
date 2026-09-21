@@ -1,6 +1,10 @@
 name: Sincronizar Sénior · RFAF
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-senior-rfaf.yml'
+      - 'scripts/sync-senior-rfaf.js'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
