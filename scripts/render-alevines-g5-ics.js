@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 const teams = [
-  { key: 'alevin-zabal-c', name: 'Alevín C · David', page: 'calendario-alevin-zabal-c.html' },
+  { key: 'alevin-zabal-c', name: 'Alevín · David', page: 'calendario-alevin-zabal-c.html' },
   { key: 'alevin-atunara-b', name: 'Alevín Atunara B · Adrián', page: 'calendario-alevin-atunara-b.html' }
 ];
 const escape = value => String(value).replace(/\u00a0/g, ' ').replace(/\\/g, '\\\\')

@@ -18,9 +18,9 @@ function fold(line) {
   return result;
 }
 const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0',
-  'PRODID:-//Atletico Zabal Linense//Benjamin B 2026-27//ES',
+  'PRODID:-//Atletico Zabal Linense//Benjamin J. del Rio 2026-27//ES',
   'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
-  'X-WR-CALNAME:Atlético Zabal · Benjamín B',
+  'X-WR-CALNAME:Atlético Zabal · Benjamín · J. del Río',
   'X-WR-TIMEZONE:Europe/Madrid'];
 for (const match of data.matches) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date) || !match.home || !match.away) {

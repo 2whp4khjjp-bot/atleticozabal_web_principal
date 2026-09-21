@@ -18,9 +18,9 @@ function fold(line) {
   return result;
 }
 const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0',
-  'PRODID:-//Atletico Zabal Linense//Cadete B 2026-27//ES',
+  'PRODID:-//Atletico Zabal Linense//Cadete Machuca 2026-27//ES',
   'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
-  'X-WR-CALNAME:Atlético Zabal · Cadete B',
+  'X-WR-CALNAME:Atlético Zabal · Cadete · Machuca',
   'X-WR-TIMEZONE:Europe/Madrid'];
 for (const match of data.matches) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date) || !match.home || !match.away) {

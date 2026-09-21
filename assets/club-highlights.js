@@ -101,6 +101,10 @@
     '/calendario-alevin-zabal-c.html': 'data/alevin-zabal-c-rfaf.json',
     '/calendario-alevin-atunara-b.html': 'data/alevin-atunara-b-rfaf.json'
   };
+  const calendarNames = {
+    '/calendario-cadete-b.html': 'Cadete · Machuca',
+    '/calendario-benjamin.html': 'Benjamín · J. del Río'
+  };
   let actaMatches = null;
 
   function applyActaLinks() {
@@ -120,6 +124,15 @@
   }
 
   const dataUrl = calendarData[location.pathname];
+  const calendarName = calendarNames[location.pathname];
+  if (calendarName) {
+    document.title = calendarName + ' | Atlético Zabal';
+    const eyebrow = document.querySelector('.ey');
+    if (eyebrow) {
+      const category = eyebrow.textContent.split(' · ').slice(1).join(' · ');
+      eyebrow.textContent = calendarName + (category ? ' · ' + category : '');
+    }
+  }
   if (dataUrl) {
     fetch(dataUrl, { cache: 'no-store' })
       .then(response => response.ok ? response.json() : Promise.reject())
