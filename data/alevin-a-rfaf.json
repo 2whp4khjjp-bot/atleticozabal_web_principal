@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48893775&codgrupo=48894181&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48894181&codcompeticion=48893775",
-  "updatedAt": "2026-09-20T13:00:50.412Z",
+  "updatedAt": "2026-09-21T08:00:32.879Z",
   "standing": {
     "position": 1,
     "points": 3,
@@ -19,10 +19,10 @@
       "away": "C.D. SAN ROQUE",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        11,
+        1,
         1
       ],
-      "scoreSource": "classification-inference-single-match"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2649944&cod_acta=2649944"
     },
     {
       "round": 2,
