@@ -1,6 +1,11 @@
 name: Sincronizar Alevines Grupo 4 · RFAF
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-alevines-g4-rfaf.yml'
+      - 'scripts/sync-alevines-g4-rfaf.js'
+      - 'scripts/rfaf-actas.js'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'

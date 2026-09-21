@@ -1,6 +1,11 @@
 name: Sincronizar Cadete · RFAF
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-cadete-rfaf.yml'
+      - 'scripts/sync-cadete-rfaf.js'
+      - 'scripts/rfaf-actas.js'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'

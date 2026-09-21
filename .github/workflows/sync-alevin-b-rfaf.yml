@@ -1,6 +1,11 @@
 name: Sincronizar Infantil A · RFAF
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-alevin-b-rfaf.yml'
+      - 'scripts/sync-infantil-a-rfaf.js'
+      - 'scripts/rfaf-actas.js'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
