@@ -2,6 +2,7 @@
 // Nunca almacena cookies ni el HTML completo.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
+const { attachRfafActas } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1';
@@ -64,6 +65,9 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       matchesByTeam[team.key] = matches;
     }
 
+    await attachRfafActas(page, Object.values(matchesByTeam).flat(), {
+      base, competition: '49286744', group: '49286942'
+    });
     const response = await page.goto(classificationSource, {
       waitUntil: 'domcontentloaded', timeout: 45000
     });

@@ -2,6 +2,7 @@
 // Nunca almacena cookies ni el HTML completo.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
+const { attachRfafActas } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1';
@@ -63,6 +64,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       throw new Error('El calendario del Cadete B no coincide con el grupo esperado (' + matches.length + ')');
     }
 
+    await attachRfafActas(page, matches, { base, competition: '49189596', group: '49196403' });
     const response = await page.goto(classificationSource, {
       waitUntil: 'domcontentloaded', timeout: 45000
     });

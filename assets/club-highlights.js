@@ -85,6 +85,49 @@
       if (heading && isClubTeam(heading.textContent)) highlightCardTitle(heading);
     }
     document.querySelectorAll('.team').forEach(highlightAgendaLabel);
+    applyActaLinks();
+  }
+
+  const calendarData = {
+    '/calendario-senior.html': 'data/senior-rfaf.json',
+    '/calendario-cadete.html': 'data/cadete-rfaf.json',
+    '/calendario-cadete-b.html': 'data/cadete-b-rfaf.json',
+    '/calendario-infantil-a.html': 'data/infantil-a-rfaf.json',
+    '/calendario-alevin-a.html': 'data/alevin-a-rfaf.json',
+    '/calendario-benjamin-a.html': 'data/benjamin-a-rfaf.json',
+    '/calendario-benjamin.html': 'data/benjamin-b-rfaf.json',
+    '/calendario-alevin-c.html': 'data/alevin-c-rfaf.json',
+    '/calendario-alevin-atunara-a.html': 'data/alevin-atunara-a-rfaf.json',
+    '/calendario-alevin-zabal-c.html': 'data/alevin-zabal-c-rfaf.json',
+    '/calendario-alevin-atunara-b.html': 'data/alevin-atunara-b-rfaf.json'
+  };
+  let actaMatches = null;
+
+  function applyActaLinks() {
+    if (!actaMatches) return;
+    [...document.querySelectorAll('.game')].forEach((game, index) => {
+      const match = actaMatches[index];
+      if (!match?.actaUrl || !Array.isArray(match.score) || match.score.length !== 2 ||
+          game.querySelector('.acta-link')) return;
+      const link = document.createElement('a');
+      link.className = 'acta-link';
+      link.href = match.actaUrl;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = 'Ver acta oficial';
+      game.append(link);
+    });
+  }
+
+  const dataUrl = calendarData[location.pathname];
+  if (dataUrl) {
+    fetch(dataUrl, { cache: 'no-store' })
+      .then(response => response.ok ? response.json() : Promise.reject())
+      .then(data => {
+        actaMatches = Array.isArray(data.matches) ? data.matches : [];
+        applyActaLinks();
+      })
+      .catch(() => {});
   }
 
   const observer = new MutationObserver(applyHighlights);

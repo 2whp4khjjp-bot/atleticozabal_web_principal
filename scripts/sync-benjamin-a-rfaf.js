@@ -2,6 +2,7 @@
 // Nunca almacena ni registra cookies o el HTML completo.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
+const { attachRfafActas } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1';
@@ -84,6 +85,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
         match.scoreSource = 'rfaf-round-results';
       }
     }
+    await attachRfafActas(page, matches, { base, competition: '48909542', group: '48909586' });
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542';
     const classificationResponse = await page.goto(classificationUrl, {
       waitUntil: 'domcontentloaded', timeout: 45000
