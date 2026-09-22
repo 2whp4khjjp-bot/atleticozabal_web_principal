@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558",
-  "updatedAt": "2026-09-21T14:45:40.867Z",
+  "updatedAt": "2026-09-22T13:00:17.641Z",
   "standing": {
     "position": 2,
     "points": 3,
@@ -22,12 +22,12 @@
         1,
         3
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NFG_CmpPartido?cod_primaria=1000120&CodActa=2641655&cod_acta=2641655"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2641659&cod_acta=2641659"
     },
     {
       "round": 2,
       "date": "2026-09-26",
-      "time": null,
+      "time": "18:00",
       "home": "ATLETICO ZABAL",
       "away": "C.D. SAN ROQUE",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
