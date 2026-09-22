@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-09-21T08:32:54.096Z",
+  "updatedAt": "2026-09-22T13:11:49.231Z",
   "standing": {
     "position": 2,
     "points": 0,
@@ -13,8 +13,8 @@
   "matches": [
     {
       "round": 1,
-      "date": "2026-09-27",
-      "time": null,
+      "date": "2026-09-26",
+      "time": "13:15",
       "home": "PEÑA RECREATIVA LOLUBA C.F.",
       "away": "ATLETICO ZABAL",
       "ground": "Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)",
