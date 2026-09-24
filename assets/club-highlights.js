@@ -58,7 +58,7 @@
   function highlightAgendaLabel(element) {
     if (element.dataset.coachHighlight === '1') return;
     const parts = element.textContent.trim().split(/\s*·\s*/);
-    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián|Machuca|J\. del Río)$/i.test(part));
+    const coachIndex = parts.findIndex(part => /^(Berrocal|Cristian|David|Adrián|J\. del Río)$/i.test(part));
     if (coachIndex < 0) return;
     const fragment = document.createDocumentFragment();
     parts.forEach((part, index) => {
@@ -103,7 +103,7 @@
     '/calendario-alevin-atunara-b.html': 'data/alevin-atunara-b-rfaf.json'
   };
   const calendarNames = {
-    '/calendario-cadete-b.html': 'Cadete · Machuca',
+    '/calendario-cadete-b.html': 'Cadete B',
     '/calendario-benjamin.html': 'Benjamín · J. del Río'
   };
   let actaMatches = null;

@@ -65,6 +65,65 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       matchesByTeam[team.key] = matches;
     }
 
+    // El calendario general no siempre muestra los marcadores cerrados.
+    // Recuperamos las jornadas ya disputadas desde la página oficial de
+    // resultados, que es donde la RFAF publica el resultado definitivo.
+    const today = new Intl.DateTimeFormat('sv-SE', {
+      timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date());
+    const pastRounds = [...new Set(groupMatches
+      .filter(match => match.score === null && match.date <= today &&
+        (officialNames.includes(normal(match.home)) || officialNames.includes(normal(match.away))))
+      .map(match => match.round))]
+      .filter(Boolean)
+      .sort((a, b) => a - b);
+
+    for (const round of pastRounds) {
+      const resultsUrl = base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
+        '&CodCompeticion=49286744&CodGrupo=49286942&CodTemporada=22' +
+        '&cod_agrupacion=1&CodJornada=' + round +
+        '&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=2';
+      const resultsResponse = await page.goto(resultsUrl, {
+        waitUntil: 'domcontentloaded', timeout: 45000
+      });
+      if (!resultsResponse.ok() || !page.url().includes('NFG_CmpJornada')) continue;
+
+      const roundMatches = groupMatches.filter(match => match.round === round &&
+        match.score === null && match.date <= today &&
+        (officialNames.includes(normal(match.home)) || officialNames.includes(normal(match.away))));
+      for (const match of roundMatches) {
+        const officialScore = await page.evaluate(({ home, away }) => {
+          const normalize = value => String(value || '').replace(/\s+/g, ' ').trim().toUpperCase();
+          const row = [...document.querySelectorAll('tr')].find(candidate => {
+            const cells = [...candidate.children].filter(child => child.tagName === 'TD');
+            return cells.length === 3 && normalize(cells[0].innerText) === normalize(home) &&
+              normalize(cells[2].innerText) === normalize(away);
+          });
+          if (!row) return null;
+          const scoreSpans = [...row.querySelectorAll('span.wid2_resultado_cerrada')];
+          if (scoreSpans.length !== 2) return null;
+          const readScore = span => {
+            const visible = (span.innerText || '').match(/\d+/);
+            if (visible) return Number(visible[0]);
+            const digits = [...span.querySelectorAll('[id]')].map(element => {
+              const digitClass = [...element.classList].find(name => /^fa-\d$/.test(name));
+              if (digitClass) return digitClass.slice(3);
+              const content = getComputedStyle(element, '::before').content || '';
+              const rendered = content.match(/\d/);
+              return rendered ? rendered[0] : '';
+            }).join('');
+            return /^\d+$/.test(digits) ? Number(digits) : null;
+          };
+          const score = scoreSpans.map(readScore);
+          return score.every(value => value !== null) ? score : null;
+        }, { home: match.home, away: match.away });
+        if (officialScore) {
+          match.score = officialScore;
+          match.scoreSource = 'rfaf-round-results';
+        }
+      }
+    }
+
     await attachRfafActas(page, Object.values(matchesByTeam).flat(), {
       base, competition: '49286744', group: '49286942'
     });
@@ -89,7 +148,8 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       const standing = teamIndex >= 1 ? {
         position: number(cells, teamIndex - 1),
         points: number(cells, teamIndex + 2),
-        played: number(cells, teamIndex + 3),
+        played: (number(cells, teamIndex + 3) ?? 0) +
+          (number(cells, teamIndex + 7) ?? 0),
         goalsFor: number(cells, teamIndex + 11),
         goalsAgainst: number(cells, teamIndex + 12),
         round: Number(roundLabel?.match(/\d+/)?.[0]) || null
