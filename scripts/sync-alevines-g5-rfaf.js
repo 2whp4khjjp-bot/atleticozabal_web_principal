@@ -76,11 +76,11 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
 
     // El calendario general conserva fechas y horarios, pero la RFAF publica
     // los marcadores definitivos en la página concreta de cada jornada.
-    const today = new Intl.DateTimeFormat('sv-SE', {
+    const resultsHorizon = new Intl.DateTimeFormat('sv-SE', {
       timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
-    }).format(new Date());
+    }).format(new Date(Date.now() + 7 * 24 * 60 * 60 * 1000));
     const pastRounds = [...new Set(groupMatches
-      .filter(match => match.score === null && match.date <= today &&
+      .filter(match => match.score === null && match.date <= resultsHorizon &&
         (officialNames.includes(normal(match.home)) ||
           officialNames.includes(normal(match.away))))
       .map(match => match.round))]
@@ -98,11 +98,11 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       if (!resultsResponse.ok() || !page.url().includes('NFG_CmpJornada')) continue;
 
       const roundMatches = groupMatches.filter(match => match.round === round &&
-        match.score === null && match.date <= today &&
+        match.score === null && match.date <= resultsHorizon &&
         (officialNames.includes(normal(match.home)) ||
           officialNames.includes(normal(match.away))));
       for (const match of roundMatches) {
-        const officialScore = await page.evaluate(({ home, away }) => {
+        const officialDetails = await page.evaluate(({ home, away }) => {
           const normalize = value => String(value || '')
             .replace(/\s+/g, ' ').trim().toUpperCase();
           const row = [...document.querySelectorAll('tr')].find(candidate => {
@@ -112,7 +112,6 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
           });
           if (!row) return null;
           const scoreSpans = [...row.querySelectorAll('span.wid2_resultado_cerrada')];
-          if (scoreSpans.length !== 2) return null;
           const readScore = span => {
             const visible = (span.innerText || '').match(/\d+/);
             if (visible) return Number(visible[0]);
@@ -126,11 +125,23 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
             }).join('');
             return /^\d+$/.test(digits) ? Number(digits) : null;
           };
-          const score = scoreSpans.map(readScore);
-          return score.every(value => value !== null) ? score : null;
+          const score = scoreSpans.length === 2 ? scoreSpans.map(readScore) : null;
+          const text = row.innerText || '';
+          const kickoff = text.match(/\b(\d{2})-(\d{2})-(\d{4})\s+(\d{2}:\d{2})\b/);
+          const acta = [...row.querySelectorAll('a')].find(link =>
+            /Acta del partido/i.test(link.getAttribute('title') || link.innerText || ''));
+          return {
+            score: score && score.every(value => value !== null) ? score : null,
+            date: kickoff ? kickoff[3] + '-' + kickoff[2] + '-' + kickoff[1] : null,
+            time: kickoff ? kickoff[4] : null,
+            actaUrl: acta ? acta.href : null
+          };
         }, { home: match.home, away: match.away });
-        if (officialScore) {
-          match.score = officialScore;
+        if (officialDetails?.date) match.date = officialDetails.date;
+        if (officialDetails?.time) match.time = officialDetails.time;
+        if (officialDetails?.actaUrl) match.actaUrl = officialDetails.actaUrl;
+        if (officialDetails?.score) {
+          match.score = officialDetails.score;
           match.scoreSource = 'rfaf-round-results';
         }
       }
