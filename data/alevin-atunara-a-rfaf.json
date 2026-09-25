@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-09-25T13:03:56.871Z",
+  "updatedAt": "2026-09-25T18:26:00.000Z",
   "standing": {
-    "position": 7,
-    "points": 3,
-    "played": 1,
-    "goalsFor": 2,
-    "goalsAgainst": 1,
-    "round": 1
+    "position": 3,
+    "points": 6,
+    "played": 2,
+    "goalsFor": 10,
+    "goalsAgainst": 2,
+    "round": 2
   },
   "matches": [
     {
@@ -32,7 +32,11 @@
       "home": "ATLETICO ATUNARA C.D. \"A\"",
       "away": "U.D. TESORILLO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": [
+        8,
+        1
+      ],
+      "scoreSource": "rfaf-calendar-official"
     },
     {
       "round": 3,
