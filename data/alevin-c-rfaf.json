@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-09-25T13:03:56.871Z",
+  "updatedAt": "2026-09-25T19:02:06.989Z",
   "standing": {
     "position": 10,
     "points": 0,
@@ -32,7 +32,12 @@
       "home": "PUENTE MAYORGA RVO \"A\"",
       "away": "ATLETICO ZABAL \"A\"",
       "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
-      "score": null
+      "score": [
+        4,
+        6
+      ],
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709884&cod_acta=2709884"
     },
     {
       "round": 3,
