@@ -13,6 +13,32 @@ const teams = [
   { key: 'alevin-atunara-b', official: 'ATUNARA ATLETICO C.D. "B"', label: 'Alevín Atunara B' }
 ];
 const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
+const oldMatchesByTeam = Object.fromEntries(teams.map(team => {
+  try {
+    const old = JSON.parse(fs.readFileSync('data/' + team.key + '-rfaf.json', 'utf8'));
+    return [team.key, old.matches || []];
+  } catch {
+    return [team.key, []];
+  }
+}));
+function hasScore(score) {
+  return Array.isArray(score) && score.length === 2 &&
+    score.every(value => value !== null && value !== undefined &&
+      String(value).trim() !== '' && Number.isFinite(Number(value)));
+}
+function preserveKnownScores(matches, previousMatches) {
+  for (const match of matches) {
+    if (hasScore(match.score)) continue;
+    const previous = previousMatches.find(old =>
+      Number(old.round) === Number(match.round) &&
+      normal(old.home) === normal(match.home) &&
+      normal(old.away) === normal(match.away));
+    if (!previous || !hasScore(previous.score)) continue;
+    match.score = previous.score;
+    match.scoreSource = previous.scoreSource || 'preserved-existing-score';
+    if (!match.actaUrl && previous.actaUrl) match.actaUrl = previous.actaUrl;
+  }
+}
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
@@ -183,6 +209,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
         throw new Error('No se puede verificar la clasificación del ' + team.label);
       }
       const matches = matchesByTeam[team.key];
+      preserveKnownScores(matches, oldMatchesByTeam[team.key]);
       if (standing.played === 1 && matches[0].score === null &&
           matches[0].date < matches[1].date) {
         const home = normal(matches[0].home) === team.official;

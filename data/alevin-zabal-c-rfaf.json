@@ -32,8 +32,12 @@
       "home": "ATLETICO ZABAL \"B\"",
       "away": "PUENTE MAYORGA RVO. \"B\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null,
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2710121&cod_acta=2710121"
+      "score": [
+        9,
+        2
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2710121&cod_acta=2710121",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 3,

@@ -24,10 +24,13 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
 .fixtures{position:absolute;left:0;right:0;top:48px;bottom:0;overflow:hidden}
 .fixture{float:left;width:49.3%;height:calc(50% - 6px);margin-bottom:12px;padding:12px 14px 10px 16px;background:#0871c8;border-left:7px solid #f4c800;border-radius:12px;position:relative;overflow:hidden}
 .fixture.odd{margin-right:1.4%}
-.fixtureTop{height:27px;position:relative;padding-right:110px}
+.fixtureTop{height:27px;position:relative;padding-right:165px}
 .category{color:#d8edff;font-size:13px;line-height:18px;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .time{position:absolute;right:0;top:-4px;color:#fff;font-size:27px;line-height:30px;font-weight:bold}
-.time.final{color:#f4c800}
+.time.final{color:#f4c800;white-space:nowrap}
+.resultMark{display:inline-flex;align-items:center;justify-content:center;width:21px;height:21px;margin-left:5px;border-radius:50%;font-size:16px;line-height:1;vertical-align:middle}
+.resultMark.win{background:#54df8a;color:#102b50}
+.resultMark.loss{background:#ef5b62;color:#fff}
 .teams{position:absolute;left:16px;right:14px;top:43px;bottom:45px;display:table;width:calc(100% - 30px)}
 .teamRow{display:table-row;color:#fff;font-size:22px;line-height:25px;font-weight:bold}
 .teamName,.teamPos{display:table-cell;vertical-align:middle;padding:1px 0}
@@ -61,7 +64,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
  .dayCount{font-size:17px;top:11px}
  .fixtures{top:62px}
  .fixture{height:calc(50% - 9px);margin-bottom:18px;padding:18px 20px 14px 22px;border-left-width:9px;border-radius:16px}
- .fixtureTop{height:36px;padding-right:145px}
+ .fixtureTop{height:36px;padding-right:200px}
+ .resultMark{width:28px;height:28px;margin-left:7px;font-size:21px}
  .category{font-size:17px;line-height:23px}
  .time{font-size:38px;line-height:40px}
  .teams{left:22px;right:20px;top:60px;bottom:58px;width:calc(100% - 42px)}
@@ -131,7 +135,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function categoryName(label){var parts=String(label||'').split(/\s*·\s*/),html=[],i;for(i=0;i<parts.length;i++)html.push(coachWords.indexOf(parts[i].toUpperCase())!==-1?'<span class="coachName">'+esc(parts[i])+'</span>':esc(parts[i]));return html.join(' · ')}
   function rankLabel(value){return value?value+'.º':'—'}
   function teamRow(name,position){return '<div class="teamRow'+(isClub(name)?' ours':'')+'"><span class="teamName">'+esc(name)+'</span><span class="teamPos">'+esc(rankLabel(position))+'</span></div>'}
-  function makeFixture(m,index){var home=isClub(m.home),final=Object.prototype.toString.call(m.score)==='[object Array]'&&m.score.length===2,headline=final?m.score[0]+'–'+m.score[1]:(m.time||'—');return '<div class="fixture'+(index%2===0?' odd':'')+'"><div class="fixtureTop"><div class="category">'+categoryName(m.label)+' · J'+esc(m.round)+'</div><span class="time'+(final?' final':'')+'">'+esc(headline)+'</span></div><div class="teams">'+teamRow(m.home,m.homePosition)+teamRow(m.away,m.awayPosition)+'</div><div class="fixtureFoot"><span class="ground">'+esc((m.time||'Hora pendiente')+' · '+cleanGround(m.ground))+'</span><span class="side'+(home?' home':'')+'">'+(home?'⌂ CASA':'▣ FUERA')+'</span></div></div>'}
+  function makeFixture(m,index){var home=isClub(m.home),away=isClub(m.away),score=m.score,valid=Object.prototype.toString.call(score)==='[object Array]'&&score.length===2&&score.every(function(value){return value!==null&&value!==undefined&&String(value).trim()!==''&&isFinite(Number(value))}),values=valid?[Number(score[0]),Number(score[1])]:null,final=!!values,headline=final?values[0]+'–'+values[1]:(m.time||'—'),mark='';if(final&&home!==away){var won=home?values[0]>values[1]:values[1]>values[0],lost=home?values[0]<values[1]:values[1]<values[0];if(won)mark=' <span class="resultMark win" role="img" aria-label="Victoria">✓</span>';else if(lost)mark=' <span class="resultMark loss" role="img" aria-label="Derrota">✕</span>'}return '<div class="fixture'+(index%2===0?' odd':'')+'"><div class="fixtureTop"><div class="category">'+categoryName(m.label)+' · J'+esc(m.round)+'</div><span class="time'+(final?' final':'')+'">'+esc(headline)+mark+'</span></div><div class="teams">'+teamRow(m.home,m.homePosition)+teamRow(m.away,m.awayPosition)+'</div><div class="fixtureFoot"><span class="ground">'+esc((m.time||'Hora pendiente')+' · '+cleanGround(m.ground))+'</span><span class="side'+(home?' home':'')+'">'+(home?'⌂ CASA':'▣ FUERA')+'</span></div></div>'}
   function render(){if(!pages.length){daysNode.innerHTML='<div class="message">No hay partidos publicados esta semana.</div>';pagerNode.innerHTML='';return}var page=pages[pageIndex],html='',dots='',i,countText;countText=page.matches.length+(page.matches.length===1?' partido':' partidos');if(page.dayParts>1)countText+=' · bloque '+page.dayPart+' de '+page.dayParts;countText+=' · pantalla '+(pageIndex+1)+' de '+pages.length;html='<div class="dayHead"><h2 class="dayName">'+esc(formatDay(page.date))+'</h2><span class="dayCount">'+esc(countText)+'</span></div><div class="fixtures">';for(i=0;i<page.matches.length;i++)html+=makeFixture(page.matches[i],i);html+='</div>';daysNode.innerHTML=html;for(i=0;i<pages.length;i++)dots+='<span class="dot'+(i===pageIndex?' active':'')+'"></span>';pagerNode.innerHTML=dots}
   function buildPages(fixtures){var grouped={},groups=[],i,j,m,g,totalParts;fixtures.sort(function(a,b){var aa=a.date+' '+(a.time||'99:99'),bb=b.date+' '+(b.time||'99:99');return aa<bb?-1:(aa>bb?1:0)});for(i=0;i<fixtures.length;i++){m=fixtures[i];if(!grouped[m.date]){grouped[m.date]={date:m.date,matches:[]};groups.push(grouped[m.date])}grouped[m.date].matches.push(m)}if(groups.length>9)groups=groups.slice(0,9);pages=[];for(i=0;i<groups.length;i++){g=groups[i];totalParts=Math.ceil(g.matches.length/4);for(j=0;j<g.matches.length;j+=4)pages.push({date:g.date,matches:g.matches.slice(j,j+4),total:g.matches.length,dayPart:Math.floor(j/4)+1,dayParts:totalParts})}pageIndex=0;render();if(rotationTimer)window.clearInterval(rotationTimer);if(pages.length>1)rotationTimer=window.setInterval(function(){pageIndex=(pageIndex+1)%pages.length;render()},12000)}
   function requestJSON(url,done){var xhr;try{xhr=new XMLHttpRequest()}catch(e){done(null);return}xhr.onreadystatechange=function(){if(xhr.readyState===4){if(xhr.status>=200&&xhr.status<300){try{done(JSON.parse(xhr.responseText))}catch(e){done(null)}}else done(null)}};xhr.open('GET',url+(url.indexOf('?')===-1?'?':'&')+'v='+(new Date().getTime()),true);try{xhr.setRequestHeader('Cache-Control','no-cache')}catch(e){}xhr.send(null)}
