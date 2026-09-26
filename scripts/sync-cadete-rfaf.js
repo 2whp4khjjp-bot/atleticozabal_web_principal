@@ -86,6 +86,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         console.warn('Fuente alternativa de marcadores no disponible: ' + scoreSource);
         continue;
       }
+      await page.waitForLoadState('domcontentloaded', { timeout: 10000 }).catch(() => {});
       const rows = await page.evaluate(() => {
         const nodes = [...new Set([
           ...document.querySelectorAll('tr'),
@@ -140,19 +141,19 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         return {
           cells: [...row.querySelectorAll('td')].map(el => (el.innerText || '').trim()),
           heading: (row.closest('table')?.querySelector('thead')?.innerText || '').trim().slice(0, 400),
-          roundLabel: (document.body.innerText || '').match(/Jornada\\s+\\d+/i)?.[0] || null
+          roundLabel: (document.body.innerText || '').match(/Jornada\s+\d+/i)?.[0] || null
         };
       });
       const cells = standingSample?.cells || [];
       const teamIndex = cells.findIndex(value => /^ATLETICO ZABAL$/i.test(value));
-      const number = index => /^\\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
+      const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
       const freshStanding = teamIndex >= 1 ? {
         position: number(teamIndex - 1),
         points: number(teamIndex + 2),
         played: number(teamIndex + 3),
         goalsFor: number(teamIndex + 11),
         goalsAgainst: number(teamIndex + 12),
-        round: Number(standingSample.roundLabel?.match(/\\d+/)?.[0]) || null
+        round: Number(standingSample.roundLabel?.match(/\d+/)?.[0]) || null
       } : null;
       if (classificationResponse?.ok() && page.url().includes('NFG_VisClasificacion') &&
           freshStanding && freshStanding.position >= 1 && freshStanding.position <= 20 &&
