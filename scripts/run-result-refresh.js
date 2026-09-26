@@ -3,19 +3,20 @@ const { spawnSync } = require('node:child_process');
 
 const plan = JSON.parse(process.env.RESULT_REFRESH_PLAN || '[]');
 const commands = {
-  senior: ['sync-senior-rfaf.js', 'render-senior-ics.js', 'validate-senior.js'],
+  senior: [['sync-rfaf-results.js', 'senior'], 'render-senior-ics.js', 'validate-senior.js'],
   'juvenil-dh': ['sync-juvenil-dh-rfef.js', 'render-juvenil-dh-ics.js', 'validate-juvenil-dh.js'],
-  'juvenil-b': ['sync-juvenil-b-rfaf.js', 'render-juvenil-b-ics.js', 'validate-juvenil-b.js'],
-  cadete: ['sync-cadete-rfaf.js', 'render-cadete-ics.js', 'validate-cadete.js'],
-  'cadete-b': ['sync-cadete-b-rfaf.js', 'render-cadete-b-ics.js', 'validate-cadete-b.js'],
-  'alevin-a': ['sync-alevin-a-rfaf.js', 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
-  'alevin-c': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
-  'alevin-atunara-a': ['sync-alevines-g4-rfaf.js', 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
-  'alevin-zabal-c': ['sync-alevines-g5-rfaf.js', 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
-  'alevin-atunara-b': ['sync-alevines-g5-rfaf.js', 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
-  'infantil-a': ['sync-infantil-a-rfaf.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
-  'benjamin-a': ['sync-benjamin-a-rfaf.js', 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
-  'benjamin-b': ['sync-benjamin-b-rfaf.js', 'render-benjamin-b-ics.js', 'validate-benjamin-b.js']
+  'juvenil-b': [['sync-rfaf-results.js', 'juvenil-b'], 'render-juvenil-b-ics.js', 'validate-juvenil-b.js'],
+  cadete: [['sync-rfaf-results.js', 'cadete'], 'render-cadete-ics.js', 'validate-cadete.js'],
+  'cadete-b': [['sync-rfaf-results.js', 'cadete-b'], 'render-cadete-b-ics.js', 'validate-cadete-b.js'],
+  'alevin-a': [['sync-rfaf-results.js', 'alevin-a'], 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
+  'alevin-b': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-alevin-b-ics.js', 'validate-alevin-b.js'],
+  'alevin-c': [['sync-rfaf-results.js', 'alevines-g4'], 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
+  'alevin-atunara-a': [['sync-rfaf-results.js', 'alevines-g4'], 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
+  'alevin-zabal-c': [['sync-rfaf-results.js', 'alevines-g5'], 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
+  'alevin-atunara-b': [['sync-rfaf-results.js', 'alevines-g5'], 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
+  'infantil-a': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
+  'benjamin-a': [['sync-rfaf-results.js', 'benjamin-a'], 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
+  'benjamin-b': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js']
 };
 const teamFiles = {
   senior: 'data/senior-rfaf.json',
@@ -24,6 +25,7 @@ const teamFiles = {
   cadete: 'data/cadete-rfaf.json',
   'cadete-b': 'data/cadete-b-rfaf.json',
   'alevin-a': 'data/alevin-a-rfaf.json',
+  'alevin-b': 'data/alevin-b-rfaf.json',
   'alevin-c': 'data/alevin-c-rfaf.json',
   'alevin-atunara-a': 'data/alevin-atunara-a-rfaf.json',
   'alevin-zabal-c': 'data/alevin-zabal-c-rfaf.json',
@@ -38,12 +40,13 @@ const failedTeams = [];
 
 for (const team of dueTeams) {
   if (!commands[team]) throw new Error('Equipo dinámico desconocido: ' + team);
-  const signature = commands[team].join('|');
+  const signature = JSON.stringify(commands[team]);
   if (executed.has(signature)) continue;
   executed.add(signature);
   console.log('Actualización dinámica de resultados: ' + team);
-  for (const script of commands[team]) {
-    const result = spawnSync(process.execPath, ['scripts/' + script], {
+  for (const command of commands[team]) {
+    const [script, ...args] = Array.isArray(command) ? command : [command];
+    const result = spawnSync(process.execPath, ['scripts/' + script, ...args], {
       encoding: 'utf8', maxBuffer: 10 * 1024 * 1024
     });
     if (result.stdout) process.stdout.write(result.stdout);
@@ -98,7 +101,6 @@ for (const bucket of ['completed', 'attempted']) {
   }
 }
 state.updatedAt = checkedAt;
-fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
 if (failedTeams.length) {
   state.lastErrors = failedTeams;
   state.lastErrorAt = checkedAt;
@@ -108,3 +110,5 @@ if (failedTeams.length) {
   state.lastErrors = [];
   delete state.lastErrorAt;
 }
+
+fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
