@@ -1,6 +1,7 @@
 // Extrae únicamente partidos públicos de la RFAF en un navegador anónimo.
 // Nunca almacena ni registra cookies o el HTML completo.
 const fs = require('node:fs');
+const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
 const { attachRfafActas } = require('./rfaf-actas');
 
@@ -118,6 +119,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     }
     console.log('Clasificación verificada: ' + standing.position + 'º, ' +
       standing.points + ' puntos, ' + standing.played + ' partidos (J' + standing.round + ').');
+    mergeStoredScores('data/senior-rfaf.json', matches);
     const output = { source, classificationSource: classificationUrl,
       updatedAt: new Date().toISOString(), standing, matches };
     fs.mkdirSync('data', { recursive: true });
