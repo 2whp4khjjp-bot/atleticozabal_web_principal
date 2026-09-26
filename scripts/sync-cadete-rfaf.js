@@ -62,7 +62,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=' + round + '&cod_agrupacion=1'
       ]);
     const normalizeTeam = value => String(value || '')
-      .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .toUpperCase().replace(/[^A-Z0-9]/g, '');
     for (const scoreSource of scoreSources) {
       const response = await page.goto(scoreSource, {
@@ -81,11 +81,11 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
           ...document.querySelectorAll('div.row')
         ])];
         return nodes.map(node => ({
-          text: (node.innerText || '').replace(/\\s+/g, ' ').trim(),
+          text: (node.innerText || '').replace(/\s+/g, ' ').trim(),
           cells: [...node.querySelectorAll('td')]
-            .map(cell => (cell.innerText || '').replace(/\\s+/g, ' ').trim())
+            .map(cell => (cell.innerText || '').replace(/\s+/g, ' ').trim())
             .filter(Boolean)
-        })).filter(row => row.text && /ATLETICO\\s+ZABAL/i.test(row.text));
+        })).filter(row => row.text && /ATLETICO\s+ZABAL/i.test(row.text));
       });
       for (const match of matches.filter(candidate => !candidate.score)) {
         const home = normalizeTeam(match.home);
@@ -96,8 +96,8 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         });
         if (!row) continue;
         const scoreCell = row.cells.find(cell =>
-          /^(\\d{1,2})\\s*(?:[-–:]\\s*|\\s+)(\\d{1,2})$/.test(cell));
-        const score = scoreCell?.match(/^(\\d{1,2})\\s*(?:[-–:]\\s*|\\s+)(\\d{1,2})$/);
+          /^(\d{1,2})\s*(?:[-–:]\s*|\s+)(\d{1,2})$/.test(cell));
+        const score = scoreCell?.match(/^(\d{1,2})\s*(?:[-–:]\s*|\s+)(\d{1,2})$/);
         if (score) {
           match.score = [Number(score[1]), Number(score[2])];
           match.scoreSource = scoreSource;
