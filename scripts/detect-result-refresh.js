@@ -47,10 +47,11 @@ for (const [team, path] of teams) {
   const data = JSON.parse(fs.readFileSync(path, 'utf8'));
   for (const match of data.matches || []) {
     if (hasFinalScore(match)) continue;
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date || '') ||
-        !/^\d{2}:\d{2}$/.test(match.time || '')) continue;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date || '')) continue;
     const [year, month, day] = match.date.split('-').map(Number);
-    const [hour, minute] = match.time.split(':').map(Number);
+    // Si RFAF aún no ha publicado la hora, iniciar reintentos al cierre del día.
+    const [hour, minute] = (/^\d{2}:\d{2}$/.test(match.time || '') ? match.time : '20:00')
+      .split(':').map(Number);
     const kickoff = Date.UTC(year, month - 1, day, hour, minute);
     const sinceKickoff = localNow - kickoff;
     // Ejecutar una sola franja vencida por partido en cada workflow.
