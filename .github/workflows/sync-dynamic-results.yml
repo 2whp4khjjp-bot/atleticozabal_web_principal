@@ -7,6 +7,7 @@ on:
       - 'scripts/detect-result-refresh.js'
       - 'scripts/run-result-refresh.js'
       - 'scripts/sync-rfaf-results.js'
+      - 'scripts/preserve-rfaf-scores.js'
       - 'scripts/sync-*-rfaf.js'
   schedule:
     - cron: '*/5 * * * *'
