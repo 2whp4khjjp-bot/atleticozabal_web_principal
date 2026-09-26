@@ -34,6 +34,7 @@ const teamFiles = {
 };
 const dueTeams = [...new Set(plan.map(item => item.team))];
 const executed = new Set();
+const failedTeams = [];
 
 for (const team of dueTeams) {
   if (!commands[team]) throw new Error('Equipo dinámico desconocido: ' + team);
@@ -43,7 +44,12 @@ for (const team of dueTeams) {
   console.log('Actualización dinámica de resultados: ' + team);
   for (const script of commands[team]) {
     const result = spawnSync(process.execPath, ['scripts/' + script], { stdio: 'inherit' });
-    if (result.status !== 0) process.exit(result.status || 1);
+    if (result.status !== 0) {
+      failedTeams.push(team + ' (' + script + ')');
+      console.error('Se continúa con otros equipos; falló ' + team + ': ' +
+        (result.error?.message || 'código ' + result.status));
+      break;
+    }
   }
 }
 
@@ -80,3 +86,7 @@ for (const bucket of ['completed', 'attempted']) {
 }
 state.updatedAt = checkedAt;
 fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
+if (failedTeams.length) {
+  console.error('Fallaron las sincronizaciones: ' + failedTeams.join(', '));
+  process.exitCode = 1;
+}

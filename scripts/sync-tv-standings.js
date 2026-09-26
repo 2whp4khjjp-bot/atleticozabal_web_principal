@@ -74,7 +74,7 @@ function parseRows(rows) {
     for (const source of sources) {
       const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
       try {
-        for (const url of [source.root + '/', source.warmup, source.url]) {
+        for (const url of [source.warmup, source.url]) {
           const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
           if (!response || !response.ok()) throw new Error(source.key + ': HTTP no válido');
         }

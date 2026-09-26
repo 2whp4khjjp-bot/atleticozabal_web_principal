@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/sync-dynamic-results.yml'
       - 'scripts/detect-result-refresh.js'
+      - 'scripts/run-result-refresh.js'
+      - 'scripts/sync-*-rfaf.js'
   schedule:
     - cron: '0,15,30,45 * * * *'
 permissions:

@@ -12,7 +12,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
-    for (const url of [base + '/', group, source]) {
+    for (const url of [group, source]) {
       const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
       if (!response.ok()) throw new Error('RFAF HTTP ' + response.status());
     }

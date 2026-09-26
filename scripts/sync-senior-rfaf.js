@@ -15,7 +15,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
     const previous = fs.existsSync('data/senior-rfaf.json')
       ? JSON.parse(fs.readFileSync('data/senior-rfaf.json', 'utf8'))
       : { matches: [] };
-    for (const url of [base + '/', group, source]) {
+    for (const url of [group, source]) {
       const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
       if (!response.ok()) throw new Error('RFAF HTTP ' + response.status());
     }
