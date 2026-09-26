@@ -43,11 +43,24 @@ for (const team of dueTeams) {
   executed.add(signature);
   console.log('Actualización dinámica de resultados: ' + team);
   for (const script of commands[team]) {
-    const result = spawnSync(process.execPath, ['scripts/' + script], { stdio: 'inherit' });
+    const result = spawnSync(process.execPath, ['scripts/' + script], {
+      encoding: 'utf8', maxBuffer: 10 * 1024 * 1024
+    });
+    if (result.stdout) process.stdout.write(result.stdout);
+    if (result.stderr) process.stderr.write(result.stderr);
     if (result.status !== 0) {
-      failedTeams.push(team + ' (' + script + ')');
-      console.error('Se continúa con otros equipos; falló ' + team + ': ' +
-        (result.error?.message || 'código ' + result.status));
+      const details = (result.stderr || '') + '\\n' + (result.stdout || '') +
+        '\\n' + (result.error?.message || '');
+      const transient = /Timeout.*exceeded|net::ERR_|ECONNRESET|ENOTFOUND|EAI_AGAIN|RFAF HTTP 5\\d\\d/i
+        .test(details);
+      if (transient) {
+        console.warn('RFAF no responde temporalmente para ' + team +
+          '; se volverá a intentar en la siguiente comprobación programada.');
+      } else {
+        failedTeams.push(team + ' (' + script + ')');
+        console.error('Se continúa con otros equipos; falló ' + team + ': ' +
+          (result.error?.message || 'código ' + result.status));
+      }
       break;
     }
   }
