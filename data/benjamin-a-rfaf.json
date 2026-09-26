@@ -1,13 +1,13 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-09-26T12:58:41.383Z",
+  "updatedAt": "2026-09-26T18:53:04.934Z",
   "standing": {
     "position": 2,
-    "points": 6,
-    "played": 2,
-    "goalsFor": 8,
-    "goalsAgainst": 3,
+    "points": 9,
+    "played": 3,
+    "goalsFor": 15,
+    "goalsAgainst": 6,
     "round": 3
   },
   "matches": [
@@ -46,7 +46,8 @@
       "home": "ATLETICO ZABAL",
       "away": "C.F. SAN JOSE OBRERO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663731&cod_acta=2663731"
     },
     {
       "round": 4,

@@ -1,13 +1,13 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-09-26T12:38:46.351Z",
+  "updatedAt": "2026-09-26T18:52:53.185Z",
   "standing": {
-    "position": 10,
+    "position": 11,
     "points": 0,
     "played": 1,
     "goalsFor": 1,
-    "goalsAgainst": 3,
+    "goalsAgainst": 4,
     "round": 2
   },
   "matches": [
@@ -20,7 +20,7 @@
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
         1,
-        3
+        4
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672004&cod_acta=2672004",
       "scoreSource": "classification-inference-single-match"
@@ -32,7 +32,8 @@
       "home": "TRASMALLO F.C. C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672013&cod_acta=2672013"
     },
     {
       "round": 3,
