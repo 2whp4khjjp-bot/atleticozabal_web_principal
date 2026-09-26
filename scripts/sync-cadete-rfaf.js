@@ -6,18 +6,17 @@ const { attachRfafActas } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1';
-const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=48909282&codgrupo=48909312';
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
-    for (const url of [group, source]) {
+    for (const url of [source]) {
       const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
       if (!response.ok()) throw new Error('RFAF HTTP ' + response.status());
     }
     if (!page.url().includes('NFG_VisCalendario_Vis')) {
-      throw new Error('RFAF no abrió el calendario del grupo');
+      throw new Error('RFAF no abrió el calendario del Cadete');
     }
     const matches = await page.evaluate(() => {
       const nodes = [...document.querySelectorAll('span.font_responsive')]
@@ -49,6 +48,66 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
       console.error('Muestra: ' + JSON.stringify(matches.slice(0, 3)));
       if (invalid) console.error('Partido no válido: ' + JSON.stringify(invalid));
       throw new Error('El calendario del Cadete no coincide con el grupo esperado');
+    }
+    // La vista extendida a veces tarda en reflejar el marcador. Consultar también
+    // la jornada oficial y el calendario sencillo del mismo grupo.
+    const scoreSources = [...new Set(matches
+      .filter(match => !match.score && match.date <= new Date().toLocaleDateString('sv-SE', {
+        timeZone: 'Europe/Madrid'
+      }))
+      .map(match => Number(match.round))
+      .filter(round => Number.isInteger(round) && round > 0))]
+      .flatMap(round => [
+        base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=' + round + '&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1',
+        base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=' + round + '&cod_agrupacion=1'
+      ]);
+    const normalizeTeam = value => String(value || '')
+      .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '')
+      .toUpperCase().replace(/[^A-Z0-9]/g, '');
+    for (const scoreSource of scoreSources) {
+      const response = await page.goto(scoreSource, {
+        waitUntil: 'domcontentloaded', timeout: 45000
+      }).catch(error => {
+        console.warn('No se pudo consultar la fuente alternativa de marcadores: ' + error.message);
+        return null;
+      });
+      if (!response?.ok() || !page.url().includes('NFG_')) {
+        console.warn('Fuente alternativa de marcadores no disponible: ' + scoreSource);
+        continue;
+      }
+      const rows = await page.evaluate(() => {
+        const nodes = [...new Set([
+          ...document.querySelectorAll('tr'),
+          ...document.querySelectorAll('div.row')
+        ])];
+        return nodes.map(node => ({
+          text: (node.innerText || '').replace(/\\s+/g, ' ').trim(),
+          cells: [...node.querySelectorAll('td')]
+            .map(cell => (cell.innerText || '').replace(/\\s+/g, ' ').trim())
+            .filter(Boolean)
+        })).filter(row => row.text && /ATLETICO\\s+ZABAL/i.test(row.text));
+      });
+      for (const match of matches.filter(candidate => !candidate.score)) {
+        const home = normalizeTeam(match.home);
+        const away = normalizeTeam(match.away);
+        const row = rows.find(candidate => {
+          const text = normalizeTeam(candidate.text);
+          return text.includes(home) && text.includes(away);
+        });
+        if (!row) continue;
+        const scoreCell = row.cells.find(cell =>
+          /^(\\d{1,2})\\s*(?:[-–:]\\s*|\\s+)(\\d{1,2})$/.test(cell));
+        const score = scoreCell?.match(/^(\\d{1,2})\\s*(?:[-–:]\\s*|\\s+)(\\d{1,2})$/);
+        if (score) {
+          match.score = [Number(score[1]), Number(score[2])];
+          match.scoreSource = scoreSource;
+          console.log('Marcador Cadete recuperado desde fuente alternativa: ' +
+            match.home + ' ' + score[1] + '-' + score[2] + ' ' + match.away);
+        }
+      }
+      if (matches.every(match => match.score || match.date > new Date().toLocaleDateString('sv-SE', {
+        timeZone: 'Europe/Madrid'
+      }))) break;
     }
     await attachRfafActas(page, matches, { base, competition: '48909282', group: '48909312' });
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282';
