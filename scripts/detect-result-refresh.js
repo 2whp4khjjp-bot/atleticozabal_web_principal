@@ -49,19 +49,21 @@ for (const [team, path] of teams) {
     const [hour, minute] = match.time.split(':').map(Number);
     const kickoff = Date.UTC(year, month - 1, day, hour, minute);
     const sinceKickoff = localNow - kickoff;
-    // Tres comprobaciones horarias y reintentos de seguridad hasta el día siguiente.
-    for (const offset of retryOffsets) {
-      const target = kickoff + offset * 60 * 60 * 1000;
-      const elapsed = localNow - target;
+    // Ejecutar una sola franja vencida por partido en cada workflow.
+    // Si GitHub retrasa el cron, usamos la franja más reciente que aún no se haya
+    // intentado; las franjas posteriores permanecen disponibles para reintentar.
+    const dueOffsets = retryOffsets.filter(offset =>
+      localNow >= kickoff + offset * 60 * 60 * 1000);
+    const offset = [...dueOffsets].reverse().find(value => {
+      const key = [team, match.round, match.date, match.time, value].join(':');
+      return !state.attempted?.[key];
+    });
+    if (offset !== undefined &&
+        sinceKickoff < resultWindowHours * 60 * 60 * 1000) {
       const key = [team, match.round, match.date, match.time, offset].join(':');
-      // No perder una comprobación si GitHub retrasa el cron. Un intento sin
-      // marcador no se considera completado y las franjas posteriores siguen activas.
-      if (elapsed >= 0 && sinceKickoff < resultWindowHours * 60 * 60 * 1000 &&
-          !state.attempted?.[key]) {
-        plan.push({
-          team, round: match.round, date: match.date, time: match.time, offset, key
-        });
-      }
+      plan.push({
+        team, round: match.round, date: match.date, time: match.time, offset, key
+      });
     }
   }
 }
