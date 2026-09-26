@@ -29,7 +29,7 @@ const parts = Object.fromEntries(formatter.formatToParts(now)
 const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
-const retryOffsets = [1, 2, 3, 4, 5, 6, 8, 12, 18, 24];
+const retryOffsets = [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 8, 12, 18, 24];
 const resultWindowHours = 30; // margen para resultados o actas publicados al día siguiente
 
 function hasFinalScore(match) {
