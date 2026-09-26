@@ -7,6 +7,7 @@ const teams = [
   ['cadete', 'data/cadete-rfaf.json'],
   ['cadete-b', 'data/cadete-b-rfaf.json'],
   ['alevin-a', 'data/alevin-a-rfaf.json'],
+  ['alevin-b', 'data/alevin-b-rfaf.json'],
   ['alevin-c', 'data/alevin-c-rfaf.json'],
   ['alevin-atunara-a', 'data/alevin-atunara-a-rfaf.json'],
   ['alevin-zabal-c', 'data/alevin-zabal-c-rfaf.json'],
@@ -29,8 +30,11 @@ const parts = Object.fromEntries(formatter.formatToParts(now)
 const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
-const retryOffsets = [...Array.from({ length: 47 }, (_, index) => (index + 2) / 4), 14, 16, 18, 20, 22, 24];
-const resultWindowHours = 30; // margen para resultados o actas publicados al día siguiente
+const retryOffsets = [
+  ...Array.from({ length: 47 }, (_, index) => (index + 2) / 4),
+  14, 16, 18, 20, 22, 24, 36, 48, 72, 96, 120, 144, 168
+];
+const resultWindowHours = 192; // ocho días para actas/resultados demorados
 
 function hasFinalScore(match) {
   return Array.isArray(match.score) && match.score.length === 2 &&
