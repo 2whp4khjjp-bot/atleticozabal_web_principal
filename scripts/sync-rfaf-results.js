@@ -22,6 +22,7 @@ const groups = {
   },
   'alevin-a': {
     competition: '48893775', group: '48894181',
+    grouping: '1', delegation: '3', gameType: '2',
     files: ['data/alevin-a-rfaf.json']
   },
   'alevin-b-infantil-a': {
@@ -103,19 +104,21 @@ const today = new Intl.DateTimeFormat('sv-SE', {
 
     for (const round of rounds) {
       const roundMatches = pending.filter(({ match }) => Number(match.round) === round);
+      const grouping = family.grouping ? '&cod_agrupacion=' + family.grouping : '';
       const sources = [
         {
           mode: 'jornada',
           url: base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
             '&CodCompeticion=' + family.competition + '&CodGrupo=' + family.group +
-            '&CodTemporada=22&CodJornada=' + round +
-            '&Sch_Codigo_Delegacion=&Sch_Tipo_Juego='
+            '&CodTemporada=22' + grouping + '&CodJornada=' + round +
+            '&Sch_Codigo_Delegacion=' + (family.delegation || '') +
+            '&Sch_Tipo_Juego=' + (family.gameType || '')
         },
         {
           mode: 'calendario',
           url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
             '&codtemporada=22&codcompeticion=' + family.competition +
-            '&codgrupo=' + family.group + '&CodJornada=' + round
+            '&codgrupo=' + family.group + '&CodJornada=' + round + grouping
         },
         {
           mode: 'calendario extendido',
