@@ -8,7 +8,7 @@ on:
       - 'scripts/run-result-refresh.js'
       - 'scripts/sync-*-rfaf.js'
   schedule:
-    - cron: '0,15,30,45 * * * *'
+    - cron: '*/5 * * * *'
 permissions:
   contents: write
 concurrency:
