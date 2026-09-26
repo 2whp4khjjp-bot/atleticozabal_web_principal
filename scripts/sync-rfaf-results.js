@@ -127,7 +127,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
               const scoreHeading = cells[1].querySelector('h4,strong');
               return {
                 home: (cells[0].innerText || '').replace(/\s+/g, ' ').trim(),
-                score: (scoreHeading?.innerText || cells[1].innerText || '')
+                score: (scoreHeading?.innerText || '')
                   .replace(/\s+/g, ' ').trim(),
                 away: (cells[2].innerText || '').replace(/\s+/g, ' ').trim()
               };
