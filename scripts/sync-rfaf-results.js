@@ -105,23 +105,35 @@ const today = new Intl.DateTimeFormat('sv-SE', {
     for (const round of rounds) {
       const roundMatches = pending.filter(({ match }) => Number(match.round) === round);
       const sources = [
-        base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=' +
-          family.competition + '&CodGrupo=' + family.group + '&CodTemporada=22' +
-          '&cod_agrupacion=1&CodJornada=' + round +
-          '&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1',
-        base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22' +
-          '&codcompeticion=' + family.competition + '&codgrupo=' + family.group +
-          '&CodJornada=' + round + '&cod_agrupacion=1'
+        {
+          mode: 'jornada',
+          url: base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
+            '&CodCompeticion=' + family.competition + '&CodGrupo=' + family.group +
+            '&CodTemporada=22&CodJornada=' + round +
+            '&Sch_Codigo_Delegacion=&Sch_Tipo_Juego='
+        },
+        {
+          mode: 'calendario',
+          url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
+            '&codtemporada=22&codcompeticion=' + family.competition +
+            '&codgrupo=' + family.group + '&CodJornada=' + round
+        },
+        {
+          mode: 'calendario extendido',
+          url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
+            '&codgrupo=' + family.group + '&codcompeticion=' + family.competition +
+            '&codtemporada=22&CodJornada=' + round + '&CDetalle=1'
+        }
       ];
       let roundChanged = false;
 
-      for (const source of sources) {
+      for (const { mode, url } of sources) {
         try {
-          const response = await page.goto(source + '&_cb=' + Date.now(), {
+          const response = await page.goto(url + '&_cb=' + Date.now(), {
             waitUntil: 'commit', timeout: 20000
           });
           if (!response?.ok() || !page.url().includes('NFG_')) {
-            console.warn('Fuente RFAF no disponible: ' + source);
+            console.warn('Fuente RFAF no disponible (' + mode + '): ' + url);
             continue;
           }
           await page.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {});
@@ -155,13 +167,13 @@ const today = new Intl.DateTimeFormat('sv-SE', {
             const score = scoreFrom(row?.score, match.date);
             if (!score) continue;
             match.score = score;
-            match.scoreSource = source;
+            match.scoreSource = mode + ': ' + url;
             entry.changed = true;
             roundChanged = true;
             changed++;
             console.log('Resultado oficial: ' + match.home + ' ' +
               score[0] + '-' + score[1] + ' ' + match.away +
-              ' (J' + round + ', ' + process.argv[2] + ')');
+              ' (J' + round + ', ' + process.argv[2] + ', ' + mode + ')');
           }
           if (roundMatches.every(({ match }) => hasScore(match) || match.date > today)) break;
         } catch (error) {
