@@ -52,9 +52,17 @@ if (!family) throw new Error('Grupo RFAF desconocido: ' + process.argv[2]);
 
 const normalize = value => String(value || '').normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '').toUpperCase().replace(/[^A-Z0-9]/g, '');
-const scoreFrom = value => {
+const scoreFrom = (value, matchDate) => {
   const found = String(value || '').trim().match(/^(\d{1,2})\s*[-–]\s*(\d{1,2})\b/);
-  return found ? [Number(found[1]), Number(found[2])] : null;
+  if (!found) return null;
+  const score = [Number(found[1]), Number(found[2])];
+  if (/^\d{4}-\d{2}-\d{2}$/.test(matchDate || '')) {
+    const [, month, day] = matchDate.split('-').map(Number);
+    // No aceptar la propia fecha del partido como si fuera el marcador.
+    if ((score[0] === day && score[1] === month) ||
+        (score[0] === month && score[1] === day)) return null;
+  }
+  return score;
 };
 const today = new Intl.DateTimeFormat('sv-SE', {
   timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
@@ -144,7 +152,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
               const rowAway = normalize(candidate.away);
               return rowHome.includes(homeKey) && rowAway.includes(awayKey);
             });
-            const score = scoreFrom(row?.score);
+            const score = scoreFrom(row?.score, match.date);
             if (!score) continue;
             match.score = score;
             match.scoreSource = source;
