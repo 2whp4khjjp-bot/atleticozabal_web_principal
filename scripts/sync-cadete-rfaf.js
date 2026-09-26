@@ -100,7 +100,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         })).filter(row => row.text && /ATLETICO\s+ZABAL/i.test(row.text));
       });
       const targetRows = rows.filter(candidate =>
-        /TRASMALLO/i.test(candidate.text) && /ATLETICO\\s+ZABAL/i.test(candidate.text));
+        /TRASMALLO/i.test(candidate.text) && /ATLETICO\s+ZABAL/i.test(candidate.text));
       console.log('Fuente de resultados ' + scoreSource + ': filas de Trasmallo-Zabal=' +
         targetRows.length + (targetRows[0] ? '; celdas=' + JSON.stringify(targetRows[0].cells) : ''));
       for (const match of matches.filter(candidate => !candidate.score)) {
@@ -115,9 +115,9 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
           cell.match(/^(\d{1,2})\s*(?:[-–]\s*|\s+)(\d{1,2})$/)).find(Boolean);
         if (!score) {
           const cleanText = row.text
-            .replace(/\\b\\d{2}[-/]\\d{2}[-/]\\d{4}\\b/g, ' ')
-            .replace(/\\b\\d{1,2}:\\d{2}\\b/g, ' ');
-          score = [...cleanText.matchAll(/\\b(\\d{1,2})\\s*[-–]\\s*(\\d{1,2})\\b/g)].pop();
+            .replace(/\b\d{2}[-/]\d{2}[-/]\d{4}\b/g, ' ')
+            .replace(/\b\d{1,2}:\d{2}\b/g, ' ');
+          score = [...cleanText.matchAll(/\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b/g)].pop();
         }
         if (score) {
           match.score = [Number(score[1]), Number(score[2])];
