@@ -51,7 +51,7 @@ for (const team of dueTeams) {
     if (result.status !== 0) {
       const details = (result.stderr || '') + '\\n' + (result.stdout || '') +
         '\\n' + (result.error?.message || '');
-      const transient = /Timeout.*exceeded|net::ERR_|ECONNRESET|ENOTFOUND|EAI_AGAIN|RFAF HTTP 5\\d\\d/i
+      const transient = /Timeout.*exceeded|net::ERR_|ECONNRESET|ENOTFOUND|EAI_AGAIN|RFAF HTTP 5\d\d/i
         .test(details);
       if (transient) {
         console.warn('RFAF no responde temporalmente para ' + team +
