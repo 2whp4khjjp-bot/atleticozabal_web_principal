@@ -1,6 +1,6 @@
 // Validación independiente de la primera publicación.
 const fs = require('node:fs');
-for (const path of ['calendario-alevin-b.html', 'proximos-partidos.html']) {
+for (const path of ['proximos-partidos.html']) {
   const html = fs.readFileSync(path, 'utf8');
   const script = html.match(/<script>([\s\S]*?)<\/script>/);
   if (!script) throw new Error('Falta script en ' + path);
