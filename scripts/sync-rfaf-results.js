@@ -1,5 +1,4 @@
-// Recupera resultados oficiales de la jornada y del calendario sencillo de RFAF.
-// Esta rutina trabaja sobre el calendario guardado para no depender de la vista extendida.
+// Recupera resultados oficiales probando las tres vistas RFAF por jornada.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
 
