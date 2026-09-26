@@ -10,7 +10,14 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
 (async () => {
   const browser = await chromium.launch({ headless: true });
   try {
-    const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
+    const page = await browser.newPage({
+      locale: 'es-ES',
+      timezoneId: 'Europe/Madrid',
+      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36',
+      viewport: { width: 1440, height: 1200 },
+      extraHTTPHeaders: { 'Accept-Language': 'es-ES,es;q=0.9' }
+    });
     const cachedData = fs.existsSync('data/cadete-rfaf.json')
       ? JSON.parse(fs.readFileSync('data/cadete-rfaf.json', 'utf8'))
       : null;
@@ -87,6 +94,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         continue;
       }
       await page.waitForLoadState('domcontentloaded', { timeout: 10000 }).catch(() => {});
+      await page.waitForTimeout(5000);
       const rows = await page.evaluate(() => {
         const nodes = [...new Set([
           ...document.querySelectorAll('tr'),
@@ -96,13 +104,23 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
           text: (node.innerText || '').replace(/\s+/g, ' ').trim(),
           cells: [...node.querySelectorAll('td')]
             .map(cell => (cell.innerText || '').replace(/\s+/g, ' ').trim())
+            .filter(Boolean),
+          values: [...node.querySelectorAll('input,select,option')]
+            .map(field => String(field.value || field.getAttribute('value') || '').trim())
+            .filter(Boolean),
+          data: [...node.querySelectorAll('*')].flatMap(element =>
+            [...element.attributes]
+              .filter(attribute => /^data-|score|gol|result/i.test(attribute.name))
+              .map(attribute => attribute.value))
             .filter(Boolean)
         })).filter(row => row.text && /ATLETICO\s+ZABAL/i.test(row.text));
       });
       const targetRows = rows.filter(candidate =>
         /TRASMALLO/i.test(candidate.text) && /ATLETICO\s+ZABAL/i.test(candidate.text));
       console.log('Fuente de resultados ' + scoreSource + ': filas de Trasmallo-Zabal=' +
-        targetRows.length + (targetRows[0] ? '; celdas=' + JSON.stringify(targetRows[0].cells) : ''));
+        targetRows.length + (targetRows[0] ? '; celdas=' + JSON.stringify(targetRows[0].cells) +
+        '; valores=' + JSON.stringify(targetRows[0].values) +
+        '; datos=' + JSON.stringify(targetRows[0].data) : ''));
       for (const match of matches.filter(candidate => !candidate.score)) {
         const home = normalizeTeam(match.home);
         const away = normalizeTeam(match.away);
@@ -111,8 +129,8 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
           return text.includes(home) && text.includes(away);
         });
         if (!row) continue;
-        let score = row.cells.map(cell =>
-          cell.match(/^(\d{1,2})\s*(?:[-–]\s*|\s+)(\d{1,2})$/)).find(Boolean);
+        let score = [...row.cells, ...row.values, ...row.data].map(value =>
+          String(value).match(/^(\d{1,2})\s*(?:[-–:]\s*|\s+)(\d{1,2})$/)).find(Boolean);
         if (!score) {
           const cleanText = row.text
             .replace(/\b\d{2}[-/]\d{2}[-/]\d{4}\b/g, ' ')
@@ -135,6 +153,54 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
     }).catch(error => {
       console.warn('No se pudieron consultar las actas; se conserva el calendario: ' + error.message);
     });
+    for (const match of matches.filter(candidate => !candidate.score && candidate.actaUrl)) {
+      try {
+        const response = await page.goto(match.actaUrl, { waitUntil: 'commit', timeout: 15000 });
+        if (!response?.ok()) continue;
+        await page.waitForLoadState('domcontentloaded', { timeout: 10000 }).catch(() => {});
+        await page.waitForTimeout(3000);
+        const score = await page.evaluate(({ home, away }) => {
+          const normalize = value => String(value || '').normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '').toUpperCase()
+            .replace(/[^A-Z0-9]/g, '');
+          const homeKey = normalize(home);
+          const awayKey = normalize(away);
+          const containers = [
+            ...document.querySelectorAll('tr,div.row,table,[class*="partido"],[class*="resultado"]')
+          ].filter(element => {
+            const text = normalize(element.innerText || element.textContent || '');
+            return text.includes(homeKey) && text.includes(awayKey);
+          });
+          for (const container of containers) {
+            const candidates = [
+              ...[...container.querySelectorAll('td,span,strong,b,input')].map(element =>
+                String(element.value || element.innerText || element.textContent || '').trim()),
+              ...[...container.querySelectorAll('*')].flatMap(element =>
+                [...element.attributes].filter(attribute =>
+                  /^data-|score|gol|result/i.test(attribute.name)).map(attribute => attribute.value))
+            ];
+            for (const value of candidates) {
+              const exact = value.match(/^(\d{1,2})\s*[-–:]\s*(\d{1,2})$/);
+              if (exact) return [Number(exact[1]), Number(exact[2])];
+            }
+            const text = (container.innerText || container.textContent || '')
+              .replace(/\b\d{2}[-/]\d{2}[-/]\d{4}\b/g, ' ')
+              .replace(/\b\d{1,2}:\d{2}\b/g, ' ');
+            const embedded = [...text.matchAll(/\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b/g)].pop();
+            if (embedded) return [Number(embedded[1]), Number(embedded[2])];
+          }
+          return null;
+        }, { home: match.home, away: match.away });
+        if (score) {
+          match.score = score;
+          match.scoreSource = match.actaUrl;
+          console.log('Marcador Cadete recuperado desde el acta: ' +
+            match.home + ' ' + score[0] + '-' + score[1] + ' ' + match.away);
+        }
+      } catch (error) {
+        console.warn('No se pudo consultar el acta para el marcador: ' + error.message);
+      }
+    }
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282';
     let standing = cachedData?.standing || null;
     let classificationVerified = false;
