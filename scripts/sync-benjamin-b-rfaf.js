@@ -1,6 +1,7 @@
 // Extrae el Benjamín B desde la web pública de la RFAF.
 // Nunca almacena cookies ni el HTML completo.
 const fs = require('node:fs');
+const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
 const { attachRfafActas } = require('./rfaf-actas');
 
@@ -105,6 +106,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
         : [standing.goalsAgainst, standing.goalsFor];
       matches[0].scoreSource = 'classification-inference-single-match';
     }
+    mergeStoredScores('data/benjamin-b-rfaf.json', matches);
     const output = { source, classificationSource, updatedAt: new Date().toISOString(), standing, matches };
     fs.mkdirSync('data', { recursive: true });
     fs.writeFileSync('data/benjamin-b-rfaf.json', JSON.stringify(output, null, 2) + '\n');
