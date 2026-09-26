@@ -100,6 +100,11 @@ for (const bucket of ['completed', 'attempted']) {
 state.updatedAt = checkedAt;
 fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
 if (failedTeams.length) {
-  console.error('Fallaron las sincronizaciones: ' + failedTeams.join(', '));
-  process.exitCode = 1;
+  state.lastErrors = failedTeams;
+  state.lastErrorAt = checkedAt;
+  console.warn('Sincronizaciones aplazadas; se conservará el estado y se reintentará: ' +
+    failedTeams.join(', '));
+} else {
+  state.lastErrors = [];
+  delete state.lastErrorAt;
 }
