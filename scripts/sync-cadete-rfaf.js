@@ -1,6 +1,7 @@
 // Extrae únicamente partidos públicos de la RFAF en un navegador anónimo.
 // Nunca almacena ni registra cookies o el HTML completo.
 const fs = require('node:fs');
+const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
 const { attachRfafActas } = require('./rfaf-actas');
 
@@ -262,6 +263,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
       console.log('Clasificación verificada: ' + standing.position + 'º, ' +
         standing.points + ' puntos, ' + standing.played + ' partidos (J' + standing.round + ').');
     }
+    mergeStoredScores('data/cadete-rfaf.json', matches);
     const output = { source, classificationSource: classificationVerified ? classificationUrl : (cachedData?.classificationSource || classificationUrl),
       updatedAt: new Date().toISOString(), standing, matches };
     fs.mkdirSync('data', { recursive: true });
