@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48893775&codgrupo=48894181&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48894181&codcompeticion=48893775",
-  "updatedAt": "2026-09-26T19:15:14.065Z",
+  "updatedAt": "2026-09-26T19:16:19.101Z",
   "standing": {
     "position": 1,
     "points": 3,
@@ -32,7 +32,11 @@
       "home": "C.D. AD PUEBLO NUEVO LA GRANJA",
       "away": "ATLETICO ZABAL",
       "ground": "Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F11, 2) (A)",
-      "score": null
+      "score": [
+        26,
+        9
+      ],
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48893775&CodGrupo=48894181&CodTemporada=22&cod_agrupacion=1&CodJornada=2&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
     },
     {
       "round": 3,
