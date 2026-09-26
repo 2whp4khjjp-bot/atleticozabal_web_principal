@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-09-26T21:24:30.673Z",
+  "updatedAt": "2026-09-26T22:16:05.172Z",
   "standing": {
     "position": 2,
     "points": 9,
@@ -47,8 +47,8 @@
       "away": "C.F. SAN JOSE OBRERO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        6,
-        2
+        7,
+        3
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663731&cod_acta=2663731",
       "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909542&CodGrupo=48909586&CodTemporada=22&CodJornada=3&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
