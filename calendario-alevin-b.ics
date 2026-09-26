@@ -1,373 +1,372 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Atletico Zabal Linense//Infantil A 2026-27//ES
+PRODID:-//Atletico Zabal Linense//Alevin B 2026-27//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Atlético Zabal · Infantil A
+X-WR-CALNAME:Atlético Zabal · Alevín B
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
-UID:zabal-infantil-a-1@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-1@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;TZID=Europe/Madrid:20260919T163000
 DTEND;TZID=Europe/Madrid:20260919T173000
-SUMMARY:FINAL · ATLETICO ZABAL – C.D. SAN ROQUE 1–4
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 1\nHora: 16:30\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA
-  LINEA)  (A)\nResultado: ATLETICO ZABAL 1–4 C.D. SAN ROQUE\n\nCreado po
- r Raúl Cote
+SUMMARY:J1 · ATLETICO ZABAL – C.D. SAN ROQUE
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ \nHora: 16:30\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA 
+ LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-2@atleticozabal.com
-DTSTAMP:20260926T191528Z
-DTSTART;TZID=Europe/Madrid:20260926T173000
-DTEND;TZID=Europe/Madrid:20260926T183000
+UID:zabal-alevin-b-2@atleticozabal.com
+DTSTAMP:20260915T111524Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
 SUMMARY:J2 · TRASMALLO F.C. C.D. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 2\nHora: 17:30\nCampo: Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFA
- EL SANCHEZ (F11-F7\,1) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ \nHora pendiente\nCampo: Puerto De Santa María (El) - CIUDAD DEPORTIVA RA
+ FAEL SANCHEZ (F11-F7\,1) (A)\n\nCreado por Raúl Cote
 LOCATION:Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11
  -F7\,1) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-3@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-3@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:J3 · ATLETICO ZABAL – BALON LINENSE C.F. C.D.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 3\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
- (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 3
+ \nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (
+ LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-4@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-4@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:J4 · C.D. LA SALLE – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 4\nHora pendiente\nCampo: Puerto Real - VIRGEN DEL CARMEN (T)\n\nCreado p
- or Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 4
+ \nHora pendiente\nCampo: Puerto Real - VIRGEN DEL CARMEN (T)\n\nCreado po
+ r Raúl Cote
 LOCATION:Puerto Real - VIRGEN DEL CARMEN (T)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-5@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-5@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:J5 · ATLETICO ZABAL – C.D. S.M. MIRADOR
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 5\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
- (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 5
+ \nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (
+ LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-6@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-6@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J6 · ARCOS C.F. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 6\nHora pendiente\nCampo: Arcos De La Frontera - ANTONIO CAMACHO (F11-F7)
-  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 6
+ \nHora pendiente\nCampo: Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) 
+ (A)\n\nCreado por Raúl Cote
 LOCATION:Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-7@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-7@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:J7 · BAHIA SAN FERNANDO C.D. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 7\nHora pendiente\nCampo: San Fernando - MANUEL GOMEZ CASTRO Nº 2 (F11-F7
- \,2) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 7
+ \nHora pendiente\nCampo: San Fernando - MANUEL GOMEZ CASTRO Nº 2 (F11-F7\
+ ,2) (A)\n\nCreado por Raúl Cote
 LOCATION:San Fernando - MANUEL GOMEZ CASTRO Nº 2 (F11-F7\,2) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-8@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-8@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J8 · ATLETICO ZABAL – C.D. CADISTA DE LA ISLA
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 8\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
- (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 8
+ \nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (
+ LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-9@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-9@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J9 · U.D. LOS BARRIOS – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 9\nHora pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (
- N)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 9
+ \nHora pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N
+ )\n\nCreado por Raúl Cote
 LOCATION:Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-10@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-10@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:J10 · ATLETICO ZABAL – A.D. MARIANISTAS C.D.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 10\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 0\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-11@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-11@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:J11 · ATCO. SANLUQUEÑO C.F. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 11\nHora pendiente\nCampo: Sanlúcar de Barrameda - LAS PALMERAS (F11-F7)
-  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 1\nHora pendiente\nCampo: Sanlúcar de Barrameda - LAS PALMERAS (F11-F7) 
+ (A)\n\nCreado por Raúl Cote
 LOCATION:Sanlúcar de Barrameda - LAS PALMERAS (F11-F7) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-12@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-12@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:J12 · ATLETICO ZABAL – CONIL C.F.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 12\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 2\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-13@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-13@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J13 · CADIZ C.F.\, S.A.D. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 13\nHora pendiente\nCampo: Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 
- 2) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 3\nHora pendiente\nCampo: Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2
+ ) (A)\n\nCreado por Raúl Cote
 LOCATION:Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-14@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-14@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J14 · ATLETICO ZABAL – A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA
   C.F.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 14\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 4\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-15@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-15@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:J15 · BARBATE C.F. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 15\nHora pendiente\nCampo: Barbate - Barbate Nuevo Estadio Municipal (F11-
- F7) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 5\nHora pendiente\nCampo: Barbate - Barbate Nuevo Estadio Municipal (F11-F
+ 7) (A)\n\nCreado por Raúl Cote
 LOCATION:Barbate - Barbate Nuevo Estadio Municipal (F11-F7) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-16@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-16@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J16 · C.D. SAN ROQUE – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 16\nHora pendiente\nCampo: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\
- , F7) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 6\nHora pendiente\nCampo: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\,
+  F7) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-17@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-17@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:J17 · ATLETICO ZABAL – TRASMALLO F.C. C.D.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 17\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 7\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-18@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-18@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J18 · BALON LINENSE C.F. C.D. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 18\nHora pendiente\nCampo: La Línea de La Concepción - ANTONIO REYES (CD
- AD DVA) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 8\nHora pendiente\nCampo: La Línea de La Concepción - ANTONIO REYES (CDA
+ D DVA) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-19@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-19@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J19 · ATLETICO ZABAL – C.D. LA SALLE
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 19\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 1
+ 9\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-20@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-20@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J20 · C.D. S.M. MIRADOR – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 20\nHora pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nCreado por R
- aúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 0\nHora pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nCreado por Ra
+ úl Cote
 LOCATION:Algeciras - Sergio Martín (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-21@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-21@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J21 · ATLETICO ZABAL – ARCOS C.F.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 21\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 1\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-22@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-22@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J22 · ATLETICO ZABAL – BAHIA SAN FERNANDO C.D.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 22\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 2\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-23@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-23@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:J23 · C.D. CADISTA DE LA ISLA – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 23\nHora pendiente\nCampo: San Fernando - MANUEL GOMEZ CASTRO Nº 1 (F11-F
- 7\,1) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 3\nHora pendiente\nCampo: San Fernando - MANUEL GOMEZ CASTRO Nº 1 (F11-F7
+ \,1) (A)\n\nCreado por Raúl Cote
 LOCATION:San Fernando - MANUEL GOMEZ CASTRO Nº 1 (F11-F7\,1) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-24@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-24@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J24 · ATLETICO ZABAL – U.D. LOS BARRIOS
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 24\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 4\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-25@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-25@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J25 · A.D. MARIANISTAS C.D. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 25\nHora pendiente\nCampo: Jerez De La Frontera - SANTA FE (A)\n\nCreado 
- por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 5\nHora pendiente\nCampo: Jerez De La Frontera - SANTA FE (A)\n\nCreado p
+ or Raúl Cote
 LOCATION:Jerez De La Frontera - SANTA FE (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-26@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-26@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J26 · ATLETICO ZABAL – ATCO. SANLUQUEÑO C.F.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 26\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 6\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-27@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-27@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:J27 · CONIL C.F. – ATLETICO ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 27\nHora pendiente\nCampo: Conil De La Frontera - ANTONIO PEREZ UREBA CAMP
- O MPAL (F11-F7) (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 7\nHora pendiente\nCampo: Conil De La Frontera - ANTONIO PEREZ UREBA CAMPO
+  MPAL (F11-F7) (A)\n\nCreado por Raúl Cote
 LOCATION:Conil De La Frontera - ANTONIO PEREZ UREBA CAMPO MPAL (F11-F7) (A
  )
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-28@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-28@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:J28 · ATLETICO ZABAL – CADIZ C.F.\, S.A.D.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 28\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 8\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-29@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-29@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J29 · A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F. – ATLETICO 
  ZABAL
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 29\nHora pendiente\nCampo: Chiclana De La Frontera - EL TROVADOR (F11-F7)
-  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 2
+ 9\nHora pendiente\nCampo: Chiclana De La Frontera - EL TROVADOR (F11-F7) 
+ (A)\n\nCreado por Raúl Cote
 LOCATION:Chiclana De La Frontera - EL TROVADOR (F11-F7) (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 BEGIN:VEVENT
-UID:zabal-infantil-a-30@atleticozabal.com
-DTSTAMP:20260926T191528Z
+UID:zabal-alevin-b-30@atleticozabal.com
+DTSTAMP:20260915T111524Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:J30 · ATLETICO ZABAL – BARBATE C.F.
-DESCRIPTION:Infantil A · Segunda Andaluza Cádiz · Grupo único\nJornada 
- 30\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
-  (LA LINEA)  (A)\n\nCreado por Raúl Cote
+DESCRIPTION:Alevín B · Segunda Andaluza Cádiz · Grupo único\nJornada 3
+ 0\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
+ (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
-URL:https://www.atleticozabal.com/calendario-infantil-a.html
+URL:https://www.atleticozabal.com/calendario-alevin-b.html
 END:VEVENT
 END:VCALENDAR
