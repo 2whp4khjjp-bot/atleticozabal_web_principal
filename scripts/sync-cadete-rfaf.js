@@ -16,7 +16,11 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
       userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
         '(KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36',
       viewport: { width: 1440, height: 1200 },
-      extraHTTPHeaders: { 'Accept-Language': 'es-ES,es;q=0.9' }
+      extraHTTPHeaders: {
+        'Accept-Language': 'es-ES,es;q=0.9',
+        'Cache-Control': 'no-cache, no-store, max-age=0',
+        Pragma: 'no-cache'
+      }
     });
     const cachedData = fs.existsSync('data/cadete-rfaf.json')
       ? JSON.parse(fs.readFileSync('data/cadete-rfaf.json', 'utf8'))
@@ -24,7 +28,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
     let matches = [];
     let calendarLoaded = false;
     try {
-      const response = await page.goto(source, { waitUntil: 'commit', timeout: 15000 });
+      const response = await page.goto(source + '&_cb=' + Date.now(), { waitUntil: 'commit', timeout: 15000 });
       if (!response?.ok()) throw new Error('RFAF HTTP ' + response?.status());
       await page.waitForLoadState('domcontentloaded', { timeout: 10000 }).catch(() => {});
       if (!page.url().includes('NFG_VisCalendario_Vis')) {
@@ -83,7 +87,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
       .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .toUpperCase().replace(/[^A-Z0-9]/g, '');
     for (const scoreSource of scoreSources) {
-      const response = await page.goto(scoreSource, {
+      const response = await page.goto(scoreSource + '&_cb=' + Date.now(), {
         waitUntil: 'commit', timeout: 15000
       }).catch(error => {
         console.warn('No se pudo consultar la fuente alternativa de marcadores: ' + error.message);
@@ -155,7 +159,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
     });
     for (const match of matches.filter(candidate => !candidate.score && candidate.actaUrl)) {
       try {
-        const response = await page.goto(match.actaUrl, { waitUntil: 'commit', timeout: 15000 });
+        const response = await page.goto(match.actaUrl + '&_cb=' + Date.now(), { waitUntil: 'commit', timeout: 15000 });
         if (!response?.ok()) continue;
         await page.waitForLoadState('domcontentloaded', { timeout: 10000 }).catch(() => {});
         await page.waitForTimeout(3000);
@@ -205,7 +209,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
     let standing = cachedData?.standing || null;
     let classificationVerified = false;
     try {
-      const classificationResponse = await page.goto(classificationUrl, {
+      const classificationResponse = await page.goto(classificationUrl + '&_cb=' + Date.now(), {
         waitUntil: 'commit', timeout: 15000
       });
       await page.waitForLoadState('domcontentloaded', { timeout: 10000 }).catch(() => {});
