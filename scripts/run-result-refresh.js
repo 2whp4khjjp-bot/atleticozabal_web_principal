@@ -9,12 +9,12 @@ const commands = {
   cadete: [['sync-rfaf-results.js', 'cadete'], 'render-cadete-ics.js', 'validate-cadete.js'],
   'cadete-b': [['sync-rfaf-results.js', 'cadete-b'], 'render-cadete-b-ics.js', 'validate-cadete-b.js'],
   'alevin-a': [['sync-rfaf-results.js', 'alevin-a'], 'render-alevin-a-ics.js', 'validate-alevin-a.js'],
-  'alevin-b': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-alevin-b-ics.js', 'validate-alevin-b.js'],
+  'alevin-b': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-alevin-b-ics.js', 'validate-alevin-b.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
   'alevin-c': [['sync-rfaf-results.js', 'alevines-g4'], 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
   'alevin-atunara-a': [['sync-rfaf-results.js', 'alevines-g4'], 'render-alevines-g4-ics.js', 'validate-alevines-g4.js'],
   'alevin-zabal-c': [['sync-rfaf-results.js', 'alevines-g5'], 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
   'alevin-atunara-b': [['sync-rfaf-results.js', 'alevines-g5'], 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
-  'infantil-a': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
+  'infantil-a': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-alevin-b-ics.js', 'validate-alevin-b.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
   'benjamin-a': [['sync-rfaf-results.js', 'benjamin-a'], 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
   'benjamin-b': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js']
 };
