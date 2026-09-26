@@ -57,12 +57,29 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
         byRound.set(match.round, match);
       }
     }
-    const matches = [...byRound.values()].sort((a, b) => a.round - b.round)
+    let matches = [...byRound.values()].sort((a, b) => a.round - b.round)
       .filter(match => !/^Descansa$/i.test(match.home || '') && !/^Descansa$/i.test(match.away || ''));
-    const invalid = matches.find(match => !match.round || !match.date || !match.home || !match.away ||
-      !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away));
+    const isValidFixture = match => match.round && match.date && match.home && match.away &&
+      /ATLETICO ZABAL/i.test(match.home + ' ' + match.away);
+    const invalid = matches.find(match => !isValidFixture(match));
     if (matches.length !== 26 || invalid) {
-      throw new Error('El calendario del Juvenil B no coincide con el grupo esperado (' + matches.length + ')');
+      const path = 'data/juvenil-b-rfaf.json';
+      const previous = fs.existsSync(path)
+        ? JSON.parse(fs.readFileSync(path, 'utf8')).matches || []
+        : [];
+      const validPrevious = previous.filter(isValidFixture);
+      if (validPrevious.length !== 26) {
+        throw new Error('El calendario RFAF del Juvenil B está incompleto (' +
+          matches.length + ' filas) y no existe una copia completa para conservar');
+      }
+      console.warn('RFAF devolvió filas incompletas para Juvenil B; se conserva el calendario ' +
+        'completo publicado y se actualizan las filas válidas.');
+      const validIncoming = new Map(matches.filter(isValidFixture)
+        .map(match => [match.round, match]));
+      matches = validPrevious.map(oldMatch => {
+        const fresh = validIncoming.get(oldMatch.round);
+        return fresh ? { ...oldMatch, ...fresh } : oldMatch;
+      });
     }
 
     await attachRfafActas(page, matches, { base, competition: '49145109', group: '49151057' });
