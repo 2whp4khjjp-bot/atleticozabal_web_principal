@@ -1,6 +1,7 @@
 // Extrae el Juvenil B desde la web pública de la RFAF.
 // Nunca almacena cookies ni el HTML completo.
 const fs = require('node:fs');
+const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
 const { attachRfafActas } = require('./rfaf-actas');
 
@@ -102,6 +103,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
         : [standing.goalsAgainst, standing.goalsFor];
       matches[0].scoreSource = 'classification-inference-single-match';
     }
+    mergeStoredScores('data/juvenil-b-rfaf.json', matches);
     const output = { source, classificationSource, updatedAt: new Date().toISOString(), standing, matches };
     fs.mkdirSync('data', { recursive: true });
     fs.writeFileSync('data/juvenil-b-rfaf.json', JSON.stringify(output, null, 2) + '\n');
