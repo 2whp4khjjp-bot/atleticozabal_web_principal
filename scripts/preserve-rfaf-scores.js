@@ -19,9 +19,7 @@ function mergeStoredScores(path, matches) {
     ].join('|'));
     const finalScore = Array.isArray(old?.score) && old.score.length === 2 &&
       old.score.every(value => value !== null && value !== undefined && String(value).trim() !== '');
-    const incomingEmpty = !Array.isArray(match.score) || match.score.length !== 2 ||
-      match.score.some(value => value === null || value === undefined || String(value).trim() === '');
-    if (finalScore && incomingEmpty) {
+    if (finalScore) {
       match.score = old.score;
       if (old.scoreSource) match.scoreSource = old.scoreSource;
     }
