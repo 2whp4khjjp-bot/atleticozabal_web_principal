@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-09-27T13:22:17.527Z",
+  "updatedAt": "2026-09-28T16:08:50.202Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -22,7 +22,6 @@
         1,
         2
       ],
-      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709873&cod_acta=2709873"
     },
     {
@@ -41,8 +40,8 @@
     },
     {
       "round": 3,
-      "date": "2026-10-03",
-      "time": null,
+      "date": "2026-10-02",
+      "time": "17:00",
       "home": "C.D. BALON LINENSE C.F.",
       "away": "ATLETICO ATUNARA C.D. \"A\"",
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
