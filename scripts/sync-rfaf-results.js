@@ -28,6 +28,7 @@ const groups = {
   },
   'alevin-b-infantil-a': {
     competition: '48909139', group: '48909177',
+    grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',
     files: ['data/alevin-b-rfaf.json', 'data/infantil-a-rfaf.json']
   },
   'alevines-g4': {
