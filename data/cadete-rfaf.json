@@ -1,7 +1,7 @@
 {
-  "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
+  "source": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&CodJornada=3&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1&cod_agrupacion=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-09-28T16:35:58.973Z",
+  "updatedAt": "2026-09-29T13:42:55.953Z",
   "standing": {
     "position": 3,
     "points": 6,
@@ -42,11 +42,12 @@
     {
       "round": 3,
       "date": "2026-10-03",
-      "time": null,
+      "time": "13:00",
       "home": "ATLETICO ZABAL",
       "away": "C.F. SAN JOSE OBRERO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": null,
+      "timeSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&CodJornada=3&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1&cod_agrupacion=1"
     },
     {
       "round": 4,
@@ -291,5 +292,10 @@
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     }
-  ]
+  ],
+  "sources": {
+    "jornada": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&CodJornada=3&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1&cod_agrupacion=1",
+    "calendario": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282&codtemporada=22&CodJornada=3&CDetalle=0",
+    "calendarioExtendido": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282&codtemporada=22&CodJornada=3&CDetalle=1"
+  }
 }
