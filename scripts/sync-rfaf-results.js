@@ -14,6 +14,7 @@ const groups = {
   },
   cadete: {
     competition: '48909282', group: '48909312',
+    grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',
     files: ['data/cadete-rfaf.json']
   },
   'cadete-b': {
@@ -106,6 +107,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
     for (const round of rounds) {
       const roundMatches = pending.filter(({ match }) => Number(match.round) === round);
       const grouping = family.grouping ? '&cod_agrupacion=' + family.grouping : '';
+      const calendarDetail = family.calendarDetail ? '&CDetalle=' + family.calendarDetail : '';
       const sources = [
         {
           mode: 'jornada',
@@ -119,7 +121,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
           mode: 'calendario',
           url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
             '&codtemporada=22&codcompeticion=' + family.competition +
-            '&codgrupo=' + family.group + '&CodJornada=' + round + grouping
+            '&codgrupo=' + family.group + '&CodJornada=' + round + grouping + calendarDetail
         },
         {
           mode: 'calendario extendido',
