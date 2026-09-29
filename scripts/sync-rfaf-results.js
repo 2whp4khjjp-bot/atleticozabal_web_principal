@@ -43,6 +43,7 @@ const groups = {
   },
   'benjamin-b': {
     competition: '49287953', group: '49288292',
+    grouping: '1', delegation: '3', gameType: '2',
     files: ['data/benjamin-b-rfaf.json']
   }
 };
