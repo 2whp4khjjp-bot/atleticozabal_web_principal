@@ -34,13 +34,13 @@ URL:https://www.atleticozabal.com/calendario-cadete.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-3@atleticozabal.com
-DTSTAMP:20260928T163558Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+DTSTAMP:20260929T134324Z
+DTSTART;TZID=Europe/Madrid:20261003T130000
+DTEND;TZID=Europe/Madrid:20261003T150000
 SUMMARY:J3 · ATLETICO ZABAL – C.F. SAN JOSE OBRERO
 DESCRIPTION:Cadete A · Segunda Andaluza Cádiz · Grupo único\nJornada 3\
- nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (L
- A LINEA)  (A)\n\nCreado por Raúl Cote
+ nHora: 13:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA L
+ INEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete.html
 END:VEVENT
