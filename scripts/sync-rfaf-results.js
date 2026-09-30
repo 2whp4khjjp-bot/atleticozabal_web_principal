@@ -19,6 +19,7 @@ const groups = {
   },
   'cadete-b': {
     competition: '49189596', group: '49196403',
+    grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',
     files: ['data/cadete-b-rfaf.json']
   },
   'alevin-a': {
