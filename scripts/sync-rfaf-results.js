@@ -22,6 +22,11 @@ const groups = {
     grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',
     files: ['data/cadete-b-rfaf.json']
   },
+  'cadete-femenino': {
+    competition: '49660873', group: '49660937',
+    grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',
+    files: ['data/cadete-femenino-rfaf.json']
+  },
   'alevin-a': {
     competition: '48893775', group: '48894181',
     grouping: '1', delegation: '3', gameType: '2',
