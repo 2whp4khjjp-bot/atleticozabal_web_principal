@@ -112,9 +112,10 @@
       button.classList.add('active');
       applyFilter();
     }));
+    function resultFixtureKey(match){const teams=[match.home,match.away].map(team=>String(team||'').toUpperCase().replace(/[^A-Z0-9]+/g,' ').trim()).sort();return [match.date||'',match.time||'',teams.join('|')].join('::')}
     function appendResults(data,label){
       if(!Array.isArray(data.matches))return;
-      data.matches.filter(match=>Array.isArray(match.score)&&match.score.length===2).forEach(match=>results.push({...match,label}));
+      data.matches.filter(match=>Array.isArray(match.score)&&match.score.length===2).forEach(match=>{const key=resultFixtureKey(match),existing=results.find(item=>resultFixtureKey(item)===key);if(existing){if(/J\. del Río/i.test(existing.label||'')&&/Ángel/i.test(label||''))existing.label='Benjamín · J. del Río · Ángel · Tercera Andaluza · Grupo 4';return}results.push({...match,label})});
     }
     function render(){
       results.sort((a,b)=>(b.date+' '+(b.time||'00:00')).localeCompare(a.date+' '+(a.time||'00:00')));

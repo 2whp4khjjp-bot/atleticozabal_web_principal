@@ -15,7 +15,7 @@ function draw(matches){
     const date=new Date(match.date+'T12:00:00');
     const month=months[date.getMonth()]+' '+date.getFullYear();
     if(month!==current){current=month;append(fragment,'div','month',month)}
-    const home=/ATLETICO ZABAL|ATUNARA ATLETICO|ATLETICO ATUNARA/i.test(match.home);
+    const home=/ATUNARA ATLETICO|ATLETICO ATUNARA/i.test(match.home);
     const game=append(fragment,'article','game');
     const day=append(game,'div','date');
     append(day,'b','',String(date.getDate()).padStart(2,'0'));
