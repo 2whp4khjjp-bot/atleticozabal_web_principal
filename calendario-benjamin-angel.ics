@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Atletico Zabal Linense//Benjamin Angel 2026-27//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Atlético Zabal · Benjamín · Ángel
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-1@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;TZID=Europe/Madrid:20261002T180000
+DTEND;TZID=Europe/Madrid:20261002T190000.000Z
+SUMMARY:J1 · ATLETICO ZABAL "A" – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 1\nHora: 18:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN
+  (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-3@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:J3 · ATUNARA ATLETICO C.D. – BALON LINENSE C.F. C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 3\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
+ MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-4@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:J4 · PUENTE MAYORGA RVO – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 4\nHora pendiente\nCampo: San Roque - MANUEL MATEO (F11\, F7) (A)\n\n
+ Creado por Raúl Cote
+LOCATION:San Roque - MANUEL MATEO (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-5@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:J5 · ATUNARA ATLETICO C.D. – U.D. TESORILLO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 5\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
+ MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-6@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:J6 · C.D. GUADIARO – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 6\nHora pendiente\nCampo: San Roque - LA UNION (F11\, F7) (A)\n\nCrea
+ do por Raúl Cote
+LOCATION:San Roque - LA UNION (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-7@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:J7 · ATUNARA ATLETICO C.D. – A.D. LOS CORTIJILLOS
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 7\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
+ MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-8@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:J8 · C.D. SAN BERNARDO – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 8\nHora pendiente\nCampo: San Roque - ALBERTO UMBRIA (F11\, F7) (A)\n
+ \nCreado por Raúl Cote
+LOCATION:San Roque - ALBERTO UMBRIA (F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-9@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:J9 · ATUNARA ATLETICO C.D. – HISTORICO RECREATIVO LINENSE CLUB D
+ E FÚTBOL "A"
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 9\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
+ MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-10@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:J10 · C.D. OLIVILLOS 87 – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 10\nHora pendiente\nCampo: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(
+ F11\, F7) (A)\n\nCreado por Raúl Cote
+LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-11@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:J11 · ATUNARA ATLETICO C.D. – C.D. ATHLETIC CLUB JIMENA
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 11\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CA
+ RMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-12@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:J12 · ATUNARA ATLETICO C.D. – ATLETICO ZABAL "A"
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 12\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CA
+ RMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-14@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:J14 · BALON LINENSE C.F. C.D. – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 14\nHora pendiente\nCampo: La Línea de La Concepción - ANTONIO REYES
+  (CDAD DVA) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-15@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:J15 · ATUNARA ATLETICO C.D. – PUENTE MAYORGA RVO
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 15\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CA
+ RMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-16@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:J16 · U.D. TESORILLO C.D. – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 16\nHora pendiente\nCampo: San Martin del Tesorillo - MUNICIPAL LA ERA
+  (A)\n\nCreado por Raúl Cote
+LOCATION:San Martin del Tesorillo - MUNICIPAL LA ERA (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-17@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:J17 · ATUNARA ATLETICO C.D. – C.D. GUADIARO
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 17\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CA
+ RMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-18@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:J18 · A.D. LOS CORTIJILLOS – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 18\nHora pendiente\nCampo: Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJ
+ ILLOS (F11-F7) (A)\n\nCreado por Raúl Cote
+LOCATION:Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-19@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:J19 · ATUNARA ATLETICO C.D. – C.D. SAN BERNARDO
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 19\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CA
+ RMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-20@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:J20 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "A" – ATUNARA
+  ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 20\nHora pendiente\nCampo: La Línea de La Concepción - Francisco Poz
+ o (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - Francisco Pozo (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-21@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:J21 · ATUNARA ATLETICO C.D. – C.D. OLIVILLOS 87
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 21\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CA
+ RMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
+ A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:zabal-benjamin-angel-22@atleticozabal.com
+DTSTAMP:20260930T153756Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:J22 · C.D. ATHLETIC CLUB JIMENA – ATUNARA ATLETICO C.D.
+DESCRIPTION:Benjamín · Ángel · Tercera Andaluza Cádiz · Grupo 4\nJorn
+ ada 22\nHora pendiente\nCampo: Jimena De La Frontera - JORGE ROCHA (A)\n\
+ nCreado por Raúl Cote
+LOCATION:Jimena De La Frontera - JORGE ROCHA (A)
+URL:https://www.atleticozabal.com/calendario-benjamin-angel.html
+END:VEVENT
+END:VCALENDAR

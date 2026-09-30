@@ -25,8 +25,8 @@ Promise.all([
   loadCalendar('data/alevin-c-rfaf.json'),loadCalendar('data/alevin-atunara-a-rfaf.json'),
   loadCalendar('data/alevin-zabal-c-rfaf.json'),loadCalendar('data/alevin-atunara-b-rfaf.json'),
   loadCalendar('data/infantil-a-rfaf.json'),loadCalendar('data/infantil-b-rfaf.json'),loadCalendar('data/benjamin-a-rfaf.json'),
-  loadCalendar('data/benjamin-b-rfaf.json'),loadCalendar('data/benjamin-sebas-rfaf.json')
-]).then(([senior,juvenil,juvenilB,cadeteA,cadeteB,cadeteFemenino,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,infantilB,benjaminA,benjaminB,benjaminSebas])=>{
+  loadCalendar('data/benjamin-b-rfaf.json'),loadCalendar('data/benjamin-sebas-rfaf.json'),loadCalendar('data/benjamin-angel-rfaf.json')
+]).then(([senior,juvenil,juvenilB,cadeteA,cadeteB,cadeteFemenino,alevinA,alevinC,alevinAtunara,alevinZabalC,alevinAtunaraB,infantilA,infantilB,benjaminA,benjaminB,benjaminSebas,benjaminAngel])=>{
   appendMatches(senior,'Sénior · Tercera Andaluza · Grupo único');
   appendMatches(juvenil,'Juvenil · División de Honor · Grupo 4');
   appendMatches(juvenilB,'Juvenil B · Cuarta Andaluza · Grupo 4');
@@ -43,6 +43,7 @@ Promise.all([
   appendMatches(benjaminA,'Benjamín A · Segunda Andaluza · Grupo único');
   appendMatches(benjaminB,'Benjamín · J. del Río · Tercera Andaluza · Grupo 4');
   appendMatches(benjaminSebas,'Benjamín · Sebas · Tercera Andaluza · Grupo 5');
+  appendMatches(benjaminAngel,'Benjamín · Ángel · Tercera Andaluza · Grupo 4');
   render();loading.remove();filter();
 }).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
 filter();

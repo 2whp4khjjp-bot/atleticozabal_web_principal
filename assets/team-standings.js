@@ -12,7 +12,8 @@
     'calendario-alevin-zabal-c.html': 'data/alevin-zabal-c-rfaf.json',
     'calendario-alevin-atunara-b.html': 'data/alevin-atunara-b-rfaf.json',
     'calendario-benjamin-a.html': 'data/benjamin-a-rfaf.json',
-    'calendario-benjamin.html': 'data/benjamin-b-rfaf.json'
+    'calendario-benjamin.html': 'data/benjamin-b-rfaf.json',
+    'calendario-benjamin-angel.html': 'data/benjamin-angel-rfaf.json'
   };
 
   for (const card of document.querySelectorAll('.team-card')) {

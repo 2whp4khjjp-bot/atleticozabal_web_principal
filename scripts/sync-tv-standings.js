@@ -50,7 +50,11 @@ const sources = [
   { key: 'benjamin-sebas', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49287953&codgrupo=49288358',
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=1',
-    roundPath: 'data/benjamin-sebas-rfaf.json' }
+    roundPath: 'data/benjamin-sebas-rfaf.json' },
+  { key: 'benjamin-angel', root: rfaf,
+    warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49287953&codgrupo=49288292',
+    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=1',
+    roundPath: 'data/benjamin-angel-rfaf.json' }
 ];
 
 function latestRound(path) {

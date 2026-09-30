@@ -56,8 +56,8 @@ const groups = {
   },
   'benjamin-b': {
     competition: '49287953', group: '49288292',
-    grouping: '1', delegation: '3', gameType: '2',
-    files: ['data/benjamin-b-rfaf.json']
+    grouping: '', delegation: '', gameType: '', calendarDetail: '0',
+    files: ['data/benjamin-b-rfaf.json', 'data/benjamin-angel-rfaf.json']
   },
   'benjamin-sebas': {
     competition: '49287953', group: '49288358',
@@ -123,7 +123,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
 
     for (const round of rounds) {
       const roundMatches = pending.filter(({ match }) => Number(match.round) === round);
-      const grouping = family.grouping ? '&cod_agrupacion=' + family.grouping : '';
+      const grouping = family.grouping !== undefined ? '&cod_agrupacion=' + family.grouping : '';
       const calendarDetail = family.calendarDetail ? '&CDetalle=' + family.calendarDetail : '';
       const sources = [
         {
