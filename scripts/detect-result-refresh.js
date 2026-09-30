@@ -6,6 +6,7 @@ const teams = [
   ['juvenil-b', 'data/juvenil-b-rfaf.json'],
   ['cadete', 'data/cadete-rfaf.json'],
   ['cadete-b', 'data/cadete-b-rfaf.json'],
+  ['cadete-femenino', 'data/cadete-femenino-rfaf.json'],
   ['alevin-a', 'data/alevin-a-rfaf.json'],
   ['alevin-b', 'data/alevin-b-rfaf.json'],
   ['alevin-c', 'data/alevin-c-rfaf.json'],
