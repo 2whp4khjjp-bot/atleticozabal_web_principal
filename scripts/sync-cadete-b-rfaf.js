@@ -8,7 +8,7 @@ const { attachRfafActas } = require('./rfaf-actas');
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1';
 const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49189596&codgrupo=49196403';
-const classificationSource = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=1';
+const classificationUrl = round => base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=' + round;
 const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
 
 (async () => {
@@ -64,6 +64,12 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     if (matches.length < 18 || invalid) {
       throw new Error('El calendario del Cadete B no coincide con el grupo esperado (' + matches.length + ')');
     }
+    const today = new Intl.DateTimeFormat('sv-SE', {
+      timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date());
+    const classificationRound = matches.reduce((round, match) =>
+      match.date <= today ? Math.max(round, Number(match.round) || 0) : round, 1);
+    const classificationSource = classificationUrl(classificationRound);
 
     await attachRfafActas(page, matches, { base, competition: '49189596', group: '49196403' });
     const response = await page.goto(classificationSource, {
