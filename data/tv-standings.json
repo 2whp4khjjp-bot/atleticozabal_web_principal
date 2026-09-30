@@ -1,65 +1,65 @@
 {
-  "updatedAt": "2026-09-30T13:36:42.669Z",
+  "updatedAt": "2026-09-30T13:51:08.614Z",
   "competitions": {
     "senior": [
       {
-        "team": "C.D. BALON LINENSE C.F.",
+        "team": "C.D. JUVENTUD PALMONES C.F.",
         "position": 1
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "C.D. SAN BERNARDO",
         "position": 2
       },
       {
-        "team": "C.D. JUVENTUD PALMONES C.F.",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 3
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "TARIFA U.D.",
         "position": 4
       },
       {
-        "team": "TARIFA U.D.",
+        "team": "C.D. A.D. SAN GARCIA",
         "position": 5
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "ATLETICO ZABAL",
         "position": 6
       },
       {
-        "team": "C.D. A.D. SAN GARCIA",
+        "team": "C.D. BALON LINENSE C.F.",
         "position": 7
       },
       {
-        "team": "PEÑA RECREATIVA LOLUBA C.F.",
+        "team": "C.D. SAN ROQUE",
         "position": 8
       },
       {
-        "team": "C.D. SAN BERNARDO",
+        "team": "C.D. TARIFA FUTBOL ACADEMY",
         "position": 9
       },
       {
-        "team": "C.D. SAN ROQUE",
+        "team": "U.D. LOS BARRIOS",
         "position": 10
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "C.D. LA ROCK PUENTE F.C.",
         "position": 11
       },
       {
-        "team": "CLUB DEPORTIVO LEGADO ATLÉTICO",
+        "team": "PEÑA RECREATIVA LOLUBA C.F.",
         "position": 12
       },
       {
-        "team": "C.D. LA ROCK PUENTE F.C.",
+        "team": "CLUB DEPORTIVO LEGADO ATLÉTICO",
         "position": 13
       },
       {
-        "team": "C.D. TARIFA FUTBOL ACADEMY",
+        "team": "FACINAS C.F.",
         "position": 14
       },
       {
-        "team": "FACINAS C.F.",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 15
       }
     ],
@@ -137,61 +137,115 @@
         "position": 18
       }
     ],
-    "cadete": [
+    "juvenil-b": [
       {
-        "team": "ARCOS C.F.",
+        "team": "U.D. LOS BARRIOS",
         "position": 1
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "C.D. ATLETICO ALGECIREÑO",
         "position": 2
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "CAETARIA C.D.",
         "position": 3
       },
       {
-        "team": "C.D. LA SALLE",
+        "team": "C.D. S.M. MIRADOR",
         "position": 4
       },
       {
-        "team": "CHICLANA C.F.",
+        "team": "C.D. JUVENTUD PALMONES C.F.",
         "position": 5
       },
       {
-        "team": "XEREZ DEPORTIVO F.C.",
+        "team": "ATLETICO ZABAL",
         "position": 6
       },
       {
-        "team": "A.D. MARIANISTAS C.D.",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 7
       },
       {
-        "team": "C.D. ESTRELLA PORTUENSE F.C.",
+        "team": "CD ATLETICO PASTORES ALGECIRAS \"A\"",
         "position": 8
       },
       {
-        "team": "C.F. SAN JOSE OBRERO",
+        "team": "PEÑA RECREATIVA LOLUBA C.F.",
         "position": 9
       },
       {
-        "team": "CD ATLETICO PASTORES ALGECIRAS",
+        "team": "REAL BALOMPEDICA LINENSE",
         "position": 10
       },
       {
-        "team": "ATCO. SANLUQUEÑO C.F.",
+        "team": "PEÑA MADRIDISTA LINENSE \"B\"",
         "position": 11
       },
       {
-        "team": "C.D. CADISTA DE LA ISLA",
+        "team": "C.D. GUADIARO",
         "position": 12
       },
       {
-        "team": "ALGECIRAS C.F., S.A.D.",
+        "team": "PUENTE MAYORGA RVO",
         "position": 13
+      }
+    ],
+    "cadete": [
+      {
+        "team": "C.D. LA SALLE",
+        "position": 1
+      },
+      {
+        "team": "ARCOS C.F.",
+        "position": 2
+      },
+      {
+        "team": "ATLETICO ZABAL",
+        "position": 3
+      },
+      {
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "position": 4
+      },
+      {
+        "team": "C.D. ESTRELLA PORTUENSE F.C.",
+        "position": 5
+      },
+      {
+        "team": "CHICLANA C.F.",
+        "position": 6
+      },
+      {
+        "team": "C.D. CADISTA DE LA ISLA",
+        "position": 7
+      },
+      {
+        "team": "ALGECIRAS C.F., S.A.D.",
+        "position": 8
+      },
+      {
+        "team": "XEREZ DEPORTIVO F.C.",
+        "position": 9
+      },
+      {
+        "team": "A.D. MARIANISTAS C.D.",
+        "position": 10
+      },
+      {
+        "team": "C.F. SAN JOSE OBRERO",
+        "position": 11
       },
       {
         "team": "C.D. SAN FERNANDO 1940",
+        "position": 12
+      },
+      {
+        "team": "CD ATLETICO PASTORES ALGECIRAS",
+        "position": 13
+      },
+      {
+        "team": "ATCO. SANLUQUEÑO C.F.",
         "position": 14
       },
       {
@@ -253,13 +307,67 @@
         "position": 12
       }
     ],
-    "infantil-a": [
+    "cadete-femenino": [
       {
-        "team": "ATCO. SANLUQUEÑO C.F.",
+        "team": "A.D. LOS BURREÑOS",
         "position": 1
       },
       {
-        "team": "C.D. S.M. MIRADOR",
+        "team": "ARCOS C.F.",
+        "position": 2
+      },
+      {
+        "team": "ATLETICO ZABAL",
+        "position": 3
+      },
+      {
+        "team": "C.D. GRUPO EMPRESA BAZAN C.F.",
+        "position": 4
+      },
+      {
+        "team": "C.D. GUADALCACIN",
+        "position": 5
+      },
+      {
+        "team": "C.D. LA SALLE",
+        "position": 6
+      },
+      {
+        "team": "C.D. RAYO SANLUQUEÑO \"B\"",
+        "position": 7
+      },
+      {
+        "team": "C.D. SPORTING PUERTORREALEÑA",
+        "position": 8
+      },
+      {
+        "team": "C.D. TRASMALLO F.C.",
+        "position": 9
+      },
+      {
+        "team": "C.D. VEJER BPIE",
+        "position": 10
+      },
+      {
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "position": 11
+      },
+      {
+        "team": "PUENTE MAYORGA RVO.",
+        "position": 12
+      },
+      {
+        "team": "U.D. LOS BARRIOS",
+        "position": 13
+      }
+    ],
+    "infantil-a": [
+      {
+        "team": "C.D. SAN ROQUE",
+        "position": 1
+      },
+      {
+        "team": "ATCO. SANLUQUEÑO C.F.",
         "position": 2
       },
       {
@@ -267,43 +375,43 @@
         "position": 3
       },
       {
-        "team": "C.D. LA SALLE",
+        "team": "TRASMALLO F.C. C.D.",
         "position": 4
       },
       {
-        "team": "C.D. CADISTA DE LA ISLA",
+        "team": "C.D. S.M. MIRADOR",
         "position": 5
       },
       {
-        "team": "TRASMALLO F.C. C.D.",
+        "team": "C.D. LA SALLE",
         "position": 6
       },
       {
-        "team": "C.D. SAN ROQUE",
+        "team": "A.D. MARIANISTAS C.D.",
         "position": 7
       },
       {
-        "team": "CADIZ C.F., S.A.D.",
+        "team": "ARCOS C.F.",
         "position": 8
       },
       {
-        "team": "A.D. MARIANISTAS C.D.",
+        "team": "CADIZ C.F., S.A.D.",
         "position": 9
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "BAHIA SAN FERNANDO C.D.",
         "position": 10
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C.D. CADISTA DE LA ISLA",
         "position": 11
       },
       {
-        "team": "BARBATE C.F.",
+        "team": "ATLETICO ZABAL",
         "position": 12
       },
       {
-        "team": "BAHIA SAN FERNANDO C.D.",
+        "team": "BARBATE C.F.",
         "position": 13
       },
       {
@@ -311,11 +419,11 @@
         "position": 14
       },
       {
-        "team": "BALON LINENSE C.F. C.D.",
+        "team": "CONIL C.F.",
         "position": 15
       },
       {
-        "team": "CONIL C.F.",
+        "team": "BALON LINENSE C.F. C.D.",
         "position": 16
       }
     ],
@@ -325,7 +433,7 @@
         "position": 1
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C.D. LA SALLE",
         "position": 2
       },
       {
@@ -333,47 +441,47 @@
         "position": 3
       },
       {
-        "team": "C.D. DIVINA PASTORA SANLUQUEÑA",
+        "team": "CADIZ C.F., S.A.D.",
         "position": 4
       },
       {
-        "team": "C.D. LA SALLE",
+        "team": "A.D. TARAGUILLA",
         "position": 5
       },
       {
-        "team": "A.D. LOS BURREÑOS",
+        "team": "A.D. MARIANISTAS C.D.",
         "position": 6
       },
       {
-        "team": "CADIZ C.F., S.A.D.",
+        "team": "ARCOS C.F.",
         "position": 7
       },
       {
-        "team": "A.D. TARAGUILLA",
+        "team": "C.D. SAN FERNANDO 1940",
         "position": 8
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "C.D. DIVINA PASTORA SANLUQUEÑA",
         "position": 9
       },
       {
-        "team": "SPORTING CHICLANA C.D.",
+        "team": "A.D. LOS BURREÑOS",
         "position": 10
       },
       {
-        "team": "A.D. MARIANISTAS C.D.",
+        "team": "C.D. SAN ROQUE",
         "position": 11
       },
       {
-        "team": "U.D. LA ALGAIDA",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 12
       },
       {
-        "team": "C.D. SAN FERNANDO 1940",
+        "team": "SPORTING CHICLANA C.D.",
         "position": 13
       },
       {
-        "team": "TARIFA U.D.",
+        "team": "U.D. LA ALGAIDA",
         "position": 14
       },
       {
@@ -381,17 +489,17 @@
         "position": 15
       },
       {
-        "team": "C.D. SAN ROQUE",
+        "team": "TARIFA U.D.",
         "position": 16
       }
     ],
     "alevines-g4": [
       {
-        "team": "C.D. GUADIARO",
+        "team": "A.D. TARAGUILLA",
         "position": 1
       },
       {
-        "team": "A.D. TARAGUILLA",
+        "team": "C.D. GUADIARO",
         "position": 2
       },
       {
@@ -439,11 +547,11 @@
         "position": 13
       },
       {
-        "team": "C.D. BALON LINENSE C.F.",
+        "team": "C.D. ATHLETIC CLUB JIMENA",
         "position": 14
       },
       {
-        "team": "C.D. ATHLETIC CLUB JIMENA",
+        "team": "C.D. BALON LINENSE C.F.",
         "position": 15
       }
     ],
@@ -511,55 +619,55 @@
     ],
     "benjamin-a": [
       {
-        "team": "C.D. ESTRELLA PORTUENSE F.C.",
+        "team": "A.D. TARAGUILLA",
         "position": 1
       },
       {
-        "team": "A.D. TARAGUILLA",
+        "team": "ATLETICO ZABAL",
         "position": 2
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "C.D. LA SALLE",
         "position": 3
       },
       {
-        "team": "C.D. LA SALLE",
+        "team": "A.D. LOS BURREÑOS",
         "position": 4
       },
       {
-        "team": "A.D. LOS BURREÑOS",
+        "team": "C.D. ESTRELLA PORTUENSE F.C.",
         "position": 5
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "A.D. MARIANISTAS C.D.",
         "position": 6
       },
       {
-        "team": "A.D. MARIANISTAS C.D.",
+        "team": "TRASMALLO F.C. C.D.",
         "position": 7
       },
       {
-        "team": "TRASMALLO F.C. C.D.",
+        "team": "BAHIA SAN FERNANDO C.D.",
         "position": 8
       },
       {
-        "team": "C.D. S.M. MIRADOR",
+        "team": "ARCOS C.F.",
         "position": 9
       },
       {
-        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
+        "team": "C.D. S.M. MIRADOR",
         "position": 10
       },
       {
-        "team": "C.D. SALESIANOS ALGECIRAS",
+        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
         "position": 11
       },
       {
-        "team": "BAHIA SAN FERNANDO C.D.",
+        "team": "C.D. SALESIANOS ALGECIRAS",
         "position": 12
       },
       {
-        "team": "C.F. SAN JOSE OBRERO",
+        "team": "C.D. ISLA DE LEON FUTBOL BASE",
         "position": 13
       },
       {
@@ -567,11 +675,11 @@
         "position": 14
       },
       {
-        "team": "A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F.",
+        "team": "C.F. SAN JOSE OBRERO",
         "position": 15
       },
       {
-        "team": "C.D. ISLA DE LEON FUTBOL BASE",
+        "team": "A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F.",
         "position": 16
       }
     ],
@@ -619,60 +727,6 @@
       {
         "team": "U.D. TESORILLO C.D.",
         "position": 11
-      }
-    ],
-    "cadete-femenino": [
-      {
-        "team": "A.D. LOS BURREÑOS",
-        "position": 1
-      },
-      {
-        "team": "ARCOS C.F.",
-        "position": 2
-      },
-      {
-        "team": "ATLETICO ZABAL",
-        "position": 3
-      },
-      {
-        "team": "C.D. GRUPO EMPRESA BAZAN C.F.",
-        "position": 4
-      },
-      {
-        "team": "C.D. GUADALCACIN",
-        "position": 5
-      },
-      {
-        "team": "C.D. LA SALLE",
-        "position": 6
-      },
-      {
-        "team": "C.D. RAYO SANLUQUEÑO \"B\"",
-        "position": 7
-      },
-      {
-        "team": "C.D. SPORTING PUERTORREALEÑA",
-        "position": 8
-      },
-      {
-        "team": "C.D. TRASMALLO F.C.",
-        "position": 9
-      },
-      {
-        "team": "C.D. VEJER BPIE",
-        "position": 10
-      },
-      {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
-        "position": 11
-      },
-      {
-        "team": "PUENTE MAYORGA RVO.",
-        "position": 12
-      },
-      {
-        "team": "U.D. LOS BARRIOS",
-        "position": 13
       }
     ]
   }
