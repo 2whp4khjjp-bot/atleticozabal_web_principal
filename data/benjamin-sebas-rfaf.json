@@ -1,8 +1,15 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=1",
-  "updatedAt": "2026-09-30T17:30:00.000Z",
-  "standing": null,
+  "updatedAt": "2026-09-30T15:28:25.207Z",
+  "standing": {
+    "position": 2,
+    "points": 0,
+    "played": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "round": 1
+  },
   "rounds": [
     {
       "round": 1,
@@ -97,181 +104,181 @@
     {
       "round": 1,
       "date": "2026-10-03",
+      "time": "11:30",
       "home": "C.D. SALESIANOS ALGECIRAS",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - LA MENACHA PACO LEÓN (F11-F7,3)",
-      "time": "11:30",
+      "ground": "Algeciras - LA MENACHA PACO LEÓN (F11-F7,3) (A)",
       "score": null
     },
     {
       "round": 2,
       "date": "2026-10-10",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. TARIFA FUTBOL ACADEMY",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 3,
       "date": "2026-10-17",
+      "time": null,
       "home": "MONITORES FUTBOL DE ALGECIRAS",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7,1)",
-      "time": null,
+      "ground": "Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7,1) (A)",
       "score": null
     },
     {
       "round": 4,
       "date": "2026-10-24",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. S.M. MIRADOR",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 5,
       "date": "2026-11-07",
+      "time": null,
       "home": "C.D. JUAN SEBASTIAN ELCANO",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7)",
-      "time": null,
+      "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7) (A)",
       "score": null
     },
     {
       "round": 6,
       "date": "2026-11-14",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "U.D. LOS BARRIOS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 7,
       "date": "2026-11-21",
+      "time": null,
       "home": "CLUB RVO. BAHIA DE ALGECIRAS",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - IGNACIO VILLAVERDE",
-      "time": null,
+      "ground": "Algeciras - IGNACIO VILLAVERDE (A)",
       "score": null
     },
     {
       "round": 8,
       "date": "2026-11-28",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 9,
       "date": "2026-12-12",
+      "time": null,
       "home": "ANDALUCIA C.M. C.D.",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - Sergio Martín",
-      "time": null,
+      "ground": "Algeciras - Sergio Martín (A)",
       "score": null
     },
     {
       "round": 10,
       "date": "2026-12-19",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. A.D. SAN GARCIA",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 12,
       "date": "2027-01-23",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. SALESIANOS ALGECIRAS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 13,
       "date": "2027-01-30",
+      "time": null,
       "home": "C.D. TARIFA FUTBOL ACADEMY",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Tarifa - PARQUE FERIA",
-      "time": null,
+      "ground": "Tarifa - PARQUE FERIA  (A)",
       "score": null
     },
     {
       "round": 14,
       "date": "2027-02-06",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "MONITORES FUTBOL DE ALGECIRAS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 15,
       "date": "2027-02-13",
+      "time": null,
       "home": "C.D. S.M. MIRADOR",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - Sergio Martín",
-      "time": null,
+      "ground": "Algeciras - Sergio Martín (A)",
       "score": null
     },
     {
       "round": 16,
       "date": "2027-02-20",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. JUAN SEBASTIAN ELCANO",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 17,
       "date": "2027-03-06",
+      "time": null,
       "home": "U.D. LOS BARRIOS",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT)",
-      "time": null,
+      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
       "score": null
     },
     {
       "round": 18,
       "date": "2027-03-13",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "CLUB RVO. BAHIA DE ALGECIRAS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 19,
       "date": "2027-04-03",
+      "time": null,
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
       "away": "ATLETICO ZABAL \"B\"",
       "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
-      "time": null,
       "score": null
     },
     {
       "round": 20,
       "date": "2027-04-10",
+      "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "ANDALUCIA C.M. C.D.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "time": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
       "round": 21,
       "date": "2027-04-17",
+      "time": null,
       "home": "C.D. A.D. SAN GARCIA",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - SAN GARCIA",
-      "time": null,
+      "ground": "Algeciras - SAN GARCIA (A)",
       "score": null
     }
   ]
