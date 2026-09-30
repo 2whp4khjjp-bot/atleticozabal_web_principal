@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-09-29T14:31:32.746Z",
+  "updatedAt": "2026-09-30T14:30:33.207Z",
   "standing": {
     "position": 15,
     "points": 2,
@@ -16,10 +16,7 @@
       "home": "Arenas de Armilla Cultura y Deporte CF",
       "away": "Atlético Zabal",
       "ground": "Campo Municipal de Armilla",
-      "score": [
-        2,
-        1
-      ],
+      "score": null,
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693210&cod_acta=70693210"
     },
     {
@@ -30,7 +27,7 @@
       "away": "UD Tomares",
       "ground": "Estadio Virgen del Carmen",
       "score": [
-        0,
+        1,
         1
       ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693219&cod_acta=70693219"
@@ -55,10 +52,7 @@
       "home": "Calavera CF",
       "away": "Atlético Zabal",
       "ground": "IDM Calavera",
-      "score": [
-        2,
-        2
-      ],
+      "score": null,
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693238&cod_acta=70693238"
     },
     {
