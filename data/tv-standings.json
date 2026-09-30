@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:47:15.336Z",
+  "updatedAt": "2026-09-30T13:36:42.669Z",
   "competitions": {
     "senior": [
       {
@@ -619,6 +619,60 @@
       {
         "team": "U.D. TESORILLO C.D.",
         "position": 11
+      }
+    ],
+    "cadete-femenino": [
+      {
+        "team": "A.D. LOS BURREÑOS",
+        "position": 1
+      },
+      {
+        "team": "ARCOS C.F.",
+        "position": 2
+      },
+      {
+        "team": "ATLETICO ZABAL",
+        "position": 3
+      },
+      {
+        "team": "C.D. GRUPO EMPRESA BAZAN C.F.",
+        "position": 4
+      },
+      {
+        "team": "C.D. GUADALCACIN",
+        "position": 5
+      },
+      {
+        "team": "C.D. LA SALLE",
+        "position": 6
+      },
+      {
+        "team": "C.D. RAYO SANLUQUEÑO \"B\"",
+        "position": 7
+      },
+      {
+        "team": "C.D. SPORTING PUERTORREALEÑA",
+        "position": 8
+      },
+      {
+        "team": "C.D. TRASMALLO F.C.",
+        "position": 9
+      },
+      {
+        "team": "C.D. VEJER BPIE",
+        "position": 10
+      },
+      {
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "position": 11
+      },
+      {
+        "team": "PUENTE MAYORGA RVO.",
+        "position": 12
+      },
+      {
+        "team": "U.D. LOS BARRIOS",
+        "position": 13
       }
     ]
   }
