@@ -1,0 +1,285 @@
+{
+  "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=1",
+  "updatedAt": "2026-09-30T14:04:46.876Z",
+  "standing": {
+    "position": 2,
+    "points": 0,
+    "played": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "round": 1
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "date": "2026-10-03"
+    },
+    {
+      "round": 2,
+      "date": "2026-10-10"
+    },
+    {
+      "round": 3,
+      "date": "2026-10-17"
+    },
+    {
+      "round": 4,
+      "date": "2026-10-24"
+    },
+    {
+      "round": 5,
+      "date": "2026-10-31"
+    },
+    {
+      "round": 6,
+      "date": "2026-11-07"
+    },
+    {
+      "round": 7,
+      "date": "2026-11-14"
+    },
+    {
+      "round": 8,
+      "date": "2026-11-21"
+    },
+    {
+      "round": 9,
+      "date": "2026-11-28"
+    },
+    {
+      "round": 10,
+      "date": "2026-12-12"
+    },
+    {
+      "round": 11,
+      "date": "2026-12-19"
+    },
+    {
+      "round": 12,
+      "date": "2027-01-16"
+    },
+    {
+      "round": 13,
+      "date": "2027-01-23"
+    },
+    {
+      "round": 14,
+      "date": "2027-01-30"
+    },
+    {
+      "round": 15,
+      "date": "2027-02-06"
+    },
+    {
+      "round": 16,
+      "date": "2027-02-13"
+    },
+    {
+      "round": 17,
+      "date": "2027-02-20"
+    },
+    {
+      "round": 18,
+      "date": "2027-03-06"
+    },
+    {
+      "round": 19,
+      "date": "2027-03-13"
+    },
+    {
+      "round": 20,
+      "date": "2027-04-03"
+    },
+    {
+      "round": 21,
+      "date": "2027-04-10"
+    },
+    {
+      "round": 22,
+      "date": "2027-04-24"
+    }
+  ],
+  "matches": [
+    {
+      "round": 1,
+      "date": "2026-10-04",
+      "time": "12:30",
+      "home": "ATLETICO ZABAL",
+      "away": "C.D. SAN ROQUE \"A\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
+      "score": null
+    },
+    {
+      "round": 3,
+      "date": "2026-10-17",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 4,
+      "date": "2026-10-24",
+      "time": null,
+      "home": "C.D. ATHLETIC CLUB JIMENA",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 5,
+      "date": "2026-10-31",
+      "time": null,
+      "home": "LOS CORTIJILLOS A.D.",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 6,
+      "date": "2026-11-07",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "A.D. TARAGUILLA",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 7,
+      "date": "2026-11-14",
+      "time": null,
+      "home": "U.D. TESORILLO C.D.",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 8,
+      "date": "2026-11-21",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "BALON LINENSE C.F. C.D.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 9,
+      "date": "2026-11-28",
+      "time": null,
+      "home": "C.D. GUADIARO",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 10,
+      "date": "2026-12-12",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "C.D. EPRO CAMPO DE GIBRALTAR",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 11,
+      "date": "2026-12-19",
+      "time": null,
+      "home": "PUENTE MAYORGA RVO",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 12,
+      "date": "2027-01-16",
+      "time": null,
+      "home": "C.D. SAN ROQUE \"A\"",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 14,
+      "date": "2027-01-30",
+      "time": null,
+      "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 15,
+      "date": "2027-02-06",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "C.D. ATHLETIC CLUB JIMENA",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 16,
+      "date": "2027-02-13",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "LOS CORTIJILLOS A.D.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 17,
+      "date": "2027-02-20",
+      "time": null,
+      "home": "A.D. TARAGUILLA",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 18,
+      "date": "2027-03-06",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "U.D. TESORILLO C.D.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 19,
+      "date": "2027-03-13",
+      "time": null,
+      "home": "BALON LINENSE C.F. C.D.",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 20,
+      "date": "2027-04-03",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "C.D. GUADIARO",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 21,
+      "date": "2027-04-10",
+      "time": null,
+      "home": "C.D. EPRO CAMPO DE GIBRALTAR",
+      "away": "ATLETICO ZABAL",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 22,
+      "date": "2027-04-24",
+      "time": null,
+      "home": "ATLETICO ZABAL",
+      "away": "PUENTE MAYORGA RVO",
+      "ground": null,
+      "score": null
+    }
+  ]
+}

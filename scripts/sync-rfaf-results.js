@@ -32,6 +32,11 @@ const groups = {
     grouping: '1', delegation: '3', gameType: '2',
     files: ['data/alevin-a-rfaf.json']
   },
+  'infantil-b': {
+    competition: '49223072', group: '49227064',
+    grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',
+    files: ['data/infantil-b-rfaf.json']
+  },
   'alevin-b-infantil-a': {
     competition: '48909139', group: '48909177',
     grouping: '1', delegation: '3', gameType: '1', calendarDetail: '0',

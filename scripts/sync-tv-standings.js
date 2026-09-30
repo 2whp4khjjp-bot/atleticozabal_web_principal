@@ -23,10 +23,15 @@ const sources = [
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=1' },
   { key: 'cadete-femenino', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49660873&codgrupo=49660937',
-    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=1' },
+    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=1',
+    roundPath: 'data/cadete-femenino-rfaf.json' },
   { key: 'infantil-a', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=48909139&codgrupo=48909177',
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139' },
+  { key: 'infantil-b', root: rfaf,
+    warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49223072&codgrupo=49227064',
+    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=1',
+    roundPath: 'data/infantil-b-rfaf.json' },
   { key: 'alevin-a', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=48893775&codgrupo=48894181',
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48894181&codcompeticion=48893775' },
@@ -87,9 +92,8 @@ function parseRows(rows) {
     for (const source of sources) {
       const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
       try {
-        const classificationUrl = source.key === 'cadete-femenino'
-          ? source.url.replace(/&codjornada=\d+/, '&codjornada=' +
-            latestRound('data/cadete-femenino-rfaf.json'))
+        const classificationUrl = source.roundPath
+          ? source.url.replace(/&codjornada=\d+/, '&codjornada=' + latestRound(source.roundPath))
           : source.url;
         for (const url of [source.warmup, classificationUrl]) {
           const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });

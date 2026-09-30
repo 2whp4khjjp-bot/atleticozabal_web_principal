@@ -16,6 +16,7 @@ const commands = {
   'alevin-zabal-c': [['sync-rfaf-results.js', 'alevines-g5'], 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
   'alevin-atunara-b': [['sync-rfaf-results.js', 'alevines-g5'], 'render-alevines-g5-ics.js', 'validate-alevines-g5.js'],
   'infantil-a': [['sync-rfaf-results.js', 'alevin-b-infantil-a'], 'render-alevin-b-ics.js', 'validate-alevin-b.js', 'render-infantil-a-ics.js', 'validate-infantil-a.js'],
+  'infantil-b': [['sync-rfaf-results.js', 'infantil-b'], 'render-infantil-b-ics.js', 'validate-infantil-b.js'],
   'benjamin-a': [['sync-rfaf-results.js', 'benjamin-a'], 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
   'benjamin-b': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js']
 };
@@ -33,6 +34,7 @@ const teamFiles = {
   'alevin-zabal-c': 'data/alevin-zabal-c-rfaf.json',
   'alevin-atunara-b': 'data/alevin-atunara-b-rfaf.json',
   'infantil-a': 'data/infantil-a-rfaf.json',
+  'infantil-b': 'data/infantil-b-rfaf.json',
   'benjamin-a': 'data/benjamin-a-rfaf.json',
   'benjamin-b': 'data/benjamin-b-rfaf.json'
 };

@@ -1,23 +1,25 @@
-name: Sincronizar clasificaciones · Vista TV
+name: Sincronizar Infantil B · RFAF
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'scripts/sync-tv-standings.js'
-      - '.github/workflows/sync-tv-standings.yml'
+      - 'scripts/sync-infantil-b-rfaf.js'
+      - 'scripts/render-infantil-b-ics.js'
+      - 'scripts/validate-infantil-b.js'
+      - '.github/workflows/sync-infantil-b-rfaf.yml'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
 permissions:
   contents: write
 concurrency:
-  group: sync-tv-standings
+  group: sync-infantil-b-rfaf
   cancel-in-progress: true
 jobs:
-  standings:
+  browser:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Comprobar hora peninsular
         id: window
@@ -33,24 +35,29 @@ jobs:
           fi
       - uses: actions/checkout@v4
         if: steps.window.outputs.run == 'true'
-      - name: Instalar navegador
+      - name: Instalar Playwright y Chromium
         if: steps.window.outputs.run == 'true'
         run: |
           npm install --no-save --package-lock=false playwright@1.63.0
           npx playwright install --with-deps chromium
-      - name: Consultar clasificaciones oficiales
+      - name: Consultar calendario y clasificación
         if: steps.window.outputs.run == 'true'
-        run: node scripts/sync-tv-standings.js
-      - name: Validar y publicar
+        run: node scripts/sync-infantil-b-rfaf.js
+      - name: Generar calendario de suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-infantil-b-ics.js
+      - name: Validar página y suscripción
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-infantil-b.js
+      - name: Publicar cambios oficiales
         if: steps.window.outputs.run == 'true'
         run: |
-          node -e "const d=require('./data/tv-standings.json'); if(Object.keys(d.competitions||{}).length!==13) process.exit(1)"
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
-          git add data/tv-standings.json
+          git add data/infantil-b-rfaf.json calendario-infantil-b.ics
           if git diff --cached --quiet; then
-            echo "No hay cambios de clasificación"
+            echo "No hay cambios oficiales que publicar"
             exit 0
           fi
-          git commit -m "Actualiza clasificaciones de la vista TV"
+          git commit -m "Actualiza partidos oficiales Infantil B"
           bash scripts/push-calendar-update.sh
