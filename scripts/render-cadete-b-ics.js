@@ -46,7 +46,7 @@ for (const match of data.matches) {
     ? match.score[0] + '–' + match.score[1] : null;
   const title = (result ? 'FINAL · ' : 'J' + match.round + ' · ') + match.home +
     ' – ' + match.away + (result ? ' ' + result : '');
-  const notes = ['Tercera Andaluza Cádiz Cadete', 'Jornada ' + match.round,
+  const notes = ['Cadete B · Tercera Andaluza Cádiz · Grupo 4', 'Jornada ' + match.round,
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
   if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
