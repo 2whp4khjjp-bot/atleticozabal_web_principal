@@ -103,20 +103,24 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     const cells = sample?.cells || [];
     const teamIndex = cells.findIndex(value => /ATLETICO ZABAL/i.test(normal(value)));
     const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
+    const compactTable = cells.length < 14;
     const standing = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
-      points: number(teamIndex + 2),
-      played: number(teamIndex + 3),
-      goalsFor: number(teamIndex + 11),
-      goalsAgainst: number(teamIndex + 12),
+      // La vista de clasificación femenina usa el resumen (puntos al final de la fila).
+      // La tabla detallada de otras categorías incluye además PJ y goles.
+      points: compactTable ? number(cells.length - 1) : number(teamIndex + 2),
+      played: compactTable ? null : number(teamIndex + 3),
+      goalsFor: compactTable ? null : number(teamIndex + 11),
+      goalsAgainst: compactTable ? null : number(teamIndex + 12),
       round: Number(sample.roundLabel?.match(/\d+/)?.[0]) || null
     } : null;
     if (!standing || standing.position < 1 || standing.position > 20 ||
-        standing.points === null || standing.played === null ||
-        standing.goalsFor === null || standing.goalsAgainst === null) {
+        standing.points === null) {
       throw new Error('No se puede verificar la clasificación del Cadete Femenino');
     }
-    if (standing.played === 1 && matches[0].score === null && matches[0].date < matches[1].date) {
+    if (standing.played === 1 && Number.isInteger(standing.goalsFor) &&
+        Number.isInteger(standing.goalsAgainst) && matches[0].score === null &&
+        matches[0].date < matches[1].date) {
       const home = /ATLETICO ZABAL/i.test(normal(matches[0].home));
       matches[0].score = home
         ? [standing.goalsFor, standing.goalsAgainst]
