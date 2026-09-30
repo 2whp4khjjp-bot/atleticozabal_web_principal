@@ -21,6 +21,9 @@ const sources = [
   { key: 'cadete-b', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49189596&codgrupo=49196403',
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=1' },
+  { key: 'cadete-femenino', root: rfaf,
+    warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=49660873&codgrupo=49660937',
+    url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=1' },
   { key: 'infantil-a', root: rfaf,
     warmup: rfaf + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion=48909139&codgrupo=48909177',
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139' },
@@ -41,6 +44,16 @@ const sources = [
     url: rfaf + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=1' }
 ];
 
+function latestRound(path) {
+  if (!fs.existsSync(path)) return 1;
+  const data = JSON.parse(fs.readFileSync(path, 'utf8'));
+  const today = new Intl.DateTimeFormat('sv-SE', {
+    timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(new Date());
+  const dates = Array.isArray(data.rounds) ? data.rounds : data.matches || [];
+  return dates.reduce((round, item) =>
+    item.date <= today ? Math.max(round, Number(item.round) || 0) : round, 1);
+}
 const clean = value => String(value || '').replace(/\s+/g, ' ').trim();
 function parseRows(rows) {
   const result = [];
@@ -74,7 +87,11 @@ function parseRows(rows) {
     for (const source of sources) {
       const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
       try {
-        for (const url of [source.warmup, source.url]) {
+        const classificationUrl = source.key === 'cadete-femenino'
+          ? source.url.replace(/&codjornada=\d+/, '&codjornada=' +
+            latestRound('data/cadete-femenino-rfaf.json'))
+          : source.url;
+        for (const url of [source.warmup, classificationUrl]) {
           const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
           if (!response || !response.ok()) throw new Error(source.key + ': HTTP no válido');
         }
