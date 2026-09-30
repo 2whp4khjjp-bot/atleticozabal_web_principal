@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=1",
-  "updatedAt": "2026-09-30T14:04:46.876Z",
+  "updatedAt": "2026-09-30T14:07:02.697Z",
   "standing": {
     "position": 2,
     "points": 0,
@@ -107,7 +107,7 @@
       "time": "12:30",
       "home": "ATLETICO ZABAL",
       "away": "C.D. SAN ROQUE \"A\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -116,7 +116,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -125,7 +125,7 @@
       "time": null,
       "home": "C.D. ATHLETIC CLUB JIMENA",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)",
       "score": null
     },
     {
@@ -134,7 +134,7 @@
       "time": null,
       "home": "LOS CORTIJILLOS A.D.",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
       "score": null
     },
     {
@@ -143,7 +143,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "A.D. TARAGUILLA",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -152,7 +152,7 @@
       "time": null,
       "home": "U.D. TESORILLO C.D.",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
       "score": null
     },
     {
@@ -161,7 +161,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -170,7 +170,7 @@
       "time": null,
       "home": "C.D. GUADIARO",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Roque - LA UNION (F11, F7) (A)",
       "score": null
     },
     {
@@ -179,7 +179,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -188,7 +188,7 @@
       "time": null,
       "home": "PUENTE MAYORGA RVO",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
       "score": null
     },
     {
@@ -197,7 +197,7 @@
       "time": null,
       "home": "C.D. SAN ROQUE \"A\"",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
       "score": null
     },
     {
@@ -206,7 +206,7 @@
       "time": null,
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": null
     },
     {
@@ -215,7 +215,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "C.D. ATHLETIC CLUB JIMENA",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -224,7 +224,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "LOS CORTIJILLOS A.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -233,7 +233,7 @@
       "time": null,
       "home": "A.D. TARAGUILLA",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)",
       "score": null
     },
     {
@@ -242,7 +242,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "U.D. TESORILLO C.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -251,7 +251,7 @@
       "time": null,
       "home": "BALON LINENSE C.F. C.D.",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": null
     },
     {
@@ -260,7 +260,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "C.D. GUADIARO",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     },
     {
@@ -269,7 +269,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Francisco Pozo (A)",
       "score": null
     },
     {
@@ -278,7 +278,7 @@
       "time": null,
       "home": "ATLETICO ZABAL",
       "away": "PUENTE MAYORGA RVO",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     }
   ]
