@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T13:51:08.614Z",
+  "updatedAt": "2026-09-30T14:06:21.240Z",
   "competitions": {
     "senior": [
       {
@@ -425,6 +425,52 @@
       {
         "team": "BALON LINENSE C.F. C.D.",
         "position": 16
+      }
+    ],
+    "infantil-b": [
+      {
+        "team": "A.D. TARAGUILLA",
+        "position": 1
+      },
+      {
+        "team": "ATLETICO ZABAL",
+        "position": 2
+      },
+      {
+        "team": "BALON LINENSE C.F. C.D.",
+        "position": 3
+      },
+      {
+        "team": "C.D. ATHLETIC CLUB JIMENA",
+        "position": 4
+      },
+      {
+        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
+        "position": 5
+      },
+      {
+        "team": "C.D. GUADIARO",
+        "position": 6
+      },
+      {
+        "team": "C.D. SAN ROQUE \"A\"",
+        "position": 7
+      },
+      {
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "position": 8
+      },
+      {
+        "team": "LOS CORTIJILLOS A.D.",
+        "position": 9
+      },
+      {
+        "team": "PUENTE MAYORGA RVO",
+        "position": 10
+      },
+      {
+        "team": "U.D. TESORILLO C.D.",
+        "position": 11
       }
     ],
     "alevin-a": [
