@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=1",
-  "updatedAt": "2026-10-01T08:56:02.052Z",
+  "updatedAt": "2026-10-01T14:56:40.481Z",
   "standing": {
     "position": 3,
     "points": 0,
@@ -10,7 +10,7 @@
     "goalsAgainst": null,
     "round": 1
   },
-  "standingUpdatedAt": "2026-10-01T08:56:02.052Z",
+  "standingUpdatedAt": "2026-10-01T14:56:40.481Z",
   "standingVerified": true,
   "rounds": [
     {
