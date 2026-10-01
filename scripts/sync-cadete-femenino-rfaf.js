@@ -12,6 +12,10 @@ const classificationUrl = round => base + '/pnfg/NPcd/NFG_VisClasificacion?cod_p
 const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
 
 (async () => {
+  let previousOutput = null;
+  try {
+    previousOutput = JSON.parse(fs.readFileSync('data/cadete-femenino-rfaf.json', 'utf8'));
+  } catch {}
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ locale: 'es-ES', timezoneId: 'Europe/Madrid' });
@@ -104,7 +108,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     const teamIndex = cells.findIndex(value => /ATLETICO ZABAL/i.test(normal(value)));
     const number = index => /^\d+$/.test(cells[index] || '') ? Number(cells[index]) : null;
     const compactTable = cells.length < 14;
-    const standing = teamIndex >= 1 ? {
+    let standing = teamIndex >= 1 ? {
       position: number(teamIndex - 1),
       // La vista de clasificación femenina usa el resumen (puntos al final de la fila).
       // La tabla detallada de otras categorías incluye además PJ y goles.
@@ -114,11 +118,21 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       goalsAgainst: compactTable ? null : number(teamIndex + 12),
       round: Number(sample.roundLabel?.match(/\d+/)?.[0]) || null
     } : null;
-    if (!standing || standing.position < 1 || standing.position > 20 ||
-        standing.points === null) {
-      throw new Error('No se puede verificar la clasificación del Cadete Femenino');
+    let standingVerified = Boolean(standing &&
+      Number.isInteger(standing.position) && standing.position >= 1 && standing.position <= 20 &&
+      Number.isInteger(standing.points));
+    if (!standingVerified) {
+      const lastStanding = previousOutput?.standing;
+      if (lastStanding && Number.isInteger(lastStanding.position) &&
+          lastStanding.position >= 1 && lastStanding.position <= 20 &&
+          Number.isInteger(lastStanding.points)) {
+        standing = lastStanding;
+        console.warn('Clasificación RFAF temporalmente incompleta; se conserva la última clasificación verificada.');
+      } else {
+        throw new Error('No se puede verificar la clasificación del Cadete Femenino y no hay una clasificación anterior válida');
+      }
     }
-    if (standing.played === 1 && Number.isInteger(standing.goalsFor) &&
+    if (standingVerified && standing.played === 1 && Number.isInteger(standing.goalsFor) &&
         Number.isInteger(standing.goalsAgainst) && matches[0].score === null &&
         matches[0].date < matches[1].date) {
       const home = /ATLETICO ZABAL/i.test(normal(matches[0].home));
@@ -128,7 +142,14 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       matches[0].scoreSource = 'classification-inference-single-match';
     }
     mergeStoredScores('data/cadete-femenino-rfaf.json', matches);
-    const output = { source, classificationSource, updatedAt: new Date().toISOString(), standing, rounds: roundDates, matches };
+    const updatedAt = new Date().toISOString();
+    const standingUpdatedAt = standingVerified
+      ? updatedAt
+      : (previousOutput.standingUpdatedAt || previousOutput.updatedAt || null);
+    const output = {
+      source, classificationSource, updatedAt, standing, standingUpdatedAt,
+      standingVerified, rounds: roundDates, matches
+    };
     fs.mkdirSync('data', { recursive: true });
     fs.writeFileSync('data/cadete-femenino-rfaf.json', JSON.stringify(output, null, 2) + '\n');
     console.log('Cadete Femenino: ' + matches.length + ' partidos; ' +
