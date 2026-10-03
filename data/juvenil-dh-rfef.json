@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-10-03T20:01:59.226Z",
+  "updatedAt": "2026-10-03T20:02:04.246Z",
   "standing": {
     "position": 15,
     "points": 2,
@@ -69,10 +69,11 @@
       "away": "CD San Felix",
       "ground": "Estadio Virgen del Carmen",
       "score": [
-        0,
+        2,
         1
       ],
-      "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693247&cod_acta=70693247"
+      "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693247&cod_acta=70693247",
+      "scoreSource": "RFEF jornada 5 verificada manualmente"
     },
     {
       "round": 6,
