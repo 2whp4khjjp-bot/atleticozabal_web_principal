@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=1",
-  "updatedAt": "2026-10-03T13:00:30.327Z",
+  "updatedAt": "2026-10-03T19:33:47.661Z",
   "standing": {
     "position": 5,
     "points": 0,
@@ -18,7 +18,11 @@
       "home": "C.D. ATHLETIC CLUB JIMENA",
       "away": "ATLETICO ZABAL",
       "ground": "Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)",
-      "score": null
+      "score": [
+        0,
+        6
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49189596&CodGrupo=49196403&CodTemporada=22&cod_agrupacion=1&CodJornada=1&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
     },
     {
       "round": 2,
