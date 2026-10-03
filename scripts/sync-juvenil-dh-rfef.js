@@ -120,4 +120,4 @@ function clean(value) {
   }
 })().catch(error => { console.error(error.stack || error.message); process.exitCode = 1; });
 
-// Fin del actualizador.
+// Fin del actualizador. Ejecución manual para reconciliar el marcador oficial del 03-10-2026.
