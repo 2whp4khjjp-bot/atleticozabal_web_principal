@@ -35,8 +35,12 @@ const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
 const retryOffsets = [
+  // Durante las primeras 12 h, comprobar cada 15 minutos.
   ...Array.from({ length: 47 }, (_, index) => (index + 2) / 4),
-  14, 16, 18, 20, 22, 24, 36, 48, 72, 96, 120, 144, 168
+  // Entre 12 y 24 h, comprobar cada hora para no dejar huecos largos.
+  ...Array.from({ length: 12 }, (_, index) => 13 + index),
+  // Seguir recuperando actas retrasadas hasta ocho días después.
+  36, 48, 72, 96, 120, 144, 168
 ];
 const resultWindowHours = 192; // ocho días para actas/resultados demorados
 
