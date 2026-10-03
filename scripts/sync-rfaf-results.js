@@ -167,10 +167,23 @@ const today = new Intl.DateTimeFormat('sv-SE', {
                 .filter(cell => cell.tagName === 'TD');
               if (cells.length !== 3) return null;
               const scoreHeading = cells[1].querySelector('h4,strong');
+              const scoreParts = [...(scoreHeading?.querySelectorAll('.wid2_resultado_cerrada') || [])]
+                .slice(0, 2);
+              const readGoal = part => {
+                // RFAF representa algunos goles con una clase fa-N y deja texto señuelo oculto.
+                const encoded = [...part.querySelectorAll('i')]
+                  .flatMap(icon => [...icon.classList])
+                  .map(name => name.match(/^fa-(\d{1,2})$/))
+                  .find(Boolean);
+                if (encoded) return encoded[1];
+                return (part.innerText || '').match(/\d{1,2}/)?.[0] || '';
+              };
+              const score = scoreParts.length === 2
+                ? readGoal(scoreParts[0]) + ' - ' + readGoal(scoreParts[1])
+                : (scoreHeading?.innerText || '');
               return {
                 home: (cells[0].innerText || '').replace(/\s+/g, ' ').trim(),
-                score: (scoreHeading?.innerText || '')
-                  .replace(/\s+/g, ' ').trim(),
+                score: score.replace(/\s+/g, ' ').trim(),
                 away: (cells[2].innerText || '').replace(/\s+/g, ' ').trim()
               };
             }).filter(row => row && row.home && row.away);
