@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-10-03T13:08:06.379Z",
+  "updatedAt": "2026-10-03T22:24:35.814Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -32,7 +32,11 @@
       "home": "ATLETICO ZABAL",
       "away": "CD ATLETICO PASTORES ALGECIRAS \"A\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": [
+        2,
+        0
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49145109&CodGrupo=49151057&CodTemporada=22&CodJornada=2&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
     },
     {
       "round": 3,
