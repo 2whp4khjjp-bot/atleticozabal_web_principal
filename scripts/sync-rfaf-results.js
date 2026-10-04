@@ -95,7 +95,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
 
   const pending = datasets.flatMap(({ file, data }) =>
     (data.matches || [])
-      .filter(match => !hasScore(match) && /^\d{4}-\d{2}-\d{2}$/.test(match.date || '') &&
+      .filter(match => (!hasScore(match) || !match.actaUrl) && /^\d{4}-\d{2}-\d{2}$/.test(match.date || '') &&
         match.date <= today && match.date >= addDays(today, -14))
       .map(match => ({ file, data, match })));
   const rounds = [...new Set(pending.map(({ match }) => Number(match.round))
@@ -181,17 +181,20 @@ const today = new Intl.DateTimeFormat('sv-SE', {
               const score = scoreParts.length === 2
                 ? readGoal(scoreParts[0]) + ' - ' + readGoal(scoreParts[1])
                 : (scoreHeading?.innerText || '');
+              const actaLink = [...row.querySelectorAll('a')].find(link =>
+                /NFG_CmpPartido/i.test(link.href) || /acta del partido/i.test(link.innerText || ''));
               return {
                 home: (cells[0].innerText || '').replace(/\s+/g, ' ').trim(),
                 score: score.replace(/\s+/g, ' ').trim(),
-                away: (cells[2].innerText || '').replace(/\s+/g, ' ').trim()
+                away: (cells[2].innerText || '').replace(/\s+/g, ' ').trim(),
+                actaUrl: actaLink?.href || null
               };
             }).filter(row => row && row.home && row.away);
           });
 
           for (const entry of roundMatches) {
-            const { match, data } = entry;
-            if (hasScore(match)) continue;
+            const { match } = entry;
+            if (hasScore(match) && match.actaUrl) continue;
             const homeKey = normalize(match.home);
             const awayKey = normalize(match.away);
             const row = rows.find(candidate => {
@@ -199,18 +202,30 @@ const today = new Intl.DateTimeFormat('sv-SE', {
               const rowAway = normalize(candidate.away);
               return rowHome.includes(homeKey) && rowAway.includes(awayKey);
             });
-            const score = scoreFrom(row?.score, match.date);
-            if (!score) continue;
-            match.score = score;
-            match.scoreSource = mode + ': ' + url;
-            entry.changed = true;
-            roundChanged = true;
-            changed++;
-            console.log('Resultado oficial: ' + match.home + ' ' +
-              score[0] + '-' + score[1] + ' ' + match.away +
-              ' (J' + round + ', ' + process.argv[2] + ', ' + mode + ')');
+            if (!row) continue;
+            let itemChanged = false;
+            const score = scoreFrom(row.score, match.date);
+            if (!hasScore(match) && score) {
+              match.score = score;
+              match.scoreSource = mode + ': ' + url;
+              itemChanged = true;
+              console.log('Resultado oficial: ' + match.home + ' ' +
+                score[0] + '-' + score[1] + ' ' + match.away +
+                ' (J' + round + ', ' + process.argv[2] + ', ' + mode + ')');
+            }
+            if (!match.actaUrl && row.actaUrl) {
+              match.actaUrl = row.actaUrl;
+              itemChanged = true;
+              console.log('Acta oficial añadida: ' + match.home + ' - ' + match.away);
+            }
+            if (itemChanged) {
+              entry.changed = true;
+              roundChanged = true;
+              changed++;
+            }
           }
-          if (roundMatches.every(({ match }) => hasScore(match) || match.date > today)) break;
+          if (roundMatches.every(({ match }) =>
+            (hasScore(match) && match.actaUrl) || match.date > today)) break;
         } catch (error) {
           console.warn('No se pudo consultar J' + round + ' en RFAF: ' + error.message);
         }
