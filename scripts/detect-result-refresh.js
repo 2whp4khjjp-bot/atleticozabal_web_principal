@@ -54,7 +54,7 @@ for (const [team, path] of teams) {
   if (!fs.existsSync(path)) continue;
   const data = JSON.parse(fs.readFileSync(path, 'utf8'));
   for (const match of data.matches || []) {
-    if (hasFinalScore(match)) continue;
+    if (hasFinalScore(match) && match.actaUrl) continue;
     if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date || '')) continue;
     const [year, month, day] = match.date.split('-').map(Number);
     // Si RFAF aún no ha publicado la hora, iniciar reintentos al cierre del día.
