@@ -9,6 +9,7 @@ function normalize(value) {
 function mergeStoredScores(path, matches) {
   if (!fs.existsSync(path)) return matches;
   const previous = JSON.parse(fs.readFileSync(path, 'utf8'));
+  const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Madrid' }).format(new Date());
   const byIdentity = new Map((previous.matches || []).map(match => [
     [match.round, match.date, match.time, normalize(match.home), normalize(match.away)].join('|'),
     match
@@ -19,7 +20,7 @@ function mergeStoredScores(path, matches) {
     ].join('|'));
     const finalScore = Array.isArray(old?.score) && old.score.length === 2 &&
       old.score.every(value => value !== null && value !== undefined && String(value).trim() !== '');
-    if (finalScore) {
+    if (finalScore && match.date <= today) {
       match.score = old.score;
       if (old.scoreSource) match.scoreSource = old.scoreSource;
     }
