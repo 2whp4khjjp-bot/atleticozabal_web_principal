@@ -77,6 +77,16 @@ function clean(value) {
         continue;
       }
       freshMatches++;
+      // Si se contrastó el acta oficial, conservar ese marcador frente a una
+      // vista de jornada que publique un resultado distinto o desactualizado.
+      const verifiedActa = previousByRound.get(round);
+      if (verifiedActa?.date === match.date &&
+        Array.isArray(verifiedActa.score) && verifiedActa.score.length === 2 &&
+        /acta RFEF .* verificada/i.test(verifiedActa.scoreSource || '')) {
+        match.score = verifiedActa.score;
+        match.scoreSource = verifiedActa.scoreSource;
+        match.actaUrl = verifiedActa.actaUrl || match.actaUrl;
+      }
       matches.push({ round, ...match });
     }
     if (freshMatches < 2 || matches.length !== 34 ||
