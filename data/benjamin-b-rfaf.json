@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=1",
-  "updatedAt": "2026-10-04T13:50:21.021Z",
+  "updatedAt": "2026-10-05T16:58:52.997Z",
   "standing": {
     "position": 7,
     "points": 0,
@@ -27,8 +27,8 @@
     },
     {
       "round": 2,
-      "date": "2026-10-10",
-      "time": null,
+      "date": "2026-10-09",
+      "time": "17:00",
       "home": "BALON LINENSE C.F. C.D.",
       "away": "ATLETICO ZABAL \"A\"",
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
