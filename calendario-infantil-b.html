@@ -31,7 +31,7 @@ function draw(matches){
   list.replaceChildren(fragment);
   const completed=matches.filter(match=>Array.isArray(match.score)&&match.score.length===2);
   const last=completed.at(-1);
-  document.querySelector('.stat:nth-child(3) b').textContent=last?last.score.join('–'):'—';
+  document.querySelector('.stat b').textContent=last?last.score.join('–'):'—';
 }
 fetch('data/infantil-b-rfaf.json',{cache:'no-store'})
   .then(response=>{if(!response.ok)throw new Error('Datos no disponibles');return response.json()})
