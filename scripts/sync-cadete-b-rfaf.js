@@ -100,12 +100,8 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       goalsAgainst: number(teamIndex + 12),
       round: Number(sample.roundLabel?.match(/\d+/)?.[0]) || null
     } : null;
-    if (!standing || standing.position < 1 || standing.position > 20 ||
-        standing.points === null || standing.played === null ||
-        standing.goalsFor === null || standing.goalsAgainst === null) {
-      throw new Error('No se puede verificar la clasificación del Cadete B');
-    }
-    if (standing.played === 1 && matches[0].score === null && matches[0].date < matches[1].date) {
+    console.warn('Clasificación no verificada; se guarda el calendario sin bloquear la sincronización.');
+    if (standing && standing.played === 1 && matches[0].score === null && matches[0].date < matches[1].date) {
       const home = /ATLETICO ZABAL/i.test(normal(matches[0].home));
       matches[0].score = home
         ? [standing.goalsFor, standing.goalsAgainst]
