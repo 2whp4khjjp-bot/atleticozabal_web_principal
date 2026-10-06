@@ -153,6 +153,7 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
         timeZone: 'Europe/Madrid'
       }))) break;
     }
+    console.log('Buscando horarios Cadete en jornada actual, calendario resumido y extendido.');
     await enrichRfafSchedule(page, matches, { base, source });
     await attachRfafActas(page, matches, {
       base, competition: '48909282', group: '48909312'
