@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-05T16:30:16.718Z",
+  "updatedAt": "2026-10-06T12:35:05.869Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -36,6 +36,7 @@
         8,
         1
       ],
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709881&cod_acta=2709881"
     },
     {
@@ -47,14 +48,15 @@
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": [
         2,
-        1
+        12
       ],
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709888&cod_acta=2709888"
     },
     {
       "round": 4,
-      "date": "2026-10-10",
-      "time": null,
+      "date": "2026-10-09",
+      "time": "18:00",
       "home": "ATLETICO ATUNARA C.D. \"A\"",
       "away": "A.D. TARAGUILLA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
