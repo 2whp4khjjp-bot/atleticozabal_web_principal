@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
-const { attachRfafActas } = require('./rfaf-actas');
+const { attachRfafActas, enrichRfafSchedule } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1';
@@ -68,6 +68,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
       if (invalid) console.error('Partido no válido: ' + JSON.stringify(invalid));
       throw new Error('El calendario del Sénior no coincide con el grupo esperado');
     }
+    await enrichRfafSchedule(page, matches, { base, source });
     await attachRfafActas(page, matches, { base, competition: '48780558', group: '48781448' });
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558';
     const classificationResponse = await page.goto(classificationUrl, {
