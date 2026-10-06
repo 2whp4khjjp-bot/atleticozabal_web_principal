@@ -9,10 +9,9 @@ on:
       - 'scripts/push-calendar-update.sh'
       - 'scripts/render-alevines-g5-ics.js'
       - 'scripts/validate-alevines-g5.js'
-      - '.github/workflows/sync-alevines-g5-rfaf.yml'
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 9 * * *'
+    - cron: '12 8 * * *'
+    - cron: '12 9 * * *'
 permissions:
   contents: write
 concurrency:
@@ -29,8 +28,8 @@ jobs:
           offset="$(TZ=Europe/Madrid date +%z)"
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
-             { [ "$schedule" = '0 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '0 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '12 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '12 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
