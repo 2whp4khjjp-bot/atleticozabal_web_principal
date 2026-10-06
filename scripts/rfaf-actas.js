@@ -69,12 +69,10 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   }).format(new Date());
   const upcoming = (matches || []).filter(match => match.date >= today &&
     match.home && match.away && Number.isInteger(Number(match.round)) && Number(match.round) > 0);
-  const nearestRound = upcoming.length
-    ? Math.min(...upcoming.map(match => Number(match.round)))
-    : null;
-  const pending = upcoming.filter(match => Number(match.round) === nearestRound &&
-    (!match.time || !match.ground));
-  const rounds = pending.length ? [nearestRound] : [];
+  const missing = upcoming.filter(match => !match.time || !match.ground);
+  const rounds = [...new Set(missing.map(match => Number(match.round)))]
+    .sort((a, b) => a - b).slice(0, 3);
+  const pending = missing.filter(match => rounds.includes(Number(match.round)));
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
 
@@ -157,8 +155,8 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     if (!match.ground && record.ground) match.ground = record.ground;
     if (!match.date && record.date) match.date = record.date;
   }
-  console.log('Horarios RFAF: ' + pending.length + ' partidos de la jornada próxima revisados, ' +
-    updated + ' horas añadidas; se consultaron las tres vistas de esa jornada.');
+  console.log('Horarios RFAF: ' + pending.length + ' partidos de las próximas jornadas con datos pendientes revisados (' +
+    rounds.join(', ') + '), ' + updated + ' horas añadidas; se consultaron las tres vistas por jornada.');
   return matches;
 }
 
