@@ -3,13 +3,12 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/sync-alevines-g4-rfaf.yml'
       - 'scripts/sync-alevines-g4-rfaf.js'
       - 'scripts/rfaf-actas.js'
       - 'scripts/push-calendar-update.sh'
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 9 * * *'
+    - cron: '8 8 * * *'
+    - cron: '8 9 * * *'
 permissions:
   contents: write
 concurrency:
@@ -26,8 +25,8 @@ jobs:
           offset="$(TZ=Europe/Madrid date +%z)"
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
-             { [ "$schedule" = '0 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '0 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '8 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '8 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
