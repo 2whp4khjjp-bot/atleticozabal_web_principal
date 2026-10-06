@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
-const { attachRfafActas } = require('./rfaf-actas');
+const { attachRfafActas, enrichRfafSchedule } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1';
@@ -82,6 +82,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       });
     }
 
+    await enrichRfafSchedule(page, matches, { base, source });
     await attachRfafActas(page, matches, { base, competition: '49145109', group: '49151057' });
     const response = await page.goto(classificationSource, {
       waitUntil: 'domcontentloaded', timeout: 45000
