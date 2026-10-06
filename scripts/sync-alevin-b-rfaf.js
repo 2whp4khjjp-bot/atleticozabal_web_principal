@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
-const { attachRfafActas } = require('./rfaf-actas');
+const { attachRfafActas, enrichRfafSchedule } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1';
@@ -47,6 +47,7 @@ const group = base + '/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompe
         !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away))) {
       throw new Error('El calendario del Alevín B no coincide con el grupo esperado');
     }
+    await enrichRfafSchedule(page, matches, { base, source });
     await attachRfafActas(page, matches, { base, competition: '48909139', group: '48909177' });
     const classificationUrl = base + '/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139';
     const classificationResponse = await page.goto(classificationUrl, {
