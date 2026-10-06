@@ -56,8 +56,6 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   const group = queryValue(sourceParams, 'codgrupo');
   const season = queryValue(sourceParams, 'codtemporada') || '22';
   const extra = {
-    '48780558:48781448': ['',''],
-    '49151057:49145109': ['',''],
     '48909282:48909312': ['3','1'],
     '49189596:49196403': ['3','1'],
     '49660873:49660937': ['3','1'],
@@ -65,14 +63,18 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     '48909139:48909177': ['3','1'],
     '49223072:49227064': ['3','1'],
     '49287953:49288358': ['3','2']
-  }[competition + ':' + group] || ['', ''];
+  }[competition + ':' + group] || null;
   const today = new Intl.DateTimeFormat('sv-SE', {
     timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
   }).format(new Date());
-  const pending = (matches || []).filter(match => match.date >= today &&
-    match.home && match.away && (!match.time || !match.ground));
-  const rounds = [...new Set(pending.map(match => Number(match.round))
-    .filter(round => Number.isInteger(round) && round > 0))].sort((a, b) => a - b);
+  const upcoming = (matches || []).filter(match => match.date >= today &&
+    match.home && match.away && Number.isInteger(Number(match.round)) && Number(match.round) > 0);
+  const nearestRound = upcoming.length
+    ? Math.min(...upcoming.map(match => Number(match.round)))
+    : null;
+  const pending = upcoming.filter(match => Number(match.round) === nearestRound &&
+    (!match.time || !match.ground));
+  const rounds = pending.length ? [nearestRound] : [];
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
 
@@ -80,8 +82,8 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     const urls = [
       base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
         '&CodCompeticion=' + competition + '&CodGrupo=' + group + '&CodTemporada=' + season +
-        '&cod_agrupacion=1&CodJornada=' + round +
-        '&Sch_Codigo_Delegacion=' + extra[0] + '&Sch_Tipo_Juego=' + extra[1],
+        (extra ? '&cod_agrupacion=1&Sch_Codigo_Delegacion=' + extra[0] +
+          '&Sch_Tipo_Juego=' + extra[1] : '') + '&CodJornada=' + round,
       base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
         '&codgrupo=' + group + '&codcompeticion=' + competition + '&codtemporada=' + season +
         '&CodJornada=' + round + '&CDetalle=0',
@@ -155,8 +157,8 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     if (!match.ground && record.ground) match.ground = record.ground;
     if (!match.date && record.date) match.date = record.date;
   }
-  console.log('Horarios RFAF: ' + pending.length + ' pendientes revisados, ' +
-    updated + ' horas añadidas; se consultaron las tres vistas por jornada.');
+  console.log('Horarios RFAF: ' + pending.length + ' partidos de la jornada próxima revisados, ' +
+    updated + ' horas añadidas; se consultaron las tres vistas de esa jornada.');
   return matches;
 }
 
