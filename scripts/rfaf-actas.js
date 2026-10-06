@@ -77,19 +77,32 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   const allRecords = new Map();
 
   for (const round of rounds) {
-    const urls = [
-      base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
+    const urls = rounds.map(round => ({
+      round,
+      url: base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
         '&CodCompeticion=' + competition + '&CodGrupo=' + group + '&CodTemporada=' + season +
         (extra ? '&cod_agrupacion=1&Sch_Codigo_Delegacion=' + extra[0] +
-          '&Sch_Tipo_Juego=' + extra[1] : '') + '&CodJornada=' + round,
-      base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
-        '&codgrupo=' + group + '&codcompeticion=' + competition + '&codtemporada=' + season +
-        '&CodJornada=' + round + '&CDetalle=0',
-      base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
-        '&codgrupo=' + group + '&codcompeticion=' + competition + '&codtemporada=' + season +
-        '&CodJornada=' + round + '&CDetalle=1'
-    ];
-    for (const url of urls) {
+          '&Sch_Tipo_Juego=' + extra[1] : '') + '&CodJornada=' + round
+    }));
+    const calendarRound = rounds[0];
+    urls.push(
+      {
+        round: calendarRound,
+        url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
+          '&codgrupo=' + group + '&codcompeticion=' + competition + '&codtemporada=' + season +
+          '&CodJornada=' + calendarRound + '&CDetalle=0'
+      },
+      {
+        round: calendarRound,
+        url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
+          '&codgrupo=' + group + '&codcompeticion=' + competition + '&codtemporada=' + season +
+          '&CodJornada=' + calendarRound + '&CDetalle=1'
+      }
+    );
+    const allRecords = new Map();
+
+    for (const source of urls) {
+      const { url, round: defaultRound } = source;
       try {
         const response = await page.goto(url + '&_cb=' + Date.now(), {
           waitUntil: 'domcontentloaded', timeout: 45000
@@ -98,35 +111,59 @@ async function enrichRfafSchedule(page, matches, config = {}) {
           console.warn('Vista RFAF no disponible para horarios: ' + url);
           continue;
         }
-        const records = await page.evaluate(() => {
-          const nodes = [...new Set([
-            ...document.querySelectorAll('tr'),
-            ...document.querySelectorAll('div.row')
-          ])];
-          return nodes.map(row => {
+        const records = await page.evaluate(({ isCalendar, defaultRound }) => {
+          const normalize = value => String(value || '').replace(/\\s+/g, ' ').trim();
+          if (isCalendar) {
+            const containers = [...new Set([...document.querySelectorAll('span.font_responsive')]
+              .map(element => element.closest('div.row')).filter(Boolean))];
+            return containers.map(row => {
+              const cells = [...row.querySelectorAll('table td')].slice(0, 3).map(cell =>
+                normalize(cell.innerText));
+              if (cells.length < 3) return null;
+              const heading = row.parentElement?.querySelector('h5')?.innerText || '';
+              const round = Number(heading.match(/Jornada\\s+(\\d+)/i)?.[1]) || defaultRound;
+              const text = row.innerText || '';
+              const dateTime = text.match(/\\b(\\d{2})[-/](\\d{2})[-/](\\d{4})(?:\\s*(?:-|·)?\\s*(\\d{1,2}:\\d{2}))?/);
+              const place = row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim() || null;
+              return {
+                round,
+                home: cells[0], middle: cells[1], away: cells[2],
+                date: dateTime ? dateTime[3] + '-' + dateTime[2] + '-' + dateTime[1] : null,
+                time: dateTime?.[4] || null,
+                ground: place
+              };
+            }).filter(Boolean);
+          }
+
+          const rows = [...document.querySelectorAll('tr')];
+          return rows.map(row => {
             const cells = [...row.children].filter(cell => cell.tagName === 'TD');
             const values = cells.length >= 3
-              ? cells.slice(0, 3).map(cell => (cell.innerText || '').replace(/\\s+/g, ' ').trim())
+              ? cells.slice(0, 3).map(cell => normalize(cell.innerText))
               : [...row.querySelectorAll('table td')].slice(0, 3)
-                .map(cell => (cell.innerText || '').replace(/\\s+/g, ' ').trim());
+                .map(cell => normalize(cell.innerText));
             if (values.length < 3) return null;
             const nearby = [row.innerText || '', row.nextElementSibling?.innerText || '']
               .join('\\n');
             const dateTime = nearby.match(/\\b(\\d{2})[-/](\\d{2})[-/](\\d{4})(?:\\s*(?:-|·)?\\s*(\\d{1,2}:\\d{2}))?/);
-            const date = dateTime ? dateTime[3] + '-' + dateTime[2] + '-' + dateTime[1] : null;
-            const time = dateTime?.[4] || null;
-            const placeLines = nearby.split(/\\n+/).map(line => line.trim()).filter(Boolean);
-            const ground = placeLines.find(line =>
-              /\\b(CAMPO|ESTADIO|POLIDEPORTIVO|MUNICIPAL|CDAD|CIUDAD DE|COMPLEJO)\\b/i.test(line) &&
-              !/\\b(ARBITRO|ÁRBITRO|FECHA|JORNADA)\\b/i.test(line)) || null;
-            return { home: values[0], middle: values[1], away: values[2], date, time, ground };
+            const place = row.nextElementSibling?.querySelector('a[href*="NFG_VisCampos"]')
+              ?.innerText?.trim() || null;
+            return {
+              round: defaultRound,
+              home: values[0], middle: values[1], away: values[2],
+              date: dateTime ? dateTime[3] + '-' + dateTime[2] + '-' + dateTime[1] : null,
+              time: dateTime?.[4] || null,
+              ground: place
+            };
           }).filter(Boolean);
-        });
+        }, { isCalendar: url.includes('NFG_VisCalendario_Vis'), defaultRound });
         let matched = 0;
         for (const record of records) {
+          const recordRound = Number(record.round) || defaultRound;
+          if (!rounds.includes(recordRound)) continue;
           const key = normalizeTeam(record.home) + '>' + normalizeTeam(record.away);
           if (!key || key === '>') continue;
-          const recordKey = round + ':' + key;
+          const recordKey = recordRound + ':' + key;
           const previous = allRecords.get(recordKey);
           if (!previous) allRecords.set(recordKey, record);
           else {
