@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/sync-alevines-g5-rfaf.js'
       - 'scripts/rfaf-actas.js'
+      - 'scripts/push-calendar-update.sh'
       - 'scripts/render-alevines-g5-ics.js'
       - 'scripts/validate-alevines-g5.js'
       - '.github/workflows/sync-alevines-g5-rfaf.yml'
