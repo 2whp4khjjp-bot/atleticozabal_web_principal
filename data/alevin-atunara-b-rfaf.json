@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-05T16:30:51.797Z",
+  "updatedAt": "2026-10-06T12:47:36.588Z",
   "standing": {
     "position": 14,
     "points": 0,
@@ -41,8 +41,8 @@
     },
     {
       "round": 4,
-      "date": "2026-10-10",
-      "time": null,
+      "date": "2026-10-09",
+      "time": "17:00",
       "home": "U.D. TARIFA",
       "away": "ATUNARA ATLETICO C.D. \"B\"",
       "ground": "Tarifa - PARQUE FERIA  (A)",
