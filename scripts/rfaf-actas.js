@@ -77,8 +77,7 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
 
-  for (const round of rounds) {
-    const urls = roundsToCheck.map(round => ({
+  const urls = roundsToCheck.map(round => ({
       round,
       url: base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
         '&CodCompeticion=' + competition + '&CodGrupo=' + group + '&CodTemporada=' + season +
@@ -100,9 +99,7 @@ async function enrichRfafSchedule(page, matches, config = {}) {
           '&CodJornada=' + calendarRound + '&CDetalle=1'
       }
     );
-    const allRecords = new Map();
-
-    for (const source of urls) {
+  for (const source of urls) {
       const { url, round: defaultRound } = source;
       try {
         const response = await page.goto(url + '&_cb=' + Date.now(), {
@@ -174,10 +171,9 @@ async function enrichRfafSchedule(page, matches, config = {}) {
           }
           matched++;
         }
-        console.log('RFAF horario ' + url + ': filas=' + records.length + ', pares=' + matched);
-      } catch (error) {
-        console.warn('Error consultando vista RFAF de horarios: ' + error.message);
-      }
+      console.log('RFAF horario ' + url + ': filas=' + records.length + ', pares=' + matched);
+    } catch (error) {
+      console.warn('Error consultando vista RFAF de horarios: ' + error.message);
     }
   }
 
