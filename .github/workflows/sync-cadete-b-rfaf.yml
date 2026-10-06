@@ -5,8 +5,6 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-cadete-b-rfaf.js'
-      - 'scripts/rfaf-actas.js'
-      - 'scripts/push-calendar-update.sh'
       - 'scripts/render-cadete-b-ics.js'
       - 'scripts/validate-cadete-b.js'
   schedule:
