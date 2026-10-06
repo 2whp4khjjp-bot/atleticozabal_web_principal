@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const { mergeStoredScores } = require('./preserve-rfaf-scores');
 const { chromium } = require('playwright');
-const { attachRfafActas } = require('./rfaf-actas');
+const { attachRfafActas, enrichRfafSchedule } = require('./rfaf-actas');
 
 const base = 'https://www.rfaf.es';
 const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1';
@@ -66,6 +66,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       throw new Error('El calendario del Benjamín B no coincide con el grupo esperado (' + matches.length + ')');
     }
 
+    await enrichRfafSchedule(page, matches, { base, source });
     await attachRfafActas(page, matches, { base, competition: '49287953', group: '49288292' });
     const response = await page.goto(classificationSource, {
       waitUntil: 'domcontentloaded', timeout: 45000
