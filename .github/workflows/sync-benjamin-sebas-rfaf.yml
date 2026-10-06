@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-benjamin-sebas-rfaf.js'
+      - 'scripts/rfaf-actas.js'
       - 'scripts/render-benjamin-sebas-ics.js'
       - 'scripts/validate-benjamin-sebas.js'
       - '.github/workflows/sync-benjamin-sebas-rfaf.yml'
