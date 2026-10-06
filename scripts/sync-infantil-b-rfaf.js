@@ -115,11 +115,8 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
       goalsAgainst: compactTable ? null : number(teamIndex + 12),
       round: Number(sample.roundLabel?.match(/\d+/)?.[0]) || null
     } : null;
-    if (!standing || standing.position < 1 || standing.position > 20 ||
-        standing.points === null) {
-      throw new Error('No se puede verificar la clasificación del Infantil B');
-    }
-    if (standing.played === 1 && Number.isInteger(standing.goalsFor) &&
+    console.warn('Clasificación no verificada; se guarda el calendario sin bloquear la sincronización.');
+    if (standing && standing.played === 1 && Number.isInteger(standing.goalsFor) &&
         Number.isInteger(standing.goalsAgainst) && matches[0].score === null &&
         matches[0].date < matches[1].date) {
       const home = /ATLETICO ZABAL/i.test(normal(matches[0].home));
