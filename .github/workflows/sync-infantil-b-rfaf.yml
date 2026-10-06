@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-infantil-b-rfaf.js'
+      - 'scripts/rfaf-actas.js'
       - 'scripts/render-infantil-b-ics.js'
       - 'scripts/validate-infantil-b.js'
       - '.github/workflows/sync-infantil-b-rfaf.yml'
