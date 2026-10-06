@@ -3,13 +3,12 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/sync-senior-rfaf.yml'
       - 'scripts/sync-senior-rfaf.js'
       - 'scripts/rfaf-actas.js'
       - 'scripts/push-calendar-update.sh'
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 9 * * *'
+    - cron: '52 8 * * *'
+    - cron: '52 9 * * *'
 permissions:
   contents: write
 concurrency:
@@ -26,8 +25,8 @@ jobs:
           offset="$(TZ=Europe/Madrid date +%z)"
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
-             { [ "$schedule" = '0 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '0 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '52 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '52 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
