@@ -71,21 +71,22 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     match.home && match.away && Number.isInteger(Number(match.round)) && Number(match.round) > 0);
   const missing = upcoming.filter(match => !match.time || !match.ground);
   const rounds = [...new Set(missing.map(match => Number(match.round)))]
-    .sort((a, b) => a - b).slice(0, 3);
-  const pending = missing.filter(match => rounds.includes(Number(match.round)));
+    .sort((a, b) => a - b);
+  const roundsToCheck = rounds.slice(0, 3);
+  const pending = missing;
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
 
   for (const round of rounds) {
-    const urls = rounds.map(round => ({
+    const urls = roundsToCheck.map(round => ({
       round,
       url: base + '/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120' +
         '&CodCompeticion=' + competition + '&CodGrupo=' + group + '&CodTemporada=' + season +
         (extra ? '&cod_agrupacion=1&Sch_Codigo_Delegacion=' + extra[0] +
           '&Sch_Tipo_Juego=' + extra[1] : '') + '&CodJornada=' + round
     }));
-    const calendarRound = rounds[0];
-    urls.push(
+    const calendarRound = roundsToCheck[0];
+    if (calendarRound) urls.push(
       {
         round: calendarRound,
         url: base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120' +
@@ -192,8 +193,9 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     if (!match.ground && record.ground) match.ground = record.ground;
     if (!match.date && record.date) match.date = record.date;
   }
-  console.log('Horarios RFAF: ' + pending.length + ' partidos de las próximas jornadas con datos pendientes revisados (' +
-    rounds.join(', ') + '), ' + updated + ' horas añadidas; se consultaron las tres vistas por jornada.');
+  console.log('Horarios RFAF: ' + pending.length + ' partidos futuros revisados; modo jornada en ' +
+    roundsToCheck.join(', ') + ' y calendarios anuales resumido y extendido completos; ' +
+    updated + ' horas añadidas.');
   return matches;
 }
 
