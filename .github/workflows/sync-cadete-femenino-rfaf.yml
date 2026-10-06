@@ -5,8 +5,6 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-cadete-femenino-rfaf.js'
-      - 'scripts/rfaf-actas.js'
-      - 'scripts/push-calendar-update.sh'
       - 'scripts/render-cadete-femenino-ics.js'
       - 'scripts/validate-cadete-femenino.js'
   schedule:
