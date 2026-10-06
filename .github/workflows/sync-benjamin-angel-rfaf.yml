@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-benjamin-angel-rfaf.js'
+      - 'scripts/rfaf-actas.js'
       - 'scripts/render-benjamin-angel-ics.js'
       - 'scripts/validate-benjamin-angel.js'
       - '.github/workflows/sync-benjamin-angel-rfaf.yml'
