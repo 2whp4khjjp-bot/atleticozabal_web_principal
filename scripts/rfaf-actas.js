@@ -126,7 +126,14 @@ async function enrichRfafSchedule(page, matches, config = {}) {
         for (const record of records) {
           const key = normalizeTeam(record.home) + '>' + normalizeTeam(record.away);
           if (!key || key === '>') continue;
-          if (!allRecords.has(round + ':' + key)) allRecords.set(round + ':' + key, record);
+          const recordKey = round + ':' + key;
+          const previous = allRecords.get(recordKey);
+          if (!previous) allRecords.set(recordKey, record);
+          else {
+            if (!previous.date && record.date) previous.date = record.date;
+            if (!previous.time && record.time) previous.time = record.time;
+            if (!previous.ground && record.ground) previous.ground = record.ground;
+          }
           matched++;
         }
         console.log('RFAF horario ' + url + ': filas=' + records.length + ', pares=' + matched);
