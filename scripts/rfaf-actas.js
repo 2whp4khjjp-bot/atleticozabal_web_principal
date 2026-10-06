@@ -37,7 +37,7 @@ async function attachRfafActas(page, matches, config) {
 }
 
 function normalizeTeam(value) {
-  return String(value || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '')
+  return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toUpperCase().replace(/[^A-Z0-9]/g, '');
 }
 
@@ -112,7 +112,7 @@ async function enrichRfafSchedule(page, matches, config = {}) {
           continue;
         }
         const records = await page.evaluate(({ isCalendar, defaultRound }) => {
-          const normalize = value => String(value || '').replace(/\\s+/g, ' ').trim();
+          const normalize = value => String(value || '').replace(/\s+/g, ' ').trim();
           if (isCalendar) {
             const containers = [...new Set([...document.querySelectorAll('span.font_responsive')]
               .map(element => element.closest('div.row')).filter(Boolean))];
@@ -121,9 +121,9 @@ async function enrichRfafSchedule(page, matches, config = {}) {
                 normalize(cell.innerText));
               if (cells.length < 3) return null;
               const heading = row.parentElement?.querySelector('h5')?.innerText || '';
-              const round = Number(heading.match(/Jornada\\s+(\\d+)/i)?.[1]) || defaultRound;
+              const round = Number(heading.match(/Jornada\s+(\d+)/i)?.[1]) || defaultRound;
               const text = row.innerText || '';
-              const dateTime = text.match(/\\b(\\d{2})[-/](\\d{2})[-/](\\d{4})(?:\\s*(?:-|·)?\\s*(\\d{1,2}:\\d{2}))?/);
+              const dateTime = text.match(/\b(\d{2})[-/](\d{2})[-/](\d{4})(?:\s*(?:-|·)?\s*(\d{1,2}:\d{2}))?/);
               const place = row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim() || null;
               return {
                 round,
@@ -144,8 +144,8 @@ async function enrichRfafSchedule(page, matches, config = {}) {
                 .map(cell => normalize(cell.innerText));
             if (values.length < 3) return null;
             const nearby = [row.innerText || '', row.nextElementSibling?.innerText || '']
-              .join('\\n');
-            const dateTime = nearby.match(/\\b(\\d{2})[-/](\\d{2})[-/](\\d{4})(?:\\s*(?:-|·)?\\s*(\\d{1,2}:\\d{2}))?/);
+              .join('\n');
+            const dateTime = nearby.match(/\b(\d{2})[-/](\d{2})[-/](\d{4})(?:\s*(?:-|·)?\s*(\d{1,2}:\d{2}))?/);
             const place = row.nextElementSibling?.querySelector('a[href*="NFG_VisCampos"]')
               ?.innerText?.trim() || null;
             return {
