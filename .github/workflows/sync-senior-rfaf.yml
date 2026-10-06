@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/sync-senior-rfaf.yml'
       - 'scripts/sync-senior-rfaf.js'
+      - 'scripts/rfaf-actas.js'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
