@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - 'scripts/sync-infantil-a-rfaf.js'
-      - 'scripts/rfaf-actas.js'
-      - 'scripts/push-calendar-update.sh'
   schedule:
     - cron: '4 8 * * *'
     - cron: '4 9 * * *'
