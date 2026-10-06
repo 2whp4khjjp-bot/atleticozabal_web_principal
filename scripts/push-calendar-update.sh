@@ -29,8 +29,8 @@ resolve_generated_conflicts() {
   GIT_EDITOR=true git rebase --continue
 }
 
-for attempt in 1 2 3; do
-  echo "Publicación del calendario: intento ${attempt}/3"
+for attempt in $(seq 1 12); do
+  echo "Publicación del calendario: intento ${attempt}/12"
   if ! git pull --rebase origin main; then
     if ! resolve_generated_conflicts; then
       git rebase --abort 2>/dev/null || true
@@ -41,8 +41,8 @@ for attempt in 1 2 3; do
   if git push origin HEAD:main; then
     exit 0
   fi
-  sleep $((attempt * 5))
+  sleep $((attempt * 5 + RANDOM % 4))
 done
 
-echo "No se pudo publicar el calendario después de 3 intentos" >&2
+echo "No se pudo publicar el calendario después de 12 intentos" >&2
 exit 1
