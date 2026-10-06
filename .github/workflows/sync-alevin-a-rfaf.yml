@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - 'scripts/sync-alevin-a-rfaf.js'
-      - 'scripts/rfaf-actas.js'
-      - 'scripts/push-calendar-update.sh'
   schedule:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
