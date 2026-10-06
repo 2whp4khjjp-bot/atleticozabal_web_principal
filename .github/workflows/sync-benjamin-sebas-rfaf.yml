@@ -9,10 +9,9 @@ on:
       - 'scripts/push-calendar-update.sh'
       - 'scripts/render-benjamin-sebas-ics.js'
       - 'scripts/validate-benjamin-sebas.js'
-      - '.github/workflows/sync-benjamin-sebas-rfaf.yml'
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 9 * * *'
+    - cron: '28 8 * * *'
+    - cron: '28 9 * * *'
 permissions:
   contents: write
 concurrency:
@@ -29,8 +28,8 @@ jobs:
           offset="$(TZ=Europe/Madrid date +%z)"
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
-             { [ "$schedule" = '0 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '0 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '28 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '28 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
