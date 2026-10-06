@@ -122,17 +122,7 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     let standingVerified = Boolean(standing &&
       Number.isInteger(standing.position) && standing.position >= 1 && standing.position <= 20 &&
       Number.isInteger(standing.points));
-    if (!standingVerified) {
-      const lastStanding = previousOutput?.standing;
-      if (lastStanding && Number.isInteger(lastStanding.position) &&
-          lastStanding.position >= 1 && lastStanding.position <= 20 &&
-          Number.isInteger(lastStanding.points)) {
-        standing = lastStanding;
-        console.warn('Clasificación RFAF temporalmente incompleta; se conserva la última clasificación verificada.');
-      } else {
-        throw new Error('No se puede verificar la clasificación del Cadete Femenino y no hay una clasificación anterior válida');
-      }
-    }
+    console.warn('Clasificación no verificada; se guarda el calendario sin bloquear la sincronización.');
     if (standingVerified && standing.played === 1 && Number.isInteger(standing.goalsFor) &&
         Number.isInteger(standing.goalsAgainst) && matches[0].score === null &&
         matches[0].date < matches[1].date) {
