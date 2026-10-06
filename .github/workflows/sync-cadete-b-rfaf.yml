@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-cadete-b-rfaf.js'
+      - 'scripts/rfaf-actas.js'
       - 'scripts/render-cadete-b-ics.js'
       - 'scripts/validate-cadete-b.js'
       - '.github/workflows/sync-cadete-b-rfaf.yml'
