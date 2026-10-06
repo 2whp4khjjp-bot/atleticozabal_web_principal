@@ -5,8 +5,6 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-benjamin-angel-rfaf.js'
-      - 'scripts/rfaf-actas.js'
-      - 'scripts/push-calendar-update.sh'
       - 'scripts/render-benjamin-angel-ics.js'
       - 'scripts/validate-benjamin-angel.js'
   schedule:
