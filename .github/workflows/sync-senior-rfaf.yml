@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - 'scripts/sync-senior-rfaf.js'
-      - 'scripts/rfaf-actas.js'
-      - 'scripts/push-calendar-update.sh'
   schedule:
     - cron: '52 8 * * *'
     - cron: '52 9 * * *'
