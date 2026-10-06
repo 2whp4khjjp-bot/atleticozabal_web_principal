@@ -249,9 +249,9 @@ const source = base + '/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&cod
       console.warn('No se pudo consultar la clasificación; se conserva la última guardada: ' +
         error.message);
     }
-    if (!standing) throw new Error('No hay una clasificación guardada ni se pudo verificar la actual');
+    if (!standing) console.warn('Clasificación no disponible; se publica el calendario sin clasificación.');
     // Un solo partido oficial permite deducir su marcador del total de goles de la tabla.
-    if (standing.played === 1 && matches[0].score === null &&
+    if (standing && standing.played === 1 && matches[0].score === null &&
         matches[0].date < matches[1].date && standing.goalsFor >= 0 &&
         standing.goalsAgainst >= 0) {
       const zabalHome = /^ATLETICO ZABAL$/i.test(matches[0].home);
