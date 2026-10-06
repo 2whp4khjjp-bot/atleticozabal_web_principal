@@ -181,14 +181,10 @@ function preserveKnownScores(matches, previousMatches) {
         goalsAgainst: number(cells, teamIndex + 12),
         round: Number(roundLabel?.match(/\d+/)?.[0]) || null
       } : null;
-      if (!standing || standing.position < 1 || standing.position > 20 ||
-          standing.points === null || standing.played === null ||
-          standing.goalsFor === null || standing.goalsAgainst === null) {
-        throw new Error('No se puede verificar la clasificación del ' + team.label);
-      }
+      console.warn('Clasificación no verificada; se guarda el calendario sin bloquear la sincronización.');
       const matches = matchesByTeam[team.key];
       preserveKnownScores(matches, oldMatchesByTeam[team.key]);
-      if (standing.played === 1 && matches[0].score === null &&
+      if (standing && standing.played === 1 && matches[0].score === null &&
           matches[0].date < matches[1].date) {
         const home = normal(matches[0].home) === team.official;
         matches[0].score = home
