@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/sync-alevin-a-rfaf.yml'
       - 'scripts/sync-alevin-a-rfaf.js'
       - 'scripts/rfaf-actas.js'
       - 'scripts/push-calendar-update.sh'
