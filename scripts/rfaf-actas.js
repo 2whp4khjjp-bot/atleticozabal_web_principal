@@ -114,23 +114,48 @@ async function enrichRfafSchedule(page, matches, config = {}) {
           if (isCalendar) {
             const containers = [...new Set([...document.querySelectorAll('span.font_responsive')]
               .map(element => element.closest('div.row')).filter(Boolean))];
-            return containers.map(row => {
-              const cells = [...row.querySelectorAll('table td')].slice(0, 3).map(cell =>
-                normalize(cell.innerText));
-              if (cells.length < 3) return null;
-              const heading = row.parentElement?.querySelector('h5')?.innerText || '';
-              const round = Number(heading.match(/Jornada\s+(\d+)/i)?.[1]) || defaultRound;
-              const text = row.innerText || '';
-              const dateTime = text.match(/\b(\d{2})[-/](\d{2})[-/](\d{4})(?:\s*(?:-|·)?\s*(\d{1,2}:\d{2}))?/);
-              const place = row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim() || null;
-              return {
-                round,
+            if (containers.length) {
+              return containers.map(row => {
+                const cells = [...row.querySelectorAll('table td')].slice(0, 3).map(cell =>
+                  normalize(cell.innerText));
+                if (cells.length < 3) return null;
+                const heading = row.parentElement?.querySelector('h5')?.innerText || '';
+                const round = Number(heading.match(/Jornada\\s+(\\d+)/i)?.[1]) || defaultRound;
+                const text = row.innerText || '';
+                const dateTime = text.match(/\\b(\\d{2})[-/](\\d{2})[-/](\\d{4})(?:\\s*(?:-|·)?\\s*(\\d{1,2}:\\d{2}))?/);
+                const place = row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim() || null;
+                return {
+                  round,
+                  home: cells[0], middle: cells[1], away: cells[2],
+                  date: dateTime ? dateTime[3] + '-' + dateTime[2] + '-' + dateTime[1] : null,
+                  time: dateTime?.[4] || null,
+                  ground: place
+                };
+              }).filter(Boolean);
+            }
+
+            const rows = [...document.querySelectorAll('tr')];
+            let currentRound = defaultRound;
+            let currentDate = null;
+            const records = [];
+            for (const row of rows) {
+              const heading = (row.innerText || '').match(/Jornada\\s+(\\d+)\\s*\\((\\d{2})-(\\d{2})-(\\d{4})\\)/i);
+              if (heading) {
+                currentRound = Number(heading[1]) || defaultRound;
+                currentDate = heading[4] + '-' + heading[3] + '-' + heading[2];
+                continue;
+              }
+              const cells = [...row.children].filter(cell => cell.tagName === 'TD')
+                .map(cell => normalize(cell.innerText));
+              if (cells.length < 3) continue;
+              const time = (row.innerText || '').match(/\\b(\\d{1,2}:\\d{2})\\b/)?.[1] || null;
+              records.push({
+                round: currentRound,
                 home: cells[0], middle: cells[1], away: cells[2],
-                date: dateTime ? dateTime[3] + '-' + dateTime[2] + '-' + dateTime[1] : null,
-                time: dateTime?.[4] || null,
-                ground: place
-              };
-            }).filter(Boolean);
+                date: currentDate, time, ground: null
+              });
+            }
+            return records;
           }
 
           const rows = [...document.querySelectorAll('tr')];
