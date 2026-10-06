@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync-juvenil-b-rfaf.js'
+      - 'scripts/rfaf-actas.js'
       - 'scripts/render-juvenil-b-ics.js'
       - 'scripts/validate-juvenil-b.js'
       - '.github/workflows/sync-juvenil-b-rfaf.yml'
