@@ -21,18 +21,22 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
 #clock{display:block;color:#f4c800;font-size:38px;line-height:40px;font-weight:bold}
 #today{display:block;color:#fff;font-size:14px;margin-top:5px;text-transform:capitalize}
 #countdownPanel{position:absolute;left:22px;right:22px;top:112px;height:118px;padding:8px 18px;background:#f4c800;color:#102b50;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
-.countdownInfo{width:100%;height:100%;min-width:0;padding:7px 12px;background:#102b50;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
-.countdownTitle{color:#fff;font-size:18px;line-height:21px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase}
+.countdownInfo{width:100%;height:100%;min-width:0;padding:7px 12px;background:#f4c800;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.countdownTitle{color:#102b50;font-size:18px;line-height:21px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase}
 #countdown{display:flex;align-items:flex-start;justify-content:center;gap:7px;white-space:nowrap;font-variant-numeric:tabular-nums;line-height:1}
-.countGroup{display:flex;flex-direction:column;align-items:center;min-width:62px}
-.countGroup:after{display:block;margin-top:2px;color:#f4c800;font-size:9px;line-height:10px;font-weight:900;letter-spacing:.8px}
+.countGroup{display:flex;flex-direction:column;align-items:center;min-width:62px;padding:4px 5px 5px;border-radius:8px}
+.countGroup:nth-child(1){background:#ffe66a}
+.countGroup:nth-child(3){background:#ffdf45}
+.countGroup:nth-child(5){background:#f8d51e}
+.countGroup:nth-child(7){background:#edc400}
+.countGroup:after{display:block;margin-top:2px;color:#102b50;font-size:9px;line-height:10px;font-weight:900;letter-spacing:.8px}
 .countGroup:nth-child(1):after{content:"DÍAS"}
 .countGroup:nth-child(3):after{content:"HRS"}
 .countGroup:nth-child(5):after{content:"MIN"}
 .countGroup:nth-child(7):after{content:"SEG"}
-.countValue{display:flex;align-items:center;justify-content:center;width:62px;height:40px;border-radius:7px;background:#0871c8;color:#fff;font-size:32px;line-height:40px;font-weight:900;letter-spacing:.3px}
-.countJoin{align-self:flex-start;margin-top:9px;color:#f4c800;font-size:21px;line-height:27px;font-weight:900}
-.countPlain{color:#fff;font-size:20px;font-weight:900}
+.countValue{display:flex;align-items:center;justify-content:center;width:62px;height:40px;border-radius:7px;background:transparent;color:#102b50;font-size:32px;line-height:40px;font-weight:900;letter-spacing:.3px}
+.countJoin{align-self:flex-start;margin-top:13px;color:#102b50;font-size:21px;line-height:27px;font-weight:900}
+.countPlain{color:#102b50;font-size:20px;font-weight:900}
 #days{position:absolute;left:22px;right:22px;top:244px;bottom:52px;overflow:hidden}
 .dayHead{height:48px;position:relative}
 .dayName{margin:0;color:#f4c800;font-size:25px;line-height:32px;font-weight:bold;text-transform:uppercase}
@@ -75,7 +79,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
  .countdownInfo{gap:5px;padding:8px 16px}
  .countdownTitle{font-size:20px;line-height:23px}
  #countdown{gap:9px}
- .countGroup{min-width:72px}
+ .countGroup{min-width:72px;padding:5px 6px 6px}
  .countGroup:after{font-size:10px;line-height:11px}
  .countValue{width:72px;height:46px;font-size:37px;line-height:46px}
  .countJoin{margin-top:10px;font-size:24px;line-height:31px}
