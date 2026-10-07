@@ -20,12 +20,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
 #clockbox{position:absolute;right:0;top:3px;width:280px;text-align:right}
 #clock{display:block;color:#f4c800;font-size:38px;line-height:40px;font-weight:bold}
 #today{display:block;color:#fff;font-size:14px;margin-top:5px;text-transform:capitalize}
-#countdownPanel{position:absolute;left:22px;right:22px;top:112px;height:66px;padding:9px 18px;background:#f4c800;color:#102b50;border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:20px;overflow:hidden}
-.countdownInfo{min-width:0;display:flex;flex-direction:column;justify-content:center}
-.countdownTitle{font-size:14px;line-height:18px;font-weight:900;letter-spacing:1px;text-transform:uppercase}
-#countdownMatch{font-size:13px;line-height:18px;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-#countdown{font-size:30px;line-height:1;font-weight:900;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.4px}
-#days{position:absolute;left:22px;right:22px;top:194px;bottom:52px;overflow:hidden}
+#countdownPanel{position:absolute;left:22px;right:22px;top:112px;height:122px;padding:9px 18px;background:#f4c800;color:#102b50;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+.countdownInfo{width:100%;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+.countdownTitle{font-size:13px;line-height:17px;font-weight:900;letter-spacing:1.3px;text-transform:uppercase}
+#countdownMatch{max-width:100%;font-size:15px;line-height:19px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#countdown{font-size:44px;line-height:1;font-weight:900;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.5px}
+#days{position:absolute;left:22px;right:22px;top:250px;bottom:52px;overflow:hidden}
 .dayHead{height:48px;position:relative}
 .dayName{margin:0;color:#f4c800;font-size:25px;line-height:32px;font-weight:bold;text-transform:uppercase}
 .dayCount{position:absolute;right:0;top:7px;color:#d9e5f0;font-size:14px;font-weight:bold}
@@ -64,11 +64,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
  #clockbox{width:360px;top:7px}
  #clock{font-size:52px;line-height:54px}
  #today{font-size:18px}
- #countdownPanel{left:30px;right:30px;top:154px;height:86px;padding:12px 24px}
- .countdownTitle{font-size:17px;line-height:22px}
- #countdownMatch{font-size:16px;line-height:22px}
- #countdown{font-size:42px}
- #days{left:30px;right:30px;top:258px;bottom:68px}
+ #countdownPanel{left:30px;right:30px;top:154px;height:146px;padding:12px 30px}
+ .countdownInfo{gap:5px}
+ .countdownTitle{font-size:16px;line-height:21px}
+ #countdownMatch{font-size:18px;line-height:23px}
+ #countdown{font-size:58px}
+ #days{left:30px;right:30px;top:318px;bottom:68px}
  .dayHead{height:62px}
  .dayName{font-size:34px;line-height:42px}
  .dayCount{font-size:17px;top:11px}
@@ -97,7 +98,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
     <div id="heading"><div id="clubname">Atlético Zabal Linense</div><h1 id="title">Partidos de la semana en casa</h1></div>
     <div id="clockbox"><span id="clock">--:--</span><span id="today">Cargando…</span></div>
   </div>
-  <div id="countdownPanel"><div class="countdownInfo"><span class="countdownTitle">PRÓXIMO PARTIDO EN CASA</span><span id="countdownMatch">Buscando el próximo partido…</span></div><span id="countdown">-- DÍAS · --:--:--</span></div>
+  <div id="countdownPanel"><div class="countdownInfo"><span class="countdownTitle">PRÓXIMO PARTIDO EN CASA · CUENTA ATRÁS</span><span id="countdown">-- DÍAS · --:--:--</span><span id="countdownMatch">Buscando el próximo partido…</span></div></div>
   <div id="days"><div class="message">Actualizando partidos oficiales…</div></div>
   <div id="footer"><span id="status">Conectando con los calendarios…</span><span id="pager"></span><span id="credit">www.atleticozabal.com</span></div>
 </div>
@@ -142,13 +143,14 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function sundayKey(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return shiftKey(key,(7-d.getDay())%7)}
   function updateClock(){var d=new Date();document.getElementById('clock').innerHTML=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(d);document.getElementById('today').innerHTML=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',weekday:'long',day:'numeric',month:'long'}).format(d)}
   function madridDate(date,time){var d=date.split('-'),t=time.split(':'),utc=Date.UTC(Number(d[0]),Number(d[1])-1,Number(d[2]),Number(t[0]),Number(t[1]),0),parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).formatToParts(new Date(utc)),values={};for(var i=0;i<parts.length;i++)if(parts[i].type==='year'||parts[i].type==='month'||parts[i].type==='day'||parts[i].type==='hour'||parts[i].type==='minute'||parts[i].type==='second')values[parts[i].type]=Number(parts[i].value);var wall=Date.UTC(values.year,values.month-1,values.day,values.hour,values.minute,values.second);return new Date(utc-(wall-utc))}
-  function setCountdown(matches){var now=new Date(),today=todayKey(),upcoming=[],i,m,p,target;countdownMatches=matches||[];countdownTarget=null;countdownPending=false;for(i=0;i<countdownMatches.length;i++){m=countdownMatches[i];if(!isClub(m.home)||!m.date||m.date<today)continue;target=null;if(m.time){p=m.time.split(':');if(p.length===2&&isFinite(Number(p[0]))&&isFinite(Number(p[1]))){target=madridDate(m.date,m.time);if(target<=now)continue}}upcoming.push({match:m,target:target,sort:m.date+' '+(m.time||'99:99')})}upcoming.sort(function(a,b){return a.sort<b.sort?-1:(a.sort>b.sort?1:0)});if(upcoming.length){m=upcoming[0].match;countdownTarget=upcoming[0].target;countdownPending=!countdownTarget;document.getElementById('countdownMatch').innerHTML=esc(m.label)+' · '+esc(m.home+' – '+m.away)+' · '+esc(formatDay(m.date))+(m.time?' · '+esc(m.time):'')}else{document.getElementById('countdownMatch').innerHTML='Esta semana no quedan partidos locales'}tickCountdown()}
+  function setCountdown(matches){var now=new Date(),today=todayKey(),upcoming=[],i,m,p,target;countdownMatches=matches||[];countdownTarget=null;countdownPending=false;for(i=0;i<countdownMatches.length;i++){m=countdownMatches[i];if(!isClub(m.home)||!m.date||m.date<today)continue;target=null;if(m.time){p=m.time.split(':');if(p.length===2&&isFinite(Number(p[0]))&&isFinite(Number(p[1]))){target=madridDate(m.date,m.time);if(target<=now)continue}}upcoming.push({match:m,target:target,sort:m.date+' '+(m.time||'99:99')})}upcoming.sort(function(a,b){return a.sort<b.sort?-1:(a.sort>b.sort?1:0)});if(upcoming.length){m=upcoming[0].match;countdownTarget=upcoming[0].target;countdownPending=!countdownTarget;document.getElementById('countdownMatch').innerHTML=esc(compactCategory(m.label)+' · '+m.home+' – '+m.away)}else{document.getElementById('countdownMatch').innerHTML='Esta semana no quedan partidos locales'}tickCountdown()}
   function tickCountdown(){var node=document.getElementById('countdown');if(!countdownTarget){node.innerHTML=countdownPending?'HORA PENDIENTE':'—';return}var remaining=countdownTarget.getTime()-new Date().getTime();if(remaining<=0){setCountdown(countdownMatches);return}var seconds=Math.floor(remaining/1000),days=Math.floor(seconds/86400),hours=Math.floor(seconds%86400/3600),minutes=Math.floor(seconds%3600/60),secs=seconds%60;node.innerHTML=pad(days)+' DÍAS · '+pad(hours)+':'+pad(minutes)+':'+pad(secs)}
   function isClub(name){var s=String(name||'').toUpperCase();for(var i=0;i<clubWords.length;i++){if(s.indexOf(clubWords[i])!==-1)return true}return false}
   function teamKey(name){return String(name||'').toUpperCase().replace(/[ÁÀÄÂ]/g,'A').replace(/[ÉÈËÊ]/g,'E').replace(/[ÍÌÏÎ]/g,'I').replace(/[ÓÒÖÔ]/g,'O').replace(/[ÚÙÜÛ]/g,'U').replace(/[^A-Z0-9]+/g,' ').replace(/^\s+|\s+$/g,'').replace(/\s+/g,' ')}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
   function cleanGround(value){var g=String(value||'Campo pendiente').replace(/\\,/g,',').replace(/\s*\(A\)\s*$/,'').replace(/^\s+|\s+$/g,'');var p=g.split(' - ');if(p.length>1)g=p.slice(1).join(' - ');return g.replace(/\s+/g,' ')}
   function formatDay(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return daysNames[d.getDay()]+' '+parseInt(p[2],10)+' '+months[parseInt(p[1],10)-1]}
+  function compactCategory(label){var parts=String(label||'').split('·'),kept=[],i,value;for(i=0;i<parts.length;i++){value=parts[i].replace(/^\s+|\s+$/g,'');if(value&&coachWords.indexOf(value.toUpperCase())===-1)kept.push(value)}return kept.join(' · ')}
   function categoryName(label){var parts=String(label||'').split(/\s*·\s*/),html=[],i;for(i=0;i<parts.length;i++)html.push(coachWords.indexOf(parts[i].toUpperCase())!==-1?'<span class="coachName">'+esc(parts[i])+'</span>':esc(parts[i]));return html.join(' · ')}
   function teamRow(name){return '<div class="teamRow'+(isClub(name)?' ours':'')+'"><span class="teamName">'+esc(name)+'</span></div>'}
   function matchHasFinished(m){if(!m||!m.date)return false;var today=todayKey();if(m.date<today)return true;if(m.date>today||!/^\d{2}:\d{2}$/.test(m.time||''))return false;var kickoff=madridDate(m.date,m.time);return new Date().getTime()>=kickoff.getTime()+2*60*60*1000}
