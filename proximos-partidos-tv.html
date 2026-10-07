@@ -19,7 +19,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
 #title{margin:0;color:#fff;font-size:38px;line-height:40px;font-weight:bold}
 #clockbox{position:absolute;right:0;top:3px;width:280px;text-align:right}
 #clock{display:block;color:#f4c800;font-size:38px;line-height:40px;font-weight:bold}
-#today{display:block;color:#fff;font-size:14px;margin-top:5px;text-transform:capitalize}
+#today{display:block;color:#fff;font-size:14px;margin-top:5px;text-transform:capitalize}\n#countdown{display:block;color:#d9e5f0;font-size:12px;line-height:16px;margin-top:3px;font-weight:bold;letter-spacing:.4px;white-space:nowrap}
 #days{position:absolute;left:22px;right:22px;top:118px;bottom:52px;overflow:hidden}
 .dayHead{height:48px;position:relative}
 .dayName{margin:0;color:#f4c800;font-size:25px;line-height:32px;font-weight:bold;text-transform:uppercase}
@@ -58,7 +58,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
  #title{font-size:52px;line-height:54px}
  #clockbox{width:360px;top:7px}
  #clock{font-size:52px;line-height:54px}
- #today{font-size:18px}
+ #today{font-size:18px}\n #countdown{font-size:14px;line-height:18px;margin-top:4px}
  #days{left:30px;right:30px;top:154px;bottom:68px}
  .dayHead{height:62px}
  .dayName{font-size:34px;line-height:42px}
@@ -86,7 +86,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   <div id="header">
     <img id="crest" src="assets/escudo-zabal.png" alt="Atlético Zabal">
     <div id="heading"><div id="clubname">Atlético Zabal Linense</div><h1 id="title">Partidos de la semana en casa</h1></div>
-    <div id="clockbox"><span id="clock">--:--</span><span id="today">Cargando…</span></div>
+    <div id="clockbox"><span id="clock">--:--</span><span id="today">Cargando…</span><span id="countdown">Buscando el próximo partido…</span></div>
   </div>
   <div id="days"><div class="message">Actualizando partidos oficiales…</div></div>
   <div id="footer"><span id="status">Conectando con los calendarios…</span><span id="pager"></span><span id="credit">www.atleticozabal.com</span></div>
@@ -122,7 +122,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   var statusNode=document.getElementById('status');
   var pagerNode=document.getElementById('pager');
   var daysNames=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
-  var months=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+  var months=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];\n  var countdownMatches=[],countdownTarget=null,countdownPending=false;
 
   function pad(n){return n<10?'0'+n:String(n)}
   function todayKey(){var d=new Date();return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())}
@@ -130,7 +130,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function mondayKey(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return shiftKey(key,-((d.getDay()+6)%7))}
   function sundayKey(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return shiftKey(key,(7-d.getDay())%7)}
   function updateClock(){var d=new Date();document.getElementById('clock').innerHTML=pad(d.getHours())+':'+pad(d.getMinutes());document.getElementById('today').innerHTML=daysNames[d.getDay()]+' '+d.getDate()+' de '+months[d.getMonth()]}
-  function isClub(name){var s=String(name||'').toUpperCase();for(var i=0;i<clubWords.length;i++){if(s.indexOf(clubWords[i])!==-1)return true}return false}
+  function setCountdown(matches){var now=new Date(),today=todayKey(),upcoming=[],i,m,p,target;countdownMatches=matches||[];countdownTarget=null;countdownPending=false;for(i=0;i<countdownMatches.length;i++){m=countdownMatches[i];if(!isClub(m.home)||!m.date||m.date<today)continue;target=null;if(m.time){p=m.time.split(':');if(p.length===2&&isFinite(Number(p[0]))&&isFinite(Number(p[1]))){target=new Date(m.date+'T'+p[0]+':'+p[1]+':00');if(target<=now)continue}}upcoming.push({match:m,target:target,sort:m.date+' '+(m.time||'99:99')})}upcoming.sort(function(a,b){return a.sort<b.sort?-1:(a.sort>b.sort?1:0)});if(upcoming.length){countdownTarget=upcoming[0].target;countdownPending=!countdownTarget}tickCountdown()}\n  function tickCountdown(){var node=document.getElementById('countdown');if(!countdownTarget){node.innerHTML=countdownPending?'PRÓXIMO PARTIDO · HORA PENDIENTE':'NO QUEDAN PARTIDOS EN CASA ESTA SEMANA';return}var remaining=countdownTarget.getTime()-new Date().getTime();if(remaining<=0){setCountdown(countdownMatches);return}var seconds=Math.floor(remaining/1000),days=Math.floor(seconds/86400),hours=Math.floor(seconds%86400/3600),minutes=Math.floor(seconds%3600/60),secs=seconds%60;node.innerHTML='PRÓXIMO PARTIDO · '+(days?days+' DÍAS · ':'')+pad(hours)+':'+pad(minutes)+':'+pad(secs)}\n  function isClub(name){var s=String(name||'').toUpperCase();for(var i=0;i<clubWords.length;i++){if(s.indexOf(clubWords[i])!==-1)return true}return false}
   function teamKey(name){return String(name||'').toUpperCase().replace(/[ÁÀÄÂ]/g,'A').replace(/[ÉÈËÊ]/g,'E').replace(/[ÍÌÏÎ]/g,'I').replace(/[ÓÒÖÔ]/g,'O').replace(/[ÚÙÜÛ]/g,'U').replace(/[^A-Z0-9]+/g,' ').replace(/^\s+|\s+$/g,'').replace(/\s+/g,' ')}
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
   function cleanGround(value){var g=String(value||'Campo pendiente').replace(/\\,/g,',').replace(/\s*\(A\)\s*$/,'').replace(/^\s+|\s+$/g,'');var p=g.split(' - ');if(p.length>1)g=p.slice(1).join(' - ');return g.replace(/\s+/g,' ')}
@@ -145,8 +145,8 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function chooseWeek(fixtures,today){var start=mondayKey(today),end=sundayKey(today),selected=[],key,seen={},unique=[],i,m;for(i=0;i<fixtures.length;i++){if(fixtures[i].date>=start&&fixtures[i].date<=end&&isClub(fixtures[i].home))selected.push(fixtures[i])}for(i=0;i<selected.length;i++){m=selected[i];key=m.date+'|'+(m.time||'')+'|'+teamKey(m.home)+'|'+teamKey(m.away);if(!seen[key]){seen[key]=true;unique.push(m)}}return {matches:unique,start:start,end:end}}
   function fixtureKey(match){var teams=[match.home,match.away].map(function(team){return teamKey(team)}).sort();return [match.date||'',match.time||'',teams.join('|')].join('::')}
   function mergeFixture(existing,incoming){if((/J\. del Río/i.test(existing.label||'')&&/Ángel/i.test(incoming.label||''))||(/Ángel/i.test(existing.label||'')&&/J\. del Río/i.test(incoming.label||'')))existing.label='Benjamín · J. del Río · Ángel · Tercera Andaluza · Grupo 4';return existing}
-  function loadData(){var today=todayKey(),fixtures=[],pending=calendars.length,sources=0,i;for(i=0;i<staticFixtures.length;i++)fixtures.push(staticFixtures[i]);function finish(){var week,j,m,d;if(pending!==0)return;week=chooseWeek(fixtures,today);buildPages(week.matches);d=new Date();statusNode.innerHTML='Semana del '+esc(formatDay(week.start))+' al '+esc(formatDay(week.end))+' · Actualizado '+pad(d.getHours())+':'+pad(d.getMinutes())+' · '+sources+' calendarios'}for(i=0;i<calendars.length;i++){(function(config){requestJSON(config[0],function(data){var j,m;if(data&&data.matches&&typeof data.matches.length==='number'){sources++;for(j=0;j<data.matches.length;j++){m=data.matches[j];m.label=config[1];var key=fixtureKey(m),existing=null,k;for(k=0;k<fixtures.length;k++)if(fixtureKey(fixtures[k])===key){existing=fixtures[k];break}if(existing)mergeFixture(existing,m);else fixtures.push(m)}}pending--;finish()})})(calendars[i])}}
-  updateClock();window.setInterval(updateClock,30000);loadData();window.setInterval(loadData,300000);window.setInterval(function(){window.location.replace(window.location.pathname+'?tv-refresh='+Date.now())},900000);
+  function loadData(){var today=todayKey(),fixtures=[],pending=calendars.length,sources=0,i;for(i=0;i<staticFixtures.length;i++)fixtures.push(staticFixtures[i]);function finish(){var week,j,m,d;if(pending!==0)return;week=chooseWeek(fixtures,today);setCountdown(week.matches);buildPages(week.matches);d=new Date();statusNode.innerHTML='Semana del '+esc(formatDay(week.start))+' al '+esc(formatDay(week.end))+' · Actualizado '+pad(d.getHours())+':'+pad(d.getMinutes())+' · '+sources+' calendarios'}for(i=0;i<calendars.length;i++){(function(config){requestJSON(config[0],function(data){var j,m;if(data&&data.matches&&typeof data.matches.length==='number'){sources++;for(j=0;j<data.matches.length;j++){m=data.matches[j];m.label=config[1];var key=fixtureKey(m),existing=null,k;for(k=0;k<fixtures.length;k++)if(fixtureKey(fixtures[k])===key){existing=fixtures[k];break}if(existing)mergeFixture(existing,m);else fixtures.push(m)}}pending--;finish()})})(calendars[i])}}
+  updateClock();window.setInterval(updateClock,30000);window.setInterval(tickCountdown,1000);loadData();window.setInterval(loadData,300000);window.setInterval(function(){window.location.replace(window.location.pathname+'?tv-refresh='+Date.now())},900000);
 })();
 </script>
 </body>
