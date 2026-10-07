@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-10-06T13:05:11.868Z",
+  "updatedAt": "2026-10-07T15:45:52.749Z",
   "standing": {
     "position": 2,
     "points": 9,
@@ -22,8 +22,8 @@
         9,
         2
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904",
-      "scoreSource": "classification-inference-single-match"
+      "scoreSource": "classification-inference-single-match",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904"
     },
     {
       "round": 2,
@@ -36,8 +36,8 @@
         2,
         4
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=2&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=2&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
     },
     {
       "round": 3,
@@ -168,7 +168,11 @@
       "home": "A.D. LOS CORTIJILLOS",
       "away": "ATLETICO ZABAL",
       "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
-      "score": null
+      "score": [
+        5,
+        0
+      ],
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1"
     },
     {
       "round": 17,
@@ -177,11 +181,7 @@
       "home": "ATLETICO ZABAL",
       "away": "TRASMALLO F.C. C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": [
-        2,
-        4
-      ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1"
+      "score": null
     },
     {
       "round": 18,
