@@ -22,13 +22,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
 #today{display:block;color:#fff;font-size:14px;margin-top:5px;text-transform:capitalize}
 #countdownPanel{position:absolute;left:22px;right:22px;top:112px;height:156px;padding:9px 18px;background:#f4c800;color:#102b50;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
 .countdownInfo{width:100%;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
-.countdownTitle,.countdownAfter{color:#fff;font-size:14px;line-height:18px;font-weight:900;letter-spacing:1.3px;text-transform:uppercase;text-shadow:0 1px 2px rgba(16,43,80,.8)}
-#countdownMatch{max-width:100%;color:#fff;font-size:14px;line-height:18px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:0 1px 2px rgba(16,43,80,.8)}
+.countdownTitle{color:#fff;font-size:23px;line-height:28px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase;text-shadow:0 1px 2px rgba(16,43,80,.8)}
 #countdown{display:flex;align-items:baseline;justify-content:center;gap:10px;white-space:nowrap;font-variant-numeric:tabular-nums;line-height:1}
 .countValue{color:#102b50;font-size:43px;font-weight:900;letter-spacing:.3px}
-.countUnit{color:#fff;font-size:15px;font-weight:900;letter-spacing:.5px;text-shadow:0 1px 2px rgba(16,43,80,.8)}
-.countJoin{color:#fff;font-size:31px;font-weight:900;text-shadow:0 1px 2px rgba(16,43,80,.8)}
-.countPlain{color:#fff;font-size:24px;font-weight:900;text-shadow:0 1px 2px rgba(16,43,80,.8)}
+.countUnit{color:#102b50;font-size:15px;font-weight:900;letter-spacing:.5px}
+.countJoin{color:#102b50;font-size:31px;font-weight:900}
+.countPlain{color:#102b50;font-size:24px;font-weight:900}
 #days{position:absolute;left:22px;right:22px;top:284px;bottom:52px;overflow:hidden}
 .dayHead{height:48px;position:relative}
 .dayName{margin:0;color:#f4c800;font-size:25px;line-height:32px;font-weight:bold;text-transform:uppercase}
@@ -70,8 +69,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
  #today{font-size:18px}
  #countdownPanel{left:30px;right:30px;top:154px;height:180px;padding:14px 30px}
  .countdownInfo{gap:5px}
- .countdownTitle,.countdownAfter{font-size:17px;line-height:22px}
- #countdownMatch{font-size:17px;line-height:22px}
+ .countdownTitle{font-size:28px;line-height:34px}
  #countdown{gap:13px}
  .countValue{font-size:58px}
  .countUnit{font-size:18px}
@@ -105,7 +103,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
     <div id="heading"><div id="clubname">Atlético Zabal Linense</div><h1 id="title">Partidos de la semana en casa</h1></div>
     <div id="clockbox"><span id="clock">--:--</span><span id="today">Cargando…</span></div>
   </div>
-  <div id="countdownPanel"><div class="countdownInfo"><span class="countdownTitle">QUEDAN</span><span id="countdown">-- DÍAS - -- HORAS - -- MINUTOS : -- SEGUNDOS</span><span class="countdownAfter">PARA EL SIGUIENTE PARTIDO</span><span id="countdownMatch">Buscando el próximo partido…</span></div></div>
+  <div id="countdownPanel"><div class="countdownInfo"><span class="countdownTitle">CUENTA ATRÁS PARA EL PRÓXIMO PARTIDO</span><span id="countdown">-- DÍAS - -- HORAS - -- MINUTOS : -- SEGUNDOS</span></div></div>
   <div id="days"><div class="message">Actualizando partidos oficiales…</div></div>
   <div id="footer"><span id="status">Conectando con los calendarios…</span><span id="pager"></span><span id="credit">www.atleticozabal.com</span></div>
 </div>
@@ -150,7 +148,7 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function sundayKey(key){var p=key.split('-'),d=new Date(parseInt(p[0],10),parseInt(p[1],10)-1,parseInt(p[2],10),12,0,0);return shiftKey(key,(7-d.getDay())%7)}
   function updateClock(){var d=new Date();document.getElementById('clock').innerHTML=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(d);document.getElementById('today').innerHTML=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',weekday:'long',day:'numeric',month:'long'}).format(d)}
   function madridDate(date,time){var d=date.split('-'),t=time.split(':'),utc=Date.UTC(Number(d[0]),Number(d[1])-1,Number(d[2]),Number(t[0]),Number(t[1]),0),parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).formatToParts(new Date(utc)),values={};for(var i=0;i<parts.length;i++)if(parts[i].type==='year'||parts[i].type==='month'||parts[i].type==='day'||parts[i].type==='hour'||parts[i].type==='minute'||parts[i].type==='second')values[parts[i].type]=Number(parts[i].value);var wall=Date.UTC(values.year,values.month-1,values.day,values.hour,values.minute,values.second);return new Date(utc-(wall-utc))}
-  function setCountdown(matches){var now=new Date(),today=todayKey(),upcoming=[],i,m,p,target;countdownMatches=matches||[];countdownTarget=null;countdownPending=false;for(i=0;i<countdownMatches.length;i++){m=countdownMatches[i];if(!isClub(m.home)||!m.date||m.date<today)continue;target=null;if(m.time){p=m.time.split(':');if(p.length===2&&isFinite(Number(p[0]))&&isFinite(Number(p[1]))){target=madridDate(m.date,m.time);if(target<=now)continue}}upcoming.push({match:m,target:target,sort:m.date+' '+(m.time||'99:99')})}upcoming.sort(function(a,b){return a.sort<b.sort?-1:(a.sort>b.sort?1:0)});if(upcoming.length){m=upcoming[0].match;countdownTarget=upcoming[0].target;countdownPending=!countdownTarget;document.getElementById('countdownMatch').innerHTML=esc(compactCategory(m.label)+' · '+m.home+' – '+m.away)}else{document.getElementById('countdownMatch').innerHTML='Esta semana no quedan partidos locales'}tickCountdown()}
+  function setCountdown(matches){var now=new Date(),today=todayKey(),upcoming=[],i,m,p,target;countdownMatches=matches||[];countdownTarget=null;countdownPending=false;for(i=0;i<countdownMatches.length;i++){m=countdownMatches[i];if(!isClub(m.home)||!m.date||m.date<today)continue;target=null;if(m.time){p=m.time.split(':');if(p.length===2&&isFinite(Number(p[0]))&&isFinite(Number(p[1]))){target=madridDate(m.date,m.time);if(target<=now)continue}}upcoming.push({match:m,target:target,sort:m.date+' '+(m.time||'99:99')})}upcoming.sort(function(a,b){return a.sort<b.sort?-1:(a.sort>b.sort?1:0)});if(upcoming.length){m=upcoming[0].match;countdownTarget=upcoming[0].target;countdownPending=!countdownTarget;}else{}tickCountdown()}
   function tickCountdown(){var node=document.getElementById('countdown');if(!countdownTarget){node.innerHTML='<span class="countPlain">'+(countdownPending?'HORA PENDIENTE':'—')+'</span>';return}var remaining=countdownTarget.getTime()-new Date().getTime();if(remaining<=0){setCountdown(countdownMatches);return}var seconds=Math.floor(remaining/1000),days=Math.floor(seconds/86400),hours=Math.floor(seconds%86400/3600),minutes=Math.floor(seconds%3600/60),secs=seconds%60;function group(value,label){return '<span class="countGroup"><span class="countValue">'+pad(value)+'</span><span class="countUnit">'+label+'</span></span>'}node.innerHTML=group(days,'DÍAS')+'<span class="countJoin">-</span>'+group(hours,'HORAS')+'<span class="countJoin">-</span>'+group(minutes,'MINUTOS')+'<span class="countJoin">:</span>'+group(secs,'SEGUNDOS')}
   function isClub(name){var s=String(name||'').toUpperCase();for(var i=0;i<clubWords.length;i++){if(s.indexOf(clubWords[i])!==-1)return true}return false}
   function teamKey(name){return String(name||'').toUpperCase().replace(/[ÁÀÄÂ]/g,'A').replace(/[ÉÈËÊ]/g,'E').replace(/[ÍÌÏÎ]/g,'I').replace(/[ÓÒÖÔ]/g,'O').replace(/[ÚÙÜÛ]/g,'U').replace(/[^A-Z0-9]+/g,' ').replace(/^\s+|\s+$/g,'').replace(/\s+/g,' ')}
