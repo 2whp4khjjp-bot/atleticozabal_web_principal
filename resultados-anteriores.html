@@ -114,10 +114,23 @@
       button.classList.add('active');
       applyFilter();
     }));
+    function madridTodayKey(){
+      const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+      const values={};
+      parts.forEach(part=>{if(part.type==='year'||part.type==='month'||part.type==='day')values[part.type]=part.value});
+      return values.year+'-'+values.month+'-'+values.day;
+    }
+    function isCompletedResult(match,today){
+      return /^\\d{4}-\\d{2}-\\d{2}$/.test(match.date||'') &&
+        match.date<=today &&
+        Array.isArray(match.score)&&match.score.length===2 &&
+        match.score.every(value=>value!==null&&value!==undefined&&String(value).trim()!==''&&isFinite(Number(value)));
+    }
     function resultFixtureKey(match){const teams=[match.home,match.away].map(team=>String(team||'').toUpperCase().replace(/[^A-Z0-9]+/g,' ').trim()).sort();return [match.date||'',match.time||'',teams.join('|')].join('::')}
     function appendResults(data,label){
       if(!Array.isArray(data.matches))return;
-      data.matches.filter(match=>Array.isArray(match.score)&&match.score.length===2).forEach(match=>{const key=resultFixtureKey(match),existing=results.find(item=>resultFixtureKey(item)===key);if(existing){if(!existing.actaUrl&&match.actaUrl)existing.actaUrl=match.actaUrl;if(!Array.isArray(existing.score)&&Array.isArray(match.score))existing.score=match.score;if(/J\. del Río/i.test(existing.label||'')&&/Ángel/i.test(label||''))existing.label='Benjamín · J. del Río · Ángel · Tercera Andaluza · Grupo 4';return}results.push({...match,label})});
+      const today=madridTodayKey();
+      data.matches.filter(match=>isCompletedResult(match,today)).forEach(match=>{const key=resultFixtureKey(match),existing=results.find(item=>resultFixtureKey(item)===key);if(existing){if(!existing.actaUrl&&match.actaUrl)existing.actaUrl=match.actaUrl;if(!Array.isArray(existing.score)&&Array.isArray(match.score))existing.score=match.score;if(/J\\. del Río/i.test(existing.label||'')&&/Ángel/i.test(label||''))existing.label='Benjamín · J. del Río · Ángel · Tercera Andaluza · Grupo 4';return}results.push({...match,label})});
     }
     function render(){
       results.sort((a,b)=>(b.date+' '+(b.time||'00:00')).localeCompare(a.date+' '+(a.time||'00:00')));
