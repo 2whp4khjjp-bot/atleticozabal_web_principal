@@ -1,4 +1,4 @@
-// Calendario del Benjamín · Javi Martín desde las vistas públicas de la RFAF.
+// Calendario del Benjamín · Javi Martin desde las vistas públicas de la RFAF.
 // Actualización completa diaria; los marcadores pendientes se reintentan cada cinco minutos.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
@@ -64,7 +64,7 @@ const ownTeam='ATLETICOZABALB';
     rounds:extracted.rounds,matches};
   fs.mkdirSync('data',{recursive:true});
   fs.writeFileSync(outputPath,JSON.stringify(data,null,2)+'\n');
-  console.log('Benjamín · Javi Martín: '+matches.length+' partidos en '+extracted.rounds.length+
+  console.log('Benjamín · Javi Martin: '+matches.length+' partidos en '+extracted.rounds.length+
    ' jornadas; '+matches.filter(match=>match.score).length+' marcadores.');
  }finally{await browser.close()}
 })().catch(error=>{console.error(error.stack||error.message);process.exitCode=1});
