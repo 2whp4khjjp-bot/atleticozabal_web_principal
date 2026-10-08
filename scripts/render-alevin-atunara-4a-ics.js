@@ -1,12 +1,57 @@
-const fs=require('node:fs');
-const escape=s=>String(s??'').replace(/\\u00a0/g,' ').replace(/\\\\/g,'\\\\\\\\').replace(/\\n/g,'\\\\n').replace(/,/g,'\\\\,').replace(/;/g,'\\\\;');
-function fold(line){let out='',width=0;for(const char of line){const size=Buffer.byteLength(char);if(width+size>75){out+='\\r\\n ';width=1}out+=char;width+=size}return out}
-const data=JSON.parse(fs.readFileSync('data/alevin-atunara-4a-rfaf.json','utf8'));
-if(!Array.isArray(data.matches)||data.matches.length!==18)throw Error('Calendario incompleto');
-const name='Alevín Atunara A · 4ª Andaluza',stamp=new Date(data.updatedAt).toISOString().replace(/[-:]/g,'').replace(/\\.\\d{3}Z$/,'Z');
-const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Atletico Zabal Linense//'+name+' 2026-27//ES','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+name,'X-WR-TIMEZONE:Europe/Madrid'];
-for(const m of data.matches){const date=m.date.replace(/-/g,'');lines.push('BEGIN:VEVENT','UID:zabal-alevin-atunara-4a-'+m.round+'@atleticozabal.com','DTSTAMP:'+stamp);if(m.time){const start=date+'T'+m.time.replace(':','')+'00';const end=new Date(m.date+'T'+m.time+':00Z');end.setUTCHours(end.getUTCHours()+1);lines.push('DTSTART;TZID=Europe/Madrid:'+start,'DTEND;TZID=Europe/Madrid:'+end.toISOString().replace(/[-:]/g,'').replace(/\\.\\d{3}Z$/,''))}else{const end=new Date(m.date+'T12:00:00Z');end.setUTCDate(end.getUTCDate()+1);lines.push('DTSTART;VALUE=DATE:'+date,'DTEND;VALUE=DATE:'+end.toISOString().slice(0,10).replace(/-/g,''))}
-const result=Array.isArray(m.score)?m.score.join('–'):null;
-lines.push('SUMMARY:'+escape((result?'FINAL · ':'J'+m.round+' · ')+m.home+' – '+m.away+(result?' '+result:'')),'DESCRIPTION:'+escape([name,'4ª Andaluza Alevín Cádiz · Grupo 4','Jornada '+m.round,m.time?'Hora: '+m.time:'Hora pendiente',m.ground?'Campo: '+m.ground:'Campo pendiente',result?'Resultado: '+m.home+' '+result+' '+m.away:''].filter(Boolean).join('\\n')));if(m.ground)lines.push('LOCATION:'+escape(m.ground));lines.push('URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html','END:VEVENT')}
-lines.push('END:VCALENDAR');fs.writeFileSync('calendario-alevin-atunara-4a.ics',lines.map(fold).join('\\r\\n')+'\\r\\n');
-console.log('iCal actualizado con '+data.matches.length+' partidos.');
+const fs = require('node:fs');
+const teams = [
+  { key: 'alevin-atunara-4a', name: 'Alevín Atunara A · 4ª Andaluza', page: 'calendario-alevin-atunara-4a.html' }
+];
+const escape = value => String(value).replace(/\u00a0/g, ' ').replace(/\\/g, '\\\\')
+  .replace(/\n/g, '\\n').replace(/,/g, '\\,').replace(/;/g, '\\;');
+function fold(line) {
+  let result = '', width = 0;
+  for (const char of line) {
+    const size = Buffer.byteLength(char);
+    if (width + size > 75) { result += '\r\n '; width = 1; }
+    result += char; width += size;
+  }
+  return result;
+}
+for (const team of teams) {
+  const data = JSON.parse(fs.readFileSync('data/' + team.key + '-rfaf.json', 'utf8'));
+  if (!Array.isArray(data.matches) || data.matches.length < 2) {
+    throw new Error('No se genera ICS de ' + team.name + ' sin jornadas verificadas');
+  }
+  const stamp = new Date(data.updatedAt).toISOString().replace(/[-:]/g, '')
+    .replace(/\.\d{3}Z$/, 'Z');
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0',
+    'PRODID:-//Atletico Zabal Linense//' + team.name + ' 2026-27//ES',
+    'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+    'X-WR-CALNAME:' + team.name, 'X-WR-TIMEZONE:Europe/Madrid'];
+  for (const match of data.matches) {
+    const date = match.date.replace(/-/g, '');
+    lines.push('BEGIN:VEVENT', 'UID:zabal-' + team.key + '-' + match.round + '@atleticozabal.com',
+      'DTSTAMP:' + stamp);
+    if (match.time) {
+      const start = date + 'T' + match.time.replace(':', '') + '00';
+      const end = new Date(match.date + 'T' + match.time + ':00Z');
+      end.setUTCHours(end.getUTCHours() + 1);
+      lines.push('DTSTART;TZID=Europe/Madrid:' + start,
+        'DTEND;TZID=Europe/Madrid:' + end.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, ''));
+    } else {
+      const end = new Date(match.date + 'T12:00:00Z'); end.setUTCDate(end.getUTCDate() + 1);
+      lines.push('DTSTART;VALUE=DATE:' + date,
+        'DTEND;VALUE=DATE:' + end.toISOString().slice(0, 10).replace(/-/g, ''));
+    }
+    const result = Array.isArray(match.score) ? match.score.join('–') : null;
+    const title = (result ? 'FINAL · ' : 'J' + match.round + ' · ') + match.home +
+      ' – ' + match.away + (result ? ' ' + result : '');
+    const notes = [team.name, '4ª Andaluza Alevín Cádiz · Grupo 4',
+      'Jornada ' + match.round, match.time ? 'Hora: ' + match.time : 'Hora pendiente',
+      match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
+    if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
+    notes.push('', 'Creado por Raúl Cote');
+    lines.push('SUMMARY:' + escape(title), 'DESCRIPTION:' + escape(notes.join('\n')));
+    if (match.ground) lines.push('LOCATION:' + escape(match.ground));
+    lines.push('URL:https://www.atleticozabal.com/' + team.page, 'END:VEVENT');
+  }
+  lines.push('END:VCALENDAR');
+  fs.writeFileSync('calendario-' + team.key + '.ics', lines.map(fold).join('\r\n') + '\r\n');
+  console.log('ICS generado: ' + team.name + ' · ' + data.matches.length + ' partidos.');
+}
