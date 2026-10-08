@@ -23,7 +23,7 @@ const ownTeam='ATLETICOZABALA';
    const clean=value=>String(value||'').replace(/\s+/g,' ').trim();
    const rows=[...document.querySelectorAll('div.row')].filter(row=>{
     const cells=[...row.querySelectorAll('table td')].slice(0,3).map(cell=>clean(cell.innerText));
-    return cells.some(value=>/ATLETICO\s+ZABAL\s*[“"']?B[”"']?/i.test(value));
+    return cells.some(value=>/ATLETICO\s+ZABAL\s*[“"']?A[”"']?/i.test(value));
    });
    const matches=[...new Set(rows)].map(row=>{
     const heading=row.parentElement?.querySelector('h5');
