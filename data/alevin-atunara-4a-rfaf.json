@@ -2,13 +2,13 @@
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789556&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
   "summarySource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=49608278&codgrupo=49789556&CodJornada=1&cod_agrupacion=1",
   "resultsSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodTemporada=22&CodGrupo=49789556&CodCompeticion=49608278&CodJornada=1",
-  "updatedAt": "2026-10-08T06:32:26.399Z",
+  "updatedAt": "2026-10-08T15:38:16.187Z",
   "standing": null,
   "matches": [
     {
       "round": 1,
-      "date": "2026-10-10",
-      "time": "14:00",
+      "date": "2026-10-14",
+      "time": "18:00",
       "home": "C.D. GUADIARO \"A\"",
       "away": "ATUNARA ATLETICO C.D. \"A\"",
       "ground": "San Roque - SAN ENRIQUE (N)",
