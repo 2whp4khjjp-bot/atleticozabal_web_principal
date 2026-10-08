@@ -18,9 +18,9 @@ function fold(line) {
   return result;
 }
 const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0',
-  'PRODID:-//Atletico Zabal Linense//Benjamín · Javi Martín 2026-27//ES',
+  'PRODID:-//Atletico Zabal Linense//Benjamín · Javi Martin 2026-27//ES',
   'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
-  'X-WR-CALNAME:Atlético Zabal · Benjamín · Javi Martín',
+  'X-WR-CALNAME:Atlético Zabal · Benjamín · Javi Martin',
   'X-WR-TIMEZONE:Europe/Madrid'];
 for (const match of data.matches) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(match.date) || !match.home || !match.away) {
@@ -46,7 +46,7 @@ for (const match of data.matches) {
     ? match.score[0] + '–' + match.score[1] : null;
   const title = (result ? 'FINAL · ' : 'J' + match.round + ' · ') + match.home +
     ' – ' + match.away + (result ? ' ' + result : '');
-  const notes = ['Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · Grupo 4',
+  const notes = ['Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · Grupo 4',
     'Jornada ' + match.round,
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
