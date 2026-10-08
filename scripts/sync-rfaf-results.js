@@ -59,7 +59,11 @@ const groups = {
     grouping: '', delegation: '', gameType: '', calendarDetail: '0',
     files: ['data/benjamin-b-rfaf.json', 'data/benjamin-angel-rfaf.json']
   },
-  'benjamin-javi-martin': {\n    competition: '50073897', group: '50075169', calendarDetail: '0',\n    files: ['data/benjamin-javi-martin-rfaf.json']\n  },\n  'benjamin-sebas': {
+  'benjamin-javi-martin': {
+    competition: '50073897', group: '50075169', calendarDetail: '0',
+    files: ['data/benjamin-javi-martin-rfaf.json']
+  },
+  'benjamin-sebas': {
     competition: '49287953', group: '49288358',
     grouping: '1', delegation: '3', gameType: '2', calendarDetail: '0',
     files: ['data/benjamin-sebas-rfaf.json']
@@ -245,7 +249,8 @@ const today = new Intl.DateTimeFormat('sv-SE', {
           continue;
         }
         dataset.data.updatedAt = updatedAt;
-        fs.writeFileSync(dataset.file, JSON.stringify(dataset.data, null, 2) + '\n');
+        fs.writeFileSync(dataset.file, JSON.stringify(dataset.data, null, 2) + '
+');
         console.log('Guardados los resultados de ' + dataset.file);
       }
     }
