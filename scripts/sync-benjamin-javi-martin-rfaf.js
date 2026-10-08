@@ -9,7 +9,8 @@ const summary=base+'/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtem
 const extended=base+'/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo='+group+'&codcompeticion='+competition+'&codtemporada='+season+'&CodJornada=1&CDetalle=1';
 const outputPath='data/benjamin-javi-martin-rfaf.json';
 const normal=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9]/g,'');
-const ownTeam='ATLETICOZABALB';
+// Javi Martin dirige al Atlético Zabal "A". El "B" figura retirado en la RFAF.
+const ownTeam='ATLETICOZABALA';
 (async()=>{
  const browser=await chromium.launch({headless:true});
  try{
@@ -57,6 +58,10 @@ const ownTeam='ATLETICOZABALB';
   if(matches.length!==28||extracted.rounds.length!==30)
    throw new Error('Calendario inesperado: '+matches.length+' partidos / '+extracted.rounds.length+
     ' jornadas; no se publica una extracción incompleta.');
+  const next=matches.find(match=>match.round===2);
+  if(!next||normal(next.home)!=='HISTORICORECREATIVOLINENSECLUBDEFUTBOL'||
+     normal(next.away)!==ownTeam)
+   throw new Error('La jornada 2 no corresponde al Benjamín de Javi Martin (Zabal A)');
   await enrichRfafSchedule(page,matches,{base,source:extended});
   await attachRfafActas(page,matches,{base,competition,group});
   mergeStoredScores(outputPath,matches);
