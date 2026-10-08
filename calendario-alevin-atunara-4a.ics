@@ -8,222 +8,223 @@ X-WR-CALNAME:Alevín Atunara A · 4ª Andaluza
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-1@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;TZID=Europe/Madrid:20261010T140000
 DTEND;TZID=Europe/Madrid:20261010T150000
 SUMMARY:J1 · C.D. GUADIARO "A" – ATUNARA ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
- · Grupo 4\nJornada 1\nHora: 14:00\nCampo: San Roque - SAN ENRIQUE (N)
+ · Grupo 4\nJornada 1\nHora: 14:00\nCampo: San Roque - SAN ENRIQUE (N)\n\n
+ Creado por Raúl Cote
 LOCATION:San Roque - SAN ENRIQUE (N)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-2@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:J2 · ATUNARA ATLETICO C.D. "A" – PUENTE MAYORGA RVO "B"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 2\nHora pendiente\nCampo: La Línea de La Concepción 
- - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+ - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-3@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J3 · ATUNARA ATLETICO C.D. "A" – BALON LINENSE C.F. C.D.
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 3\nHora pendiente\nCampo: La Línea de La Concepción 
- - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+ - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-4@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J4 · C.D. EPRO CAMPO DE GIBRALTAR "C" – ATUNARA ATLETICO C.D. "A
  "
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 4\nHora pendiente\nCampo: La Línea de La Concepción 
- - Miguel Ángel Izaguirre
+ - Miguel Ángel Izaguirre\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - Miguel Ángel Izaguirre
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-5@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J5 · ATUNARA ATLETICO C.D. "A" – C.D. SAN BERNARDO
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 5\nHora pendiente\nCampo: La Línea de La Concepción 
- - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+ - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-6@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:J6 · U.D. TESORILLO C.D. – ATUNARA ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 6\nHora pendiente\nCampo: San Martin del Tesorillo - M
- UNICIPAL LA ERA (A)
+ UNICIPAL LA ERA (A)\n\nCreado por Raúl Cote
 LOCATION:San Martin del Tesorillo - MUNICIPAL LA ERA (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-7@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J7 · ATUNARA ATLETICO C.D. "A" – HISTORICO RECREATIVO LINENSE CL
  UB DE FÚTBOL "B"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 7\nHora pendiente\nCampo: La Línea de La Concepción 
- - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+ - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-8@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J8 · C.D. EPRO CAMPO DE GIBRALTAR "A" – ATUNARA ATLETICO C.D. "A
  "
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 8\nHora pendiente\nCampo: La Línea de La Concepción 
- - Miguel Ángel Izaguirre
+ - Miguel Ángel Izaguirre\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - Miguel Ángel Izaguirre
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-9@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:J9 · ATUNARA ATLETICO C.D. "A" – C.D. OLIVILLOS 87
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 9\nHora pendiente\nCampo: La Línea de La Concepción 
- - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+ - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-10@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J10 · ATUNARA ATLETICO C.D. "A" – C.D. GUADIARO "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 10\nHora pendiente\nCampo: La Línea de La Concepción
-  - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+  - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-11@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J11 · PUENTE MAYORGA RVO "B" – ATUNARA ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 11\nHora pendiente\nCampo: San Roque - MANUEL MATEO (F
- 11\, F7) (A)
+ 11\, F7) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - MANUEL MATEO (F11\, F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-12@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J12 · BALON LINENSE C.F. C.D. – ATUNARA ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 12\nHora pendiente\nCampo: La Línea de La Concepción
-  - ANTONIO REYES (CDAD DVA) (A)
+  - ANTONIO REYES (CDAD DVA) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-13@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J13 · ATUNARA ATLETICO C.D. "A" – C.D. EPRO CAMPO DE GIBRALTAR "
  C"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 13\nHora pendiente\nCampo: La Línea de La Concepción
-  - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+  - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-14@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J14 · C.D. SAN BERNARDO – ATUNARA ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 14\nHora pendiente\nCampo: San Roque - ALBERTO UMBRIA 
- (F11\, F7) (A)
+ (F11\, F7) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - ALBERTO UMBRIA (F11\, F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-15@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J15 · ATUNARA ATLETICO C.D. "A" – U.D. TESORILLO C.D.
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 15\nHora pendiente\nCampo: La Línea de La Concepción
-  - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+  - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-16@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J16 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" – ATUNARA
   ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 16\nHora pendiente\nCampo: La Línea de La Concepción
-  - Miguel Ángel Izaguirre
+  - Miguel Ángel Izaguirre\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - Miguel Ángel Izaguirre
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-17@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J17 · ATUNARA ATLETICO C.D. "A" – C.D. EPRO CAMPO DE GIBRALTAR "
  A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 17\nHora pendiente\nCampo: La Línea de La Concepción
-  - VIRGEN DEL CARMEN (LA LINEA) (A)
-LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (A)
+  - VIRGEN DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
+LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-4a-18@atleticozabal.com
-DTSTAMP:20261008T054106Z
+DTSTAMP:20261008T060331Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J18 · C.D. OLIVILLOS 87 – ATUNARA ATLETICO C.D. "A"
 DESCRIPTION:Alevín Atunara A · 4ª Andaluza\n4ª Andaluza Alevín Cádiz 
  · Grupo 4\nJornada 18\nHora pendiente\nCampo: San Roque - LOS OLIVILLOS (
- VICENTE BLANCA)(F11\, F7) (A)
+ VICENTE BLANCA)(F11\, F7) (A)\n\nCreado por Raúl Cote
 LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
 URL:https://www.atleticozabal.com/calendario-alevin-atunara-4a.html
 END:VEVENT
