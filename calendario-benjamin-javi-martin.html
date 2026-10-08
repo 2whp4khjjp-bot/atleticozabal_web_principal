@@ -36,7 +36,7 @@ function draw(matches){
 fetch('data/benjamin-javi-martin-rfaf.json',{cache:'no-store'})
   .then(response=>{if(!response.ok)throw new Error('Datos no disponibles');return response.json()})
   .then(data=>{
-    if(!Array.isArray(data.matches)||data.matches.length!==28)throw new Error('Calendario incompleto');
+    if(!Array.isArray(data.matches)||data.matches.length!==28){list.textContent='La RFAF está preparando el calendario oficial. Se sincronizará automáticamente.';return}
     draw(data.matches);
     document.querySelector('main > p').textContent='Datos de la RFAF · Última consulta: '+
       new Intl.DateTimeFormat('es-ES',{dateStyle:'medium',timeStyle:'short',
