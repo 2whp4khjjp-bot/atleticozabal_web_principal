@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=50073897&codgrupo=50075169&CodJornada=1&cod_agrupacion=1",
   "extendedSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50075169&codcompeticion=50073897&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-10-08T10:55:41.010Z",
+  "updatedAt": "2026-10-08T10:59:24.521Z",
   "rounds": [
     {
       "round": 1,
@@ -140,7 +140,7 @@
       "time": "18:30",
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": "La Línea de La Concepción - Francisco Pozo (A)",
+      "ground": "La Línea de La Concepción - Francisco Pozo (A)",
       "score": null
     },
     {
@@ -149,7 +149,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "PUENTE MAYORGA RVO",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -158,7 +158,7 @@
       "time": null,
       "home": "U.D. CASTELLAR C.F.",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "Castellar de la Frontera - MANUEL LEÓN MUNICIPAL (N)",
       "score": null
     },
     {
@@ -167,7 +167,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "BALON LINENSE C.F. C.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -176,7 +176,7 @@
       "time": null,
       "home": "C.D. GUADIARO",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "San Roque - LA UNION (F11, F7) (A)",
       "score": null
     },
     {
@@ -185,7 +185,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -194,7 +194,7 @@
       "time": null,
       "home": "C.D. SAN BERNARDO",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
       "score": null
     },
     {
@@ -203,7 +203,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "PEÑA MADRIDISTA LINENSE \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -212,7 +212,7 @@
       "time": null,
       "home": "PEÑA MADRIDISTA LINENSE \"A\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - PUYOL (A)",
       "score": null
     },
     {
@@ -221,7 +221,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "PEÑA MADRIDISTA LINENSE \"C\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -230,7 +230,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"A\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {
@@ -239,7 +239,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. OLIVILLOS 87",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -266,7 +266,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -275,7 +275,7 @@
       "time": null,
       "home": "PUENTE MAYORGA RVO",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
       "score": null
     },
     {
@@ -284,7 +284,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "U.D. CASTELLAR C.F.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -293,7 +293,7 @@
       "time": null,
       "home": "BALON LINENSE C.F. C.D.",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": null
     },
     {
@@ -302,7 +302,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. GUADIARO",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -311,7 +311,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {
@@ -320,7 +320,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. SAN BERNARDO",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -329,7 +329,7 @@
       "time": null,
       "home": "PEÑA MADRIDISTA LINENSE \"B\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - PUYOL (A)",
       "score": null
     },
     {
@@ -338,7 +338,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "PEÑA MADRIDISTA LINENSE \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -347,7 +347,7 @@
       "time": null,
       "home": "PEÑA MADRIDISTA LINENSE \"C\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - PUYOL (A)",
       "score": null
     },
     {
@@ -356,7 +356,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
     {
@@ -365,7 +365,7 @@
       "time": null,
       "home": "C.D. OLIVILLOS 87",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
       "score": null
     },
     {
