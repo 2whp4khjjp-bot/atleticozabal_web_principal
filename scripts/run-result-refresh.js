@@ -20,7 +20,8 @@ const commands = {
   'benjamin-a': [['sync-rfaf-results.js', 'benjamin-a'], 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
   'benjamin-b': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js', 'render-benjamin-angel-ics.js', 'validate-benjamin-angel.js'],
   'benjamin-angel': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js', 'render-benjamin-angel-ics.js', 'validate-benjamin-angel.js'],
-  'benjamin-sebas': [['sync-rfaf-results.js', 'benjamin-sebas'], 'render-benjamin-sebas-ics.js', 'validate-benjamin-sebas.js'],\n  'benjamin-javi-martin': [['sync-rfaf-results.js', 'benjamin-javi-martin'], 'render-benjamin-javi-martin-ics.js', 'validate-benjamin-javi-martin.js']
+  'benjamin-sebas': [['sync-rfaf-results.js', 'benjamin-sebas'], 'render-benjamin-sebas-ics.js', 'validate-benjamin-sebas.js'],
+  'benjamin-javi-martin': [['sync-rfaf-results.js', 'benjamin-javi-martin'], 'render-benjamin-javi-martin-ics.js', 'validate-benjamin-javi-martin.js']
 };
 const teamFiles = {
   senior: 'data/senior-rfaf.json',
@@ -39,7 +40,8 @@ const teamFiles = {
   'infantil-b': 'data/infantil-b-rfaf.json',
   'benjamin-a': 'data/benjamin-a-rfaf.json',
   'benjamin-b': 'data/benjamin-b-rfaf.json',
-  'benjamin-sebas': 'data/benjamin-sebas-rfaf.json',\n  'benjamin-javi-martin': 'data/benjamin-javi-martin-rfaf.json',
+  'benjamin-sebas': 'data/benjamin-sebas-rfaf.json',
+  'benjamin-javi-martin': 'data/benjamin-javi-martin-rfaf.json',
   'benjamin-angel': 'data/benjamin-angel-rfaf.json'
 };
 const dueTeams = [...new Set(plan.map(item => item.team))];
@@ -60,8 +62,10 @@ for (const team of dueTeams) {
     if (result.stdout) process.stdout.write(result.stdout);
     if (result.stderr) process.stderr.write(result.stderr);
     if (result.status !== 0) {
-      const details = (result.stderr || '') + '\\n' + (result.stdout || '') +
-        '\\n' + (result.error?.message || '');
+      const details = (result.stderr || '') + '\
+' + (result.stdout || '') +
+        '\
+' + (result.error?.message || '');
       const transient = /Timeout.*exceeded|net::ERR_|ECONNRESET|ENOTFOUND|EAI_AGAIN|RFAF HTTP 5\d\d/i
         .test(details);
       if (transient) {
@@ -119,4 +123,5 @@ if (failedTeams.length) {
   delete state.lastErrorAt;
 }
 
-fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
+fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '
+');
