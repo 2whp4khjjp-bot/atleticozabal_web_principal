@@ -1,0 +1,59 @@
+name: Sincronizar Alevín Atunara 4ª Andaluza · RFAF
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/sync-alevin-atunara-4a-rfaf.js'
+  schedule:
+    - cron: '20 8 * * *'
+    - cron: '20 9 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-alevin-atunara-4a-rfaf
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Ejecutar solo una vez en hora peninsular
+        id: window
+        run: |
+          offset="$(TZ=Europe/Madrid date +%z)"
+          schedule='${{ github.event.schedule }}'
+          if [ '${{ github.event_name }}' != 'schedule' ] || \
+             { [ "$schedule" = '20 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$schedule" = '20 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.window.outputs.run == 'true'
+      - name: Instalar Playwright y Chromium
+        if: steps.window.outputs.run == 'true'
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Consultar las dos vistas oficiales y los resultados por jornada
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/sync-alevin-atunara-4a-rfaf.js
+      - name: Regenerar Google Calendar / iCal
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-alevin-atunara-4a-ics.js
+      - name: Validar calendario
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/validate-alevin-atunara-4a.js
+      - name: Publicar si hay cambios
+        if: steps.window.outputs.run == 'true'
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/alevin-atunara-4a-rfaf.json calendario-alevin-atunara-4a.ics
+          if git diff --cached --quiet; then
+            echo "No hay cambios oficiales que publicar"
+            exit 0
+          fi
+          git commit -m "Actualiza Alevín Atunara 4ª Andaluza"
+          bash scripts/push-calendar-update.sh
