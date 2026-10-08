@@ -1,4 +1,5 @@
 // Calendario del Benjamín · Javi Martín desde las vistas públicas de la RFAF.
+// Actualización completa diaria; los marcadores pendientes se reintentan cada cinco minutos.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
 const { mergeStoredScores } = require('./preserve-rfaf-scores');
