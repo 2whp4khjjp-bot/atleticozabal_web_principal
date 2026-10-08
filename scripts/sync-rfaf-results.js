@@ -249,8 +249,7 @@ const today = new Intl.DateTimeFormat('sv-SE', {
           continue;
         }
         dataset.data.updatedAt = updatedAt;
-        fs.writeFileSync(dataset.file, JSON.stringify(dataset.data, null, 2) + '
-');
+        fs.writeFileSync(dataset.file, JSON.stringify(dataset.data, null, 2) + '\n');
         console.log('Guardados los resultados de ' + dataset.file);
       }
     }
