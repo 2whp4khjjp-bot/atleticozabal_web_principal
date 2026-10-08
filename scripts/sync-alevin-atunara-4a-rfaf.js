@@ -1,3 +1,4 @@
+// Nombre público: Alevín Atunara Sergio; identidad oficial de RFAF preservada en el emparejamiento.
 // Sincroniza el calendario del Alevín Atunara A (4ª Andaluza, Grupo 4).
 // Consulta resumen y extendido; la jornada se usa como respaldo para marcadores.
 // Incluye cambios de fecha y sede cuando los publica la RFAF.\n// Se conserva scoreSource para distinguir los marcadores publicados en jornada.
