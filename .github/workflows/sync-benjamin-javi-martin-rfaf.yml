@@ -1,4 +1,4 @@
-name: Sincronizar Benjamín · Javi Martín · RFAF
+name: Sincronizar Benjamín · Javi Martin · RFAF
 on:
   workflow_dispatch:
   push:
@@ -58,5 +58,5 @@ jobs:
             echo "No hay cambios oficiales que publicar"
             exit 0
           fi
-          git commit -m "Actualiza calendario oficial Benjamín · Javi Martín"
+          git commit -m "Actualiza calendario oficial Benjamín · Javi Martin"
           bash scripts/push-calendar-update.sh
