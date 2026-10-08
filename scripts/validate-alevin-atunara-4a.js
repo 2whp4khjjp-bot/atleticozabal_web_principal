@@ -1,0 +1,10 @@
+const fs=require('node:fs');
+const d=JSON.parse(fs.readFileSync('data/alevin-atunara-4a-rfaf.json','utf8'));
+const h=fs.readFileSync('calendario-alevin-atunara-4a.html','utf8'),i=fs.readFileSync('calendario-alevin-atunara-4a.ics','utf8');
+if(d.matches.length!==18)throw Error('Se esperan 18 jornadas');
+if(d.matches.some(m=>!m.date||!m.home||!m.away))throw Error('Partido sin datos mínimos');
+if(!h.includes('4ª Andaluza Alevín Cádiz · Grupo 4'))throw Error('Categoría incorrecta');
+new Function(h.match(/<script>([\\s\\S]*?)<\\/script>/)[1]);
+if((i.match(/BEGIN:VEVENT/g)||[]).length!==18)throw Error('iCal incompleto');
+for(const l of i.split('\\r\\n').filter(Boolean))if(Buffer.byteLength(l)>75)throw Error('iCal sin plegado válido');
+console.log('Calendario y iCal válidos.');
