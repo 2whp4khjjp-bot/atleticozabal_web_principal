@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 const teams = [
-  { key: 'alevin-atunara-4a', name: 'Alevín Atunara A · 4ª Andaluza', page: 'calendario-alevin-atunara-4a.html' }
+  { key: 'alevin-atunara-4a', name: 'ATUNARA ATLETICO C.D. “A” · 4ª Andaluza', page: 'calendario-alevin-atunara-4a.html' }
 ];
 const escape = value => String(value).replace(/\u00a0/g, ' ').replace(/\\/g, '\\\\')
   .replace(/\n/g, '\\n').replace(/,/g, '\\,').replace(/;/g, '\\;');
