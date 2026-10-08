@@ -1,5 +1,6 @@
 // Sincroniza el calendario del Alevín Atunara A (4ª Andaluza, Grupo 4).
-// Consulta resumen y extendido; la jornada se usa como respaldo para marcadores.\n// Se conserva scoreSource para distinguir los marcadores publicados en jornada.
+// Consulta resumen y extendido; la jornada se usa como respaldo para marcadores.
+// Incluye cambios de fecha y sede cuando los publica la RFAF.\n// Se conserva scoreSource para distinguir los marcadores publicados en jornada.
 const fs=require('node:fs');
 const {chromium}=require('playwright');
 const {attachRfafActas,enrichRfafSchedule}=require('./rfaf-actas');
