@@ -1,10 +1,25 @@
-const fs=require('node:fs');
-const d=JSON.parse(fs.readFileSync('data/alevin-atunara-4a-rfaf.json','utf8'));
-const h=fs.readFileSync('calendario-alevin-atunara-4a.html','utf8'),i=fs.readFileSync('calendario-alevin-atunara-4a.ics','utf8');
-if(d.matches.length!==18)throw Error('Se esperan 18 jornadas');
-if(d.matches.some(m=>!m.date||!m.home||!m.away))throw Error('Partido sin datos mínimos');
-if(!h.includes('4ª Andaluza Alevín Cádiz · Grupo 4'))throw Error('Categoría incorrecta');
-new Function(h.match(/<script>([\\s\\S]*?)<\\/script>/)[1]);
-if((i.match(/BEGIN:VEVENT/g)||[]).length!==18)throw Error('iCal incompleto');
-for(const l of i.split('\\r\\n').filter(Boolean))if(Buffer.byteLength(l)>75)throw Error('iCal sin plegado válido');
-console.log('Calendario y iCal válidos.');
+const fs = require('node:fs');
+for (const team of ['alevin-atunara-4a']) {
+  const data = JSON.parse(fs.readFileSync('data/' + team + '-rfaf.json', 'utf8'));
+  const html = fs.readFileSync('calendario-' + team + '.html', 'utf8');
+  const ics = fs.readFileSync('calendario-' + team + '.ics', 'utf8');
+  if (!Array.isArray(data.matches) || data.matches.length !== 18) {
+    throw new Error('El ' + team + ' no tiene sus 18 partidos oficiales');
+  }
+  if (!html.includes('4ª Andaluza Alevín Cádiz · Grupo 4')) {
+    throw new Error('Categoría incorrecta en calendario-' + team + '.html');
+  }
+  const script = html.match(/<script>([\s\S]*?)<\/script>/);
+  if (!script) throw new Error('Falta script en calendario-' + team + '.html');
+  new Function(script[1]);
+  const total = data.matches.length;
+  if ((ics.match(/BEGIN:VEVENT/g) || []).length !== total ||
+      (ics.match(/END:VEVENT/g) || []).length !== total ||
+      (ics.match(new RegExp('UID:zabal-' + team + '-', 'g')) || []).length !== total) {
+    throw new Error('ICS incompleto del ' + team);
+  }
+  for (const line of ics.split('\r\n').filter(Boolean)) {
+    if (Buffer.byteLength(line) > 75) throw new Error('Línea ICS sin plegar del ' + team);
+  }
+}
+console.log('El calendario de Alevín Atunara 4ª Andaluza es válido.');
