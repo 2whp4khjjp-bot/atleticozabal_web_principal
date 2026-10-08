@@ -62,10 +62,8 @@ for (const team of dueTeams) {
     if (result.stdout) process.stdout.write(result.stdout);
     if (result.stderr) process.stderr.write(result.stderr);
     if (result.status !== 0) {
-      const details = (result.stderr || '') + '\
-' + (result.stdout || '') +
-        '\
-' + (result.error?.message || '');
+      const details = (result.stderr || '') + '\n' + (result.stdout || '') +
+        '\n' + (result.error?.message || '');
       const transient = /Timeout.*exceeded|net::ERR_|ECONNRESET|ENOTFOUND|EAI_AGAIN|RFAF HTTP 5\d\d/i
         .test(details);
       if (transient) {
@@ -123,5 +121,4 @@ if (failedTeams.length) {
   delete state.lastErrorAt;
 }
 
-fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '
-');
+fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
