@@ -20,7 +20,7 @@ const commands = {
   'benjamin-a': [['sync-rfaf-results.js', 'benjamin-a'], 'render-benjamin-a-ics.js', 'validate-benjamin-a.js'],
   'benjamin-b': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js', 'render-benjamin-angel-ics.js', 'validate-benjamin-angel.js'],
   'benjamin-angel': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js', 'render-benjamin-angel-ics.js', 'validate-benjamin-angel.js'],
-  'benjamin-sebas': [['sync-rfaf-results.js', 'benjamin-sebas'], 'render-benjamin-sebas-ics.js', 'validate-benjamin-sebas.js']
+  'benjamin-sebas': [['sync-rfaf-results.js', 'benjamin-sebas'], 'render-benjamin-sebas-ics.js', 'validate-benjamin-sebas.js'],\n  'benjamin-javi-martin': [['sync-rfaf-results.js', 'benjamin-javi-martin'], 'render-benjamin-javi-martin-ics.js', 'validate-benjamin-javi-martin.js']
 };
 const teamFiles = {
   senior: 'data/senior-rfaf.json',
@@ -39,7 +39,7 @@ const teamFiles = {
   'infantil-b': 'data/infantil-b-rfaf.json',
   'benjamin-a': 'data/benjamin-a-rfaf.json',
   'benjamin-b': 'data/benjamin-b-rfaf.json',
-  'benjamin-sebas': 'data/benjamin-sebas-rfaf.json',
+  'benjamin-sebas': 'data/benjamin-sebas-rfaf.json',\n  'benjamin-javi-martin': 'data/benjamin-javi-martin-rfaf.json',
   'benjamin-angel': 'data/benjamin-angel-rfaf.json'
 };
 const dueTeams = [...new Set(plan.map(item => item.team))];
