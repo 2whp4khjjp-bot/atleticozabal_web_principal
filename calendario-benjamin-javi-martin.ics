@@ -1,318 +1,318 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Atletico Zabal Linense//Benjamín · Javi Martin 2026-27//ES
+PRODID:-//Atletico Zabal Linense//Benjamín · Javi Martín 2026-27//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Atlético Zabal · Benjamín · Javi Martin
+X-WR-CALNAME:Atlético Zabal · Benjamín · Javi Martín
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-1@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:J1 · ATLETICO ZABAL "A" – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 1\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 1\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-2@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:J2 · ATLETICO ZABAL "B" – BALON LINENSE C.F. C.D.
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 2\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 2\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-3@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:J3 · C.D. GUADIARO – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 3\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 3\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-4@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J4 · ATLETICO ZABAL "B" – C.D. EPRO CAMPO DE GIBRALTAR "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 4\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 4\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-5@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:J5 · C.D. SAN BERNARDO – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 5\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 5\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-6@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J6 · ATLETICO ZABAL "B" – PEÑA MADRIDISTA LINENSE "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 6\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 6\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-7@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J7 · PEÑA MADRIDISTA LINENSE "A" – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 7\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 7\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-8@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:J8 · ATLETICO ZABAL "B" – PEÑA MADRIDISTA LINENSE "C"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 8\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 8\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-9@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:J9 · C.D. EPRO CAMPO DE GIBRALTAR "A" – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 9\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Cot
- e
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 9\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
+ te
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-10@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:J10 · ATLETICO ZABAL "B" – C.D. OLIVILLOS 87
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 10\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 10\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-11@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J11 · CALDERON C.D. – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 11\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 11\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-13@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:J13 · ATLETICO ZABAL "B" – HISTORICO RECREATIVO LINENSE CLUB DE 
  FÚTBOL
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 13\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 13\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-14@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:J14 · PUENTE MAYORGA RVO – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 14\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 14\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-15@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J15 · ATLETICO ZABAL "B" – U.D. CASTELLAR C.F.
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 15\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 15\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-16@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J16 · ATLETICO ZABAL "B" – ATLETICO ZABAL "A"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 16\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 16\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-17@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J17 · BALON LINENSE C.F. C.D. – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 17\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 17\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-18@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J18 · ATLETICO ZABAL "B" – C.D. GUADIARO
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 18\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 18\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-19@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J19 · C.D. EPRO CAMPO DE GIBRALTAR "B" – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 19\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 19\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-20@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J20 · ATLETICO ZABAL "B" – C.D. SAN BERNARDO
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 20\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 20\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-21@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J21 · PEÑA MADRIDISTA LINENSE "B" – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 21\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 21\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-22@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J22 · ATLETICO ZABAL "B" – PEÑA MADRIDISTA LINENSE "A"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 22\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 22\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-23@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J23 · PEÑA MADRIDISTA LINENSE "C" – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 23\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 23\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-24@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:J24 · ATLETICO ZABAL "B" – C.D. EPRO CAMPO DE GIBRALTAR "A"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 24\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 24\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-25@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:J25 · C.D. OLIVILLOS 87 – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 25\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 25\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-26@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J26 · ATLETICO ZABAL "B" – CALDERON C.D.
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 26\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 26\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-28@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:J28 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – ATLETICO ZA
  BAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 28\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 28\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-29@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:J29 · ATLETICO ZABAL "B" – PUENTE MAYORGA RVO
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 29\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 29\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-javi-martin-30@atleticozabal.com
-DTSTAMP:20261008T100226Z
+DTSTAMP:20261008T100017Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:J30 · U.D. CASTELLAR C.F. – ATLETICO ZABAL "B"
-DESCRIPTION:Benjamín · Javi Martin · 4.ª Andaluza Benjamín Cádiz · G
- rupo 4\nJornada 30\nHora pendiente\nCampo pendiente\n\nCreado por Raúl Co
- te
+DESCRIPTION:Benjamín · Javi Martín · 4.ª Andaluza Benjamín Cádiz · 
+ Grupo 4\nJornada 30\nHora pendiente\nCampo pendiente\n\nCreado por Raúl C
+ ote
 URL:https://www.atleticozabal.com/calendario-benjamin-javi-martin.html
 END:VEVENT
 END:VCALENDAR
