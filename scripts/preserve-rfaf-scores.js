@@ -27,7 +27,10 @@ function mergeStoredScores(path, matches) {
     ].join('|'));
     const finalScore = Array.isArray(old?.score) && old.score.length === 2 &&
       old.score.every(value => value !== null && value !== undefined && String(value).trim() !== '');
-    if (finalScore && match.date <= today) {
+    const incomingScore = Array.isArray(match.score) && match.score.length === 2 &&
+      match.score.every(value => value !== null && value !== undefined && String(value).trim() !== '' && Number.isFinite(Number(value)));
+    // Fresh confirmed official results must never be overwritten by stale stored results.
+    if (finalScore && !incomingScore && match.date <= today) {
       match.score = old.score;
       if (old.scoreSource) match.scoreSource = old.scoreSource;
     }
