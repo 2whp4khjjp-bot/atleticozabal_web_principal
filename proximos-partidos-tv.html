@@ -77,6 +77,48 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
  #status,#credit{line-height:36px}
  #credit{font-size:23px}
 }
+
+/* Fire TV / Amazon Silk: the viewport, not a fixed minimum height, owns the layout. */
+html,body{height:100%;height:100dvh;min-height:0;overflow:hidden}
+#screen{height:100%;height:100dvh;height:var(--tv-height,100dvh);min-width:0;min-height:0;display:flex;flex-direction:column;overflow:hidden;padding:clamp(8px,1.3vh,16px) clamp(12px,1.6vw,30px) clamp(5px,.8vh,10px)}
+#header{position:relative;flex:0 0 clamp(66px,12vh,104px);height:auto;min-height:0}
+#crest{width:clamp(42px,5.5vw,78px);height:calc(100% - 5px)}
+#heading{left:clamp(54px,7vw,100px);top:clamp(2px,.7vh,8px);right:clamp(145px,24vw,340px)}
+#clubname{font-size:clamp(10px,1.4vw,18px);letter-spacing:clamp(1px,.2vw,3px)}
+#title{font-size:clamp(19px,3.1vw,48px);line-height:1.08;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#clockbox{top:2px;width:clamp(130px,22vw,340px)}
+#clock{font-size:clamp(23px,3vw,48px);line-height:1.1}
+#today{font-size:clamp(10px,1.1vw,17px);margin-top:3px}
+#days{position:relative;inset:auto;left:auto;right:auto;top:auto;bottom:auto;flex:1 1 auto;min-height:0;display:flex;flex-direction:column;overflow:hidden;padding-top:clamp(5px,1vh,12px)}
+.dayHead{position:relative;flex:0 0 clamp(35px,6vh,54px);height:auto;min-height:0}
+.dayName{font-size:clamp(18px,2.4vw,32px);line-height:1.2}
+.dayCount{font-size:clamp(10px,1.1vw,16px);top:clamp(3px,.8vh,10px)}
+.fixtures{position:relative;inset:auto;left:auto;right:auto;top:auto;bottom:auto;flex:1 1 auto;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:clamp(6px,1.3vh,16px);overflow:hidden}
+.fixture,.fixtures.compact .fixture,.fixtures.single .fixture{float:none;width:auto;height:auto;min-width:0;min-height:0;margin:0;padding:clamp(8px,1.4vh,18px) clamp(9px,1.2vw,20px);border-left-width:clamp(5px,.6vw,9px);border-radius:clamp(7px,1vw,16px)}
+.fixture.odd{margin-right:0}
+.fixtures.compact{grid-template-rows:minmax(0,1fr)}
+.fixtures.single{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr)}
+.fixtureTop{height:auto;min-height:clamp(20px,3.5vh,36px);padding-right:clamp(90px,13vw,205px)}
+.category{font-size:clamp(10px,1.15vw,17px);line-height:1.2}
+.time{top:0;font-size:clamp(22px,3.1vw,46px);line-height:1.1}
+.resultMark{width:clamp(16px,1.9vw,28px);height:clamp(16px,1.9vw,28px);font-size:clamp(12px,1.5vw,21px)}
+.teams{left:clamp(9px,1.4vw,22px);right:clamp(9px,1.2vw,20px);top:clamp(35px,6.7vh,62px);bottom:clamp(6px,1.5vh,18px);width:auto;min-height:0;gap:clamp(2px,.8vh,7px)}
+.teamRow{min-width:0;font-size:clamp(14px,2vw,31px);line-height:1.12;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
+.teamName{padding:0}
+#footer{position:relative;inset:auto;left:auto;right:auto;bottom:auto;flex:0 0 clamp(23px,4.5vh,42px);height:auto;min-height:0;font-size:clamp(9px,1vw,15px);padding-top:3px}
+#status,#credit{line-height:1.4}
+#credit{font-size:clamp(11px,1.5vw,23px)}
+#pager{top:3px}
+.message{padding:clamp(30px,14vh,150px) 10px 0;font-size:clamp(16px,2vw,28px)}
+@media(max-height:650px){
+ #header{flex-basis:clamp(54px,11vh,72px)}
+ #days{padding-top:4px}
+ .dayHead{flex-basis:clamp(29px,5.5vh,36px)}
+ .teams{top:clamp(29px,6vh,40px);bottom:5px}
+ .fixture,.fixtures.compact .fixture,.fixtures.single .fixture{padding-top:7px;padding-bottom:6px}
+ #footer{flex-basis:24px}
+}
+
 </style>
 </head>
 <body>
@@ -148,6 +190,16 @@ html,body{margin:0;padding:0;width:100%;height:100%;background:#102b50;color:#ff
   function fixtureKey(match){var teams=[match.home,match.away].map(function(team){return teamKey(team)}).sort();return [match.date||'',match.time||'',teams.join('|')].join('::')}
   function mergeFixture(existing,incoming){if((/J\. del Río/i.test(existing.label||'')&&/Ángel/i.test(incoming.label||''))||(/Ángel/i.test(existing.label||'')&&/J\. del Río/i.test(incoming.label||'')))existing.label='Benjamín · J. del Río · Ángel · Tercera Andaluza · Grupo 4';return existing}
   function loadData(){var today=todayKey(),fixtures=[],pending=calendars.length,sources=0,i;for(i=0;i<staticFixtures.length;i++)fixtures.push(staticFixtures[i]);function finish(){var week,j,m,d;if(pending!==0)return;week=chooseWeek(fixtures,today);buildPages(week.matches);d=new Date();statusNode.innerHTML='Semana del '+esc(formatDay(week.start))+' al '+esc(formatDay(week.end))+' · Actualizado '+pad(d.getHours())+':'+pad(d.getMinutes())+' · '+sources+' calendarios'}for(i=0;i<calendars.length;i++){(function(config){requestJSON(config[0],function(data){var j,m;if(data&&data.matches&&typeof data.matches.length==='number'){sources++;for(j=0;j<data.matches.length;j++){m=data.matches[j];m.label=config[1];var key=fixtureKey(m),existing=null,k;for(k=0;k<fixtures.length;k++)if(fixtureKey(fixtures[k])===key){existing=fixtures[k];break}if(existing)mergeFixture(existing,m);else fixtures.push(m)}}pending--;finish()})})(calendars[i])}}
+
+  // Silk may change its usable viewport when its browser toolbar is dismissed.
+  function fitTVViewport(){
+    var h=window.innerHeight||document.documentElement.clientHeight;
+    if(h>0)document.documentElement.style.setProperty('--tv-height',h+'px');
+  }
+  fitTVViewport();
+  window.addEventListener('resize',fitTVViewport);
+  window.addEventListener('orientationchange',fitTVViewport);
+  document.addEventListener('visibilitychange',function(){if(!document.hidden)fitTVViewport()});
   updateClock();window.setInterval(updateClock,30000);loadData();window.setInterval(loadData,300000);window.setInterval(function(){window.location.replace(window.location.pathname+'?tv-refresh='+Date.now())},900000);
 })();
 </script>
