@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
-  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=1",
-  "updatedAt": "2026-10-09T15:29:50.689Z",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=2",
+  "updatedAt": "2026-10-10T14:36:50.972Z",
   "standing": {
-    "position": 2,
-    "points": 3,
-    "played": 0,
-    "goalsFor": 6,
+    "position": 1,
+    "points": 6,
+    "played": 1,
+    "goalsFor": 13,
     "goalsAgainst": 0,
-    "round": 1
+    "round": 2
   },
   "matches": [
     {
@@ -32,7 +32,8 @@
       "home": "ATLETICO ZABAL",
       "away": "U.D. CASTELLAR C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2694111&cod_acta=2694111"
     },
     {
       "round": 3,
