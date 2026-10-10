@@ -7,14 +7,21 @@ function normalize(value) {
 }
 
 function mergeStoredScores(path, matches) {
+  const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Madrid' }).format(new Date());
+  for (const match of matches || []) {
+    if (/^\d{4}-\d{2}-\d{2}$/.test(match.date || '') && match.date > today) {
+      match.score = null;
+      delete match.scoreSource;
+    }
+  }
   if (!fs.existsSync(path)) return matches;
   const previous = JSON.parse(fs.readFileSync(path, 'utf8'));
-  const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Madrid' }).format(new Date());
   const byIdentity = new Map((previous.matches || []).map(match => [
     [match.round, match.date, match.time, normalize(match.home), normalize(match.away)].join('|'),
     match
   ]));
   for (const match of matches || []) {
+    if (/^\d{4}-\d{2}-\d{2}$/.test(match.date || '') && match.date > today) continue;
     const old = byIdentity.get([
       match.round, match.date, match.time, normalize(match.home), normalize(match.away)
     ].join('|'));
