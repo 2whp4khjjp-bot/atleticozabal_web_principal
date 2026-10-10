@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558",
-  "updatedAt": "2026-10-09T15:36:54.746Z",
+  "updatedAt": "2026-10-10T14:50:42.698Z",
   "standing": {
     "position": 4,
     "points": 6,
@@ -59,7 +59,10 @@
       "home": "ATLETICO ZABAL",
       "away": "MONITORES FUTBOL DE ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": [
+        0,
+        0
+      ]
     },
     {
       "round": 5,
