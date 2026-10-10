@@ -30,7 +30,8 @@ function mergeStoredScores(path, matches) {
     const incomingScore = Array.isArray(match.score) && match.score.length === 2 &&
       match.score.every(value => value !== null && value !== undefined && String(value).trim() !== '' && Number.isFinite(Number(value)));
     // Fresh confirmed official results must never be overwritten by stale stored results.
-    if (finalScore && !incomingScore && match.date <= today) {
+    const verifiedActa = /^acta:/i.test(old?.scoreSource || '');
+    if (finalScore && (!incomingScore || verifiedActa) && match.date <= today) {
       match.score = old.score;
       if (old.scoreSource) match.scoreSource = old.scoreSource;
     }
