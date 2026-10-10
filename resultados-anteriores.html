@@ -121,7 +121,7 @@
       return values.year+'-'+values.month+'-'+values.day;
     }
     function isCompletedResult(match,today){
-      return /^\\d{4}-\\d{2}-\\d{2}$/.test(match.date||'') &&
+      return /^\d{4}-\d{2}-\d{2}$/.test(match.date||'') &&
         match.date<=today &&
         Array.isArray(match.score)&&match.score.length===2 &&
         match.score.every(value=>value!==null&&value!==undefined&&String(value).trim()!==''&&isFinite(Number(value)));
