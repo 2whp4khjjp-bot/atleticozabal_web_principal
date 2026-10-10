@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
-  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=1",
-  "updatedAt": "2026-10-09T15:22:55.315Z",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=2",
+  "updatedAt": "2026-10-10T14:32:19.448Z",
   "standing": {
     "position": 10,
     "points": 0,
-    "played": 0,
-    "goalsFor": 3,
-    "goalsAgainst": 7,
-    "round": 1
+    "played": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 14,
+    "round": 2
   },
   "rounds": [
     {
@@ -122,7 +122,8 @@
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. TARIFA FUTBOL ACADEMY",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701305&cod_acta=2701305"
     },
     {
       "round": 3,
