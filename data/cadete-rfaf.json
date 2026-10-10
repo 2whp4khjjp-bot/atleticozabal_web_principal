@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-10-09T15:36:49.555Z",
+  "updatedAt": "2026-10-10T14:42:24.155Z",
   "standing": {
-    "position": 2,
-    "points": 9,
+    "position": 1,
+    "points": 12,
     "played": 2,
-    "goalsFor": 13,
-    "goalsAgainst": 3,
-    "round": 3
+    "goalsFor": 16,
+    "goalsAgainst": 5,
+    "round": 4
   },
   "matches": [
     {
@@ -60,7 +60,8 @@
       "home": "C.D. LA SALLE",
       "away": "ATLETICO ZABAL",
       "ground": "Puerto Real - VIRGEN DEL CARMEN (T)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930"
     },
     {
       "round": 5,
