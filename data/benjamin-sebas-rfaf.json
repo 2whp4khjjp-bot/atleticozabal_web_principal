@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=2",
-  "updatedAt": "2026-10-10T14:46:12.857Z",
+  "updatedAt": "2026-10-11T14:58:30.088Z",
   "standing": {
     "position": 10,
     "points": 0,
@@ -109,11 +109,11 @@
       "away": "ATLETICO ZABAL \"B\"",
       "ground": "Algeciras - LA MENACHA PACO LEÓN (F11-F7,3) (A)",
       "score": [
-        7,
-        3
+        14,
+        8
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701299&cod_acta=2701299",
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49287953&CodGrupo=49288358&CodTemporada=22&cod_agrupacion=1&CodJornada=1&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=2"
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
