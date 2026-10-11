@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=2",
-  "updatedAt": "2026-10-10T14:45:58.985Z",
+  "updatedAt": "2026-10-11T15:01:26.105Z",
   "standing": {
     "position": 1,
     "points": 6,
@@ -20,10 +20,10 @@
       "ground": "Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)",
       "score": [
         0,
-        6
+        13
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2694105&cod_acta=2694105",
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49189596&CodGrupo=49196403&CodTemporada=22&cod_agrupacion=1&CodJornada=1&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
