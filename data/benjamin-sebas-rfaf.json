@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=2",
-  "updatedAt": "2026-10-11T14:58:30.088Z",
+  "updatedAt": "2026-10-12T18:03:13.545Z",
   "standing": {
     "position": 10,
     "points": 0,
@@ -131,8 +131,8 @@
     },
     {
       "round": 3,
-      "date": "2026-10-17",
-      "time": null,
+      "date": "2026-10-16",
+      "time": "18:30",
       "home": "MONITORES FUTBOL DE ALGECIRAS",
       "away": "ATLETICO ZABAL \"B\"",
       "ground": "Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7,1) (A)",
