@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-11T14:53:43.355Z",
+  "updatedAt": "2026-10-12T17:49:32.956Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -69,8 +69,8 @@
     },
     {
       "round": 5,
-      "date": "2026-10-17",
-      "time": null,
+      "date": "2026-10-16",
+      "time": "17:30",
       "home": "A.D. LOS CORTIJILLOS",
       "away": "ATLETICO ATUNARA C.D. \"A\"",
       "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
