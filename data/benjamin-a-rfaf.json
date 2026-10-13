@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-10-12T17:55:05.359Z",
+  "updatedAt": "2026-10-13T15:59:52.316Z",
   "standing": {
     "position": 4,
     "points": 10,
@@ -22,7 +22,6 @@
         6,
         2
       ],
-      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663714&cod_acta=2663714"
     },
     {
@@ -36,8 +35,8 @@
         1,
         2
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723",
-      "scoreSource": "rfaf-round-results"
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723"
     },
     {
       "round": 3,
@@ -79,10 +78,10 @@
     {
       "round": 6,
       "date": "2026-10-17",
-      "time": null,
+      "time": "11:30",
       "home": "ARCOS C.F.",
       "away": "ATLETICO ZABAL",
-      "ground": "Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)",
+      "ground": "Arcos De La Frontera - EL SANTISCAL (A)",
       "score": null
     },
     {
