@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=2",
-  "updatedAt": "2026-10-12T18:10:18.618Z",
+  "updatedAt": "2026-10-13T16:22:08.247Z",
   "standing": {
     "position": 6,
     "points": 0,
@@ -10,7 +10,7 @@
     "goalsAgainst": null,
     "round": 2
   },
-  "standingUpdatedAt": "2026-10-12T18:10:18.618Z",
+  "standingUpdatedAt": "2026-10-13T16:22:08.247Z",
   "standingVerified": true,
   "rounds": [
     {
@@ -135,8 +135,8 @@
     },
     {
       "round": 3,
-      "date": "2026-10-17",
-      "time": null,
+      "date": "2026-10-18",
+      "time": "13:30",
       "home": "ATLETICO ZABAL",
       "away": "C.D. GUADALCACIN",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
