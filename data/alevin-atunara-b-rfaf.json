@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-12T17:53:31.208Z",
+  "updatedAt": "2026-10-13T15:57:05.676Z",
   "standing": {
     "position": 14,
     "points": 0,
@@ -55,8 +55,8 @@
     },
     {
       "round": 5,
-      "date": "2026-10-17",
-      "time": null,
+      "date": "2026-10-16",
+      "time": "18:15",
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "C.D. JUAN SEBASTIAN ELCANO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
