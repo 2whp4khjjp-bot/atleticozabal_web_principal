@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=2",
-  "updatedAt": "2026-10-12T18:07:56.588Z",
+  "updatedAt": "2026-10-13T16:16:16.151Z",
   "standing": {
     "position": 1,
     "points": 6,
@@ -20,9 +20,10 @@
       "ground": "Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)",
       "score": [
         0,
-        6
+        13
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2694105&cod_acta=2694105"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2694105&cod_acta=2694105",
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 2,
@@ -41,7 +42,7 @@
     {
       "round": 3,
       "date": "2026-10-17",
-      "time": null,
+      "time": "12:00",
       "home": "C.D. BALON LINENSE C.F. \"A\"",
       "away": "ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
