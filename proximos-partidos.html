@@ -48,7 +48,15 @@ Promise.all([
   appendMatches(benjaminSebas,'Benjamín · Sebas · Tercera Andaluza · Grupo 5');
   appendMatches(benjaminAngel,'Benjamín · Ángel · Tercera Andaluza · Grupo 4');
   appendMatches(benjaminJaviMartin,'Benjamín · Javi Martin · 4.ª Andaluza · Grupo 4');
-  render();loading.remove();filter();
+  extraFeedsLoaded.then(()=>{render();loading.remove();filter()});
 }).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
+
+const extraFeedsLoaded=Promise.allSettled([loadCalendar('data/prebenjamin-polo-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Polo")),
+loadCalendar('data/prebenjamin-c-rfaf.json').then(data=>appendMatches(data,"Prebenjamín C")),
+loadCalendar('data/prebenjamin-a-rfaf.json').then(data=>appendMatches(data,"Prebenjamín A")),
+loadCalendar('data/prebenjamin-b-rfaf.json').then(data=>appendMatches(data,"Prebenjamín B")),
+loadCalendar('data/alevin-atunara-mariano-rfaf.json').then(data=>appendMatches(data,"Alevín Atunara · Mariano")),
+loadCalendar('data/bebe-a-rfaf.json').then(data=>appendMatches(data,"Bebé A")),
+loadCalendar('data/bebe-b-rfaf.json').then(data=>appendMatches(data,"Bebé B"))]).then(()=>{});
 filter();
 </script></body></html>
