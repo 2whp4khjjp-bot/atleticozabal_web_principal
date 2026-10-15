@@ -56,7 +56,7 @@ jobs:
         run: |
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
-          git add data/prebenjamin-*-rfaf.json data/alevin-atunara-mariano-rfaf.json data/bebe-*-rfaf.json calendario-prebenjamin-*.ics calendario-alevin-atunara-mariano.ics calendario-bebe-*.ics
+          git add -A data/ calendario-*.ics
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Sincroniza prebenjamines, alevín Mariano y bebés"
           bash scripts/push-calendar-update.sh
