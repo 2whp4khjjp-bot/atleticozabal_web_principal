@@ -1,0 +1,190 @@
+{
+  "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789584&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
+  "updatedAt": "2026-10-15T18:54:20.330Z",
+  "officialTeam": "ATUNARA ATLETICO C.D. \"B\"",
+  "competition": "49608278",
+  "group": "49789584",
+  "standing": null,
+  "matches": [
+    {
+      "round": 2,
+      "date": "2026-10-16",
+      "time": "19:45",
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "score": null
+    },
+    {
+      "round": 3,
+      "date": "2026-10-24",
+      "time": null,
+      "home": "U.D. CASTELLAR C.F.",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": "Castellar de la Frontera - MANUEL LEÓN MUNICIPAL",
+      "score": null
+    },
+    {
+      "round": 4,
+      "date": "2026-11-07",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "PUENTE MAYORGA RVO. \"C\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "score": null
+    },
+    {
+      "round": 5,
+      "date": "2026-11-14",
+      "time": null,
+      "home": "C.D. GUADIARO \"B\"",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 6,
+      "date": "2026-11-21",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 7,
+      "date": "2026-11-28",
+      "time": null,
+      "home": "C.D. EPRO CAMPO DE GIBRALTAR \"D\"",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 8,
+      "date": "2026-12-12",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "PEÑA MADRIDISTA LINENSE",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 9,
+      "date": "2026-12-19",
+      "time": null,
+      "home": "PUENTE MAYORGA RVO. \"A\"",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 10,
+      "date": "2027-01-16",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "C.D. ATHLETIC CLUB JIMENA",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 11,
+      "date": "2027-01-23",
+      "time": null,
+      "home": "CALDERON C.D.",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 13,
+      "date": "2027-02-13",
+      "time": null,
+      "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 14,
+      "date": "2027-02-20",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "U.D. CASTELLAR C.F.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 15,
+      "date": "2027-03-06",
+      "time": null,
+      "home": "PUENTE MAYORGA RVO. \"C\"",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 16,
+      "date": "2027-03-13",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "C.D. GUADIARO \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 17,
+      "date": "2027-04-03",
+      "time": null,
+      "home": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 18,
+      "date": "2027-04-10",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "C.D. EPRO CAMPO DE GIBRALTAR \"D\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 19,
+      "date": "2027-04-17",
+      "time": null,
+      "home": "PEÑA MADRIDISTA LINENSE",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 20,
+      "date": "2027-05-08",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "PUENTE MAYORGA RVO. \"A\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 21,
+      "date": "2027-05-15",
+      "time": null,
+      "home": "C.D. ATHLETIC CLUB JIMENA",
+      "away": "ATUNARA ATLETICO C.D. \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 22,
+      "date": "2027-05-29",
+      "time": null,
+      "home": "ATUNARA ATLETICO C.D. \"B\"",
+      "away": "CALDERON C.D.",
+      "ground": null,
+      "score": null
+    }
+  ]
+}
