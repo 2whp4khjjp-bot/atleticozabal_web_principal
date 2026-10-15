@@ -17,7 +17,9 @@ async function run(){
  const browser=await chromium.launch({headless:true});
  try{
   const page=await browser.newPage({locale:'es-ES',timezoneId:'Europe/Madrid'});
+  let succeeded=0; const failures=[];
   for(const cfg of groups){
+   try {
    const source=base+'/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo='+cfg.group+'&codcompeticion='+cfg.competition+'&codtemporada=22&CodJornada=1&CDetalle=1'+(cfg.aggregation?'&cod_agrupacion='+cfg.aggregation:'');
    const groupUrl=base+'/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion='+cfg.competition+'&codgrupo='+cfg.group;
    const gr=await page.goto(groupUrl,{waitUntil:'domcontentloaded',timeout:45000});
@@ -43,8 +45,8 @@ async function run(){
    if(!all.length)throw Error('No se encontraron filas: '+cfg.key);
    let teams=cfg.teams;
    if(!teams){
-    const candidates=[...new Set(all.flatMap(m=>[m.home,m.away]).filter(n=>norm(n).includes('ATLETICO '+cfg.kind)))];
-    if(candidates.length!==1)throw Error('Nombre federativo ambiguo ('+cfg.key+'): '+JSON.stringify(candidates));
+    const candidates=[...new Set(all.flatMap(m=>[m.home,m.away]).filter(n=>(cfg.kind==='ATUNARA'?/ATUNARA/.test(norm(n)):/ATLETICO ZABAL/.test(norm(n)))))];
+    if(candidates.length!==1)throw Error('Nombre federativo no identificado ('+cfg.key+'): '+JSON.stringify(candidates)+'; muestra='+JSON.stringify(all.slice(0,5).map(m=>[m.home,m.away])));
     teams=[[cfg.key,candidates[0]]];
    }
    const nameSet=new Set(teams.map(t=>norm(t[1])));
@@ -78,7 +80,12 @@ async function run(){
     fs.writeFileSync(path,JSON.stringify({source,updatedAt:new Date().toISOString(),officialTeam:official,competition:cfg.competition,group:cfg.group,standing:null,matches:list},null,2)+'\n');
     console.log(key+': '+list.length+' partidos, '+list.filter(m=>valid(m.score)).length+' marcadores');
    }
+   succeeded++;
+   } catch(error) { failures.push(cfg.key+': '+error.message); console.error('Grupo no sincronizado: '+cfg.key+': '+error.message); }
   }
+  console.log('Grupos completados: '+succeeded+'/'+groups.length);
+  if(failures.length)console.warn('Grupos pendientes: '+failures.join(' | '));
+  if(!succeeded)throw Error('Ningún grupo se ha podido actualizar');
  }finally{await browser.close()}
 }
 run().catch(e=>{console.error(e.stack||e.message);process.exitCode=1});
