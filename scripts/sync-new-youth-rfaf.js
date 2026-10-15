@@ -11,7 +11,7 @@ const groups=[
  {key:'alevin-atunara-mariano',competition:'49608278',group:'49789584',team:'auto',kind:'ATUNARA'},
  {key:'bebe-ab',competition:'50321366',group:'50423452',teams:[['bebe-a','ATLETICO ZABAL "A"'],['bebe-b','ATLETICO ZABAL "B"']],aggregation:'12934598',delegation:'3',game:'2'}
 ];
-const norm=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim().toUpperCase();
+const norm=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[“”«»]/g,'"').replace(/\s+/g,' ').trim().toUpperCase();
 const valid=s=>Array.isArray(s)&&s.length===2&&s.every(v=>v!==null&&v!==undefined&&String(v).trim()!==''&&Number.isFinite(Number(v)));
 async function run(){
  const browser=await chromium.launch({headless:true});
@@ -43,6 +43,9 @@ async function run(){
     }).filter(Boolean);
    });
    if(!all.length)throw Error('No se encontraron filas: '+cfg.key);
+   if(cfg.key==='bebe-ab') console.log('Diagnóstico Bebé: filas='+all.length+'; muestra='+JSON.stringify(all.slice(0,5).map(m=>({round:m.round,date:m.date,home:m.home,away:m.away}))));
+   // La RFAF puede usar comillas tipográficas o espacios diferentes en los nombres.
+
    let teams=cfg.teams;
    if(!teams){
     const candidates=[...new Set(all.flatMap(m=>[m.home,m.away]).filter(n=>(cfg.kind==='ATUNARA'?/ATUNARA/.test(norm(n)):/ATLETICO ZABAL/.test(norm(n)))))];
