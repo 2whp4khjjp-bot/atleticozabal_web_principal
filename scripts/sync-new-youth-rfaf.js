@@ -18,7 +18,7 @@ async function run(){
  try{
   const page=await browser.newPage({locale:'es-ES',timezoneId:'Europe/Madrid'});
   let succeeded=0; const failures=[];
-  for(const cfg of groups){
+  for(const cfg of groups.filter(cfg=>!process.env.RFAF_GROUP || cfg.key===process.env.RFAF_GROUP)){
    try {
    const source=base+'/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo='+cfg.group+'&codcompeticion='+cfg.competition+'&codtemporada=22&CodJornada=1&CDetalle=1'+(cfg.aggregation?'&cod_agrupacion='+cfg.aggregation:'');
    const groupUrl=base+'/pnfg/NPcd/NFG_VisGrupos_Vis?cod_primaria=1000123&codcompeticion='+cfg.competition+'&codgrupo='+cfg.group;
