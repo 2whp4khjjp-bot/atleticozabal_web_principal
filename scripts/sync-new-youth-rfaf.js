@@ -33,7 +33,7 @@ async function run(){
      if(cells.length<3)return null;
      const text=row.innerText||'';
      const heading=row.parentElement?.querySelector('h5')?.innerText||'';
-     const round=Number(heading.match(/Jornada\s+(\d+)/i)?.[1]);
+     const round=Number(heading.match(/Jornada\s+(\d+)/i)?.[1] || row.closest('[class*=jornada]')?.innerText?.match(/Jornada\s+(\d+)/i)?.[1]);
      const dt=text.match(/\b(\d{2})[-/](\d{2})[-/](\d{4})(?:\s*-\s*(\d{1,2}:\d{2}))?/);
      const scoreText=cells[1].match(/^(\d{1,2})\s*[-–:]\s*(\d{1,2})$/);
      const strong=[...row.querySelectorAll('table td')][1]?.querySelectorAll('strong')||[];
@@ -54,7 +54,7 @@ async function run(){
    }
    const nameSet=new Set(teams.map(t=>norm(t[1])));
    const selected=all.filter(m=>(nameSet.has(norm(m.home))||nameSet.has(norm(m.away)))&&!/descansa/i.test(m.home+' '+m.away));
-   if(!selected.length||selected.some(m=>!m.date||!m.round||!m.home||!m.away))throw Error('Datos incompletos de '+cfg.key);
+   if(!selected.length||selected.some(m=>!m.date||!m.round||!m.home||!m.away))throw Error('Datos incompletos de '+cfg.key+': '+JSON.stringify(selected.filter(m=>!m.date||!m.round||!m.home||!m.away).slice(0,6)));
    const byMatch=new Map();
    for(const m of selected){const key=[m.round,norm(m.home),norm(m.away)].join('|');const old=byMatch.get(key);if(!old||(!old.time&&m.time))byMatch.set(key,m)}
    const matches=[...byMatch.values()];
