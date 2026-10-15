@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/sync-new-youth-rfaf.js'
+      - 'scripts/render-new-youth-ics.js'
       - '.github/workflows/sync-new-youth-rfaf.yml'
   schedule:
     - cron: '56 8 * * *'
@@ -16,7 +17,12 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        group: [prebenjamin-polo, prebenjamin-c, prebenjamin-ab, alevin-atunara-mariano, bebe-ab]
     steps:
       - name: Comprobar hora peninsular
         id: window
@@ -39,13 +45,18 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Sincronizar cinco grupos y siete equipos
         if: steps.window.outputs.run == 'true'
+        env:
+          RFAF_GROUP: ${{ matrix.group }}
         run: node scripts/sync-new-youth-rfaf.js
+      - name: Crear calendarios ICS
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/render-new-youth-ics.js
       - name: Publicar calendarios verificados
         if: steps.window.outputs.run == 'true'
         run: |
           git config user.name "Atlético Zabal · Actualizador"
           git config user.email "actions@github.com"
-          git add data/prebenjamin-*-rfaf.json data/alevin-atunara-mariano-rfaf.json data/bebe-*-rfaf.json
+          git add data/prebenjamin-*-rfaf.json data/alevin-atunara-mariano-rfaf.json data/bebe-*-rfaf.json calendario-prebenjamin-*.ics calendario-alevin-atunara-mariano.ics calendario-bebe-*.ics
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Sincroniza prebenjamines, alevín Mariano y bebés"
           bash scripts/push-calendar-update.sh
