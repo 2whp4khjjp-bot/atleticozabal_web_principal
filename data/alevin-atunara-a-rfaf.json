@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-15T13:22:35.930Z",
+  "updatedAt": "2026-10-16T13:13:10.740Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -22,8 +22,8 @@
         1,
         2
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709873&cod_acta=2709873",
-      "scoreSource": "rfaf-round-results"
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709873&cod_acta=2709873"
     },
     {
       "round": 2,
@@ -48,7 +48,7 @@
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": [
         2,
-        1
+        12
       ],
       "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709888&cod_acta=2709888"
@@ -64,8 +64,8 @@
         2,
         6
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709896&cod_acta=2709896"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709896&cod_acta=2709896",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 5,
