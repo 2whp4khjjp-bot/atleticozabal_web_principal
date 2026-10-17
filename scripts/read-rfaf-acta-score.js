@@ -18,6 +18,7 @@ async function readActaScore(page,match){
    const unique=[...new Map(candidates.map(v=>[v.join('-'),v])).values()];
    return unique.length===1?unique[0]:null;
   },{home:match.home,away:match.away});
+  if(!valid(score)) { const clues=await page.evaluate(()=>({title:document.title,scoreElements:[...document.querySelectorAll('[class*=result],[class*=marcador],[class*=score],h1,h2,h3')].slice(0,20).map(e=>({tag:e.tagName,cls:String(e.className).slice(0,80),text:(e.innerText||'').trim().slice(0,160),html:e.outerHTML.slice(0,450)}))}));console.warn('ACTA_SCORE_DIAGNOSTIC '+match.actaUrl+' '+JSON.stringify(clues).slice(0,9000)); }
   return valid(score)?score:null;
  }catch(e){console.warn('Acta sin marcador verificable: '+match.actaUrl+' '+e.message);return null}
 }
