@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-10-17T04:56:26.492Z",
+  "updatedAt": "2026-10-17T04:59:42.852Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
@@ -84,15 +84,6 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "PUENTE MAYORGA RVO.",
-      "ground": null,
-      "score": null
-    },
-    {
-      "round": 10,
-      "date": null,
-      "time": null,
-      "home": "C.D. TARIFA FUTBOL ACADEMY",
-      "away": "ATLETICO ZABAL \"A\"",
       "ground": null,
       "score": null
     },
@@ -192,15 +183,6 @@
       "time": null,
       "home": "PUENTE MAYORGA RVO.",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
-      "score": null
-    },
-    {
-      "round": 23,
-      "date": null,
-      "time": null,
-      "home": "ATLETICO ZABAL \"A\"",
-      "away": "C.D. TARIFA FUTBOL ACADEMY",
       "ground": null,
       "score": null
     },
