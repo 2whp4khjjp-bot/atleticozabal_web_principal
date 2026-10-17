@@ -54,7 +54,9 @@ async function run(){
    }
    const nameSet=new Set(teams.map(t=>norm(t[1])));
    const selected=all.filter(m=>(nameSet.has(norm(m.home))||nameSet.has(norm(m.away)))&&!/descansa/i.test(m.home+' '+m.away));
-   if(!selected.length||selected.some(m=>!m.date||!m.round||!m.home||!m.away))throw Error('Datos incompletos de '+cfg.key+': '+JSON.stringify(selected.filter(m=>!m.date||!m.round||!m.home||!m.away).slice(0,6)));
+   if(!selected.length||selected.some(m=>!m.round||!m.home||!m.away))throw Error('Datos estructurales incompletos de '+cfg.key+': '+JSON.stringify(selected.filter(m=>!m.round||!m.home||!m.away).slice(0,6)));
+   const undated=selected.filter(m=>!m.date);
+   if(undated.length)console.warn(cfg.key+': '+undated.length+' partidos pendientes de fecha oficial; se conservarán en el calendario del equipo y no se mostrarán en la agenda semanal hasta que la RFAF confirme fecha: '+JSON.stringify(undated.map(m=>({round:m.round,home:m.home,away:m.away}))));
    const byMatch=new Map();
    for(const m of selected){const key=[m.round,norm(m.home),norm(m.away)].join('|');const old=byMatch.get(key);if(!old||(!old.time&&m.time))byMatch.set(key,m)}
    const matches=[...byMatch.values()];
