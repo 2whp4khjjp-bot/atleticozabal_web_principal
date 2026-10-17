@@ -5,6 +5,7 @@
 const fs=require('node:fs');
 const {chromium}=require('playwright');
 const {attachRfafActas,enrichRfafSchedule}=require('./rfaf-actas');
+const {readActaScore}=require('./read-rfaf-acta-score');
 const base='https://www.rfaf.es';
 const summarySource=base+'/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=49608278&codgrupo=49789556&CodJornada=1&cod_agrupacion=1';
 const source=base+'/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789556&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1';
@@ -66,6 +67,7 @@ function hasScore(s){return Array.isArray(s)&&s.length===2&&s.every(Number.isFin
  for(const m of matches){if(hasScore(m.score))continue;const prev=oldMatches.find(x=>Number(x.round)===Number(m.round)&&normal(x.home)===normal(m.home)&&normal(x.away)===normal(m.away));if(prev&&hasScore(prev.score)){m.score=prev.score;m.scoreSource=prev.scoreSource||'preserved-existing-score';if(!m.actaUrl&&prev.actaUrl)m.actaUrl=prev.actaUrl}}
  await enrichRfafSchedule(page,matches,{base,source});
  await attachRfafActas(page,matches,{base,competition:'49608278',group:'49789556'});
+ for(const m of matches.filter(m=>m.date<=today&&!hasScore(m.score)&&m.actaUrl)){const found=await readActaScore(page,m);if(hasScore(found)){m.score=found;m.scoreSource='acta: '+m.actaUrl;console.log('Resultado recuperado del acta Sergio J'+m.round+': '+found.join('-'))}}
  fs.mkdirSync('data',{recursive:true});
  fs.writeFileSync(oldPath,JSON.stringify({source,summarySource,resultsSource:base+'/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodTemporada=22&CodGrupo=49789556&CodCompeticion=49608278&CodJornada=1',updatedAt:new Date().toISOString(),standing:null,matches},null,2)+'\n');
  console.log('Alevín Atunara 4ª Andaluza: '+matches.length+' partidos, '+matches.filter(m=>hasScore(m.score)).length+' resultados.');
