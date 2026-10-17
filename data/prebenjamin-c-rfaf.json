@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-10-16T13:35:23.442Z",
+  "updatedAt": "2026-10-17T03:14:25.886Z",
   "officialTeam": "ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
@@ -12,13 +12,14 @@
       "time": "17:30",
       "home": "ATLETICO ZABAL \"C\"",
       "away": "U.D. CASTELLAR",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "score": null
+      "ground": null,
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2787183&cod_acta=2787183"
     },
     {
       "round": 2,
-      "date": "2026-10-24",
-      "time": null,
+      "date": "2026-10-23",
+      "time": "17:00",
       "home": "C.D. JUAN SEBASTIAN ELCANO",
       "away": "ATLETICO ZABAL \"C\"",
       "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7)",
@@ -39,7 +40,7 @@
       "time": null,
       "home": "C.D. BALON LINENSE C.F. \"B\"",
       "away": "ATLETICO ZABAL \"C\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA)",
       "score": null
     },
     {
