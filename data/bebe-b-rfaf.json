@@ -1,0 +1,226 @@
+{
+  "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
+  "updatedAt": "2026-10-17T04:56:26.493Z",
+  "officialTeam": "ATLETICO ZABAL \"B\"",
+  "competition": "50321366",
+  "group": "50423452",
+  "standing": null,
+  "matches": [
+    {
+      "round": 1,
+      "date": "2026-10-28",
+      "time": "16:15",
+      "home": "ATLETICO ZABAL \"A\"",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "score": null
+    },
+    {
+      "round": 3,
+      "date": "2026-10-31",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "PEÑA MADRIDISTA LINENSE",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "score": null
+    },
+    {
+      "round": 4,
+      "date": "2026-11-07",
+      "time": null,
+      "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 5,
+      "date": "2026-11-14",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "U.D. LOS BARRIOS",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 6,
+      "date": "2026-11-21",
+      "time": null,
+      "home": "C.D. OLIVILLOS 87",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 7,
+      "date": "2026-11-28",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "C.D. EPRO CAMPO DE GIBRALTAR \"A\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 8,
+      "date": "2026-12-12",
+      "time": null,
+      "home": "C.D. JUVENTUD PALMONES C.F.",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 9,
+      "date": "2026-12-19",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 10,
+      "date": "2027-01-09",
+      "time": null,
+      "home": "PUENTE MAYORGA RVO.",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 11,
+      "date": null,
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "C.D. TARIFA FUTBOL ACADEMY",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 12,
+      "date": "2027-01-23",
+      "time": null,
+      "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 13,
+      "date": "2027-01-30",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "BALON LINENSE C.F. C.D.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 14,
+      "date": "2027-02-13",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "ATLETICO ZABAL \"A\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 16,
+      "date": "2027-03-06",
+      "time": null,
+      "home": "PEÑA MADRIDISTA LINENSE",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 17,
+      "date": "2027-03-13",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 18,
+      "date": "2027-04-03",
+      "time": null,
+      "home": "U.D. LOS BARRIOS",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 19,
+      "date": "2027-04-10",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "C.D. OLIVILLOS 87",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 20,
+      "date": "2027-04-17",
+      "time": null,
+      "home": "C.D. EPRO CAMPO DE GIBRALTAR \"A\"",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 21,
+      "date": "2027-04-24",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "C.D. JUVENTUD PALMONES C.F.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 22,
+      "date": "2027-05-01",
+      "time": null,
+      "home": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 23,
+      "date": "2027-05-08",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "PUENTE MAYORGA RVO.",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 24,
+      "date": null,
+      "time": null,
+      "home": "C.D. TARIFA FUTBOL ACADEMY",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 25,
+      "date": "2027-05-22",
+      "time": null,
+      "home": "ATLETICO ZABAL \"B\"",
+      "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
+      "ground": null,
+      "score": null
+    },
+    {
+      "round": 26,
+      "date": "2027-06-05",
+      "time": null,
+      "home": "BALON LINENSE C.F. C.D.",
+      "away": "ATLETICO ZABAL \"B\"",
+      "ground": null,
+      "score": null
+    }
+  ]
+}
