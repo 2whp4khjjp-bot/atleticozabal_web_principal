@@ -75,6 +75,28 @@ async function run(){
      if(valid(found)){m.score=found;m.scoreSource='rfaf-round-results'}
     }
    }
+   // Segunda comprobación: acta oficial cuando la vista de jornada no entrega marcador.
+   for(const m of matches.filter(x=>x.date<=today&&!valid(x.score)&&x.actaUrl)){
+    try{
+     const response=await page.goto(m.actaUrl,{waitUntil:'domcontentloaded',timeout:45000});
+     if(!response?.ok())continue;
+     const found=await page.evaluate(({home,away})=>{
+      const normal=v=>String(v||'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9]+/g,' ').trim();
+      const h=normal(home),a=normal(away);
+      const texts=[document.title,...[...document.querySelectorAll('h1,h2,h3,h4,.resultado,.marcador,.score,.result')].map(el=>el.innerText||'')];
+      const scores=new Map();
+      for(const text of texts){
+       const normalized=normal(text);
+       if(!normalized.includes(h)||!normalized.includes(a))continue;
+       const pattern=/(\\d{1,2})\\s*[-–:]\\s*(\\d{1,2})/g;
+       const candidates=[...text.matchAll(pattern)];
+       if(candidates.length===1){const v=candidates[0].slice(1,3).map(Number);scores.set(v.join('-'),v)}
+      }
+      return scores.size===1?[...scores.values()][0]:null;
+     },{home:m.home,away:m.away});
+     if(valid(found)){m.score=found;m.scoreSource='acta: '+m.actaUrl;console.log('Marcador recuperado del acta '+m.round+': '+found.join('-'))}
+    }catch(error){console.warn('No se pudo comprobar acta '+m.actaUrl+': '+error.message)}
+   }
    for(const [key,official] of teams){
     const list=matches.filter(m=>norm(m.home)===norm(official)||norm(m.away)===norm(official)).map(m=>({...m}));
     if(!list.length)throw Error('Sin partidos para '+key);
