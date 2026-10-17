@@ -48,8 +48,8 @@ Promise.all([
   extraFeedsLoaded.then(()=>{render();loading.remove();filter()});
 }).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
 
-const extraFeedsLoaded=Promise.allSettled([loadCalendar('data/prebenjamin-polo-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Polo · Competición RFAF · Grupo 50210111")),
-loadCalendar('data/prebenjamin-c-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Maico · Tercera Andaluza · Grupo 50318948")),
+const extraFeedsLoaded=Promise.allSettled([loadCalendar('data/prebenjamin-polo-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Polo · Competición RFAF · Grupo por verificar")),
+loadCalendar('data/prebenjamin-c-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Maico · Tercera Andaluza · Grupo por verificar")),
 loadCalendar('data/prebenjamin-a-rfaf.json').then(data=>appendMatches(data,"Prebenjamín A · Tercera Andaluza · Grupo 6")),
 loadCalendar('data/prebenjamin-b-rfaf.json').then(data=>appendMatches(data,"Prebenjamín B · Tercera Andaluza · Grupo 6")),
 loadCalendar('data/alevin-atunara-mariano-rfaf.json').then(data=>appendMatches(data,"Alevín Atunara · Mariano")),
