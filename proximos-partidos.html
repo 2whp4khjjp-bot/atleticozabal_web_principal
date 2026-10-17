@@ -49,7 +49,7 @@ Promise.all([
 }).catch(()=>{loading.textContent='Los calendarios oficiales se están actualizando. Vuelve a intentarlo en unos minutos.';filter()});
 
 const extraFeedsLoaded=Promise.allSettled([loadCalendar('data/prebenjamin-polo-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Polo")),
-loadCalendar('data/prebenjamin-c-rfaf.json').then(data=>appendMatches(data,"Prebenjamín C")),
+loadCalendar('data/prebenjamin-c-rfaf.json').then(data=>appendMatches(data,"Prebenjamín · Maico")),
 loadCalendar('data/prebenjamin-a-rfaf.json').then(data=>appendMatches(data,"Prebenjamín A")),
 loadCalendar('data/prebenjamin-b-rfaf.json').then(data=>appendMatches(data,"Prebenjamín B")),
 loadCalendar('data/alevin-atunara-mariano-rfaf.json').then(data=>appendMatches(data,"Alevín Atunara · Mariano")),
