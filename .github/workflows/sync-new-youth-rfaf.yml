@@ -9,6 +9,8 @@ on:
   schedule:
     - cron: '56 8 * * *'
     - cron: '56 9 * * *'
+    # Repasos tras los partidos: 17:15-00:15 peninsular (horario de verano).
+    - cron: '15 15-22 * * *'
 permissions:
   contents: write
 concurrency:
@@ -31,7 +33,8 @@ jobs:
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
              { [ "$schedule" = '56 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '56 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '56 9 * * *' ] && [ "$offset" = '+0100' ]; } || \
+             { [ "$schedule" = '15 15-22 * * *' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
