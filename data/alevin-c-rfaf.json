@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-16T19:53:55.446Z",
+  "updatedAt": "2026-10-17T12:09:39.418Z",
   "standing": {
     "position": 10,
     "points": 0,
@@ -75,10 +75,10 @@
       "away": "C.D. OLIVILLOS 87 \"B\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        1,
+        0,
         1
       ],
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49286744&CodGrupo=49286942&CodTemporada=22&CodJornada=5&Sch_Codigo_Delegacion=&Sch_Tipo_Juego=",
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709909&cod_acta=2709909"
     },
     {
