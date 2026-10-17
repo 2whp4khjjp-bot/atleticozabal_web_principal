@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/sync-new-youth-rfaf.js'
       - 'scripts/render-new-youth-ics.js'
+      - 'scripts/read-rfaf-acta-score.js'
       - '.github/workflows/sync-new-youth-rfaf.yml'
   schedule:
     - cron: '56 8 * * *'
