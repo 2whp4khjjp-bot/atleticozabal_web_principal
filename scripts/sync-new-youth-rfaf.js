@@ -58,7 +58,9 @@ async function run(){
    const undated=selected.filter(m=>!m.date);
    if(undated.length)console.warn(cfg.key+': '+undated.length+' partidos pendientes de fecha oficial; se conservarán en el calendario del equipo y no se mostrarán en la agenda semanal hasta que la RFAF confirme fecha: '+JSON.stringify(undated.map(m=>({round:m.round,home:m.home,away:m.away}))));
    const byMatch=new Map();
-   for(const m of selected){const key=[m.round,norm(m.home),norm(m.away)].join('|');const old=byMatch.get(key);if(!old||(!old.time&&m.time))byMatch.set(key,m)}
+   // Los partidos sin fecha aún no pueden representarse en las páginas ni en ICS.
+   // Se recuperan automáticamente cuando la RFAF les asigne fecha.
+   for(const m of selected.filter(match=>!!match.date)){const key=[m.round,norm(m.home),norm(m.away)].join('|');const old=byMatch.get(key);if(!old||(!old.time&&m.time))byMatch.set(key,m)}
    const matches=[...byMatch.values()];
    await enrichRfafSchedule(page,matches,{base,source});
    await attachRfafActas(page,matches,{base,competition:cfg.competition,group:cfg.group,season:'22'});
