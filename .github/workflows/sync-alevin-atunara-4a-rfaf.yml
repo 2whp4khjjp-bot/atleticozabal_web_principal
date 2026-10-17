@@ -4,9 +4,11 @@ on:
   push:
     paths:
       - 'scripts/sync-alevin-atunara-4a-rfaf.js'
+      - 'scripts/read-rfaf-acta-score.js'
   schedule:
     - cron: '20 8 * * *'
     - cron: '20 9 * * *'
+    - cron: '25 15-22 * * *'
 permissions:
   contents: write
 concurrency:
@@ -24,7 +26,8 @@ jobs:
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
              { [ "$schedule" = '20 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '20 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '20 9 * * *' ] && [ "$offset" = '+0100' ]; } || \
+             { [ "$schedule" = '25 15-22 * * *' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
