@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
-  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=2",
-  "updatedAt": "2026-10-16T17:01:23.936Z",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=3",
+  "updatedAt": "2026-10-17T12:16:15.603Z",
   "standing": {
-    "position": 4,
-    "points": 3,
-    "played": 0,
-    "goalsFor": 3,
-    "goalsAgainst": 1,
-    "round": 2
+    "position": 2,
+    "points": 6,
+    "played": 1,
+    "goalsFor": 12,
+    "goalsAgainst": 2,
+    "round": 3
   },
   "rounds": [
     {
@@ -109,10 +109,11 @@
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        1,
-        3
+        2,
+        12
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701162&cod_acta=2701162"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701162&cod_acta=2701162",
+      "scoreSource": "classification-inference-single-match"
     },
     {
       "round": 3,
@@ -125,8 +126,8 @@
         9,
         1
       ],
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49287953&CodGrupo=49288292&CodTemporada=22&cod_agrupacion=&CodJornada=3&Sch_Codigo_Delegacion=&Sch_Tipo_Juego=",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701174&cod_acta=2701174"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701174&cod_acta=2701174",
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49287953&CodGrupo=49288292&CodTemporada=22&cod_agrupacion=&CodJornada=3&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
     },
     {
       "round": 4,
