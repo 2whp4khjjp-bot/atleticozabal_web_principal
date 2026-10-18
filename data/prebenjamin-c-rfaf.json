@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-10-18T12:50:10.618Z",
+  "updatedAt": "2026-10-18T15:10:35.109Z",
   "officialTeam": "ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
@@ -17,8 +17,7 @@
         0,
         7
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2787183&cod_acta=2787183",
-      "scoreSource": "lapreferente: https://www.lapreferente.com/P5275011/2026-2027/atletico-zabal-d-vs-castellar%2C-ud"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2787183&cod_acta=2787183"
     },
     {
       "round": 2,
