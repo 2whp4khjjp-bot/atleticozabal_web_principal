@@ -1,3 +1,4 @@
+const {eventDetails}=require('./ics-acta-details');
 const fs = require('node:fs');
 const data = JSON.parse(fs.readFileSync('data/juvenil-b-rfaf.json', 'utf8'));
 if (!Array.isArray(data.matches) || data.matches.length !== 26) {
@@ -46,6 +47,7 @@ for (const match of data.matches) {
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
   if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
   if (match.actaUrl) notes.push('Acta oficial: ' + match.actaUrl);
+  notes.push(...eventDetails(match));
   notes.push('', 'Creado por Raúl Cote');
   lines.push('SUMMARY:' + escape(title), 'DESCRIPTION:' + escape(notes.join('\n')));
   if (match.ground) lines.push('LOCATION:' + escape(match.ground));
