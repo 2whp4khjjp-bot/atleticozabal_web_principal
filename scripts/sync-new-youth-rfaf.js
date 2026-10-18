@@ -41,7 +41,8 @@ async function run(){
      const strong=[...row.querySelectorAll('table td')][1]?.querySelectorAll('strong')||[];
      let score=scoreText?[+scoreText[1],+scoreText[2]]:null;
      if(!score&&strong.length===2){const vals=[...strong].map(el=>{const encoded=[...el.querySelectorAll('i[id]')].map(i=>[...i.classList].map(c=>c.match(/^fa-(\d{1,2})$/)?.[1]).find(v=>v!==undefined));return encoded.length&&encoded.every(v=>v!==undefined)?encoded.join(''):clean(el.innerText)});if(vals.every(v=>/^\d{1,2}$/.test(v)))score=vals.map(Number)}
-     return {round,date:dt?dt[3]+'-'+dt[2]+'-'+dt[1]:null,time:dt?.[4]||null,home:cells[0],away:cells[2],ground:row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim()||null,score};
+     const status=/\bsuspendid[oa]\b/i.test(text)||/\bsuspendid[oa]\b/i.test(cells[1])?'suspended':/\baplazad[oa]\b/i.test(text)||/\baplazad[oa]\b/i.test(cells[1])?'postponed':null;
+     return {status,statusSource:status?'rfaf-calendar':null,round,date:dt?dt[3]+'-'+dt[2]+'-'+dt[1]:null,time:dt?.[4]||null,home:cells[0],away:cells[2],ground:row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim()||null,score};
     }).filter(Boolean);
    });
    if(!all.length)throw Error('No se encontraron filas: '+cfg.key);
@@ -86,10 +87,12 @@ async function run(){
     if(details?.ground&&!m.ground)m.ground=details.ground;
     if(valid(found)){m.score=found;m.scoreSource='acta: '+m.actaUrl;console.log('Marcador del acta '+m.round+': '+found.join('-'))}
    }
+   // Conserva avisos del club mientras la RFAF no publique una nueva fecha ni un estado concluyente.
    for(const [key,official] of teams){
     const list=matches.filter(m=>norm(m.home)===norm(official)||norm(m.away)===norm(official)).map(m=>({...m}));
     if(!list.length)throw Error('Sin partidos para '+key);
     const path='data/'+key+'-rfaf.json';mergeStoredScores(path,list);
+    if(fs.existsSync(path)){const prev=JSON.parse(fs.readFileSync(path,'utf8'));for(const m of list){const old=(prev.matches||[]).find(x=>Number(x.round)===Number(m.round)&&norm(x.home)===norm(m.home)&&norm(x.away)===norm(m.away));if(old?.status==='suspended'&&old.statusSource==='club-report'&&!m.status&&!valid(m.score)&&old.date===m.date){m.status=old.status;m.statusSource=old.statusSource;m.statusNote=old.statusNote;}}}
     fs.mkdirSync('data',{recursive:true});
     fs.writeFileSync(path,JSON.stringify({source,updatedAt:new Date().toISOString(),officialTeam:official,competition:cfg.competition,group:cfg.group,...(cfg.competitionName?{category:cfg.category,division:cfg.division,groupName:cfg.groupName,competitionName:cfg.competitionName,competitionLabel:cfg.competitionLabel}:{}),standing:null,matches:list},null,2)+'\n');
     console.log(key+': '+list.length+' partidos, '+list.filter(m=>valid(m.score)).length+' marcadores');
