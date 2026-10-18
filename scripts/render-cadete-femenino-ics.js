@@ -1,3 +1,4 @@
+const {eventDetails}=require('./ics-acta-details');
 // Genera la suscripción estable del Cadete Femenino a partir de los datos oficiales.
 const fs = require('node:fs');
 const data = JSON.parse(fs.readFileSync('data/cadete-femenino-rfaf.json', 'utf8'));
@@ -50,6 +51,7 @@ for (const match of data.matches) {
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
   if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
+  notes.push(...eventDetails(match));
   notes.push('', 'Creado por Raúl Cote');
   lines.push('SUMMARY:' + escape(title), 'DESCRIPTION:' + escape(notes.join('\n')));
   if (match.ground) lines.push('LOCATION:' + escape(match.ground));
