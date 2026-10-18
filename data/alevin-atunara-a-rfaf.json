@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-18T12:35:54.260Z",
+  "updatedAt": "2026-10-18T18:13:45.179Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -22,8 +22,8 @@
         1,
         2
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709873&cod_acta=2709873"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709873&cod_acta=2709873",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 2,
@@ -36,8 +36,8 @@
         8,
         1
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709881&cod_acta=2709881"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709881&cod_acta=2709881",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 3,
@@ -50,8 +50,8 @@
         2,
         12
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709888&cod_acta=2709888"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709888&cod_acta=2709888",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 4,
@@ -78,8 +78,8 @@
         1,
         3
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709903&cod_acta=2709903"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709903&cod_acta=2709903",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 7,
