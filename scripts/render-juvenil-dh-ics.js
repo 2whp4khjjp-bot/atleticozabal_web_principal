@@ -1,3 +1,4 @@
+const {eventDetails}=require('./ics-acta-details');
 // Genera el calendario suscribible del Juvenil a partir de la fuente RFEF validada.
 const fs = require('node:fs');
 const data = JSON.parse(fs.readFileSync('data/juvenil-dh-rfef.json', 'utf8'));
@@ -42,6 +43,7 @@ for (const match of data.matches) {
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
   if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
+  notes.push(...eventDetails(match));
   notes.push('', 'Creado por Raúl Cote');
   lines.push('SUMMARY:' + escape((result ? 'FINAL · ' : 'J' + match.round + ' · ') + match.home + ' – ' + match.away + (result ? ' ' + result : '')),
     'DESCRIPTION:' + escape(notes.join('\n')));
