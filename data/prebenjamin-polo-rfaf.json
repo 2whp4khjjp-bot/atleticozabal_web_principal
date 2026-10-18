@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-10-18T20:46:34.286Z",
+  "updatedAt": "2026-10-18T23:15:36.730Z",
   "officialTeam": "ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -14,7 +14,7 @@
       "time": "11:00",
       "home": "ATLETICO ZABAL",
       "away": "NARANJITOS-82 C.F.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": null,
       "statusNote": "Suspensión comunicada por el club; pendiente de confirmación en la ficha RFAF."
     },
@@ -48,7 +48,7 @@
       "time": null,
       "home": "C.D. SAN BERNARDO",
       "away": "ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
       "score": null
     },
     {
