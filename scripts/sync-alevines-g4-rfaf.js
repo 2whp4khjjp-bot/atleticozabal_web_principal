@@ -28,6 +28,8 @@ function hasScore(score) {
 }
 function preserveKnownScores(matches, previousMatches) {
   for (const match of matches) {
+    const verified = previousMatches.find(old => Number(old.round)===Number(match.round) && normal(old.home)===normal(match.home) && normal(old.away)===normal(match.away) && /^acta:/i.test(old.scoreSource||'') && hasScore(old.score));
+    if(verified){match.score=verified.score;match.scoreSource=verified.scoreSource;if(!match.actaUrl)match.actaUrl=verified.actaUrl;continue;}
     if (hasScore(match.score)) continue;
     const previous = previousMatches.find(old =>
       Number(old.round) === Number(match.round) &&
@@ -129,16 +131,14 @@ function preserveKnownScores(matches, previousMatches) {
           const scoreSpans = [...row.querySelectorAll('span.wid2_resultado_cerrada')];
           if (scoreSpans.length !== 2) return null;
           const readScore = span => {
-            const visible = (span.innerText || '').match(/\d+/);
-            if (visible) return Number(visible[0]);
-            const digits = [...span.querySelectorAll('[id]')].map(element => {
-              const digitClass = [...element.classList].find(name => /^fa-\d$/.test(name));
-              if (digitClass) return digitClass.slice(3);
-              const content = getComputedStyle(element, '::before').content || '';
-              const rendered = content.match(/\d/);
-              return rendered ? rendered[0] : '';
-            }).join('');
-            return /^\d+$/.test(digits) ? Number(digits) : null;
+            // RFAF representa cifras como 10 con iconos fa-1 y fa-0; innerText
+            // puede mostrar solo el último dígito. Priorizar siempre el DOM codificado.
+            const iconDigits = [...span.querySelectorAll('i')].map(icon =>
+              [...icon.classList].map(name => name.match(/^fa-(\\d)$/)?.[1]).find(v => v !== undefined)
+            ).filter(v => v !== undefined);
+            if (iconDigits.length) return Number(iconDigits.join(''));
+            const visible = (span.innerText || '').trim();
+            return /^\\d{1,2}$/.test(visible) ? Number(visible) : null;
           };
           const score = scoreSpans.map(readScore);
           return score.every(value => value !== null) ? score : null;
