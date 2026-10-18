@@ -1,12 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-10-18T15:12:45.030Z",
+  "updatedAt": "2026-10-18T16:47:36.072Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
   "standing": null,
   "matches": [
     {
+      "status": null,
+      "statusSource": null,
       "round": 1,
       "date": "2026-10-28",
       "time": "16:15",
@@ -16,6 +18,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 2,
       "date": "2026-10-24",
       "time": null,
@@ -25,6 +29,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 3,
       "date": "2026-10-31",
       "time": null,
@@ -34,6 +40,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 4,
       "date": "2026-11-07",
       "time": null,
@@ -43,6 +51,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 5,
       "date": "2026-11-14",
       "time": null,
@@ -52,6 +62,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 6,
       "date": "2026-11-21",
       "time": null,
@@ -61,6 +73,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 7,
       "date": "2026-11-28",
       "time": null,
@@ -70,6 +84,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 8,
       "date": "2026-12-12",
       "time": null,
@@ -79,6 +95,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 9,
       "date": "2026-12-19",
       "time": null,
@@ -88,6 +106,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 11,
       "date": "2027-01-16",
       "time": null,
@@ -97,6 +117,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 12,
       "date": "2027-01-23",
       "time": null,
@@ -106,6 +128,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 14,
       "date": "2027-02-13",
       "time": null,
@@ -115,6 +139,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 15,
       "date": "2027-02-20",
       "time": null,
@@ -124,6 +150,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 16,
       "date": "2027-03-06",
       "time": null,
@@ -133,6 +161,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 17,
       "date": "2027-03-13",
       "time": null,
@@ -142,6 +172,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 18,
       "date": "2027-04-03",
       "time": null,
@@ -151,6 +183,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 19,
       "date": "2027-04-10",
       "time": null,
@@ -160,6 +194,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 20,
       "date": "2027-04-17",
       "time": null,
@@ -169,6 +205,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 21,
       "date": "2027-04-24",
       "time": null,
@@ -178,6 +216,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 22,
       "date": "2027-05-01",
       "time": null,
@@ -187,6 +227,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 24,
       "date": "2027-05-15",
       "time": null,
@@ -196,6 +238,8 @@
       "score": null
     },
     {
+      "status": null,
+      "statusSource": null,
       "round": 25,
       "date": "2027-05-22",
       "time": null,
