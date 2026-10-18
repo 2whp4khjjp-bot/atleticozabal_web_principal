@@ -1,9 +1,11 @@
 // Recupera resultados oficiales probando las tres vistas RFAF por jornada.
 const fs = require('node:fs');
 const { chromium } = require('playwright');
+const {readActaDetails}=require('./read-rfaf-acta-score');
 
 const base = 'https://www.rfaf.es';
 const groups = {
+  'alevin-atunara-mariano': {competition:'49608278',group:'49789584',files:['data/alevin-atunara-mariano-rfaf.json']},
   senior: {
     competition: '48780558', group: '48781448',
     files: ['data/senior-rfaf.json']
@@ -235,6 +237,10 @@ const today = new Intl.DateTimeFormat('sv-SE', {
         }
       }
 
+      for(const entry of roundMatches.filter(({match})=>!hasScore(match)&&match.actaUrl)){
+        const details=await readActaDetails(page,entry.match);
+        if(details){entry.match.score=details.score;entry.match.scoreSource='acta: '+entry.match.actaUrl;if(details.ground&&!entry.match.ground)entry.match.ground=details.ground;entry.changed=true;roundChanged=true;changed++;}
+      }
       if (!roundChanged) {
         console.log('RFAF todavía no entrega un marcador nuevo para J' + round +
           ' (' + process.argv[2] + ').');

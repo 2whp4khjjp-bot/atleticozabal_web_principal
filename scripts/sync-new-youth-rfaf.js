@@ -3,13 +3,13 @@ const fs=require('node:fs');
 const {chromium}=require('playwright');
 const {attachRfafActas,enrichRfafSchedule}=require('./rfaf-actas');
 const {mergeStoredScores}=require('./preserve-rfaf-scores');
-const {readActaScore}=require('./read-rfaf-acta-score');
+const {readActaDetails}=require('./read-rfaf-acta-score');
 const base='https://www.rfaf.es';
 const groups=[
  {key:'prebenjamin-polo',competition:'50209510',group:'50210111',team:'auto',kind:'ZABAL'},
  {key:'prebenjamin-c',competition:'50317849',group:'50318948',team:'auto',kind:'ZABAL'},
  {key:'prebenjamin-ab',competition:'50317849',group:'50319316',teams:[['prebenjamin-a','ATLETICO ZABAL "A"'],['prebenjamin-b','ATLETICO ZABAL "B"']]},
- {key:'alevin-atunara-mariano',competition:'49608278',group:'49789584',team:'auto',kind:'ATUNARA'},
+ {key:'alevin-atunara-mariano',competition:'49608278',group:'49789584',teams:[['alevin-atunara-mariano','ATUNARA ATLETICO C.D. "B"']],category:'Alevín',division:'4.ª Andaluza',groupName:'Grupo 5',competitionName:'4ª ANDALUZA ALEVIN (CADIZ)',competitionLabel:'Alevín Atunara · Mariano · 4.ª Andaluza · Grupo 5'},
  {key:'bebe-ab',competition:'50321366',group:'50423452',teams:[['bebe-a','ATLETICO ZABAL "A"'],['bebe-b','ATLETICO ZABAL "B"']],aggregation:'12934598',delegation:'3',game:'2'}
 ];
 const norm=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[“”«»]/g,'"').replace(/\s+/g,' ').trim().toUpperCase();
@@ -26,6 +26,7 @@ async function run(){
    const gr=await page.goto(groupUrl,{waitUntil:'domcontentloaded',timeout:45000});
    const response=await page.goto(source,{waitUntil:'domcontentloaded',timeout:45000});
    if(!response?.ok()||!page.url().includes('NFG_VisCalendario_Vis'))throw Error('Calendario no disponible: '+cfg.key);
+   if(cfg.competitionName){const heading=await page.locator('h4').allTextContents();if(!heading.some(t=>/4.*ANDALUZA.*ALEVIN.*CADIZ.*Grupo\s+5/i.test(norm(t))))throw Error('La competición oficial ya no coincide con 4ª Andaluza Alevín Cádiz, grupo 5');}
    const all=await page.evaluate(()=>{
     const clean=v=>String(v||'').replace(/\s+/g,' ').trim();
     const rows=[...new Set([...document.querySelectorAll('span.font_responsive')].map(el=>el.closest('div.row')).filter(Boolean))];
@@ -39,7 +40,7 @@ async function run(){
      const scoreText=cells[1].match(/^(\d{1,2})\s*[-–:]\s*(\d{1,2})$/);
      const strong=[...row.querySelectorAll('table td')][1]?.querySelectorAll('strong')||[];
      let score=scoreText?[+scoreText[1],+scoreText[2]]:null;
-     if(!score&&strong.length===2){const vals=[...strong].map(el=>clean(el.innerText));if(vals.every(v=>/^\d{1,2}$/.test(v)))score=vals.map(Number)}
+     if(!score&&strong.length===2){const vals=[...strong].map(el=>{const encoded=[...el.querySelectorAll('i[id]')].map(i=>[...i.classList].map(c=>c.match(/^fa-(\d{1,2})$/)?.[1]).find(v=>v!==undefined));return encoded.length&&encoded.every(v=>v!==undefined)?encoded.join(''):clean(el.innerText)});if(vals.every(v=>/^\d{1,2}$/.test(v)))score=vals.map(Number)}
      return {round,date:dt?dt[3]+'-'+dt[2]+'-'+dt[1]:null,time:dt?.[4]||null,home:cells[0],away:cells[2],ground:row.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim()||null,score};
     }).filter(Boolean);
    });
@@ -81,7 +82,8 @@ async function run(){
     }
    }
    for(const m of matches.filter(x=>x.date<=today&&!valid(x.score)&&x.actaUrl)){
-    const found=await readActaScore(page,m);
+    const details=await readActaDetails(page,m);const found=details?.score;
+    if(details?.ground&&!m.ground)m.ground=details.ground;
     if(valid(found)){m.score=found;m.scoreSource='acta: '+m.actaUrl;console.log('Marcador del acta '+m.round+': '+found.join('-'))}
    }
    for(const [key,official] of teams){
@@ -89,7 +91,7 @@ async function run(){
     if(!list.length)throw Error('Sin partidos para '+key);
     const path='data/'+key+'-rfaf.json';mergeStoredScores(path,list);
     fs.mkdirSync('data',{recursive:true});
-    fs.writeFileSync(path,JSON.stringify({source,updatedAt:new Date().toISOString(),officialTeam:official,competition:cfg.competition,group:cfg.group,standing:null,matches:list},null,2)+'\n');
+    fs.writeFileSync(path,JSON.stringify({source,updatedAt:new Date().toISOString(),officialTeam:official,competition:cfg.competition,group:cfg.group,...(cfg.competitionName?{category:cfg.category,division:cfg.division,groupName:cfg.groupName,competitionName:cfg.competitionName,competitionLabel:cfg.competitionLabel}:{}),standing:null,matches:list},null,2)+'\n');
     console.log(key+': '+list.length+' partidos, '+list.filter(m=>valid(m.score)).length+' marcadores');
    }
    succeeded++;

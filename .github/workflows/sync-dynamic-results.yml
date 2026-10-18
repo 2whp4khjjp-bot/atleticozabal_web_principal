@@ -22,6 +22,8 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+      - name: Verificar lectura del acta y reintentos
+        run: node --test tests/rfaf-acta-score.test.js
       - name: Detectar partidos pendientes de actualización
         id: due
         run: echo "plan=$(node scripts/detect-result-refresh.js)" >> "$GITHUB_OUTPUT"

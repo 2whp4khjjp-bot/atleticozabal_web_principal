@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 
 const teams = [
+  ['alevin-atunara-mariano','data/alevin-atunara-mariano-rfaf.json'],
   ['senior', 'data/senior-rfaf.json'],
   ['juvenil-dh', 'data/juvenil-dh-rfef.json'],
   ['juvenil-b', 'data/juvenil-b-rfaf.json'],

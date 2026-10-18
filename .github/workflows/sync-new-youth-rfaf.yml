@@ -42,6 +42,9 @@ jobs:
           fi
       - uses: actions/checkout@v4
         if: steps.window.outputs.run == 'true'
+      - name: Verificar lectura del acta y reintentos
+        if: steps.window.outputs.run == 'true'
+        run: node --test tests/rfaf-acta-score.test.js
       - name: Instalar navegador
         if: steps.window.outputs.run == 'true'
         run: |

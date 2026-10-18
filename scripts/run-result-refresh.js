@@ -3,6 +3,7 @@ const { spawnSync } = require('node:child_process');
 
 const plan = JSON.parse(process.env.RESULT_REFRESH_PLAN || '[]');
 const commands = {
+  'alevin-atunara-mariano': [['sync-rfaf-results.js','alevin-atunara-mariano'],'render-new-youth-ics.js'],
   senior: [['sync-rfaf-results.js', 'senior'], 'render-senior-ics.js', 'validate-senior.js'],
   'juvenil-dh': ['sync-juvenil-dh-rfef.js', 'render-juvenil-dh-ics.js', 'validate-juvenil-dh.js'],
   'juvenil-b': [['sync-rfaf-results.js', 'juvenil-b'], 'render-juvenil-b-ics.js', 'validate-juvenil-b.js'],
@@ -24,6 +25,7 @@ const commands = {
   'benjamin-javi-martin': [['sync-rfaf-results.js', 'benjamin-javi-martin'], 'render-benjamin-javi-martin-ics.js', 'validate-benjamin-javi-martin.js']
 };
 const teamFiles = {
+  'alevin-atunara-mariano':'data/alevin-atunara-mariano-rfaf.json',
   senior: 'data/senior-rfaf.json',
   'juvenil-dh': 'data/juvenil-dh-rfef.json',
   'juvenil-b': 'data/juvenil-b-rfaf.json',
