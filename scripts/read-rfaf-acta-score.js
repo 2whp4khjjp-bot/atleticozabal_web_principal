@@ -34,6 +34,7 @@ async function readActaDetails(page,match){
   if(!response?.ok())return null;
   const details=detailsFromSnapshot(await page.evaluate(snapshotActa),match);
   if(!details)console.warn('Acta sin marcador de cabecera verificable: '+match.actaUrl);
+  if(process.env.RFAF_ACTA_DIAGNOSTIC==='1') {const diagnostics=await page.evaluate(()=>[...document.querySelectorAll('h2,h3,h4,h5,table')].slice(0,65).map(e=>({tag:e.tagName,heading:(e.closest('section,article,.panel')?.querySelector('h2,h3,h4,h5')?.innerText||'').trim().slice(0,90),text:(e.innerText||'').replace(/\\s+/g,' ').trim().slice(0,550)})));console.log('ACTA_INCIDENTS_DIAGNOSTIC '+match.actaUrl+' '+JSON.stringify(diagnostics).slice(0,18000));}
   return details;
  }catch(e){console.warn('Acta sin marcador verificable: '+match.actaUrl+' '+e.message);return null;}
 }
