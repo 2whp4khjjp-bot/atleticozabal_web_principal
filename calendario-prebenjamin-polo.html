@@ -23,9 +23,9 @@ function draw(matches){
     const info=append(game,'div','');
     append(info,'div','teams',match.home+' – '+match.away);
     append(info,'div','meta','Jornada '+match.round+' · '+
-      (match.time?match.time+' · ':'Hora pendiente · ')+(match.ground||'Campo pendiente'));
+      (match.status==='suspended'?'Suspendido · ':match.status==='postponed'?'Aplazado · ':(match.time?match.time+' · ':'Hora pendiente · '))+(match.ground||'Campo pendiente'));
     const scored=Array.isArray(match.score)&&match.score.length===2;
-    append(game,'span','score'+(scored?'':' pending'),scored?match.score.join('–'):'–');
+    append(game,'span','score'+(scored?'':' pending'),scored?match.score.join('–'):match.status==='suspended'?'SUSPENDIDO':match.status==='postponed'?'APLAZADO':'–');
     append(game,'span','tag'+(home?' home':''),home?'LOCAL':'VISITANTE');
   });
   list.replaceChildren(fragment);
