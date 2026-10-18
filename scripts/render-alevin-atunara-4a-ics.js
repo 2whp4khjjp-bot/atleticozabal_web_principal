@@ -1,3 +1,4 @@
+const {eventDetails}=require('./ics-acta-details');
 const fs = require('node:fs');
 const teams = [
   { key: 'alevin-atunara-4a', name: 'Alevín Atunara Sergio · 4ª Andaluza', page: 'calendario-alevin-atunara-4a.html' }
@@ -46,7 +47,8 @@ for (const team of teams) {
       'Jornada ' + match.round, match.time ? 'Hora: ' + match.time : 'Hora pendiente',
       match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
     if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
-    notes.push('', 'Creado por Raúl Cote');
+    notes.push(...eventDetails(match));
+  notes.push('', 'Creado por Raúl Cote');
     lines.push('SUMMARY:' + escape(title), 'DESCRIPTION:' + escape(notes.join('\n')));
     if (match.ground) lines.push('LOCATION:' + escape(match.ground));
     lines.push('URL:https://www.atleticozabal.com/' + team.page, 'END:VEVENT');
