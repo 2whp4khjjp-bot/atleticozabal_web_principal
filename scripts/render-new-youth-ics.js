@@ -1,3 +1,4 @@
+const {eventDetails}=require('./ics-acta-details');
 const fs=require('node:fs');
 const keys=['prebenjamin-polo','prebenjamin-c','prebenjamin-a','prebenjamin-b','alevin-atunara-mariano','bebe-a','bebe-b'];
 const esc=s=>String(s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
@@ -14,7 +15,7 @@ for(const key of keys){
     (hasTime?'DTSTART;TZID=Europe/Madrid:':'DTSTART;VALUE=DATE:')+start,
     ...(hasTime?['DURATION:PT2H']:['DTEND;VALUE=DATE:'+dt(end.toISOString().slice(0,10))]),
     'SUMMARY:'+esc(m.home+' – '+m.away+(Array.isArray(m.score)?' ('+m.score.join('-')+')':'')),
-    'DESCRIPTION:'+esc('Jornada '+m.round+(m.actaUrl?' | Acta: '+m.actaUrl:'')),
+    'DESCRIPTION:'+esc(['Jornada '+m.round,...(Array.isArray(m.score)?['Resultado: '+m.home+' '+m.score.join('–')+' '+m.away]:[]),...eventDetails(m)].join('\n')),
     'LOCATION:'+esc(m.ground||'Campo pendiente'),'END:VEVENT');
  }
  lines.push('END:VCALENDAR');fs.writeFileSync('calendario-'+key+'.ics',lines.join('\r\n')+'\r\n');console.log('ICS generado:',key);
