@@ -1,3 +1,4 @@
+const {eventDetails}=require('./ics-acta-details');
 // Genera un ICS estable a partir del JSON oficial previamente validado.
 const fs = require('node:fs');
 const data = JSON.parse(fs.readFileSync('data/senior-rfaf.json', 'utf8'));
@@ -51,6 +52,7 @@ for (const match of data.matches) {
     match.time ? 'Hora: ' + match.time : 'Hora pendiente',
     match.ground ? 'Campo: ' + match.ground : 'Campo pendiente'];
   if (result) notes.push('Resultado: ' + match.home + ' ' + result + ' ' + match.away);
+  notes.push(...eventDetails(match));
   notes.push('', 'Creado por Raúl Cote');
   lines.push('SUMMARY:' + escape(title), 'DESCRIPTION:' + escape(notes.join('\n')));
   if (match.ground) lines.push('LOCATION:' + escape(match.ground));
