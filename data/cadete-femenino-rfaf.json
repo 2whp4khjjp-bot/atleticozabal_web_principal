@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=3",
-  "updatedAt": "2026-10-18T12:46:32.988Z",
+  "updatedAt": "2026-10-18T15:10:00.131Z",
   "standing": {
     "position": 7,
     "points": 0,
@@ -140,7 +140,12 @@
       "home": "ATLETICO ZABAL",
       "away": "C.D. GUADALCACIN",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": [
+        3,
+        0
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49660873&CodGrupo=49660937&CodTemporada=22&cod_agrupacion=1&CodJornada=3&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2738249&cod_acta=2738249"
     },
     {
       "round": 4,
