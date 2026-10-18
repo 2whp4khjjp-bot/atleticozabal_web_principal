@@ -7,33 +7,39 @@ X-WR-CALNAME:Alevín · David
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-1@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;TZID=Europe/Madrid:20260918T170000
 DTEND;TZID=Europe/Madrid:20260918T180000
 SUMMARY:FINAL · CAETARIA C.D. – ATLETICO ZABAL "B" 3–6
 DESCRIPTION:Alevín · David\nTercera Andaluza Alevín Cádiz · Grupo 5\nJ
  ornada 1\nHora: 17:00\nCampo: Algeciras - SAN GARCIA (A)\nResultado: CAETA
- RIA C.D. 3–6 ATLETICO ZABAL "B"\n\nCreado por Raúl Cote
+ RIA C.D. 3–6 ATLETICO ZABAL "B"\n\nGOLEADORES\nNo disponible en el acta\
+ n\nTARJETAS\nNo disponible en el acta\n\nActa oficial: https://www.rfaf.es
+ /pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2710113&cod_acta=27
+ 10113\n\nCreado por Raúl Cote
 LOCATION:Algeciras - SAN GARCIA (A)
 URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-2@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;TZID=Europe/Madrid:20260924T194500
 DTEND;TZID=Europe/Madrid:20260924T204500
 SUMMARY:FINAL · ATLETICO ZABAL "B" – PUENTE MAYORGA RVO. "B" 9–2
 DESCRIPTION:Alevín · David\nTercera Andaluza Alevín Cádiz · Grupo 5\nJ
  ornada 2\nHora: 19:45\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\nResultado: ATLETICO ZABAL "B" 9–2 PUENTE MAYORG
- A RVO. "B"\n\nCreado por Raúl Cote
+ A RVO. "B"\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponi
+ ble en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpParti
+ do?cod_primaria=1000120&CodActa=2710121&cod_acta=2710121\n\nCreado por Ra
+ úl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
  )
 URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-3@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;TZID=Europe/Madrid:20261002T183000
 DTEND;TZID=Europe/Madrid:20261002T193000
 SUMMARY:FINAL · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" – ATLET
@@ -41,40 +47,48 @@ SUMMARY:FINAL · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" – ATLET
 DESCRIPTION:Alevín · David\nTercera Andaluza Alevín Cádiz · Grupo 5\nJ
  ornada 3\nHora: 18:30\nCampo: La Línea de La Concepción - Francisco Pozo
   (A)\nResultado: HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" 4–4 AT
- LETICO ZABAL "B"\n\nCreado por Raúl Cote
+ LETICO ZABAL "B"\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo d
+ isponible en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_Cm
+ pPartido?cod_primaria=1000120&CodActa=2710128&cod_acta=2710128\n\nCreado p
+ or Raúl Cote
 LOCATION:La Línea de La Concepción - Francisco Pozo (A)
 URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-4@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;TZID=Europe/Madrid:20261009T180000
 DTEND;TZID=Europe/Madrid:20261009T190000
 SUMMARY:FINAL · ATLETICO ZABAL "B" – C.D. OLIVILLOS 87 "A" 9–0
 DESCRIPTION:Alevín · David\nTercera Andaluza Alevín Cádiz · Grupo 5\nJ
  ornada 4\nHora: 18:00\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\nResultado: ATLETICO ZABAL "B" 9–0 C.D. OLIVILLO
- S 87 "A"\n\nCreado por Raúl Cote
+ S 87 "A"\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponibl
+ e en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido
+ ?cod_primaria=1000120&CodActa=2710136&cod_acta=2710136\n\nCreado por Raúl
+  Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
  )
 URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-5@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;TZID=Europe/Madrid:20261015T180000
 DTEND;TZID=Europe/Madrid:20261015T190000
 SUMMARY:FINAL · PEÑA RECREATIVA LOLUBA C.F. – ATLETICO ZABAL "B" 1–5
 DESCRIPTION:Alevín · David\nTercera Andaluza Alevín Cádiz · Grupo 5\nJ
  ornada 5\nHora: 18:00\nCampo: Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)\nR
- esultado: PEÑA RECREATIVA LOLUBA C.F. 1–5 ATLETICO ZABAL "B"\n\nCreado 
- por Raúl Cote
+ esultado: PEÑA RECREATIVA LOLUBA C.F. 1–5 ATLETICO ZABAL "B"\n\nGOLEADO
+ RES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nAct
+ a oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=10001
+ 20&CodActa=2710143&cod_acta=2710143\n\nCreado por Raúl Cote
 LOCATION:Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)
 URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-6@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J6 · ATLETICO ZABAL "B" – U.D. LOS BARRIOS "A"
@@ -87,7 +101,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-7@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:J7 · ATLETICO ZABAL "B" – C.D. A.D. SAN GARCIA
@@ -100,7 +114,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-8@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J8 · C.D. SALESIANOS ALGECIRAS – ATLETICO ZABAL "B"
@@ -112,7 +126,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-9@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J9 · ATLETICO ZABAL "B" – MONITORES FUTBOL DE ALGECIRAS
@@ -125,7 +139,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-11@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:J11 · ATLETICO ZABAL "B" – U.D. TARIFA
@@ -138,7 +152,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-12@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:J12 · C.D. JUAN SEBASTIAN ELCANO – ATLETICO ZABAL "B"
@@ -150,7 +164,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-13@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J13 · ATLETICO ZABAL "B" – ASOC. VETERANOS ALGECIRAS CF
@@ -163,7 +177,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-14@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J14 · ATUNARA ATLETICO C.D. "B" – ATLETICO ZABAL "B"
@@ -176,7 +190,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-15@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:J15 · ATLETICO ZABAL "B" – C.D. S.M. MIRADOR "A"
@@ -189,7 +203,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-16@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:J16 · ATLETICO ZABAL "B" – CAETARIA C.D.
@@ -202,7 +216,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-17@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J17 · PUENTE MAYORGA RVO. "B" – ATLETICO ZABAL "B"
@@ -214,7 +228,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-18@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:J18 · ATLETICO ZABAL "B" – HISTORICO RECREATIVO LINENSE CLUB DE 
@@ -228,7 +242,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-19@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J19 · C.D. OLIVILLOS 87 "A" – ATLETICO ZABAL "B"
@@ -240,7 +254,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-20@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J20 · ATLETICO ZABAL "B" – PEÑA RECREATIVA LOLUBA C.F.
@@ -253,7 +267,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-21@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J21 · U.D. LOS BARRIOS "A" – ATLETICO ZABAL "B"
@@ -265,7 +279,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-22@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:J22 · C.D. A.D. SAN GARCIA – ATLETICO ZABAL "B"
@@ -277,7 +291,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-23@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J23 · ATLETICO ZABAL "B" – C.D. SALESIANOS ALGECIRAS
@@ -290,7 +304,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-24@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J24 · MONITORES FUTBOL DE ALGECIRAS – ATLETICO ZABAL "B"
@@ -302,7 +316,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-26@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J26 · U.D. TARIFA – ATLETICO ZABAL "B"
@@ -314,7 +328,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-27@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J27 · ATLETICO ZABAL "B" – C.D. JUAN SEBASTIAN ELCANO
@@ -327,7 +341,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-28@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:J28 · ASOC. VETERANOS ALGECIRAS CF – ATLETICO ZABAL "B"
@@ -339,7 +353,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-29@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:J29 · ATLETICO ZABAL "B" – ATUNARA ATLETICO C.D. "B"
@@ -352,7 +366,7 @@ URL:https://www.atleticozabal.com/calendario-alevin-zabal-c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-zabal-c-30@atleticozabal.com
-DTSTAMP:20261018T123648Z
+DTSTAMP:20261018T175235Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J30 · C.D. S.M. MIRADOR "A" – ATLETICO ZABAL "B"
