@@ -54,6 +54,7 @@ jobs:
         if: steps.window.outputs.run == 'true'
         env:
           RFAF_GROUP: ${{ matrix.group }}
+          RFAF_ACTA_DIAGNOSTIC: '1'
         run: node scripts/sync-new-youth-rfaf.js
       - name: Crear calendarios ICS
         if: steps.window.outputs.run == 'true'
