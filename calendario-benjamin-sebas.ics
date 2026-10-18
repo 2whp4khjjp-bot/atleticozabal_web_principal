@@ -7,47 +7,54 @@ X-WR-CALNAME:Atlético Zabal · Benjamín · Sebas
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-1@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;TZID=Europe/Madrid:20261003T113000
 DTEND;TZID=Europe/Madrid:20261003T123000
 SUMMARY:FINAL · C.D. SALESIANOS ALGECIRAS – ATLETICO ZABAL "B" 17–10
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 1\nHora: 11:30\nCampo: Algeciras - LA MENACHA PACO LEÓN (F11-F7\,3) (
- A)\nResultado: C.D. SALESIANOS ALGECIRAS 17–10 ATLETICO ZABAL "B"\n\nCre
- ado por Raúl Cote
+ A)\nResultado: C.D. SALESIANOS ALGECIRAS 17–10 ATLETICO ZABAL "B"\n\nGOL
+ EADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\
+ nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1
+ 000120&CodActa=2701299&cod_acta=2701299\n\nCreado por Raúl Cote
 LOCATION:Algeciras - LA MENACHA PACO LEÓN (F11-F7\,3) (A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-2@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;TZID=Europe/Madrid:20261010T120000
 DTEND;TZID=Europe/Madrid:20261010T130000
 SUMMARY:FINAL · ATLETICO ZABAL "B" – C.D. TARIFA FUTBOL ACADEMY 5–7
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 2\nHora: 12:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
  (LA LINEA) (F7) (A)\nResultado: ATLETICO ZABAL "B" 5–7 C.D. TARIFA FUTB
- OL ACADEMY\n\nCreado por Raúl Cote
+ OL ACADEMY\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponi
+ ble en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpParti
+ do?cod_primaria=1000120&CodActa=2701305&cod_acta=2701305\n\nCreado por Ra
+ úl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
  A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-3@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;TZID=Europe/Madrid:20261016T183000
 DTEND;TZID=Europe/Madrid:20261016T193000
 SUMMARY:FINAL · MONITORES FUTBOL DE ALGECIRAS – ATLETICO ZABAL "B" 3–2
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 3\nHora: 18:30\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1)
   (A)\nResultado: MONITORES FUTBOL DE ALGECIRAS 3–2 ATLETICO ZABAL "B"\n
- \nCreado por Raúl Cote
+ \nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el ac
+ ta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_prima
+ ria=1000120&CodActa=2701310&cod_acta=2701310\n\nCreado por Raúl Cote
 LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-4@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:J4 · ATLETICO ZABAL "B" – C.D. S.M. MIRADOR
@@ -60,7 +67,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-5@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:J5 · C.D. JUAN SEBASTIAN ELCANO – ATLETICO ZABAL "B"
@@ -72,7 +79,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-6@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:J6 · ATLETICO ZABAL "B" – U.D. LOS BARRIOS
@@ -85,7 +92,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-7@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:J7 · CLUB RVO. BAHIA DE ALGECIRAS – ATLETICO ZABAL "B"
@@ -97,7 +104,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-8@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:J8 · ATLETICO ZABAL "B" – HISTORICO RECREATIVO LINENSE CLUB DE F
@@ -111,7 +118,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-9@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J9 · ANDALUCIA C.M. C.D. – ATLETICO ZABAL "B"
@@ -123,7 +130,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-10@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J10 · ATLETICO ZABAL "B" – C.D. A.D. SAN GARCIA
@@ -136,7 +143,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-12@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J12 · ATLETICO ZABAL "B" – C.D. SALESIANOS ALGECIRAS
@@ -149,7 +156,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-13@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:J13 · C.D. TARIFA FUTBOL ACADEMY – ATLETICO ZABAL "B"
@@ -161,7 +168,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-14@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J14 · ATLETICO ZABAL "B" – MONITORES FUTBOL DE ALGECIRAS
@@ -174,7 +181,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-15@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:J15 · C.D. S.M. MIRADOR – ATLETICO ZABAL "B"
@@ -186,7 +193,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-16@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J16 · ATLETICO ZABAL "B" – C.D. JUAN SEBASTIAN ELCANO
@@ -199,7 +206,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-17@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J17 · U.D. LOS BARRIOS – ATLETICO ZABAL "B"
@@ -211,7 +218,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-18@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J18 · ATLETICO ZABAL "B" – CLUB RVO. BAHIA DE ALGECIRAS
@@ -224,7 +231,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-19@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J19 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" – ATLETIC
@@ -237,7 +244,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-20@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J20 · ATLETICO ZABAL "B" – ANDALUCIA C.M. C.D.
@@ -250,7 +257,7 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-21@atleticozabal.com
-DTSTAMP:20261018T124040Z
+DTSTAMP:20261018T175252Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J21 · C.D. A.D. SAN GARCIA – ATLETICO ZABAL "B"
