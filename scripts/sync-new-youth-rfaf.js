@@ -82,7 +82,7 @@ async function run(){
      if(valid(found)){m.score=found;m.scoreSource='rfaf-round-results'}
     }
    }
-   for(const m of matches.filter(x=>x.date<=today&&!valid(x.score)&&x.actaUrl)){
+   for(const m of matches.filter(x=>x.date<=today&&x.actaUrl)){
     const details=await readActaDetails(page,m);const found=details?.score;
     if(details?.ground&&!m.ground)m.ground=details.ground;
     if(valid(found)){m.score=found;m.scoreSource='acta: '+m.actaUrl;console.log('Marcador del acta '+m.round+': '+found.join('-'))}
