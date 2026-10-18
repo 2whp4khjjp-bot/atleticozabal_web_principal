@@ -1,3 +1,5 @@
+/* Carga la medición opcional también en las fichas de calendario. */
+(()=>{if(location.pathname.split('/').pop().startsWith('calendario-')&&!document.querySelector('script[src*="zabal-analytics.js"]')){const s=document.createElement('script');s.src='assets/zabal-analytics.js';s.defer=true;document.head.append(s)}})();
 (() => {
   const normalize = value => String(value || '')
     .normalize('NFD')
