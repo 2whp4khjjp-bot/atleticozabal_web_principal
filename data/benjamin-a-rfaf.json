@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-10-18T12:37:30.613Z",
+  "updatedAt": "2026-10-19T15:36:42.496Z",
   "standing": {
     "position": 6,
     "points": 10,
@@ -22,8 +22,8 @@
         6,
         2
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663714&cod_acta=2663714"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663714&cod_acta=2663714",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 2,
@@ -64,8 +64,8 @@
         1,
         1
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663740&cod_acta=2663740"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663740&cod_acta=2663740",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 5,
@@ -93,7 +93,7 @@
     {
       "round": 7,
       "date": "2026-10-24",
-      "time": null,
+      "time": "13:00",
       "home": "BAHIA SAN FERNANDO C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)",
