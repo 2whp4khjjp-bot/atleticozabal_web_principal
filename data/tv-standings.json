@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T12:20:09.694Z",
+  "updatedAt": "2026-10-19T15:10:22.225Z",
   "competitions": {
     "senior": [
       {
@@ -11,11 +11,11 @@
         "position": 2
       },
       {
-        "team": "C.D. A.D. SAN GARCIA",
+        "team": "ATLETICO ZABAL",
         "position": 3
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "C.D. A.D. SAN GARCIA",
         "position": 4
       },
       {
@@ -39,15 +39,15 @@
         "position": 9
       },
       {
-        "team": "C.D. TARIFA FUTBOL ACADEMY",
+        "team": "C.D. LA ROCK PUENTE F.C.",
         "position": 10
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "C.D. TARIFA FUTBOL ACADEMY",
         "position": 11
       },
       {
-        "team": "C.D. LA ROCK PUENTE F.C.",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 12
       },
       {
@@ -321,19 +321,19 @@
         "position": 3
       },
       {
-        "team": "A.D. LOS BURREÑOS",
+        "team": "ATLETICO ZABAL",
         "position": 4
       },
       {
-        "team": "C.D. GUADALCACIN",
+        "team": "U.D. LOS BARRIOS",
         "position": 5
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "A.D. LOS BURREÑOS",
         "position": 6
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "C.D. GUADALCACIN",
         "position": 7
       },
       {
@@ -693,11 +693,11 @@
         "position": 7
       },
       {
-        "team": "C.D. SALESIANOS ALGECIRAS",
+        "team": "C.D. S.M. MIRADOR",
         "position": 8
       },
       {
-        "team": "C.D. S.M. MIRADOR",
+        "team": "C.D. SALESIANOS ALGECIRAS",
         "position": 9
       },
       {
