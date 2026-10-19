@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=3",
-  "updatedAt": "2026-10-18T17:53:06.995Z",
+  "updatedAt": "2026-10-19T15:52:27.278Z",
   "standing": {
     "position": 8,
     "points": 1,
@@ -131,8 +131,8 @@
     },
     {
       "round": 4,
-      "date": "2026-10-24",
-      "time": null,
+      "date": "2026-10-23",
+      "time": "18:00",
       "home": "C.D. ATHLETIC CLUB JIMENA",
       "away": "ATLETICO ZABAL",
       "ground": "Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)",
