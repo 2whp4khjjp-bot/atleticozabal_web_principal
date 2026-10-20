@@ -1,0 +1,35 @@
+name: Recuperar horarios pendientes RFAF
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/rfaf-actas.js'
+      - 'scripts/sync-missing-rfaf-times.js'
+      - '.github/workflows/sync-missing-rfaf-times.yml'
+  schedule:
+    - cron: '35 7,10,13,16,19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sync-missing-rfaf-times
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar navegador
+        run: |
+          npm install --no-save --package-lock=false playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Recuperar horarios confirmados y actualizar ICS
+        run: node scripts/sync-missing-rfaf-times.js
+      - name: Publicar horarios
+        run: |
+          git config user.name "Atlético Zabal · Actualizador"
+          git config user.email "actions@github.com"
+          git add data/*-rfaf.json calendario-*.ics
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Recupera horarios oficiales pendientes"
+          bash scripts/push-calendar-update.sh
