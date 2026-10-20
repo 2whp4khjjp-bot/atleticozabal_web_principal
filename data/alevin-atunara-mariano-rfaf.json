@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789584&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-10-20T00:24:54.757Z",
+  "updatedAt": "2026-10-20T13:56:04.055Z",
   "officialTeam": "ATUNARA ATLETICO C.D. \"B\"",
   "competition": "49608278",
   "group": "49789584",
@@ -19,7 +19,7 @@
       "time": "19:45",
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         2,
         5
