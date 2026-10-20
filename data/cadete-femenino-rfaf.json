@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=3",
-  "updatedAt": "2026-10-19T15:50:26.432Z",
+  "updatedAt": "2026-10-20T09:07:54.976Z",
   "standing": {
     "position": 4,
     "points": 1,
@@ -150,7 +150,7 @@
     {
       "round": 4,
       "date": "2026-10-24",
-      "time": null,
+      "time": "17:00",
       "home": "C.D. RAYO SANLUQUEÑO \"B\"",
       "away": "ATLETICO ZABAL",
       "ground": "Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F7) (A)",

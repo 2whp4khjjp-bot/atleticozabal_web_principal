@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=3",
-  "updatedAt": "2026-10-19T15:48:56.290Z",
+  "updatedAt": "2026-10-20T09:07:51.707Z",
   "standing": {
     "position": 1,
     "points": 9,
@@ -56,7 +56,7 @@
     {
       "round": 4,
       "date": "2026-10-24",
-      "time": null,
+      "time": "17:00",
       "home": "ATLETICO ZABAL",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
