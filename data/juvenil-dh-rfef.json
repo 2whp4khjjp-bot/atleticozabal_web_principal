@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-10-21T13:21:48.223Z",
+  "updatedAt": "2026-10-22T13:30:33.877Z",
   "standing": {
     "position": 15,
     "points": 2,
@@ -45,7 +45,7 @@
       "ground": "Estadio Virgen del Carmen",
       "score": [
         2,
-        2
+        1
       ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693228&cod_acta=70693228"
     },
@@ -123,8 +123,8 @@
     },
     {
       "round": 10,
-      "date": "2026-11-01",
-      "time": null,
+      "date": "2026-10-31",
+      "time": "16:00",
       "home": "Atlético Melilla CF",
       "away": "Atlético Zabal",
       "ground": "Campo de Fútbol La Espiguera",
