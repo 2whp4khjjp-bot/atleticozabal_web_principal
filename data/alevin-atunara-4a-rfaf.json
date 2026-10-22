@@ -2,7 +2,7 @@
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789556&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
   "summarySource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=49608278&codgrupo=49789556&CodJornada=1&cod_agrupacion=1",
   "resultsSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodTemporada=22&CodGrupo=49789556&CodCompeticion=49608278&CodJornada=1",
-  "updatedAt": "2026-10-22T13:49:27.510Z",
+  "updatedAt": "2026-10-22T19:19:52.931Z",
   "standing": null,
   "matches": [
     {
@@ -30,6 +30,7 @@
         5,
         1
       ],
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2749652&cod_acta=2749652"
     },
     {
