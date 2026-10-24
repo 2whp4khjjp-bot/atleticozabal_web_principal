@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-10-20T09:07:17.189Z",
+  "updatedAt": "2026-10-24T13:46:44.941Z",
   "standing": {
     "position": 6,
     "points": 0,
@@ -87,7 +87,12 @@
       "home": "ARCOS C.F.",
       "away": "ATLETICO ZABAL",
       "ground": "Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)",
-      "score": null
+      "score": [
+        3,
+        3
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909139&CodGrupo=48909177&CodTemporada=22&cod_agrupacion=1&CodJornada=6&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672047&cod_acta=2672047"
     },
     {
       "round": 7,
