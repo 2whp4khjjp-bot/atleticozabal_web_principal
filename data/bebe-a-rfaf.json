@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-10-24T20:56:46.406Z",
+  "updatedAt": "2026-10-24T23:20:30.494Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
@@ -25,7 +25,7 @@
       "time": "17:00",
       "home": "PEÑA MADRIDISTA LINENSE",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": "La Línea de La Concepción - PUYOL",
+      "ground": null,
       "score": null,
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2794238&cod_acta=2794238"
     },
@@ -48,7 +48,7 @@
       "time": null,
       "home": "U.D. LOS BARRIOS",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT)",
       "score": null
     },
     {

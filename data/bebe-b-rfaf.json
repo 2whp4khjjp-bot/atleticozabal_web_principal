@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-10-24T20:56:46.407Z",
+  "updatedAt": "2026-10-24T23:20:30.495Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50321366",
   "group": "50423452",
@@ -36,7 +36,7 @@
       "time": null,
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {
