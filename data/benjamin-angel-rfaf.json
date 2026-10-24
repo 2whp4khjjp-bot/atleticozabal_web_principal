@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
-  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=3",
-  "updatedAt": "2026-10-23T13:36:27.446Z",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=4",
+  "updatedAt": "2026-10-24T12:47:17.850Z",
   "standing": {
-    "position": 3,
-    "points": 6,
+    "position": 2,
+    "points": 7,
     "played": 1,
-    "goalsFor": 12,
-    "goalsAgainst": 2,
-    "round": 3
+    "goalsFor": 14,
+    "goalsAgainst": 4,
+    "round": 4
   },
   "rounds": [
     {
@@ -109,8 +109,8 @@
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        2,
-        12
+        4,
+        14
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701162&cod_acta=2701162",
       "scoreSource": "classification-inference-single-match"
@@ -136,7 +136,8 @@
       "home": "PUENTE MAYORGA RVO",
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701181&cod_acta=2701181"
     },
     {
       "round": 5,
