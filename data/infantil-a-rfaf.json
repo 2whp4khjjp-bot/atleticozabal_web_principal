@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-10-23T13:19:24.111Z",
+  "updatedAt": "2026-10-24T12:37:10.126Z",
   "standing": {
     "position": 9,
-    "points": 6,
+    "points": 7,
     "played": 3,
-    "goalsFor": 7,
-    "goalsAgainst": 7,
-    "round": 5
+    "goalsFor": 10,
+    "goalsAgainst": 10,
+    "round": 6
   },
   "matches": [
     {
@@ -20,10 +20,9 @@
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
         1,
-        4
+        3
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672004&cod_acta=2672004",
-      "scoreSource": "classification-inference-single-match"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672004&cod_acta=2672004"
     },
     {
       "round": 2,
@@ -87,7 +86,8 @@
       "home": "ARCOS C.F.",
       "away": "ATLETICO ZABAL",
       "ground": "Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672047&cod_acta=2672047"
     },
     {
       "round": 7,
