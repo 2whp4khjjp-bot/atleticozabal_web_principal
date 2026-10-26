@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-10-25T13:37:53.428Z",
+  "updatedAt": "2026-10-26T14:44:33.243Z",
   "standing": {
     "position": 10,
     "points": 7,
@@ -96,7 +96,7 @@
     {
       "round": 7,
       "date": "2026-10-31",
-      "time": null,
+      "time": "11:00",
       "home": "BAHIA SAN FERNANDO C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "San Fernando - MANUEL GOMEZ CASTRO Nº 2 (F11-F7,2) (A)",

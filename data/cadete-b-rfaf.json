@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=4",
-  "updatedAt": "2026-10-25T13:51:45.699Z",
+  "updatedAt": "2026-10-26T14:44:18.320Z",
   "standing": {
     "position": 1,
     "points": 10,
@@ -69,7 +69,7 @@
     {
       "round": 5,
       "date": "2026-10-31",
-      "time": null,
+      "time": "18:00",
       "home": "C.D. SAN ROQUE \"A\"",
       "away": "ATLETICO ZABAL",
       "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
