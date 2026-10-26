@@ -1,16 +1,16 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=4",
-  "updatedAt": "2026-10-25T19:21:38.280Z",
+  "updatedAt": "2026-10-26T16:28:41.818Z",
   "standing": {
-    "position": 5,
+    "position": 4,
     "points": 1,
     "played": 1,
-    "goalsFor": 1,
+    "goalsFor": 2,
     "goalsAgainst": null,
     "round": 4
   },
-  "standingUpdatedAt": "2026-10-25T13:54:17.094Z",
+  "standingUpdatedAt": "2026-10-26T16:28:41.818Z",
   "standingVerified": true,
   "rounds": [
     {
@@ -150,15 +150,11 @@
     {
       "round": 4,
       "date": "2026-10-25",
-      "time": "17:00",
+      "time": "17:30",
       "home": "C.D. RAYO SANLUQUEÑO \"B\"",
       "away": "ATLETICO ZABAL",
       "ground": "Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F7) (A)",
-      "score": [
-        1,
-        6
-      ],
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49660873&CodGrupo=49660937&CodTemporada=22&cod_agrupacion=1&CodJornada=4&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
+      "score": null,
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2738257&cod_acta=2738257"
     },
     {
