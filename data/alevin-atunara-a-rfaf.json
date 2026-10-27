@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-10-27T15:17:43.740Z",
+  "updatedAt": "2026-10-27T18:54:36.138Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -83,7 +83,7 @@
     {
       "round": 7,
       "date": "2026-10-31",
-      "time": null,
+      "time": "17:00",
       "home": "ATLETICO ATUNARA C.D. \"A\"",
       "away": "C.D. ATHLETIC CLUB JIMENA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
