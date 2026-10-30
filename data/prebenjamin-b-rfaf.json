@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-10-30T19:57:55.691Z",
+  "updatedAt": "2026-10-30T23:51:46.378Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50317849",
   "group": "50319316",
@@ -68,7 +68,7 @@
       "time": null,
       "home": "NARANJITOS-82 C.F.",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": null,
+      "ground": "San Roque - MANOLO MESA CAMPO MUNICIPAL (F11, F7)",
       "score": null
     },
     {
