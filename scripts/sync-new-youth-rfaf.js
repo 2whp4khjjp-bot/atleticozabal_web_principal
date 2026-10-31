@@ -86,6 +86,7 @@ async function run(){
     const details=await readActaDetails(page,m);const found=details?.score;
     if(details?.ground&&!m.ground)m.ground=details.ground;
     if(valid(found)){m.score=found;m.scoreSource='acta: '+m.actaUrl;console.log('Marcador del acta '+m.round+': '+found.join('-'))}
+    else {m.score=null;delete m.scoreSource;console.warn('Sin marcador de acta verificable: '+m.actaUrl)}
    }
    // Conserva avisos del club mientras la RFAF no publique una nueva fecha ni un estado concluyente.
    for(const [key,official] of teams){
