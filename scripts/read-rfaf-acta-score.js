@@ -10,6 +10,9 @@ function detailsFromSnapshot(snapshot,match){
  const candidates=tables.flatMap(t=>t.scores).filter(valid);
  const unique=[...new Map(candidates.map(s=>[s.join('-'),s])).values()];
  if(unique.length!==1)return null;
+ // Cada fila de «Goles» corresponde a un tanto. Una discrepancia indica
+ // que RFAF ha cambiado la codificación del marcador: no publicar cifras dudosas.
+ if(Number.isInteger(snapshot.goalCount)&&unique[0][0]+unique[0][1]!==snapshot.goalCount)return null;
  return {score:unique[0],ground:snapshot.ground||null};
 }
 function snapshotActa(){
@@ -24,7 +27,9 @@ function snapshotActa(){
   };
   const found=clean(rendered(element)).match(/^(\d{1,2})\s*[-–:]\s*(\d{1,2})$/);return found?[+found[1],+found[2]]:null;
  };
- return {meta:[...document.querySelectorAll('h4,h5')].map(e=>clean(e.innerText)).join(' '),ground:document.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim()||null,
+ const goals=[...document.querySelectorAll('.details')].find(e=>clean(e.querySelector('.number')?.innerText)==='Goles');
+ const goalCount=goals?.querySelector('.desc table')?.rows.length;
+ return {meta:[...document.querySelectorAll('h4,h5')].map(e=>clean(e.innerText)).join(' '),ground:document.querySelector('a[href*="NFG_VisCampos"]')?.innerText?.trim()||null,goalCount:Number.isInteger(goalCount)?goalCount:null,
  tables:[...document.querySelectorAll('table')].map(table=>({rows:[...table.rows].filter(row=>row.closest('table')===table).map(row=>[...row.cells].map(c=>clean(c.innerText))),scores:[...table.querySelectorAll('h2,h3,.resultado,.marcador,.score,.result')].filter(e=>e.closest('table')===table).map(readScore).filter(Boolean)}))};
 }
 async function readActaDetails(page,match){
