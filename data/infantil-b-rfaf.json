@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=4",
-  "updatedAt": "2026-10-30T16:13:23.379Z",
+  "updatedAt": "2026-10-31T13:28:42.694Z",
   "standing": {
     "position": 7,
     "points": 4,
@@ -149,7 +149,12 @@
       "home": "LOS CORTIJILLOS A.D.",
       "away": "ATLETICO ZABAL",
       "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
-      "score": null
+      "score": [
+        3,
+        0
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49223072&CodGrupo=49227064&CodTemporada=22&cod_agrupacion=1&CodJornada=5&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696422&cod_acta=2696422"
     },
     {
       "round": 6,
