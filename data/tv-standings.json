@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:32:15.473Z",
+  "updatedAt": "2026-10-31T15:02:30.008Z",
   "competitions": {
     "senior": [
       {
@@ -197,11 +197,11 @@
         "position": 1
       },
       {
-        "team": "ALGECIRAS C.F., S.A.D.",
+        "team": "C.D. ESTRELLA PORTUENSE F.C.",
         "position": 2
       },
       {
-        "team": "C.D. ESTRELLA PORTUENSE F.C.",
+        "team": "ALGECIRAS C.F., S.A.D.",
         "position": 3
       },
       {
@@ -217,15 +217,15 @@
         "position": 6
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "ATCO. SANLUQUEÑO C.F.",
         "position": 7
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "ARCOS C.F.",
         "position": 8
       },
       {
-        "team": "ATCO. SANLUQUEÑO C.F.",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 9
       },
       {
@@ -383,11 +383,11 @@
         "position": 5
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "BAHIA SAN FERNANDO C.D.",
         "position": 6
       },
       {
-        "team": "BAHIA SAN FERNANDO C.D.",
+        "team": "U.D. LOS BARRIOS",
         "position": 7
       },
       {
@@ -399,11 +399,11 @@
         "position": 9
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "ARCOS C.F.",
         "position": 10
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "ATLETICO ZABAL",
         "position": 11
       },
       {
@@ -429,11 +429,11 @@
     ],
     "infantil-b": [
       {
-        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
+        "team": "C.D. SAN ROQUE \"A\"",
         "position": 1
       },
       {
-        "team": "C.D. SAN ROQUE \"A\"",
+        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
         "position": 2
       },
       {
@@ -445,23 +445,23 @@
         "position": 4
       },
       {
-        "team": "BALON LINENSE C.F. C.D.",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 5
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "BALON LINENSE C.F. C.D.",
         "position": 6
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "PUENTE MAYORGA RVO",
         "position": 7
       },
       {
-        "team": "U.D. TESORILLO C.D.",
+        "team": "ATLETICO ZABAL",
         "position": 8
       },
       {
-        "team": "PUENTE MAYORGA RVO",
+        "team": "U.D. TESORILLO C.D.",
         "position": 9
       },
       {
@@ -483,19 +483,19 @@
         "position": 2
       },
       {
-        "team": "A.D. MARIANISTAS C.D.",
+        "team": "ATLETICO ZABAL",
         "position": 3
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "A.D. TARAGUILLA",
         "position": 4
       },
       {
-        "team": "A.D. TARAGUILLA",
+        "team": "A.D. MARIANISTAS C.D.",
         "position": 5
       },
       {
-        "team": "C.D. SAN FERNANDO 1940",
+        "team": "C.F. SAN JOSE OBRERO",
         "position": 6
       },
       {
@@ -503,15 +503,15 @@
         "position": 7
       },
       {
-        "team": "C.D. DIVINA PASTORA SANLUQUEÑA",
+        "team": "C.D. SAN ROQUE",
         "position": 8
       },
       {
-        "team": "C.F. SAN JOSE OBRERO",
+        "team": "C.D. DIVINA PASTORA SANLUQUEÑA",
         "position": 9
       },
       {
-        "team": "C.D. SAN ROQUE",
+        "team": "C.D. SAN FERNANDO 1940",
         "position": 10
       },
       {
@@ -527,15 +527,15 @@
         "position": 13
       },
       {
-        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 14
       },
       {
-        "team": "U.D. LA ALGAIDA",
+        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
         "position": 15
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "U.D. LA ALGAIDA",
         "position": 16
       }
     ],
@@ -673,11 +673,11 @@
         "position": 2
       },
       {
-        "team": "BAHIA SAN FERNANDO C.D.",
+        "team": "C.D. ESTRELLA PORTUENSE F.C.",
         "position": 3
       },
       {
-        "team": "C.D. ESTRELLA PORTUENSE F.C.",
+        "team": "BAHIA SAN FERNANDO C.D.",
         "position": 4
       },
       {
@@ -697,15 +697,15 @@
         "position": 8
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C.D. SALESIANOS ALGECIRAS",
         "position": 9
       },
       {
-        "team": "C.D. SALESIANOS ALGECIRAS",
+        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
         "position": 10
       },
       {
-        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
+        "team": "ARCOS C.F.",
         "position": 11
       },
       {
@@ -713,11 +713,11 @@
         "position": 12
       },
       {
-        "team": "C.F. SAN JOSE OBRERO",
+        "team": "C.D. ISLA DE LEON FUTBOL BASE",
         "position": 13
       },
       {
-        "team": "C.D. ISLA DE LEON FUTBOL BASE",
+        "team": "C.F. SAN JOSE OBRERO",
         "position": 14
       },
       {
