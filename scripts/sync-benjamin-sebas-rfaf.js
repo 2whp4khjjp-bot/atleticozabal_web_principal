@@ -74,7 +74,13 @@ const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
     const invalid = matches.find(match => !match.round || !match.date || !match.home || !match.away ||
       !/ATLETICO ZABAL/i.test(match.home + ' ' + match.away));
     if (matches.length < 18 || invalid) {
-      throw new Error('El calendario del Benjamín · Sebas no coincide con el grupo esperado (' + matches.length + ')');
+      const diagnostic = await page.evaluate(() => ({
+        title: document.title,
+        rows: document.querySelectorAll('div.row').length,
+        rounds: [...document.querySelectorAll('h5')].filter(heading => /Jornada\s+\d+/i.test(heading.innerText)).length
+      }));
+      throw new Error('El calendario del Benjamín · Sebas no coincide con el grupo esperado (' +
+        matches.length + '); diagnóstico: ' + JSON.stringify(diagnostic));
     }
     const today = new Intl.DateTimeFormat('sv-SE', {
       timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
