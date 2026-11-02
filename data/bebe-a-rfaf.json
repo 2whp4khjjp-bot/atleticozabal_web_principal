@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-11-02T17:25:07.598Z",
+  "updatedAt": "2026-11-02T19:58:15.567Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
@@ -25,7 +25,7 @@
       "time": "17:00",
       "home": "PEÑA MADRIDISTA LINENSE",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - PUYOL",
       "score": [
         0,
         0
@@ -41,7 +41,7 @@
       "time": "17:15",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         0,
         0
@@ -53,7 +53,7 @@
       "status": null,
       "statusSource": null,
       "round": 4,
-      "date": "2026-11-07",
+      "date": "2026-11-06",
       "time": "17:00",
       "home": "U.D. LOS BARRIOS",
       "away": "ATLETICO ZABAL \"A\"",
@@ -79,7 +79,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"A\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
+      "ground": null,
       "score": null
     },
     {
