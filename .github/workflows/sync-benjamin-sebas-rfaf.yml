@@ -7,9 +7,12 @@ on:
       - 'scripts/sync-benjamin-sebas-rfaf.js'
       - 'scripts/render-benjamin-sebas-ics.js'
       - 'scripts/validate-benjamin-sebas.js'
+      - '.github/workflows/sync-benjamin-sebas-rfaf.yml'
   schedule:
     - cron: '28 8 * * *'
     - cron: '28 9 * * *'
+    # Segundo repaso diario si la RFAF no respondió durante la mañana.
+    - cron: '28 18 * * *'
 permissions:
   contents: write
 concurrency:
@@ -18,7 +21,7 @@ concurrency:
 jobs:
   browser:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - name: Comprobar hora peninsular
         id: window
@@ -27,7 +30,8 @@ jobs:
           schedule='${{ github.event.schedule }}'
           if [ '${{ github.event_name }}' != 'schedule' ] || \
              { [ "$schedule" = '28 8 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$schedule" = '28 9 * * *' ] && [ "$offset" = '+0100' ]; }; then
+             { [ "$schedule" = '28 9 * * *' ] && [ "$offset" = '+0100' ]; } || \
+             { [ "$schedule" = '28 18 * * *' ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
@@ -41,7 +45,18 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Consultar calendario y clasificación
         if: steps.window.outputs.run == 'true'
-        run: node scripts/sync-benjamin-sebas-rfaf.js
+        run: |
+          for attempt in 1 2 3 4; do
+            echo "Consulta RFAF: intento ${attempt}/4"
+            if node scripts/sync-benjamin-sebas-rfaf.js; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 4 ]; then
+              sleep $((attempt * 12))
+            fi
+          done
+          echo "RFAF no proporcionó un calendario verificable tras cuatro intentos; se conservan los datos publicados." >&2
+          exit 1
       - name: Generar calendario de suscripción
         if: steps.window.outputs.run == 'true'
         run: node scripts/render-benjamin-sebas-ics.js
