@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-11-01T23:40:42.673Z",
+  "updatedAt": "2026-11-02T17:25:07.598Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
@@ -54,7 +54,7 @@
       "statusSource": null,
       "round": 4,
       "date": "2026-11-07",
-      "time": null,
+      "time": "17:00",
       "home": "U.D. LOS BARRIOS",
       "away": "ATLETICO ZABAL \"A\"",
       "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT)",
@@ -79,7 +79,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"A\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {
