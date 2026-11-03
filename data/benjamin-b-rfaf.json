@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=1",
-  "updatedAt": "2026-11-02T19:34:32.001Z",
+  "updatedAt": "2026-11-03T15:28:32.341Z",
   "standing": {
     "position": 7,
     "points": 0,
@@ -70,7 +70,7 @@
     {
       "round": 5,
       "date": "2026-11-07",
-      "time": null,
+      "time": "17:00",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. GUADIARO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",

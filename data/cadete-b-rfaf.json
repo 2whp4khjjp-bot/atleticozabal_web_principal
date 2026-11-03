@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=5",
-  "updatedAt": "2026-11-02T19:41:46.961Z",
+  "updatedAt": "2026-11-03T15:28:46.052Z",
   "standing": {
     "position": 3,
     "points": 10,
@@ -82,7 +82,7 @@
     {
       "round": 6,
       "date": "2026-11-07",
-      "time": null,
+      "time": "20:00",
       "home": "ATLETICO ZABAL",
       "away": "U.D. TESORILLO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
