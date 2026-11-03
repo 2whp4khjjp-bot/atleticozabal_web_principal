@@ -2,7 +2,7 @@
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789556&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
   "summarySource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=49608278&codgrupo=49789556&CodJornada=1&cod_agrupacion=1",
   "resultsSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodTemporada=22&CodGrupo=49789556&CodCompeticion=49608278&CodJornada=1",
-  "updatedAt": "2026-11-03T15:27:37.380Z",
+  "updatedAt": "2026-11-03T17:09:11.653Z",
   "standing": null,
   "matches": [
     {
@@ -49,12 +49,12 @@
     },
     {
       "round": 4,
-      "date": "2026-11-07",
+      "date": "2026-11-06",
+      "time": "17:00",
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"C\"",
       "away": "ATUNARA ATLETICO C.D. \"A\"",
       "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
-      "score": null,
-      "time": "17:00"
+      "score": null
     },
     {
       "round": 5,
