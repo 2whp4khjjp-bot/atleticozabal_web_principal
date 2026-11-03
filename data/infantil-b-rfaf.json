@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=5",
-  "updatedAt": "2026-11-03T15:29:04.567Z",
+  "updatedAt": "2026-11-03T17:19:26.667Z",
   "standing": {
     "position": 8,
     "points": 4,
@@ -158,7 +158,7 @@
     },
     {
       "round": 6,
-      "date": "2026-11-07",
+      "date": "2026-11-06",
       "time": "18:30",
       "home": "ATLETICO ZABAL",
       "away": "A.D. TARAGUILLA",
