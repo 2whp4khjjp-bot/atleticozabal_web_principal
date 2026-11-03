@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-02T23:08:20.830Z",
+  "updatedAt": "2026-11-03T17:28:19.330Z",
   "officialTeam": "ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
@@ -30,7 +30,7 @@
       "time": "17:00",
       "home": "C.D. JUAN SEBASTIAN ELCANO",
       "away": "ATLETICO ZABAL \"C\"",
-      "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7)",
+      "ground": null,
       "score": [
         10,
         0
@@ -46,7 +46,7 @@
       "time": "18:15",
       "home": "ATLETICO ZABAL \"C\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         0,
         10
