@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-11-04T01:27:54.251Z",
+  "updatedAt": "2026-11-04T17:44:50.086Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
@@ -15,7 +15,8 @@
       "home": "ATLETICO ZABAL \"A\"",
       "away": "ATLETICO ZABAL \"B\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2794230&cod_acta=2794230"
     },
     {
       "status": null,
@@ -25,7 +26,7 @@
       "time": "17:00",
       "home": "PEÑA MADRIDISTA LINENSE",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - PUYOL",
       "score": [
         0,
         0
@@ -41,7 +42,7 @@
       "time": "17:15",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         0
