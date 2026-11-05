@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-05T02:31:33.465Z",
+  "updatedAt": "2026-11-05T18:02:19.790Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50317849",
   "group": "50319316",
@@ -14,7 +14,7 @@
       "time": "17:15",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         2,
         1
@@ -30,7 +30,7 @@
       "time": "11:00",
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": [
         2,
         0
@@ -46,7 +46,7 @@
       "time": "17:00",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "U.D. TESORILLO C.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         8
