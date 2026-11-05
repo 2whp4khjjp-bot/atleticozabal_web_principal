@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-04T21:25:14.286Z",
+  "updatedAt": "2026-11-05T02:31:33.466Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50317849",
   "group": "50319316",
@@ -30,7 +30,7 @@
       "time": "17:20",
       "home": "ATLETICO ZABAL \"B\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         3,
         3
