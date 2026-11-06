@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=50073897&codgrupo=50075169&CodJornada=1&cod_agrupacion=1",
   "extendedSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50075169&codcompeticion=50073897&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-06T16:53:25.979Z",
+  "updatedAt": "2026-11-06T17:33:32.531Z",
   "rounds": [
     {
       "round": 1,
@@ -181,7 +181,11 @@
       "home": "ATLETICO ZABAL \"A\"",
       "away": "BALON LINENSE C.F. C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
-      "score": null
+      "score": [
+        8,
+        0
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=50073897&CodGrupo=50075169&CodTemporada=22&CodJornada=6&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
     },
     {
       "round": 7,
