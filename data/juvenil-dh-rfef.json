@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-11-05T17:17:02.570Z",
+  "updatedAt": "2026-11-06T16:41:37.946Z",
   "standing": {
     "position": 15,
     "points": 2,
@@ -69,7 +69,10 @@
       "home": "Atlético Zabal",
       "away": "CD San Felix",
       "ground": "Estadio Virgen del Carmen",
-      "score": null,
+      "score": [
+        2,
+        1
+      ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693247&cod_acta=70693247"
     },
     {
@@ -79,7 +82,10 @@
       "home": "Granada CF",
       "away": "Atlético Zabal",
       "ground": "Campo Municipal Antonio Bailón",
-      "score": null,
+      "score": [
+        1,
+        0
+      ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693257&cod_acta=70693257"
     },
     {
@@ -110,7 +116,7 @@
     },
     {
       "round": 9,
-      "date": "2026-10-28",
+      "date": "2026-11-14",
       "time": "18:00",
       "home": "Atlético Zabal",
       "away": "UD Almería",
@@ -144,7 +150,7 @@
     {
       "round": 12,
       "date": "2026-11-22",
-      "time": null,
+      "time": "12:00",
       "home": "Cádiz CF",
       "away": "Atlético Zabal",
       "ground": "Ciudad Deportiva El Rosal - Campo 3 Mirandilla",
