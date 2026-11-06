@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-06T17:05:42.504Z",
+  "updatedAt": "2026-11-06T20:59:06.029Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50317849",
   "group": "50319316",
@@ -46,7 +46,7 @@
       "time": "17:00",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "U.D. TESORILLO C.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         8
@@ -63,7 +63,12 @@
       "home": "U.D. LOS BARRIOS \"B\"",
       "away": "ATLETICO ZABAL \"A\"",
       "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT)",
-      "score": null
+      "score": [
+        0,
+        9
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2787387&cod_acta=2787387",
+      "scoreSource": "acta: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2787387&cod_acta=2787387"
     },
     {
       "status": null,
