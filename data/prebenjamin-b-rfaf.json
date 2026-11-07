@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-06T20:59:06.031Z",
+  "updatedAt": "2026-11-07T00:59:01.346Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50317849",
   "group": "50319316",
@@ -14,7 +14,7 @@
       "time": "17:15",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         2,
         1
@@ -30,7 +30,7 @@
       "time": "17:20",
       "home": "ATLETICO ZABAL \"B\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         3,
         3
@@ -46,7 +46,7 @@
       "time": "17:30",
       "home": "U.D. TESORILLO C.D.",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "San Martin del Tesorillo - RAFAEL JURADO",
+      "ground": null,
       "score": null
     },
     {
@@ -79,7 +79,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. SAN BERNARDO",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {
