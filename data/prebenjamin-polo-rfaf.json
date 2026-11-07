@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-07T00:57:35.436Z",
+  "updatedAt": "2026-11-07T16:00:00.528Z",
   "officialTeam": "ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -43,7 +43,12 @@
       "home": "ATLETICO ZABAL",
       "away": "C.D. JUVENTUD PALMONES C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "score": null
+      "score": [
+        1,
+        3
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2782288&cod_acta=2782288",
+      "scoreSource": "acta: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2782288&cod_acta=2782288"
     },
     {
       "status": null,
