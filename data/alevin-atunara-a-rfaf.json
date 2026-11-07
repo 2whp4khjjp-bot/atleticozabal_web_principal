@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-06T16:42:17.971Z",
+  "updatedAt": "2026-11-07T15:14:38.504Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -102,7 +102,12 @@
       "home": "C.D. S.M. MIRADOR \"B\"",
       "away": "ATLETICO ATUNARA C.D. \"A\"",
       "ground": "Algeciras - Sergio Martín (A)",
-      "score": null
+      "score": [
+        0,
+        0
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709928&cod_acta=2709928",
+      "scoreSource": "acta: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709928&cod_acta=2709928"
     },
     {
       "round": 9,
