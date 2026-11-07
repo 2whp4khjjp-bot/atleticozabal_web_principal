@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789584&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-07T19:28:55.789Z",
+  "updatedAt": "2026-11-07T23:41:59.346Z",
   "officialTeam": "ATUNARA ATLETICO C.D. \"B\"",
   "competition": "49608278",
   "group": "49789584",
@@ -51,7 +51,7 @@
       "time": "10:45",
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "PUENTE MAYORGA RVO. \"C\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         5,
         2
@@ -89,7 +89,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"D\"",
       "away": "ATUNARA ATLETICO C.D. \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {
