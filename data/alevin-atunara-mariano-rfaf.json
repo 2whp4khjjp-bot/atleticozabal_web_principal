@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789584&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-07T15:13:51.022Z",
+  "updatedAt": "2026-11-07T16:02:05.923Z",
   "officialTeam": "ATUNARA ATLETICO C.D. \"B\"",
   "competition": "49608278",
   "group": "49789584",
@@ -56,8 +56,8 @@
         5,
         2
       ],
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49608278&CodGrupo=49789584&CodTemporada=22&CodJornada=4&Sch_Codigo_Delegacion=&Sch_Tipo_Juego=",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2749759&cod_acta=2749759"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2749759&cod_acta=2749759",
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49608278&CodGrupo=49789584&CodTemporada=22&CodJornada=4&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
     },
     {
       "status": null,
