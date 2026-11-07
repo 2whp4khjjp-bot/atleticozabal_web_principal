@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-11-06T17:07:57.555Z",
+  "updatedAt": "2026-11-07T15:56:23.085Z",
   "standing": {
     "position": 1,
-    "points": 21,
-    "played": 3,
-    "goalsFor": 27,
+    "points": 24,
+    "played": 4,
+    "goalsFor": 28,
     "goalsAgainst": 9,
-    "round": 7
+    "round": 8
   },
   "matches": [
     {
@@ -19,10 +19,11 @@
       "away": "A.D. LOS CORTIJILLOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
-        5,
+        2,
         0
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904"
     },
     {
       "round": 2,
@@ -35,8 +36,8 @@
         2,
         4
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=3&cod_agrupacion=1"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=3&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
     },
     {
       "round": 3,
@@ -49,8 +50,8 @@
         4,
         1
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650921&cod_acta=2650921",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=6&cod_agrupacion=1"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=3&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650921&cod_acta=2650921"
     },
     {
       "round": 4,
@@ -63,7 +64,7 @@
         2,
         3
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=7&cod_agrupacion=1",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=4&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930"
     },
     {
@@ -77,8 +78,8 @@
         5,
         1
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=5&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650938&cod_acta=2650938"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650938&cod_acta=2650938",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=5&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
     },
     {
       "round": 6,
@@ -91,8 +92,8 @@
         3,
         4
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=2&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=2&cod_agrupacion=1"
     },
     {
       "round": 7,
@@ -105,7 +106,6 @@
         0,
         2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=6&cod_agrupacion=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650955&cod_acta=2650955"
     },
     {
@@ -115,7 +115,11 @@
       "home": "ATLETICO ZABAL",
       "away": "C.D. CADISTA DE LA ISLA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": [
+        1,
+        0
+      ],
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=5&cod_agrupacion=1"
     },
     {
       "round": 9,
