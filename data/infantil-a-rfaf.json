@@ -1,12 +1,12 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-11-07T15:32:08.163Z",
+  "updatedAt": "2026-11-08T15:51:44.039Z",
   "standing": {
-    "position": 12,
-    "points": 7,
-    "played": 3,
-    "goalsFor": 10,
+    "position": 10,
+    "points": 10,
+    "played": 4,
+    "goalsFor": 11,
     "goalsAgainst": 13,
     "round": 8
   },
@@ -113,7 +113,8 @@
       "home": "ATLETICO ZABAL",
       "away": "C.D. CADISTA DE LA ISLA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2672063&cod_acta=2672063"
     },
     {
       "round": 9,
