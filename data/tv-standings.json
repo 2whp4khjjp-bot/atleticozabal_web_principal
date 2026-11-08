@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:25:03.588Z",
+  "updatedAt": "2026-11-08T15:47:50.716Z",
   "competitions": {
     "senior": [
       {
@@ -23,15 +23,15 @@
         "position": 5
       },
       {
-        "team": "PEÑA RECREATIVA LOLUBA C.F.",
+        "team": "C.D. BALON LINENSE C.F.",
         "position": 6
       },
       {
-        "team": "C.D. BALON LINENSE C.F.",
+        "team": "PEÑA RECREATIVA LOLUBA C.F.",
         "position": 7
       },
       {
-        "team": "TARIFA U.D.",
+        "team": "C.D. SAN ROQUE",
         "position": 8
       },
       {
@@ -39,23 +39,23 @@
         "position": 9
       },
       {
-        "team": "C.D. SAN ROQUE",
+        "team": "TARIFA U.D.",
         "position": 10
       },
       {
-        "team": "C.D. TARIFA FUTBOL ACADEMY",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 11
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "C.D. TARIFA FUTBOL ACADEMY",
         "position": 12
       },
       {
-        "team": "FACINAS C.F.",
+        "team": "CLUB DEPORTIVO LEGADO ATLÉTICO",
         "position": 13
       },
       {
-        "team": "CLUB DEPORTIVO LEGADO ATLÉTICO",
+        "team": "FACINAS C.F.",
         "position": 14
       },
       {
@@ -197,11 +197,11 @@
         "position": 1
       },
       {
-        "team": "C.D. ESTRELLA PORTUENSE F.C.",
+        "team": "ALGECIRAS C.F., S.A.D.",
         "position": 2
       },
       {
-        "team": "ALGECIRAS C.F., S.A.D.",
+        "team": "C.D. ESTRELLA PORTUENSE F.C.",
         "position": 3
       },
       {
@@ -217,11 +217,11 @@
         "position": 6
       },
       {
-        "team": "C.D. CADISTA DE LA ISLA",
+        "team": "CHICLANA C.F.",
         "position": 7
       },
       {
-        "team": "CHICLANA C.F.",
+        "team": "C.D. CADISTA DE LA ISLA",
         "position": 8
       },
       {
@@ -321,23 +321,23 @@
         "position": 3
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "ATLETICO ZABAL",
         "position": 4
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "U.D. LOS BARRIOS",
         "position": 5
       },
       {
-        "team": "A.D. LOS BURREÑOS",
+        "team": "ARCOS C.F.",
         "position": 6
       },
       {
-        "team": "C.D. GUADALCACIN",
+        "team": "A.D. LOS BURREÑOS",
         "position": 7
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C.D. GUADALCACIN",
         "position": 8
       },
       {
@@ -379,11 +379,11 @@
         "position": 4
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "BAHIA SAN FERNANDO C.D.",
         "position": 5
       },
       {
-        "team": "BAHIA SAN FERNANDO C.D.",
+        "team": "U.D. LOS BARRIOS",
         "position": 6
       },
       {
@@ -399,15 +399,15 @@
         "position": 9
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "ATLETICO ZABAL",
         "position": 10
       },
       {
-        "team": "CONIL C.F.",
+        "team": "ARCOS C.F.",
         "position": 11
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "CONIL C.F.",
         "position": 12
       },
       {
@@ -437,15 +437,15 @@
         "position": 2
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "LOS CORTIJILLOS A.D.",
         "position": 3
       },
       {
-        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 4
       },
       {
-        "team": "LOS CORTIJILLOS A.D.",
+        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
         "position": 5
       },
       {
@@ -475,11 +475,11 @@
     ],
     "alevin-a": [
       {
-        "team": "C.D. LA SALLE",
+        "team": "CADIZ C.F., S.A.D.",
         "position": 1
       },
       {
-        "team": "CADIZ C.F., S.A.D.",
+        "team": "C.D. LA SALLE",
         "position": 2
       },
       {
@@ -515,11 +515,11 @@
         "position": 10
       },
       {
-        "team": "A.D. LOS BURREÑOS",
+        "team": "SPORTING CHICLANA C.D.",
         "position": 11
       },
       {
-        "team": "SPORTING CHICLANA C.D.",
+        "team": "A.D. LOS BURREÑOS",
         "position": 12
       },
       {
@@ -527,11 +527,11 @@
         "position": 13
       },
       {
-        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 14
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
         "position": 15
       },
       {
@@ -693,15 +693,15 @@
         "position": 7
       },
       {
-        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
+        "team": "C.D. LA SALLE",
         "position": 8
       },
       {
-        "team": "C.D. LA SALLE",
+        "team": "ATLETICO ZABAL",
         "position": 9
       },
       {
-        "team": "ATLETICO ZABAL",
+        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
         "position": 10
       },
       {
