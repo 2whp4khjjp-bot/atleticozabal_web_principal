@@ -1,9 +1,9 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-11-07T15:40:58.936Z",
+  "updatedAt": "2026-11-08T15:59:45.735Z",
   "standing": {
-    "position": 10,
+    "position": 9,
     "points": 13,
     "played": 9,
     "goalsFor": 24,
@@ -36,8 +36,8 @@
         1,
         2
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723",
-      "scoreSource": "rfaf-round-results"
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723"
     },
     {
       "round": 3,
@@ -131,11 +131,11 @@
       "away": "ATLETICO ZABAL",
       "ground": "San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)",
       "score": [
-        0,
+        5,
         0
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663780&cod_acta=2663780",
-      "scoreSource": "acta: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663780&cod_acta=2663780"
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663780&cod_acta=2663780"
     },
     {
       "round": 10,
