@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=5",
-  "updatedAt": "2026-11-08T16:00:22.034Z",
+  "updatedAt": "2026-11-09T17:47:10.749Z",
   "standing": {
     "position": 2,
     "points": 10,
@@ -159,7 +159,7 @@
     {
       "round": 6,
       "date": "2026-11-14",
-      "time": null,
+      "time": "11:30",
       "home": "C.D. GUADIARO",
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "San Roque - LA UNION (F11, F7) (A)",

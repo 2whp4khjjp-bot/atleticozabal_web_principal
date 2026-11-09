@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-08T23:44:49.835Z",
+  "updatedAt": "2026-11-09T17:48:03.915Z",
   "officialTeam": "ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -55,7 +55,7 @@
       "statusSource": null,
       "round": 4,
       "date": "2026-11-14",
-      "time": null,
+      "time": "12:00",
       "home": "C.D. SAN BERNARDO",
       "away": "ATLETICO ZABAL",
       "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",

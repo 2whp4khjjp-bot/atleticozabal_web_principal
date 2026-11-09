@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=6",
-  "updatedAt": "2026-11-08T16:18:06.228Z",
+  "updatedAt": "2026-11-09T17:47:41.426Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -172,7 +172,7 @@
     {
       "round": 7,
       "date": "2026-11-14",
-      "time": null,
+      "time": "10:30",
       "home": "U.D. TESORILLO C.D.",
       "away": "ATLETICO ZABAL",
       "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
