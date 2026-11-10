@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=5",
-  "updatedAt": "2026-11-09T20:03:13.304Z",
+  "updatedAt": "2026-11-10T02:24:02.207Z",
   "standing": {
     "position": 4,
     "points": 2,
@@ -176,7 +176,7 @@
     {
       "round": 6,
       "date": "2026-11-14",
-      "time": null,
+      "time": "16:00",
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
       "away": "ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - Francisco Pozo (A)",
