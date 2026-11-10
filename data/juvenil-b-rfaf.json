@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-11-09T20:07:40.794Z",
+  "updatedAt": "2026-11-10T15:46:46.872Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -107,7 +107,7 @@
     {
       "round": 8,
       "date": "2026-11-15",
-      "time": null,
+      "time": "17:00",
       "home": "ATLETICO ZABAL",
       "away": "C.D. ATLETICO ALGECIREÑO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",

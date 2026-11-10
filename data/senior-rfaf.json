@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558",
-  "updatedAt": "2026-11-09T20:13:11.247Z",
+  "updatedAt": "2026-11-10T15:47:13.431Z",
   "standing": {
     "position": 4,
     "points": 13,
@@ -92,7 +92,7 @@
     {
       "round": 8,
       "date": "2026-11-15",
-      "time": null,
+      "time": "16:00",
       "home": "ATLETICO ZABAL",
       "away": "C.D. JUVENTUD PALMONES C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
