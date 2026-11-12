@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=6",
-  "updatedAt": "2026-11-11T17:26:08.935Z",
+  "updatedAt": "2026-11-12T17:44:18.653Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -105,7 +105,7 @@
       "round": 1,
       "date": "2026-10-04",
       "time": "12:30",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. SAN ROQUE \"A\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -119,7 +119,7 @@
       "round": 3,
       "date": "2026-10-18",
       "time": "12:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -133,7 +133,7 @@
       "date": "2026-10-23",
       "time": "18:00",
       "home": "C.D. ATHLETIC CLUB JIMENA",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)",
       "score": [
         0,
@@ -146,7 +146,7 @@
       "date": "2026-10-31",
       "time": "11:30",
       "home": "LOS CORTIJILLOS A.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
       "score": [
         3,
@@ -159,7 +159,7 @@
       "round": 6,
       "date": "2026-11-06",
       "time": "18:30",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. TARAGUILLA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -174,7 +174,7 @@
       "date": "2026-11-14",
       "time": "10:30",
       "home": "U.D. TESORILLO C.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
       "score": null
     },
@@ -182,7 +182,7 @@
       "round": 8,
       "date": "2026-11-21",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -192,7 +192,7 @@
       "date": "2026-11-28",
       "time": null,
       "home": "C.D. GUADIARO",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - LA UNION (F11, F7) (A)",
       "score": null
     },
@@ -200,7 +200,7 @@
       "round": 10,
       "date": "2026-12-12",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -209,8 +209,8 @@
       "round": 11,
       "date": "2026-12-19",
       "time": null,
-      "home": "PUENTE MAYORGA RVO",
-      "away": "ATLETICO ZABAL",
+      "home": "C. D. RVO. PUENTE MAYORGA C.F.",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
       "score": null
     },
@@ -219,7 +219,7 @@
       "date": "2027-01-16",
       "time": null,
       "home": "C.D. SAN ROQUE \"A\"",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
       "score": null
     },
@@ -228,7 +228,7 @@
       "date": "2027-01-30",
       "time": null,
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": null
     },
@@ -236,7 +236,7 @@
       "round": 15,
       "date": "2027-02-06",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. ATHLETIC CLUB JIMENA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -245,7 +245,7 @@
       "round": 16,
       "date": "2027-02-13",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "LOS CORTIJILLOS A.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -255,7 +255,7 @@
       "date": "2027-02-20",
       "time": null,
       "home": "A.D. TARAGUILLA",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7) (A)",
       "score": null
     },
@@ -263,7 +263,7 @@
       "round": 18,
       "date": "2027-03-06",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "U.D. TESORILLO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -273,7 +273,7 @@
       "date": "2027-03-13",
       "time": null,
       "home": "BALON LINENSE C.F. C.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": null
     },
@@ -281,7 +281,7 @@
       "round": 20,
       "date": "2027-04-03",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. GUADIARO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -291,7 +291,7 @@
       "date": "2027-04-10",
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - Francisco Pozo (A)",
       "score": null
     },
@@ -299,8 +299,8 @@
       "round": 22,
       "date": "2027-04-24",
       "time": null,
-      "home": "ATLETICO ZABAL",
-      "away": "PUENTE MAYORGA RVO",
+      "home": "C. D. ATLETICO ZABAL",
+      "away": "C. D. RVO. PUENTE MAYORGA C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
     }
