@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558",
-  "updatedAt": "2026-11-11T17:29:29.448Z",
+  "updatedAt": "2026-11-12T17:45:58.414Z",
   "standing": {
     "position": 4,
     "points": 13,
@@ -16,7 +16,7 @@
       "date": "2026-09-20",
       "time": "11:30",
       "home": "C.D. LA ROCK PUENTE F.C.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)",
       "score": [
         1,
@@ -28,7 +28,7 @@
       "round": 2,
       "date": "2026-09-26",
       "time": "18:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. SAN ROQUE",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -42,7 +42,7 @@
       "date": "2026-10-04",
       "time": "17:45",
       "home": "FACINAS C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Facinas - JOAQUIN MAQUEDA CAMPO MPAL (A)",
       "score": [
         2,
@@ -54,7 +54,7 @@
       "round": 4,
       "date": "2026-10-10",
       "time": "16:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "MONITORES FUTBOL DE ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -68,7 +68,7 @@
       "date": "2026-10-18",
       "time": "10:00",
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - Francisco Pozo (A)",
       "score": [
         0,
@@ -80,7 +80,7 @@
       "round": 6,
       "date": "2026-10-24",
       "time": "17:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. TARIFA FUTBOL ACADEMY",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -93,7 +93,7 @@
       "round": 8,
       "date": "2026-11-14",
       "time": "16:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. JUVENTUD PALMONES C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -103,7 +103,7 @@
       "date": "2026-11-22",
       "time": null,
       "home": "C.D. SAN BERNARDO",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
       "score": null
     },
@@ -111,7 +111,7 @@
       "round": 10,
       "date": "2026-11-29",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "CLUB DEPORTIVO LEGADO ATLÉTICO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -120,7 +120,7 @@
       "round": 11,
       "date": "2026-12-06",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "U.D. LOS BARRIOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -130,7 +130,7 @@
       "date": "2026-12-13",
       "time": null,
       "home": "PEÑA RECREATIVA LOLUBA C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)",
       "score": null
     },
@@ -138,7 +138,7 @@
       "round": 13,
       "date": "2026-12-20",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. BALON LINENSE C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -148,7 +148,7 @@
       "date": "2027-01-10",
       "time": null,
       "home": "C.D. A.D. SAN GARCIA",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - SAN GARCIA (A)",
       "score": null
     },
@@ -156,7 +156,7 @@
       "round": 15,
       "date": "2027-01-17",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "TARIFA U.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -165,7 +165,7 @@
       "round": 16,
       "date": "2027-01-31",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. LA ROCK PUENTE F.C.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -175,7 +175,7 @@
       "date": "2027-02-07",
       "time": null,
       "home": "C.D. SAN ROQUE",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - MANOLO MESA CAMPO MUNICIPAL (F11, F7) (A)",
       "score": null
     },
@@ -183,7 +183,7 @@
       "round": 18,
       "date": "2027-02-14",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "FACINAS C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -193,7 +193,7 @@
       "date": "2027-02-21",
       "time": null,
       "home": "MONITORES FUTBOL DE ALGECIRAS",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7,1) (A)",
       "score": null
     },
@@ -201,7 +201,7 @@
       "round": 20,
       "date": "2027-02-28",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -211,7 +211,7 @@
       "date": "2027-03-07",
       "time": null,
       "home": "C.D. TARIFA FUTBOL ACADEMY",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Tarifa - ANTONIO LOPEZ PUA ESTADIO MUNICIPAL (NAT) (N)",
       "score": null
     },
@@ -220,7 +220,7 @@
       "date": "2027-03-21",
       "time": null,
       "home": "C.D. JUVENTUD PALMONES C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)",
       "score": null
     },
@@ -228,7 +228,7 @@
       "round": 24,
       "date": "2027-04-04",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. SAN BERNARDO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -238,7 +238,7 @@
       "date": "2027-04-11",
       "time": null,
       "home": "CLUB DEPORTIVO LEGADO ATLÉTICO",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Pendiente de asignar",
       "score": null
     },
@@ -247,7 +247,7 @@
       "date": "2027-04-18",
       "time": null,
       "home": "U.D. LOS BARRIOS",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
       "score": null
     },
@@ -255,7 +255,7 @@
       "round": 27,
       "date": "2027-04-25",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "PEÑA RECREATIVA LOLUBA C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -265,7 +265,7 @@
       "date": "2027-05-09",
       "time": null,
       "home": "C.D. BALON LINENSE C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
       "score": null
     },
@@ -273,7 +273,7 @@
       "round": 29,
       "date": "2027-05-16",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. A.D. SAN GARCIA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -283,7 +283,7 @@
       "date": "2027-05-30",
       "time": null,
       "home": "TARIFA U.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Tarifa - ANTONIO LOPEZ PUA ESTADIO MUNICIPAL (NAT) (N)",
       "score": null
     }
