@@ -7,88 +7,94 @@ X-WR-CALNAME:Atlético Zabal · Benjamín · Sebas
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-1@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;TZID=Europe/Madrid:20261003T113000
 DTEND;TZID=Europe/Madrid:20261003T123000
-SUMMARY:FINAL · C.D. SALESIANOS ALGECIRAS – ATLETICO ZABAL "B" 7–3
+SUMMARY:FINAL · C.D. SALESIANOS ALGECIRAS – C. D. ATLETICO ZABAL "B" 7
+ –3
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 1\nHora: 11:30\nCampo: Algeciras - LA MENACHA PACO LEÓN (F11-F7\,3) (
- A)\nResultado: C.D. SALESIANOS ALGECIRAS 7–3 ATLETICO ZABAL "B"\n\nGOLEA
- DORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nA
- cta oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=100
- 0120&CodActa=2701299&cod_acta=2701299\n\nCreado por Raúl Cote
+ A)\nResultado: C.D. SALESIANOS ALGECIRAS 7–3 C. D. ATLETICO ZABAL "B"\n\
+ nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el act
+ a\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primar
+ ia=1000120&CodActa=2701299&cod_acta=2701299\n\nCreado por Raúl Cote
 LOCATION:Algeciras - LA MENACHA PACO LEÓN (F11-F7\,3) (A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-2@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;TZID=Europe/Madrid:20261010T120000
 DTEND;TZID=Europe/Madrid:20261010T130000
-SUMMARY:FINAL · ATLETICO ZABAL "B" – C.D. TARIFA FUTBOL ACADEMY 5–7
+SUMMARY:FINAL · C. D. ATLETICO ZABAL "B" – C.D. TARIFA FUTBOL ACADEMY 5
+ –7
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 2\nHora: 12:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
- (LA LINEA) (F7) (A)\nResultado: ATLETICO ZABAL "B" 5–7 C.D. TARIFA FUTB
- OL ACADEMY\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponi
- ble en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpParti
- do?cod_primaria=1000120&CodActa=2701305&cod_acta=2701305\n\nCreado por Ra
- úl Cote
+ (LA LINEA) (F7) (A)\nResultado: C. D. ATLETICO ZABAL "B" 5–7 C.D. TARIF
+ A FUTBOL ACADEMY\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo d
+ isponible en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_Cm
+ pPartido?cod_primaria=1000120&CodActa=2701305&cod_acta=2701305\n\nCreado p
+ or Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
  A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-3@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;TZID=Europe/Madrid:20261016T183000
 DTEND;TZID=Europe/Madrid:20261016T193000
-SUMMARY:FINAL · MONITORES FUTBOL DE ALGECIRAS – ATLETICO ZABAL "B" 3–2
+SUMMARY:FINAL · MONITORES FUTBOL DE ALGECIRAS – C. D. ATLETICO ZABAL "B"
+  3–2
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 3\nHora: 18:30\nCampo: Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1)
-  (A)\nResultado: MONITORES FUTBOL DE ALGECIRAS 3–2 ATLETICO ZABAL "B"\n
- \nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el ac
- ta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_prima
- ria=1000120&CodActa=2701310&cod_acta=2701310\n\nCreado por Raúl Cote
+  (A)\nResultado: MONITORES FUTBOL DE ALGECIRAS 3–2 C. D. ATLETICO ZABAL
+  "B"\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en
+  el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod
+ _primaria=1000120&CodActa=2701310&cod_acta=2701310\n\nCreado por Raúl Cot
+ e
 LOCATION:Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7\,1) (A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-4@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;TZID=Europe/Madrid:20261023T190000
 DTEND;TZID=Europe/Madrid:20261023T200000
-SUMMARY:FINAL · ATLETICO ZABAL "B" – C.D. S.M. MIRADOR 1–4
+SUMMARY:FINAL · C. D. ATLETICO ZABAL "B" – C.D. S.M. MIRADOR 1–4
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 4\nHora: 19:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
- (LA LINEA) (F7) (A)\nResultado: ATLETICO ZABAL "B" 1–4 C.D. S.M. MIRADO
- R\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el
-  acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_pr
- imaria=1000120&CodActa=2701316&cod_acta=2701316\n\nCreado por Raúl Cote
+ (LA LINEA) (F7) (A)\nResultado: C. D. ATLETICO ZABAL "B" 1–4 C.D. S.M. 
+ MIRADOR\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible
+  en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?
+ cod_primaria=1000120&CodActa=2701316&cod_acta=2701316\n\nCreado por Raúl 
+ Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (
  A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-5@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;TZID=Europe/Madrid:20261106T193000
 DTEND;TZID=Europe/Madrid:20261106T203000
-SUMMARY:FINAL · C.D. JUAN SEBASTIAN ELCANO – ATLETICO ZABAL "B" 4–1
+SUMMARY:FINAL · C.D. JUAN SEBASTIAN ELCANO – C. D. ATLETICO ZABAL "B" 4
+ –1
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 5\nHora: 19:30\nCampo: Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7
- ) (A)\nResultado: C.D. JUAN SEBASTIAN ELCANO 4–1 ATLETICO ZABAL "B"\n\n
- GOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta
- \n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primari
- a=1000120&CodActa=2701321&cod_acta=2701321\n\nCreado por Raúl Cote
+ ) (A)\nResultado: C.D. JUAN SEBASTIAN ELCANO 4–1 C. D. ATLETICO ZABAL "
+ B"\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en e
+ l acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_p
+ rimaria=1000120&CodActa=2701321&cod_acta=2701321\n\nCreado por Raúl Cote
 LOCATION:Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-6@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;TZID=Europe/Madrid:20261113T181500
 DTEND;TZID=Europe/Madrid:20261113T191500
-SUMMARY:J6 · ATLETICO ZABAL "B" – U.D. LOS BARRIOS
+SUMMARY:J6 · C. D. ATLETICO ZABAL "B" – U.D. LOS BARRIOS
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 6\nHora: 18:15\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN 
  (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -98,10 +104,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-7@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:J7 · CLUB RVO. BAHIA DE ALGECIRAS – ATLETICO ZABAL "B"
+SUMMARY:J7 · CLUB RVO. BAHIA DE ALGECIRAS – C. D. ATLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 7\nHora pendiente\nCampo: Algeciras - IGNACIO VILLAVERDE (A)\n\nCreado
   por Raúl Cote
@@ -110,11 +116,11 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-8@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:J8 · ATLETICO ZABAL "B" – HISTORICO RECREATIVO LINENSE CLUB DE F
- ÚTBOL "B"
+SUMMARY:J8 · C. D. ATLETICO ZABAL "B" – HISTORICO RECREATIVO LINENSE CLU
+ B DE FÚTBOL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 8\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARM
  EN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -124,10 +130,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-9@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:J9 · ANDALUCIA C.M. C.D. – ATLETICO ZABAL "B"
+SUMMARY:J9 · ANDALUCIA C.M. C.D. – C. D. ATLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 9\nHora pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nCreado por
   Raúl Cote
@@ -136,10 +142,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-10@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:J10 · ATLETICO ZABAL "B" – C.D. A.D. SAN GARCIA
+SUMMARY:J10 · C. D. ATLETICO ZABAL "B" – C.D. A.D. SAN GARCIA
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 10\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -149,10 +155,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-12@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:J12 · ATLETICO ZABAL "B" – C.D. SALESIANOS ALGECIRAS
+SUMMARY:J12 · C. D. ATLETICO ZABAL "B" – C.D. SALESIANOS ALGECIRAS
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 12\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -162,10 +168,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-13@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:J13 · C.D. TARIFA FUTBOL ACADEMY – ATLETICO ZABAL "B"
+SUMMARY:J13 · C.D. TARIFA FUTBOL ACADEMY – C. D. ATLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 13\nHora pendiente\nCampo: Tarifa - PARQUE FERIA  (A)\n\nCreado por Ra
  úl Cote
@@ -174,10 +180,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-14@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:J14 · ATLETICO ZABAL "B" – MONITORES FUTBOL DE ALGECIRAS
+SUMMARY:J14 · C. D. ATLETICO ZABAL "B" – MONITORES FUTBOL DE ALGECIRAS
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 14\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -187,10 +193,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-15@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
-SUMMARY:J15 · C.D. S.M. MIRADOR – ATLETICO ZABAL "B"
+SUMMARY:J15 · C.D. S.M. MIRADOR – C. D. ATLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 15\nHora pendiente\nCampo: Algeciras - Sergio Martín (A)\n\nCreado po
  r Raúl Cote
@@ -199,10 +205,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-16@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-SUMMARY:J16 · ATLETICO ZABAL "B" – C.D. JUAN SEBASTIAN ELCANO
+SUMMARY:J16 · C. D. ATLETICO ZABAL "B" – C.D. JUAN SEBASTIAN ELCANO
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 16\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -212,10 +218,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-17@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-SUMMARY:J17 · U.D. LOS BARRIOS – ATLETICO ZABAL "B"
+SUMMARY:J17 · U.D. LOS BARRIOS – C. D. ATLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 17\nHora pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT
  ) (N)\n\nCreado por Raúl Cote
@@ -224,10 +230,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-18@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-SUMMARY:J18 · ATLETICO ZABAL "B" – CLUB RVO. BAHIA DE ALGECIRAS
+SUMMARY:J18 · C. D. ATLETICO ZABAL "B" – CLUB RVO. BAHIA DE ALGECIRAS
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 18\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -237,11 +243,11 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-19@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-SUMMARY:J19 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" – ATLETIC
- O ZABAL "B"
+SUMMARY:J19 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "B" – C. D. A
+ TLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 19\nHora pendiente\nCampo: La Línea de La Concepción - Miguel Ángel 
  Izaguirre\n\nCreado por Raúl Cote
@@ -250,10 +256,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-20@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
-SUMMARY:J20 · ATLETICO ZABAL "B" – ANDALUCIA C.M. C.D.
+SUMMARY:J20 · C. D. ATLETICO ZABAL "B" – ANDALUCIA C.M. C.D.
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 20\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CAR
  MEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
@@ -263,10 +269,10 @@ URL:https://www.atleticozabal.com/calendario-benjamin-sebas.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-benjamin-sebas-21@atleticozabal.com
-DTSTAMP:20261112T005349Z
+DTSTAMP:20261112T174029Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
-SUMMARY:J21 · C.D. A.D. SAN GARCIA – ATLETICO ZABAL "B"
+SUMMARY:J21 · C.D. A.D. SAN GARCIA – C. D. ATLETICO ZABAL "B"
 DESCRIPTION:Benjamín · Sebas · Tercera Andaluza Cádiz · Grupo 5\nJorna
  da 21\nHora pendiente\nCampo: Algeciras - SAN GARCIA (A)\n\nCreado por Ra
  úl Cote
