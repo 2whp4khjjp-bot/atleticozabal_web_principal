@@ -7,102 +7,102 @@ X-WR-CALNAME:Atlético Zabal · Cadete B
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-cadete-b-1@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261003T190000
 DTEND;TZID=Europe/Madrid:20261003T200000
-SUMMARY:FINAL · C.D. ATHLETIC CLUB JIMENA – ATLETICO ZABAL 1–16
+SUMMARY:FINAL · C.D. ATHLETIC CLUB JIMENA – C. D. ATLETICO ZABAL 1–16
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 1\nHora
  : 19:00\nCampo: Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)\nResu
- ltado: C.D. ATHLETIC CLUB JIMENA 1–16 ATLETICO ZABAL\n\nGOLEADORES\nNo d
- isponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa oficial
- : https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodAct
- a=2694105&cod_acta=2694105\n\nCreado por Raúl Cote
+ ltado: C.D. ATHLETIC CLUB JIMENA 1–16 C. D. ATLETICO ZABAL\n\nGOLEADORES
+ \nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa o
+ ficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&
+ CodActa=2694105&cod_acta=2694105\n\nCreado por Raúl Cote
 LOCATION:Jimena De La Frontera - ANDRES SARRIAS (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-2@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261010T100000
 DTEND;TZID=Europe/Madrid:20261010T110000
-SUMMARY:FINAL · ATLETICO ZABAL – U.D. CASTELLAR C.F. 7–0
+SUMMARY:FINAL · C. D. ATLETICO ZABAL – U.D. CASTELLAR C.F. 7–0
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 2\nHora
  : 10:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)
-   (A)\nResultado: ATLETICO ZABAL 7–0 U.D. CASTELLAR C.F.\n\nGOLEADORES\
- nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa of
- icial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&C
- odActa=2694111&cod_acta=2694111\n\nCreado por Raúl Cote
+   (A)\nResultado: C. D. ATLETICO ZABAL 7–0 U.D. CASTELLAR C.F.\n\nGOLEA
+ DORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nA
+ cta oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=100
+ 0120&CodActa=2694111&cod_acta=2694111\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-3@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261017T120000
 DTEND;TZID=Europe/Madrid:20261017T130000
-SUMMARY:FINAL · C.D. BALON LINENSE C.F. "A" – ATLETICO ZABAL 1–3
+SUMMARY:FINAL · C.D. BALON LINENSE C.F. "A" – C. D. ATLETICO ZABAL 1–3
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 3\nHora
  : 12:00\nCampo: La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A
- )\nResultado: C.D. BALON LINENSE C.F. "A" 1–3 ATLETICO ZABAL\n\nGOLEADOR
- ES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa
-  oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=100012
- 0&CodActa=2694116&cod_acta=2694116\n\nCreado por Raúl Cote
+ )\nResultado: C.D. BALON LINENSE C.F. "A" 1–3 C. D. ATLETICO ZABAL\n\nGO
+ LEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n
+ \nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=
+ 1000120&CodActa=2694116&cod_acta=2694116\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)
 URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-4@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261023T170000
 DTEND;TZID=Europe/Madrid:20261023T180000
-SUMMARY:FINAL · ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB DE F
- ÚTBOL 1–1
+SUMMARY:FINAL · C. D. ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB
+  DE FÚTBOL 1–1
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 4\nHora
  : 17:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)
-   (A)\nResultado: ATLETICO ZABAL 1–1 HISTORICO RECREATIVO LINENSE CLUB 
- DE FÚTBOL\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponi
- ble en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpParti
- do?cod_primaria=1000120&CodActa=2694122&cod_acta=2694122\n\nCreado por Ra
- úl Cote
+   (A)\nResultado: C. D. ATLETICO ZABAL 1–1 HISTORICO RECREATIVO LINENSE
+  CLUB DE FÚTBOL\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo d
+ isponible en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_Cm
+ pPartido?cod_primaria=1000120&CodActa=2694122&cod_acta=2694122\n\nCreado p
+ or Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-5@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261031T180000
 DTEND;TZID=Europe/Madrid:20261031T190000
-SUMMARY:FINAL · C.D. SAN ROQUE "A" – ATLETICO ZABAL 3–0
+SUMMARY:FINAL · C.D. SAN ROQUE "A" – C. D. ATLETICO ZABAL 3–0
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 5\nHora
  : 18:00\nCampo: San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)\
- nResultado: C.D. SAN ROQUE "A" 3–0 ATLETICO ZABAL\n\nGOLEADORES\nNo disp
- onible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa oficial: h
- ttps://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2
- 694127&cod_acta=2694127\n\nCreado por Raúl Cote
+ nResultado: C.D. SAN ROQUE "A" 3–0 C. D. ATLETICO ZABAL\n\nGOLEADORES\nN
+ o disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa ofic
+ ial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&Cod
+ Acta=2694127&cod_acta=2694127\n\nCreado por Raúl Cote
 LOCATION:San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11\, F7) (A)
 URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-6@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261106T200000
 DTEND;TZID=Europe/Madrid:20261106T210000
-SUMMARY:FINAL · ATLETICO ZABAL – U.D. TESORILLO C.D. 5–0
+SUMMARY:FINAL · C. D. ATLETICO ZABAL – U.D. TESORILLO C.D. 5–0
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 6\nHora
  : 20:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)
-   (A)\nResultado: ATLETICO ZABAL 5–0 U.D. TESORILLO C.D.\n\nGOLEADORES\
- nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa of
- icial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&C
- odActa=2694133&cod_acta=2694133\n\nCreado por Raúl Cote
+   (A)\nResultado: C. D. ATLETICO ZABAL 5–0 U.D. TESORILLO C.D.\n\nGOLEA
+ DORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nA
+ cta oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=100
+ 0120&CodActa=2694133&cod_acta=2694133\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-7@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;TZID=Europe/Madrid:20261114T200000
 DTEND;TZID=Europe/Madrid:20261114T210000
-SUMMARY:J7 · ATLETICO ZABAL – C.D. GUADIARO
+SUMMARY:J7 · C. D. ATLETICO ZABAL – C.D. GUADIARO
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 7\nHora
  : 20:00\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)
    (A)\n\nCreado por Raúl Cote
@@ -111,10 +111,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-8@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:J8 · U.D. LOS BARRIOS "B" – ATLETICO ZABAL
+SUMMARY:J8 · U.D. LOS BARRIOS "B" – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 8\nHora
   pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)\n\nC
  reado por Raúl Cote
@@ -123,10 +123,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-9@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:J9 · ATLETICO ZABAL – C.D. EPRO CAMPO DE GIBRALTAR
+SUMMARY:J9 · C. D. ATLETICO ZABAL – C.D. EPRO CAMPO DE GIBRALTAR
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 9\nHora
   pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LIN
  EA)  (A)\n\nCreado por Raúl Cote
@@ -135,10 +135,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-10@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:J10 · C.D. PUERTO DE LA LINEA – ATLETICO ZABAL
+SUMMARY:J10 · C.D. PUERTO DE LA LINEA – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 10\nHor
  a pendiente\nCampo: La Línea de La Concepción - ANTONIO REYES (CDAD DVA)
   (A)\n\nCreado por Raúl Cote
@@ -147,10 +147,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-11@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:J11 · ATLETICO ZABAL – A.D. TARAGUILLA
+SUMMARY:J11 · C. D. ATLETICO ZABAL – A.D. TARAGUILLA
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 11\nHor
  a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
  NEA)  (A)\n\nCreado por Raúl Cote
@@ -159,10 +159,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-12@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
-SUMMARY:J12 · ATLETICO ZABAL – C.D. ATHLETIC CLUB JIMENA
+SUMMARY:J12 · C. D. ATLETICO ZABAL – C.D. ATHLETIC CLUB JIMENA
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 12\nHor
  a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
  NEA)  (A)\n\nCreado por Raúl Cote
@@ -171,10 +171,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-13@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:J13 · U.D. CASTELLAR C.F. – ATLETICO ZABAL
+SUMMARY:J13 · U.D. CASTELLAR C.F. – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 13\nHor
  a pendiente\nCampo: Castellar De La Frontera - MANUEL LEON MUNICIPAL (F11-
  F7)  (A)\n\nCreado por Raúl Cote
@@ -183,10 +183,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-14@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:J14 · ATLETICO ZABAL – C.D. BALON LINENSE C.F. "A"
+SUMMARY:J14 · C. D. ATLETICO ZABAL – C.D. BALON LINENSE C.F. "A"
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 14\nHor
  a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
  NEA)  (A)\n\nCreado por Raúl Cote
@@ -195,11 +195,11 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-15@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:J15 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – ATLETICO ZA
- BAL
+SUMMARY:J15 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – C. D. ATLET
+ ICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 15\nHor
  a pendiente\nCampo: La Línea de La Concepción - ANTONIO REYES (CDAD DVA)
   (A)\n\nCreado por Raúl Cote
@@ -208,10 +208,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-16@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
-SUMMARY:J16 · ATLETICO ZABAL – C.D. SAN ROQUE "A"
+SUMMARY:J16 · C. D. ATLETICO ZABAL – C.D. SAN ROQUE "A"
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 16\nHor
  a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
  NEA)  (A)\n\nCreado por Raúl Cote
@@ -220,10 +220,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-17@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-SUMMARY:J17 · U.D. TESORILLO C.D. – ATLETICO ZABAL
+SUMMARY:J17 · U.D. TESORILLO C.D. – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 17\nHor
  a pendiente\nCampo: San Martin del Tesorillo - MUNICIPAL LA ERA (A)\n\nCr
  eado por Raúl Cote
@@ -232,10 +232,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-18@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-SUMMARY:J18 · C.D. GUADIARO – ATLETICO ZABAL
+SUMMARY:J18 · C.D. GUADIARO – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 18\nHor
  a pendiente\nCampo: San Roque - LA UNION (F11\, F7) (A)\n\nCreado por Ra
  úl Cote
@@ -244,10 +244,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-19@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-SUMMARY:J19 · ATLETICO ZABAL – U.D. LOS BARRIOS "B"
+SUMMARY:J19 · C. D. ATLETICO ZABAL – U.D. LOS BARRIOS "B"
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 19\nHor
  a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
  NEA)  (A)\n\nCreado por Raúl Cote
@@ -256,10 +256,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-20@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-SUMMARY:J20 · C.D. EPRO CAMPO DE GIBRALTAR – ATLETICO ZABAL
+SUMMARY:J20 · C.D. EPRO CAMPO DE GIBRALTAR – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 20\nHor
  a pendiente\nCampo: La Línea de La Concepción - PUYOL (A)\n\nCreado por
   Raúl Cote
@@ -268,10 +268,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-21@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
-SUMMARY:J21 · ATLETICO ZABAL – C.D. PUERTO DE LA LINEA
+SUMMARY:J21 · C. D. ATLETICO ZABAL – C.D. PUERTO DE LA LINEA
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 21\nHor
  a pendiente\nCampo: La Línea de La Concepción - VIRGEN DEL CARMEN (LA LI
  NEA)  (A)\n\nCreado por Raúl Cote
@@ -280,10 +280,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-b-22@atleticozabal.com
-DTSTAMP:20261111T172345Z
+DTSTAMP:20261112T174220Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
-SUMMARY:J22 · A.D. TARAGUILLA – ATLETICO ZABAL
+SUMMARY:J22 · A.D. TARAGUILLA – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete B · Tercera Andaluza Cádiz · Grupo 4\nJornada 22\nHor
  a pendiente\nCampo: San Roque - HERMANOS GARCIA MOTA CAMPO FÚTBOL (F11-F7
  ) (A)\n\nCreado por Raúl Cote
