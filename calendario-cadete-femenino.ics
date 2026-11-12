@@ -7,71 +7,74 @@ X-WR-CALNAME:Atlético Zabal · Cadete Femenino
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-1@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;TZID=Europe/Madrid:20261003T180000
 DTEND;TZID=Europe/Madrid:20261003T190000
-SUMMARY:FINAL · A.D. LOS BURREÑOS – ATLETICO ZABAL 1–4
+SUMMARY:FINAL · A.D. LOS BURREÑOS – C. D. ATLETICO ZABAL 1–4
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 1\nHora: 18:00\nCampo: Conil De La Frontera - BURREÑOS (F11-F7)
-  (A)\nResultado: A.D. LOS BURREÑOS 1–4 ATLETICO ZABAL\n\nGOLEADORES\nN
- o disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nActa ofic
- ial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&Cod
- Acta=2738235&cod_acta=2738235\n\nCreado por Raúl Cote
+  (A)\nResultado: A.D. LOS BURREÑOS 1–4 C. D. ATLETICO ZABAL\n\nGOLEADO
+ RES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el acta\n\nAct
+ a oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=10001
+ 20&CodActa=2738235&cod_acta=2738235\n\nCreado por Raúl Cote
 LOCATION:Conil De La Frontera - BURREÑOS (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-3@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;TZID=Europe/Madrid:20261018T133000
 DTEND;TZID=Europe/Madrid:20261018T143000
-SUMMARY:FINAL · ATLETICO ZABAL – C.D. GUADALCACIN 3–0
+SUMMARY:FINAL · C. D. ATLETICO ZABAL – C.D. GUADALCACIN 3–0
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 3\nHora: 13:30\nCampo: La Línea de La Concepción - VIRGEN DEL 
- CARMEN (LA LINEA)  (A)\nResultado: ATLETICO ZABAL 3–0 C.D. GUADALCACIN\
- n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el a
- cta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_prim
- aria=1000120&CodActa=2738249&cod_acta=2738249\n\nCreado por Raúl Cote
+ CARMEN (LA LINEA)  (A)\nResultado: C. D. ATLETICO ZABAL 3–0 C.D. GUADAL
+ CACIN\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible e
+ n el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?co
+ d_primaria=1000120&CodActa=2738249&cod_acta=2738249\n\nCreado por Raúl Co
+ te
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-4@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;TZID=Europe/Madrid:20261025T173000
 DTEND;TZID=Europe/Madrid:20261025T183000
-SUMMARY:FINAL · C.D. RAYO SANLUQUEÑO "B" – ATLETICO ZABAL 1–6
+SUMMARY:FINAL · C.D. RAYO SANLUQUEÑO "B" – C. D. ATLETICO ZABAL 1–6
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 4\nHora: 17:30\nCampo: Sanlúcar de Barrameda - QUINTA DE LA PAZ
-  (F11-F7) (A)\nResultado: C.D. RAYO SANLUQUEÑO "B" 1–6 ATLETICO ZABAL\
- n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en el a
- cta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_prim
- aria=1000120&CodActa=2738257&cod_acta=2738257\n\nCreado por Raúl Cote
+  (F11-F7) (A)\nResultado: C.D. RAYO SANLUQUEÑO "B" 1–6 C. D. ATLETICO 
+ ZABAL\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible e
+ n el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?co
+ d_primaria=1000120&CodActa=2738257&cod_acta=2738257\n\nCreado por Raúl Co
+ te
 LOCATION:Sanlúcar de Barrameda - QUINTA DE LA PAZ (F11-F7) (A)
 URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-5@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;TZID=Europe/Madrid:20261107T200000
 DTEND;TZID=Europe/Madrid:20261107T210000
-SUMMARY:FINAL · ATLETICO ZABAL – C.D. TRASMALLO F.C. 4–0
+SUMMARY:FINAL · C. D. ATLETICO ZABAL – C.D. TRASMALLO F.C. 4–0
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 5\nHora: 20:00\nCampo: La Línea de La Concepción - VIRGEN DEL 
- CARMEN (LA LINEA)  (A)\nResultado: ATLETICO ZABAL 4–0 C.D. TRASMALLO F.
- C.\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible en e
- l acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_p
- rimaria=1000120&CodActa=2738264&cod_acta=2738264\n\nCreado por Raúl Cote
+ CARMEN (LA LINEA)  (A)\nResultado: C. D. ATLETICO ZABAL 4–0 C.D. TRASMA
+ LLO F.C.\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponibl
+ e en el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido
+ ?cod_primaria=1000120&CodActa=2738264&cod_acta=2738264\n\nCreado por Raúl
+  Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-6@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;TZID=Europe/Madrid:20261114T160000
 DTEND;TZID=Europe/Madrid:20261114T170000
-SUMMARY:J6 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – ATLETICO ZAB
- AL
+SUMMARY:J6 · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – C. D. ATLETI
+ CO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 6\nHora: 16:00\nCampo: La Línea de La Concepción - Francisco P
  ozo (A)\n\nCreado por Raúl Cote
@@ -80,10 +83,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-7@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
-SUMMARY:J7 · ATLETICO ZABAL – U.D. LOS BARRIOS
+SUMMARY:J7 · C. D. ATLETICO ZABAL – U.D. LOS BARRIOS
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 7\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN D
  EL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -92,10 +95,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-8@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:J8 · ARCOS C.F. – ATLETICO ZABAL
+SUMMARY:J8 · ARCOS C.F. – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 8\nHora pendiente\nCampo: Arcos De La Frontera - ANTONIO CAMACHO
   (F11-F7) (A)\n\nCreado por Raúl Cote
@@ -104,10 +107,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-9@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:J9 · ATLETICO ZABAL – C.D. GRUPO EMPRESA BAZAN C.F.
+SUMMARY:J9 · C. D. ATLETICO ZABAL – C.D. GRUPO EMPRESA BAZAN C.F.
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 9\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN D
  EL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -116,10 +119,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-10@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:J10 · C.D. LA SALLE – ATLETICO ZABAL
+SUMMARY:J10 · C.D. LA SALLE – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 10\nHora pendiente\nCampo: Puerto Real - VIRGEN DEL CARMEN (T)\
  n\nCreado por Raúl Cote
@@ -128,10 +131,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-11@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
-SUMMARY:J11 · ATLETICO ZABAL – C.D. SPORTING PUERTORREALEÑA
+SUMMARY:J11 · C. D. ATLETICO ZABAL – C.D. SPORTING PUERTORREALEÑA
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 11\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -140,10 +143,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-12@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
-SUMMARY:J12 · C.D. VEJER BPIE – ATLETICO ZABAL
+SUMMARY:J12 · C.D. VEJER BPIE – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 12\nHora pendiente\nCampo: Vejer De La Frontera - Manuel Guerrer
  o Moriano El Mocito (N)\n\nCreado por Raúl Cote
@@ -152,10 +155,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-13@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:J13 · ATLETICO ZABAL – PUENTE MAYORGA RVO.
+SUMMARY:J13 · C. D. ATLETICO ZABAL – C. D. RVO. PUENTE MAYORGA C.F.
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 13\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -164,10 +167,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-14@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:J14 · ATLETICO ZABAL – A.D. LOS BURREÑOS
+SUMMARY:J14 · C. D. ATLETICO ZABAL – A.D. LOS BURREÑOS
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 14\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -176,10 +179,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-16@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-SUMMARY:J16 · C.D. GUADALCACIN – ATLETICO ZABAL
+SUMMARY:J16 · C.D. GUADALCACIN – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 16\nHora pendiente\nCampo: Jerez De La Frontera - GUADALCACIN ES
  TADIO MUNICIPAL (F11\, F7) (A)\n\nCreado por Raúl Cote
@@ -189,10 +192,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-17@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
-SUMMARY:J17 · ATLETICO ZABAL – C.D. RAYO SANLUQUEÑO "B"
+SUMMARY:J17 · C. D. ATLETICO ZABAL – C.D. RAYO SANLUQUEÑO "B"
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 17\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -201,10 +204,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-18@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
-SUMMARY:J18 · C.D. TRASMALLO F.C. – ATLETICO ZABAL
+SUMMARY:J18 · C.D. TRASMALLO F.C. – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 18\nHora pendiente\nCampo: Puerto De Santa María (El) - CIUDAD 
  DEPORTIVA RAFAEL SANCHEZ (F11-F7\,1) (A)\n\nCreado por Raúl Cote
@@ -214,11 +217,11 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-19@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
-SUMMARY:J19 · ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB DE FÚT
- BOL
+SUMMARY:J19 · C. D. ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB D
+ E FÚTBOL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 19\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -227,10 +230,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-20@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
-SUMMARY:J20 · U.D. LOS BARRIOS – ATLETICO ZABAL
+SUMMARY:J20 · U.D. LOS BARRIOS – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 20\nHora pendiente\nCampo: Barrios (Los) - SAN RAFAEL PVO (F11-F
  7) (NAT) (N)\n\nCreado por Raúl Cote
@@ -239,10 +242,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-21@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
-SUMMARY:J21 · ATLETICO ZABAL – ARCOS C.F.
+SUMMARY:J21 · C. D. ATLETICO ZABAL – ARCOS C.F.
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 21\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -251,10 +254,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-22@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
-SUMMARY:J22 · C.D. GRUPO EMPRESA BAZAN C.F. – ATLETICO ZABAL
+SUMMARY:J22 · C.D. GRUPO EMPRESA BAZAN C.F. – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 22\nHora pendiente\nCampo: San Fernando - BAZAN CAMPO MUNICIPAL 
  (F11-F7) (A)\n\nCreado por Raúl Cote
@@ -263,10 +266,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-23@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
-SUMMARY:J23 · ATLETICO ZABAL – C.D. LA SALLE
+SUMMARY:J23 · C. D. ATLETICO ZABAL – C.D. LA SALLE
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 23\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -275,10 +278,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-24@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
-SUMMARY:J24 · C.D. SPORTING PUERTORREALEÑA – ATLETICO ZABAL
+SUMMARY:J24 · C.D. SPORTING PUERTORREALEÑA – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 24\nHora pendiente\nCampo: Puerto Real - VIRGEN DEL CARMEN (T)\
  n\nCreado por Raúl Cote
@@ -287,10 +290,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-25@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
-SUMMARY:J25 · ATLETICO ZABAL – C.D. VEJER BPIE
+SUMMARY:J25 · C. D. ATLETICO ZABAL – C.D. VEJER BPIE
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 25\nHora pendiente\nCampo: La Línea de La Concepción - VIRGEN 
  DEL CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
@@ -299,10 +302,10 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-26@atleticozabal.com
-DTSTAMP:20261111T172532Z
+DTSTAMP:20261112T174401Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
-SUMMARY:J26 · PUENTE MAYORGA RVO. – ATLETICO ZABAL
+SUMMARY:J26 · C. D. RVO. PUENTE MAYORGA C.F. – C. D. ATLETICO ZABAL
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
  \nJornada 26\nHora pendiente\nCampo: San Roque - MANUEL MATEO (F11\, F7) 
  (A)\n\nCreado por Raúl Cote
