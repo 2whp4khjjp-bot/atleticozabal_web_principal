@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-11-11T17:30:52.597Z",
+  "updatedAt": "2026-11-12T17:46:06.641Z",
   "standing": {
     "position": 1,
     "points": 24,
@@ -15,26 +15,26 @@
       "round": 1,
       "date": "2026-09-19",
       "time": "18:30",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. LOS CORTIJILLOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
-        5,
+        2,
         0
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=2&cod_agrupacion=1"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904"
     },
     {
       "round": 2,
       "date": "2026-09-26",
       "time": "12:00",
       "home": "TRASMALLO F.C. C.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
       "score": [
-        2,
-        4
+        1,
+        2
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913",
       "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
@@ -43,7 +43,7 @@
       "round": 3,
       "date": "2026-10-03",
       "time": "13:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.F. SAN JOSE OBRERO",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
@@ -58,69 +58,69 @@
       "date": "2026-10-10",
       "time": "11:30",
       "home": "C.D. LA SALLE",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Puerto Real - VIRGEN DEL CARMEN (T)",
       "score": [
         2,
         3
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=8&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=8&cod_agrupacion=1"
     },
     {
       "round": 5,
       "date": "2026-10-17",
       "time": "11:30",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "CD ATLETICO PASTORES ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
-        2,
+        5,
         1
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650938&cod_acta=2650938",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650938&cod_acta=2650938"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=5&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650938&cod_acta=2650938"
     },
     {
       "round": 6,
       "date": "2026-10-24",
       "time": "17:30",
       "home": "ARCOS C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)",
       "score": [
         3,
         4
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1"
     },
     {
       "round": 7,
       "date": "2026-10-31",
       "time": "16:00",
       "home": "C.D. SAN FERNANDO 1940",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)",
       "score": [
         0,
         2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=2&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650955&cod_acta=2650955"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650955&cod_acta=2650955",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=2&cod_agrupacion=1"
     },
     {
       "round": 8,
       "date": "2026-11-07",
       "time": "16:00",
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. CADISTA DE LA ISLA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
         3,
         0
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=8&cod_agrupacion=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650963&cod_acta=2650963"
     },
     {
@@ -128,7 +128,7 @@
       "date": "2026-11-14",
       "time": "10:00",
       "home": "ALGECIRAS C.F., S.A.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - Juan Gadiaga Pastores (F11) (A)",
       "score": null
     },
@@ -136,7 +136,7 @@
       "round": 10,
       "date": "2026-11-21",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. MARIANISTAS C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -146,7 +146,7 @@
       "date": "2026-11-28",
       "time": null,
       "home": "ATCO. SANLUQUEÑO C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Sanlúcar de Barrameda - LAS PALMERAS (F11-F7) (A)",
       "score": null
     },
@@ -154,7 +154,7 @@
       "round": 12,
       "date": "2026-12-05",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "CHICLANA C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -164,7 +164,7 @@
       "date": "2026-12-12",
       "time": null,
       "home": "C.D. ESTRELLA PORTUENSE F.C.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - EL JUNCAL CAMPO MPAL (F11-F7) (A)",
       "score": null
     },
@@ -172,7 +172,7 @@
       "round": 14,
       "date": "2026-12-19",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "MONITORES FUTBOL DE ALGECIRAS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -182,7 +182,7 @@
       "date": "2027-01-09",
       "time": null,
       "home": "XEREZ DEPORTIVO F.C.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Jerez De La Frontera - LA GRANJA CENTRO DE DEPORTES (F11, 1) (A)",
       "score": null
     },
@@ -191,7 +191,7 @@
       "date": "2027-01-23",
       "time": null,
       "home": "A.D. LOS CORTIJILLOS",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Barrios (Los) - ANTONIO GAVIRA - LOS CORTIJILLOS (F11-F7) (A)",
       "score": null
     },
@@ -199,7 +199,7 @@
       "round": 17,
       "date": "2027-01-30",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "TRASMALLO F.C. C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -209,7 +209,7 @@
       "date": "2027-02-06",
       "time": null,
       "home": "C.F. SAN JOSE OBRERO",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Jerez De La Frontera - JUAN SIMON (F11, F7) (A)",
       "score": null
     },
@@ -217,7 +217,7 @@
       "round": 19,
       "date": "2027-02-13",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. LA SALLE",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -227,7 +227,7 @@
       "date": "2027-02-20",
       "time": null,
       "home": "CD ATLETICO PASTORES ALGECIRAS",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - LA MENACHA JULIO CABELLO (F-7) (A)",
       "score": null
     },
@@ -235,7 +235,7 @@
       "round": 21,
       "date": "2027-03-06",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "ARCOS C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -244,7 +244,7 @@
       "round": 22,
       "date": "2027-03-13",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. SAN FERNANDO 1940",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -254,7 +254,7 @@
       "date": "2027-03-20",
       "time": null,
       "home": "C.D. CADISTA DE LA ISLA",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "San Fernando - MANUEL GOMEZ CASTRO Nº 1 (F11-F7,1) (A)",
       "score": null
     },
@@ -262,7 +262,7 @@
       "round": 24,
       "date": "2027-04-03",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "ALGECIRAS C.F., S.A.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -272,7 +272,7 @@
       "date": "2027-04-10",
       "time": null,
       "home": "A.D. MARIANISTAS C.D.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Jerez De La Frontera - SANTA FE (A)",
       "score": null
     },
@@ -280,7 +280,7 @@
       "round": 26,
       "date": "2027-04-17",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "ATCO. SANLUQUEÑO C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -290,7 +290,7 @@
       "date": "2027-04-24",
       "time": null,
       "home": "CHICLANA C.F.",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Chiclana De La Frontera - HUERTA MATA (A)",
       "score": null
     },
@@ -298,7 +298,7 @@
       "round": 28,
       "date": "2027-05-01",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. ESTRELLA PORTUENSE F.C.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
@@ -308,7 +308,7 @@
       "date": "2027-05-08",
       "time": null,
       "home": "MONITORES FUTBOL DE ALGECIRAS",
-      "away": "ATLETICO ZABAL",
+      "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - LA MENACHA ANTONIO OCAÑA(F11-F7,1) (A)",
       "score": null
     },
@@ -316,7 +316,7 @@
       "round": 30,
       "date": "2027-05-22",
       "time": null,
-      "home": "ATLETICO ZABAL",
+      "home": "C. D. ATLETICO ZABAL",
       "away": "XEREZ DEPORTIVO F.C.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": null
