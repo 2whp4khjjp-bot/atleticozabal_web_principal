@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-12T03:03:10.522Z",
-  "officialTeam": "ATLETICO ZABAL \"C\"",
+  "updatedAt": "2026-11-12T17:50:34.722Z",
+  "officialTeam": "C. D. ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
   "standing": null,
@@ -12,7 +12,7 @@
       "round": 1,
       "date": "2026-10-16",
       "time": "17:30",
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "U.D. CASTELLAR",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
@@ -29,7 +29,7 @@
       "date": "2026-10-23",
       "time": "17:00",
       "home": "C.D. JUAN SEBASTIAN ELCANO",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7)",
       "score": [
         10,
@@ -44,9 +44,9 @@
       "round": 3,
       "date": "2026-10-30",
       "time": "18:15",
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         10
@@ -61,8 +61,8 @@
       "date": "2026-11-07",
       "time": "11:30",
       "home": "C.D. BALON LINENSE C.F. \"B\"",
-      "away": "ATLETICO ZABAL \"C\"",
-      "ground": null,
+      "away": "C. D. ATLETICO ZABAL \"C\"",
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA)",
       "score": [
         3,
         1
@@ -76,7 +76,7 @@
       "round": 5,
       "date": "2026-11-13",
       "time": "18:30",
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. ATHLETIC CLUB JIMENA",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
@@ -88,7 +88,7 @@
       "date": "2026-11-21",
       "time": null,
       "home": "U.D. TARIFA \"A\"",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": "Tarifa - PARQUE FERIA",
       "score": null
     },
@@ -98,7 +98,7 @@
       "round": 7,
       "date": "2026-11-28",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "LOS CORTIJILLOS A.D. \"A\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
@@ -110,7 +110,7 @@
       "date": "2026-12-12",
       "time": null,
       "home": "C.D. JUVENTUD PALMONES C.F.",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -120,7 +120,7 @@
       "round": 9,
       "date": "2026-12-19",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. RACING DEPORTIVO ALGECIRAS",
       "ground": null,
       "score": null
@@ -132,7 +132,7 @@
       "date": "2027-01-09",
       "time": null,
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -142,7 +142,7 @@
       "round": 12,
       "date": "2027-01-23",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. TARIFA FUTBOL ACADEMY",
       "ground": null,
       "score": null
@@ -154,7 +154,7 @@
       "date": "2027-01-30",
       "time": null,
       "home": "U.D. LOS BARRIOS \"A\"",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -165,7 +165,7 @@
       "date": "2027-02-13",
       "time": null,
       "home": "U.D. CASTELLAR",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -175,7 +175,7 @@
       "round": 15,
       "date": "2027-02-20",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. JUAN SEBASTIAN ELCANO",
       "ground": null,
       "score": null
@@ -187,7 +187,7 @@
       "date": "2027-03-06",
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -197,7 +197,7 @@
       "round": 17,
       "date": "2027-03-13",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. BALON LINENSE C.F. \"B\"",
       "ground": null,
       "score": null
@@ -209,7 +209,7 @@
       "date": "2027-04-03",
       "time": null,
       "home": "C.D. ATHLETIC CLUB JIMENA",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -219,7 +219,7 @@
       "round": 19,
       "date": "2027-04-10",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "U.D. TARIFA \"A\"",
       "ground": null,
       "score": null
@@ -231,7 +231,7 @@
       "date": "2027-04-17",
       "time": null,
       "home": "LOS CORTIJILLOS A.D. \"A\"",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -241,7 +241,7 @@
       "round": 21,
       "date": "2027-04-24",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. JUVENTUD PALMONES C.F.",
       "ground": null,
       "score": null
@@ -253,7 +253,7 @@
       "date": "2027-05-01",
       "time": null,
       "home": "C.D. RACING DEPORTIVO ALGECIRAS",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -263,7 +263,7 @@
       "round": 23,
       "date": "2027-05-08",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
       "ground": null,
       "score": null
@@ -275,7 +275,7 @@
       "date": "2027-05-22",
       "time": null,
       "home": "C.D. TARIFA FUTBOL ACADEMY",
-      "away": "ATLETICO ZABAL \"C\"",
+      "away": "C. D. ATLETICO ZABAL \"C\"",
       "ground": null,
       "score": null
     },
@@ -285,7 +285,7 @@
       "round": 26,
       "date": "2027-06-05",
       "time": null,
-      "home": "ATLETICO ZABAL \"C\"",
+      "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "U.D. LOS BARRIOS \"A\"",
       "ground": null,
       "score": null
