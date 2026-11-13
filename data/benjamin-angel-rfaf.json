@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=5",
-  "updatedAt": "2026-11-11T17:12:06.860Z",
+  "updatedAt": "2026-11-13T17:14:56.921Z",
   "standing": {
     "position": 2,
     "points": 10,
@@ -105,7 +105,7 @@
       "round": 1,
       "date": "2026-10-02",
       "time": "18:00",
-      "home": "ATLETICO ZABAL \"A\"",
+      "home": "C. D. ATLETICO ZABAL \"A\"",
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
@@ -133,7 +133,7 @@
       "round": 4,
       "date": "2026-10-24",
       "time": "11:00",
-      "home": "PUENTE MAYORGA RVO",
+      "home": "C. D. RVO. PUENTE MAYORGA C.F.",
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
       "score": [
@@ -215,7 +215,7 @@
       "date": "2027-01-23",
       "time": null,
       "home": "ATUNARA ATLETICO C.D.",
-      "away": "ATLETICO ZABAL \"A\"",
+      "away": "C. D. ATLETICO ZABAL \"A\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
@@ -233,7 +233,7 @@
       "date": "2027-02-13",
       "time": null,
       "home": "ATUNARA ATLETICO C.D.",
-      "away": "PUENTE MAYORGA RVO",
+      "away": "C. D. RVO. PUENTE MAYORGA C.F.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": null
     },
