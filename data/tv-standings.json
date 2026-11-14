@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T16:57:20.497Z",
+  "updatedAt": "2026-11-14T15:34:00.240Z",
   "competitions": {
     "senior": [
       {
@@ -309,23 +309,23 @@
     ],
     "cadete-femenino": [
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "U.D. LOS BARRIOS",
         "position": 1
       },
       {
-        "team": "C.D. GRUPO EMPRESA BAZAN C.F.",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 2
       },
       {
-        "team": "C.D. TRASMALLO F.C.",
+        "team": "C.D. GRUPO EMPRESA BAZAN C.F.",
         "position": 3
       },
       {
-        "team": "C. D. ATLETICO ZABAL",
+        "team": "C.D. TRASMALLO F.C.",
         "position": 4
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "C. D. ATLETICO ZABAL",
         "position": 5
       },
       {
@@ -341,11 +341,11 @@
         "position": 8
       },
       {
-        "team": "C.D. RAYO SANLUQUEÑO \"B\"",
+        "team": "C. D. RVO. PUENTE MAYORGA C.F.",
         "position": 9
       },
       {
-        "team": "C. D. RVO. PUENTE MAYORGA C.F.",
+        "team": "C.D. RAYO SANLUQUEÑO \"B\"",
         "position": 10
       },
       {
@@ -367,11 +367,11 @@
         "position": 1
       },
       {
-        "team": "C.D. LA SALLE",
+        "team": "TRASMALLO F.C. C.D.",
         "position": 2
       },
       {
-        "team": "TRASMALLO F.C. C.D.",
+        "team": "C.D. LA SALLE",
         "position": 3
       },
       {
@@ -399,11 +399,11 @@
         "position": 9
       },
       {
-        "team": "C. D. ATLETICO ZABAL",
+        "team": "ARCOS C.F.",
         "position": 10
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C. D. ATLETICO ZABAL",
         "position": 11
       },
       {
@@ -411,11 +411,11 @@
         "position": 12
       },
       {
-        "team": "A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F.",
+        "team": "C.D. CADISTA DE LA ISLA",
         "position": 13
       },
       {
-        "team": "C.D. CADISTA DE LA ISLA",
+        "team": "A.D. A.P.A. SANCTI PETRI FÚTBOL CHICLANA C.F.",
         "position": 14
       },
       {
@@ -437,15 +437,15 @@
         "position": 2
       },
       {
-        "team": "LOS CORTIJILLOS A.D.",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
         "position": 3
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL",
+        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
         "position": 4
       },
       {
-        "team": "C.D. EPRO CAMPO DE GIBRALTAR",
+        "team": "LOS CORTIJILLOS A.D.",
         "position": 5
       },
       {
@@ -495,35 +495,35 @@
         "position": 5
       },
       {
-        "team": "C.F. SAN JOSE OBRERO",
+        "team": "C.D. SAN FERNANDO 1940",
         "position": 6
       },
       {
-        "team": "C.D. SAN FERNANDO 1940",
+        "team": "C.D. DIVINA PASTORA SANLUQUEÑA",
         "position": 7
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C.F. SAN JOSE OBRERO",
         "position": 8
       },
       {
-        "team": "C.D. SAN ROQUE",
+        "team": "ARCOS C.F.",
         "position": 9
       },
       {
-        "team": "C.D. DIVINA PASTORA SANLUQUEÑA",
+        "team": "C.D. SAN ROQUE",
         "position": 10
       },
       {
-        "team": "SPORTING CHICLANA C.D.",
+        "team": "TARIFA U.D.",
         "position": 11
       },
       {
-        "team": "A.D. LOS BURREÑOS",
+        "team": "SPORTING CHICLANA C.D.",
         "position": 12
       },
       {
-        "team": "TARIFA U.D.",
+        "team": "A.D. LOS BURREÑOS",
         "position": 13
       },
       {
@@ -685,11 +685,11 @@
         "position": 5
       },
       {
-        "team": "C.D. S.M. MIRADOR",
+        "team": "C.D. SALESIANOS ALGECIRAS",
         "position": 6
       },
       {
-        "team": "C.D. SALESIANOS ALGECIRAS",
+        "team": "C.D. S.M. MIRADOR",
         "position": 7
       },
       {
@@ -701,11 +701,11 @@
         "position": 9
       },
       {
-        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
+        "team": "ARCOS C.F.",
         "position": 10
       },
       {
-        "team": "ARCOS C.F.",
+        "team": "C.D. AD PUEBLO NUEVO LA GRANJA",
         "position": 11
       },
       {
@@ -789,31 +789,31 @@
         "position": 3
       },
       {
-        "team": "CLUB RVO. BAHIA DE ALGECIRAS",
+        "team": "U.D. LOS BARRIOS",
         "position": 4
       },
       {
-        "team": "U.D. LOS BARRIOS",
+        "team": "CLUB RVO. BAHIA DE ALGECIRAS",
         "position": 5
       },
       {
-        "team": "MONITORES FUTBOL DE ALGECIRAS",
+        "team": "C.D. A.D. SAN GARCIA",
         "position": 6
       },
       {
-        "team": "C.D. TARIFA FUTBOL ACADEMY",
+        "team": "MONITORES FUTBOL DE ALGECIRAS",
         "position": 7
       },
       {
-        "team": "C.D. A.D. SAN GARCIA",
+        "team": "C.D. TARIFA FUTBOL ACADEMY",
         "position": 8
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
+        "team": "ANDALUCIA C.M. C.D.",
         "position": 9
       },
       {
-        "team": "ANDALUCIA C.M. C.D.",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
         "position": 10
       },
       {
@@ -835,11 +835,11 @@
         "position": 3
       },
       {
-        "team": "A.D. LOS CORTIJILLOS",
+        "team": "C. D. ATLETICO ZABAL \"A\"",
         "position": 4
       },
       {
-        "team": "C. D. ATLETICO ZABAL \"A\"",
+        "team": "A.D. LOS CORTIJILLOS",
         "position": 5
       },
       {
@@ -847,19 +847,19 @@
         "position": 6
       },
       {
-        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
+        "team": "BALON LINENSE C.F. C.D.",
         "position": 7
       },
       {
-        "team": "BALON LINENSE C.F. C.D.",
+        "team": "C.D. ATHLETIC CLUB JIMENA",
         "position": 8
       },
       {
-        "team": "C.D. SAN BERNARDO",
+        "team": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
         "position": 9
       },
       {
-        "team": "C.D. ATHLETIC CLUB JIMENA",
+        "team": "C.D. SAN BERNARDO",
         "position": 10
       },
       {
