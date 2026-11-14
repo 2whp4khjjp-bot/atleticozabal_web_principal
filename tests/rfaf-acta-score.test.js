@@ -4,6 +4,11 @@ const {detailsFromSnapshot,snapshotActa}=require('../scripts/read-rfaf-acta-scor
 const match={round:2,date:'2026-10-16',home:'ATUNARA ATLETICO C.D. "B"',away:'HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL "A"'};
 const snapshot=()=>({meta:'Temporada 2026-2027 Jornada 2 16-10-2026 19:45 h',ground:'VIRGEN DEL CARMEN',tables:[{rows:[['ATUNARA ATLETICO C.D. B','','HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL A'],['','2 - 5','']],scores:[[2,5]]},{rows:[['0 - 1',"20'"],['2 - 4',"73'"]],scores:[[0,1],[2,4]]}]});
 test('encuentra el resultado en otra fila, sin confundir goles parciales',()=>assert.deepEqual(detailsFromSnapshot(snapshot(),match),{score:[2,5],ground:'VIRGEN DEL CARMEN'}));
+test('acepta el prefijo C. D. del acta con ambos equipos y goles verificados',()=>{
+ const m={round:5,date:'2026-11-13',home:'ATLETICO ZABAL "A"',away:'NARANJITOS-82 C.F.'};
+ const s={meta:'Temporada 2026-2027 Jornada 5 13-11-2026 17:00 h',goalCount:8,ground:'VIRGEN DEL CARMEN',tables:[{rows:[['C. D. ATLETICO ZABAL A','','NARANJITOS-82 C.F.']],scores:[[8,0]]}]};
+ assert.deepEqual(detailsFromSnapshot(s,m),{score:[8,0],ground:'VIRGEN DEL CARMEN'});
+});
 test('rechaza otro partido, otra jornada, otra fecha y marcadores ambiguos',()=>{for(const m of [{...match,home:'OTRO EQUIPO'},{...match,round:3},{...match,date:'2026-10-17'}])assert.equal(detailsFromSnapshot(snapshot(),m),null);let s=snapshot();s.tables[0].scores.push([3,5]);assert.equal(detailsFromSnapshot(s,match),null);});
 test('descarta marcadores que contradicen los goles del acta',()=>{
  let s=snapshot();s.goalCount=6;s.tables[0].scores=[[31,3]];
