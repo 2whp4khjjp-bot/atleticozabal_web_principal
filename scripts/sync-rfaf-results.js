@@ -65,6 +65,11 @@ const groups = {
     competition: '50073897', group: '50075169', calendarDetail: '0',
     files: ['data/benjamin-javi-martin-rfaf.json']
   },
+  'prebenjamin-ab': { competition: '50317849', group: '50319316',
+    files: ['data/prebenjamin-a-rfaf.json', 'data/prebenjamin-b-rfaf.json'] },
+  'bebe-ab': { competition: '50321366', group: '50423452',
+    grouping: '12934598', delegation: '3', gameType: '2',
+    files: ['data/bebe-a-rfaf.json', 'data/bebe-b-rfaf.json'] },
   'benjamin-sebas': {
     competition: '49287953', group: '49288358',
     grouping: '1', delegation: '3', gameType: '2', calendarDetail: '0',
