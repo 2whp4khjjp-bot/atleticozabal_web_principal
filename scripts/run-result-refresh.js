@@ -22,7 +22,11 @@ const commands = {
   'benjamin-b': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js', 'render-benjamin-angel-ics.js', 'validate-benjamin-angel.js'],
   'benjamin-angel': [['sync-rfaf-results.js', 'benjamin-b'], 'render-benjamin-b-ics.js', 'validate-benjamin-b.js', 'render-benjamin-angel-ics.js', 'validate-benjamin-angel.js'],
   'benjamin-sebas': [['sync-rfaf-results.js', 'benjamin-sebas'], 'render-benjamin-sebas-ics.js', 'validate-benjamin-sebas.js'],
-  'benjamin-javi-martin': [['sync-rfaf-results.js', 'benjamin-javi-martin'], 'render-benjamin-javi-martin-ics.js', 'validate-benjamin-javi-martin.js']
+  'benjamin-javi-martin': [['sync-rfaf-results.js', 'benjamin-javi-martin'], 'render-benjamin-javi-martin-ics.js', 'validate-benjamin-javi-martin.js'],
+  'prebenjamin-a': [['sync-rfaf-results.js', 'prebenjamin-ab'], 'render-new-youth-ics.js'],
+  'prebenjamin-b': [['sync-rfaf-results.js', 'prebenjamin-ab'], 'render-new-youth-ics.js'],
+  'bebe-a': [['sync-rfaf-results.js', 'bebe-ab'], 'render-new-youth-ics.js'],
+  'bebe-b': [['sync-rfaf-results.js', 'bebe-ab'], 'render-new-youth-ics.js']
 };
 const teamFiles = {
   'alevin-atunara-mariano':'data/alevin-atunara-mariano-rfaf.json',
@@ -44,7 +48,11 @@ const teamFiles = {
   'benjamin-b': 'data/benjamin-b-rfaf.json',
   'benjamin-sebas': 'data/benjamin-sebas-rfaf.json',
   'benjamin-javi-martin': 'data/benjamin-javi-martin-rfaf.json',
-  'benjamin-angel': 'data/benjamin-angel-rfaf.json'
+  'benjamin-angel': 'data/benjamin-angel-rfaf.json',
+  'prebenjamin-a': 'data/prebenjamin-a-rfaf.json',
+  'prebenjamin-b': 'data/prebenjamin-b-rfaf.json',
+  'bebe-a': 'data/bebe-a-rfaf.json',
+  'bebe-b': 'data/bebe-b-rfaf.json'
 };
 const dueTeams = [...new Set(plan.map(item => item.team))];
 const executed = new Set();
