@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=6",
-  "updatedAt": "2026-11-13T17:22:40.575Z",
+  "updatedAt": "2026-11-14T12:47:31.683Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -176,7 +176,12 @@
       "home": "U.D. TESORILLO C.D.",
       "away": "C. D. ATLETICO ZABAL",
       "ground": "San Martin del Tesorillo - MUNICIPAL LA ERA (A)",
-      "score": null
+      "score": [
+        4,
+        2
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696433&cod_acta=2696433",
+      "scoreSource": "acta: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696433&cod_acta=2696433"
     },
     {
       "round": 8,
