@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-13T21:28:10.036Z",
+  "updatedAt": "2026-11-14T02:28:42.794Z",
   "officialTeam": "C. D. ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
@@ -14,7 +14,7 @@
       "time": "17:30",
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "U.D. CASTELLAR",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         7
@@ -30,7 +30,7 @@
       "time": "17:00",
       "home": "C.D. JUAN SEBASTIAN ELCANO",
       "away": "C. D. ATLETICO ZABAL \"C\"",
-      "ground": null,
+      "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7)",
       "score": [
         10,
         0
@@ -62,7 +62,7 @@
       "time": "11:30",
       "home": "C.D. BALON LINENSE C.F. \"B\"",
       "away": "C. D. ATLETICO ZABAL \"C\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA)",
       "score": [
         3,
         1
@@ -78,7 +78,7 @@
       "time": "18:30",
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. ATHLETIC CLUB JIMENA",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         0,
         8
@@ -116,7 +116,7 @@
       "time": null,
       "home": "C.D. JUVENTUD PALMONES C.F.",
       "away": "C. D. ATLETICO ZABAL \"C\"",
-      "ground": null,
+      "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7)",
       "score": null
     },
     {
