@@ -6,7 +6,8 @@ function detailsFromSnapshot(snapshot,match){
  const date=snapshot.meta.match(/\b(\d{2})-(\d{2})-(\d{4})\b/);
  if(round&&Number(round)!==Number(match.round))return null;
  if(date&&match.date&&`${date[3]}-${date[2]}-${date[1]}`!==match.date)return null;
- const tables=snapshot.tables.filter(t=>t.rows.some(c=>c.length===3&&normalize(c[0])===normalize(match.home)&&normalize(c[2])===normalize(match.away)));
+ const sameTeam=(listed,expected)=>{const a=normalize(listed),b=normalize(expected);return a===b||a==='CD'+b||b==='CD'+a;};
+ const tables=snapshot.tables.filter(t=>t.rows.some(c=>c.length===3&&sameTeam(c[0],match.home)&&sameTeam(c[2],match.away)));
  const candidates=tables.flatMap(t=>t.scores).filter(valid);
  const unique=[...new Map(candidates.map(s=>[s.join('-'),s])).values()];
  if(unique.length!==1)return null;
