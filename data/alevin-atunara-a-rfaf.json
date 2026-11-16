@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-11T17:03:44.828Z",
+  "updatedAt": "2026-11-16T17:22:15.482Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -120,7 +120,7 @@
     {
       "round": 10,
       "date": "2026-11-21",
-      "time": null,
+      "time": "18:15",
       "home": "U.D. LOS BARRIOS \"B\"",
       "away": "ATLETICO ATUNARA C.D. \"A\"",
       "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",

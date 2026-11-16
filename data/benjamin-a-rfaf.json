@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-11-15T16:23:31.014Z",
+  "updatedAt": "2026-11-16T17:22:45.883Z",
   "standing": null,
   "matches": [
     {
@@ -147,7 +147,7 @@
     {
       "round": 11,
       "date": "2026-11-21",
-      "time": null,
+      "time": "11:30",
       "home": "C.D. ISLA DE LEON FUTBOL BASE",
       "away": "C. D. ATLETICO ZABAL",
       "ground": "San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)",

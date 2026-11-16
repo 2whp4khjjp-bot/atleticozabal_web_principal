@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=6",
-  "updatedAt": "2026-11-15T23:01:43.439Z",
+  "updatedAt": "2026-11-16T17:22:59.519Z",
   "standing": {
     "position": 11,
     "points": 0,
@@ -184,7 +184,7 @@
     {
       "round": 7,
       "date": "2026-11-21",
-      "time": null,
+      "time": "16:30",
       "home": "CLUB RVO. BAHIA DE ALGECIRAS",
       "away": "C. D. ATLETICO ZABAL \"B\"",
       "ground": "Algeciras - IGNACIO VILLAVERDE (A)",
