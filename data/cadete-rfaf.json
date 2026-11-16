@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-11-15T16:37:08.710Z",
+  "updatedAt": "2026-11-16T19:52:13.685Z",
   "standing": {
     "position": 1,
     "points": 24,
@@ -22,8 +22,8 @@
         5,
         0
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=5&cod_agrupacion=1"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=9&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904"
     },
     {
       "round": 2,
@@ -33,11 +33,10 @@
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
       "score": [
-        1,
-        2
+        2,
+        4
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
     },
     {
       "round": 3,
@@ -61,11 +60,11 @@
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Puerto Real - VIRGEN DEL CARMEN (T)",
       "score": [
-        2,
-        3
+        0,
+        2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=4&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650930&cod_acta=2650930"
     },
     {
       "round": 5,
@@ -89,11 +88,11 @@
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)",
       "score": [
-        3,
-        4
+        1,
+        2
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=8&cod_agrupacion=1"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947"
     },
     {
       "round": 7,
@@ -106,7 +105,7 @@
         0,
         2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=5&cod_agrupacion=1",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650955&cod_acta=2650955"
     },
     {
@@ -120,8 +119,8 @@
         3,
         0
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650963&cod_acta=2650963"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650963&cod_acta=2650963",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1"
     },
     {
       "round": 9,
@@ -134,13 +133,13 @@
         2,
         2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&cod_agrupacion=1",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=8&cod_agrupacion=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650970&cod_acta=2650970"
     },
     {
       "round": 10,
       "date": "2026-11-21",
-      "time": null,
+      "time": "13:30",
       "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. MARIANISTAS C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
