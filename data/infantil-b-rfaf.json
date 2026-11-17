@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=7",
-  "updatedAt": "2026-11-17T17:03:19.893Z",
+  "updatedAt": "2026-11-17T18:45:03.926Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -185,7 +185,7 @@
     },
     {
       "round": 8,
-      "date": "2026-11-21",
+      "date": "2026-11-20",
       "time": "20:00",
       "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
