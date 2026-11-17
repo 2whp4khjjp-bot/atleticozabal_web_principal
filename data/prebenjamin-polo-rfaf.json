@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-16T19:57:27.083Z",
+  "updatedAt": "2026-11-17T02:37:14.345Z",
   "officialTeam": "C. D. ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -70,7 +70,7 @@
       "statusSource": null,
       "round": 5,
       "date": "2026-11-21",
-      "time": null,
+      "time": "18:30",
       "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
