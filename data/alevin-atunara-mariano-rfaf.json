@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789584&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-16T23:47:43.978Z",
+  "updatedAt": "2026-11-17T18:55:25.893Z",
   "officialTeam": "ATUNARA ATLETICO C.D. \"B\"",
   "competition": "49608278",
   "group": "49789584",
@@ -51,7 +51,7 @@
       "time": "10:45",
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "C. D. RVO. PUENTE MAYORGA C.F. \"C\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         5,
         2
@@ -63,19 +63,19 @@
       "status": null,
       "statusSource": null,
       "round": 5,
-      "date": "2026-11-14",
-      "time": "10:00",
+      "date": "2026-12-02",
+      "time": "17:15",
       "home": "C.D. GUADIARO \"B\"",
       "away": "ATUNARA ATLETICO C.D. \"B\"",
-      "ground": null,
+      "ground": "San Roque - SAN ENRIQUE",
       "score": null
     },
     {
       "status": null,
       "statusSource": null,
       "round": 6,
-      "date": "2026-11-20",
-      "time": "18:30",
+      "date": "2026-11-21",
+      "time": "18:00",
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
@@ -100,7 +100,7 @@
       "time": null,
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "PEÑA MADRIDISTA LINENSE",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": null
     },
     {
