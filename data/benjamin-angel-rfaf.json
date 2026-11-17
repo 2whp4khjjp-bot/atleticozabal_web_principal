@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=6",
-  "updatedAt": "2026-11-17T02:36:26.953Z",
+  "updatedAt": "2026-11-17T18:36:19.267Z",
   "standing": {
     "position": 2,
     "points": 10,
@@ -149,15 +149,15 @@
       "away": "U.D. TESORILLO C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
       "score": [
-        10,
+        0,
         1
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701187&cod_acta=2701187"
     },
     {
       "round": 6,
-      "date": "2026-11-14",
-      "time": "11:30",
+      "date": "2026-12-02",
+      "time": "18:15",
       "home": "C.D. GUADIARO",
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "San Roque - SAN ENRIQUE (N)",
@@ -165,8 +165,8 @@
     },
     {
       "round": 7,
-      "date": "2026-11-21",
-      "time": "18:00",
+      "date": "2026-11-20",
+      "time": "17:00",
       "home": "ATUNARA ATLETICO C.D.",
       "away": "A.D. LOS CORTIJILLOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
