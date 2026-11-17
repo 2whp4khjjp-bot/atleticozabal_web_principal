@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558",
-  "updatedAt": "2026-11-16T19:54:03.800Z",
+  "updatedAt": "2026-11-17T17:03:41.803Z",
   "standing": {
     "position": 4,
     "points": 13,
@@ -105,7 +105,7 @@
     {
       "round": 9,
       "date": "2026-11-22",
-      "time": null,
+      "time": "12:00",
       "home": "C.D. SAN BERNARDO",
       "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
