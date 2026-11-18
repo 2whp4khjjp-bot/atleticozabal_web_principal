@@ -140,12 +140,13 @@ URL:https://www.atleticozabal.com/calendario-alevin-atunara-b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-alevin-atunara-b-10@atleticozabal.com
-DTSTAMP:20261114T055225Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTAMP:20261118T123019Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Madrid:20261121T180000
+DTEND;TZID=Europe/Madrid:20261121T190000
 SUMMARY:J10 · ATUNARA ATLETICO C.D. "B" – PUENTE MAYORGA RVO. "B"
 DESCRIPTION:Alevín Atunara B · Adrián\nTercera Andaluza Alevín Cádiz 
- · Grupo 5\nJornada 10\nHora pendiente\nCampo: La Línea de La Concepción
+ · Grupo 5\nJornada 10\nHora: 18:00\nCampo: La Línea de La Concepción
   - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A
  )
