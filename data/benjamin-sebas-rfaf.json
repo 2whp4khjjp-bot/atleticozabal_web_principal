@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=6",
-  "updatedAt": "2026-11-18T01:04:07.470Z",
+  "updatedAt": "2026-11-18T13:02:30.284Z",
   "standing": {
     "position": 11,
     "points": 0,
@@ -187,7 +187,7 @@
       "time": "16:30",
       "home": "CLUB RVO. BAHIA DE ALGECIRAS",
       "away": "C. D. ATLETICO ZABAL \"B\"",
-      "ground": "Algeciras - IGNACIO VILLAVERDE (A)",
+      "ground": "Algeciras - IGNACIO VILLAVERDE",
       "score": null
     },
     {
@@ -196,7 +196,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL \"B\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {

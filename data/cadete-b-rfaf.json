@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=7",
-  "updatedAt": "2026-11-17T18:43:07.755Z",
+  "updatedAt": "2026-11-18T13:02:34.864Z",
   "standing": {
     "position": 3,
     "points": 16,
@@ -112,7 +112,7 @@
       "time": "13:30",
       "home": "U.D. LOS BARRIOS \"B\"",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
+      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT)",
       "score": null
     },
     {
@@ -121,7 +121,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
       "score": null
     },
     {

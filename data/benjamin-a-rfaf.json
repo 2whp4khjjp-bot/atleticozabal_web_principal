@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-11-17T18:36:45.434Z",
+  "updatedAt": "2026-11-18T13:02:10.550Z",
   "standing": null,
   "matches": [
     {
@@ -149,7 +149,7 @@
       "time": "11:30",
       "home": "C.D. ISLA DE LEON FUTBOL BASE",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7) (A)",
+      "ground": "San Fernando - BAZAN CAMPO MUNICIPAL (F11-F7)",
       "score": null
     },
     {
@@ -158,7 +158,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. LOS BURREÑOS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {
@@ -167,7 +167,7 @@
       "time": null,
       "home": "C.D. ESTRELLA PORTUENSE F.C.",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Puerto De Santa María (El) - EL JUNCAL CAMPO MPAL (F11-F7) (A)",
+      "ground": "Puerto De Santa María (El) - EL JUNCAL CAMPO MPAL (F11-F7)",
       "score": null
     },
     {

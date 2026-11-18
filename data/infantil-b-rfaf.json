@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=7",
-  "updatedAt": "2026-11-17T18:45:03.926Z",
+  "updatedAt": "2026-11-18T13:02:53.175Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -189,7 +189,7 @@
       "time": "20:00",
       "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
       "score": null
     },
     {
@@ -198,7 +198,7 @@
       "time": null,
       "home": "C.D. GUADIARO",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "San Roque - LA UNION (F11, F7) (A)",
+      "ground": "San Roque - LA UNION (F11, F7)",
       "score": null
     },
     {

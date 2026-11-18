@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-18T12:18:14.320Z",
+  "updatedAt": "2026-11-18T13:01:51.021Z",
   "standing": {
     "position": 10,
     "points": 0,
@@ -125,11 +125,11 @@
     },
     {
       "round": 10,
-      "date": "2026-11-21",
+      "date": "2026-11-20",
       "time": "18:30",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "U.D. TESORILLO C.D.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {
@@ -138,7 +138,7 @@
       "time": null,
       "home": "C.D. BALON LINENSE C.F.",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA) (A)",
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA)",
       "score": null
     },
     {
@@ -147,7 +147,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "A.D. TARAGUILLA",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {

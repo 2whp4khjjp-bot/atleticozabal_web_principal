@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=6",
-  "updatedAt": "2026-11-17T18:36:19.267Z",
+  "updatedAt": "2026-11-18T13:02:15.701Z",
   "standing": {
     "position": 2,
     "points": 10,
@@ -160,7 +160,7 @@
       "time": "18:15",
       "home": "C.D. GUADIARO",
       "away": "ATUNARA ATLETICO C.D.",
-      "ground": "San Roque - SAN ENRIQUE (N)",
+      "ground": "San Roque - MANOLO MESA CAMPO MUNICIPAL (F11, F7)",
       "score": null
     },
     {
@@ -169,7 +169,7 @@
       "time": "17:00",
       "home": "ATUNARA ATLETICO C.D.",
       "away": "A.D. LOS CORTIJILLOS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {
@@ -178,7 +178,7 @@
       "time": null,
       "home": "C.D. SAN BERNARDO",
       "away": "ATUNARA ATLETICO C.D.",
-      "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
       "score": null
     },
     {

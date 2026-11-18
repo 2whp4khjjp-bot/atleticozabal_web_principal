@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48780558&codgrupo=48781448&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48781448&codcompeticion=48780558",
-  "updatedAt": "2026-11-17T18:47:48.444Z",
+  "updatedAt": "2026-11-18T13:03:21.808Z",
   "standing": {
     "position": 4,
     "points": 13,
@@ -108,7 +108,7 @@
       "time": "12:00",
       "home": "C.D. SAN BERNARDO",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "San Roque - ALBERTO UMBRIA (F11, F7) (A)",
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
       "score": null
     },
     {
@@ -117,7 +117,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL",
       "away": "CLUB DEPORTIVO LEGADO ATLÉTICO",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
       "score": null
     },
     {
@@ -126,7 +126,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL",
       "away": "U.D. LOS BARRIOS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
       "score": null
     },
     {

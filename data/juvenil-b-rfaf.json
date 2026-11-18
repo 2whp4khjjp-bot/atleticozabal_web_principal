@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-11-17T18:45:56.134Z",
+  "updatedAt": "2026-11-18T13:02:57.652Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -124,7 +124,7 @@
       "time": "14:00",
       "home": "C.D. S.M. MIRADOR",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Algeciras - Sergio Martín (A)",
+      "ground": "Algeciras - Sergio Martín",
       "score": null
     },
     {
@@ -133,7 +133,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL",
       "away": "U.D. LOS BARRIOS",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
       "score": null
     },
     {
