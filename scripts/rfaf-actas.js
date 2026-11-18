@@ -38,7 +38,9 @@ async function attachRfafActas(page, matches, config) {
 
 function normalizeTeam(value) {
   return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    .toUpperCase().replace(/[^A-Z0-9]/g, '').replace(/^CD(?=[A-Z0-9])/, '');
+    .toUpperCase().replace(/[^A-Z0-9]+/g, ' ')
+    .replace(/\b(?:C\s*D|C\s*F|A\s*D|U\s*D)\b/g, ' ')
+    .trim().split(/\s+/).filter(Boolean).sort().join('|');
 }
 
 function queryValue(params, key) {
