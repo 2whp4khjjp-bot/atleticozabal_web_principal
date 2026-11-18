@@ -77,7 +77,7 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     match.home && match.away && Number.isInteger(Number(match.round)) && Number(match.round) > 0);
   const rounds = [...new Set(upcoming.map(match => Number(match.round)))]
     .sort((a, b) => a - b);
-  const roundsToCheck = rounds.slice(0, 3);
+  const roundsToCheck = config.strict ? rounds : rounds.slice(0, 3);
   const pending = upcoming.filter(match => roundsToCheck.includes(Number(match.round)));
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
