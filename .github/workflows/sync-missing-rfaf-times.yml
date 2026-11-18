@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/rfaf-actas.js'
       - 'scripts/sync-missing-rfaf-times.js'
+      - 'tests/rfaf-schedule.test.js'
       - '.github/workflows/sync-missing-rfaf-times.yml'
   schedule:
     - cron: '35 7,10,13,16,19 * * *'
@@ -23,6 +24,8 @@ jobs:
         run: |
           npm install --no-save --package-lock=false playwright@1.63.0
           npx playwright install --with-deps chromium
+      - name: Probar emparejamiento de horarios
+        run: node --test tests/rfaf-schedule.test.js
       - name: Recuperar horarios confirmados y actualizar ICS
         run: node scripts/sync-missing-rfaf-times.js
       - name: Publicar horarios
