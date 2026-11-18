@@ -34,3 +34,18 @@ test('incorpora la hora aunque RFAF anteponga C. D. al nombre guardado', async (
   assert.equal(matches[2].time, null);
   assert.equal(matches[2].ground, null);
 });
+
+test('rechaza una consulta vacía de RFAF en vez de darla por actualizada', async () => {
+  let currentUrl = '';
+  const page = {
+    async goto(url) { currentUrl = url; return { ok: () => true }; },
+    url() { return currentUrl; },
+    async evaluate() { return []; }
+  };
+  const matches = [{ round: 10, date: '2099-11-21', home: 'ATLETICO ZABAL',
+    away: 'A.D. MARIANISTAS C.D.', time: null, ground: null }];
+  await assert.rejects(enrichRfafSchedule(page, matches, {
+    source: 'https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?codcompeticion=48909139&codgrupo=48909177&codtemporada=22'
+  }), /no devolvió filas/);
+  assert.equal(matches[0].time, null);
+});
