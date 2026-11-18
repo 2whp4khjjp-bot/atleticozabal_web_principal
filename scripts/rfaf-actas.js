@@ -78,6 +78,7 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   const pending = missing;
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
+  let readableViews = 0;
 
   const urls = roundsToCheck.map(round => ({
       round,
@@ -182,6 +183,7 @@ async function enrichRfafSchedule(page, matches, config = {}) {
             };
           }).filter(Boolean);
         }, { isCalendar: url.includes('NFG_VisCalendario_Vis'), defaultRound });
+        if (records.length) readableViews++;
         let matched = 0;
         for (const record of records) {
           const recordRound = Number(record.round) || defaultRound;
@@ -202,6 +204,10 @@ async function enrichRfafSchedule(page, matches, config = {}) {
     } catch (error) {
       console.warn('Error consultando vista RFAF de horarios: ' + error.message);
     }
+  }
+
+  if (roundsToCheck.length && !readableViews) {
+    throw new Error('RFAF no devolvió filas para los horarios de ' + competition + ':' + group);
   }
 
   let updated = 0;
