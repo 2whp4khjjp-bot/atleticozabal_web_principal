@@ -43,6 +43,10 @@ function normalizeTeam(value) {
     .trim().split(/\s+/).filter(Boolean).sort().join('|');
 }
 
+function matchPairKey(home, away) {
+  return [normalizeTeam(home), normalizeTeam(away)].sort().join('>');
+}
+
 function queryValue(params, key) {
   const wanted = key.toLowerCase();
   for (const [name, value] of params.entries()) {
@@ -71,11 +75,10 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   }).format(new Date());
   const upcoming = (matches || []).filter(match => match.date >= today &&
     match.home && match.away && Number.isInteger(Number(match.round)) && Number(match.round) > 0);
-  const missing = upcoming.filter(match => !match.time || !match.ground);
-  const rounds = [...new Set(missing.map(match => Number(match.round)))]
+  const rounds = [...new Set(upcoming.map(match => Number(match.round)))]
     .sort((a, b) => a - b);
   const roundsToCheck = rounds.slice(0, 3);
-  const pending = missing;
+  const pending = upcoming.filter(match => roundsToCheck.includes(Number(match.round)));
   const base = config.base || sourceUrl.origin;
   const allRecords = new Map();
   let readableViews = 0;
@@ -188,15 +191,17 @@ async function enrichRfafSchedule(page, matches, config = {}) {
         for (const record of records) {
           const recordRound = Number(record.round) || defaultRound;
           if (!rounds.includes(recordRound)) continue;
-          const key = normalizeTeam(record.home) + '>' + normalizeTeam(record.away);
+          const key = matchPairKey(record.home, record.away);
           if (!key || key === '>') continue;
           const recordKey = recordRound + ':' + key;
           const previous = allRecords.get(recordKey);
           if (!previous) allRecords.set(recordKey, record);
           else {
-            if (!previous.date && record.date) previous.date = record.date;
-            if (!previous.time && record.time) previous.time = record.time;
-            if (!previous.ground && record.ground) previous.ground = record.ground;
+            if (record.date) previous.date = record.date;
+            if (record.time) previous.time = record.time;
+            if (record.ground) previous.ground = record.ground;
+            previous.home = record.home;
+            previous.away = record.away;
           }
           matched++;
         }
@@ -211,20 +216,41 @@ async function enrichRfafSchedule(page, matches, config = {}) {
   }
 
   let updated = 0;
+  let corrected = 0;
+  const unmatched = [];
   for (const match of pending) {
     const record = allRecords.get(Number(match.round) + ':' +
-      normalizeTeam(match.home) + '>' + normalizeTeam(match.away));
-    if (!record) continue;
-    if (!match.time && record.time) {
-      match.time = record.time;
-      updated++;
+      matchPairKey(match.home, match.away));
+    if (!record) {
+      unmatched.push(match.round + ': ' + match.home + ' / ' + match.away);
+      continue;
     }
-    if (!match.ground && record.ground) match.ground = record.ground;
-    if (!match.date && record.date) match.date = record.date;
+    const reversed = normalizeTeam(match.home) === normalizeTeam(record.away) &&
+      normalizeTeam(match.away) === normalizeTeam(record.home);
+    if (reversed && normalizeTeam(match.home) !== normalizeTeam(record.home)) {
+      match.home = record.home;
+      match.away = record.away;
+      if (Array.isArray(match.score) && match.score.length === 2) match.score.reverse();
+      corrected++;
+    }
+    if (record.date && match.date !== record.date) {
+      match.date = record.date;
+      corrected++;
+    }
+    if (record.time && match.time !== record.time) {
+      if (!match.time) updated++;
+      else corrected++;
+      match.time = record.time;
+    }
+    if (record.ground && match.ground !== record.ground) match.ground = record.ground;
   }
-  console.log('Horarios RFAF: ' + pending.length + ' partidos futuros revisados; modo jornada en ' +
-    roundsToCheck.join(', ') + ' y calendarios anuales resumido y extendido completos; ' +
-    updated + ' horas añadidas.');
+  if (config.strict && unmatched.length) {
+    throw new Error('Partidos sin correspondencia oficial: ' + unmatched.join('; '));
+  }
+  console.log('RFAF calendario: ' + pending.length + ' partidos futuros revisados; jornadas ' +
+    roundsToCheck.join(', ') + '; ' + updated + ' horas añadidas, ' + corrected +
+    ' cambios de fecha, hora o localía.' +
+    (unmatched.length ? ' Sin correspondencia: ' + unmatched.join('; ') : ''));
   return matches;
 }
 
