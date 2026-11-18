@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=50073897&codgrupo=50075169&CodJornada=1&cod_agrupacion=1",
   "extendedSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50075169&codcompeticion=50073897&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-11T17:21:57.039Z",
+  "updatedAt": "2026-11-18T12:18:40.244Z",
   "rounds": [
     {
       "round": 1,
@@ -199,7 +199,7 @@
     {
       "round": 8,
       "date": "2026-11-21",
-      "time": null,
+      "time": "17:30",
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
