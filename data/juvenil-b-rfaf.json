@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-11-18T13:02:57.652Z",
+  "updatedAt": "2026-11-18T18:24:53.449Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -142,7 +142,7 @@
       "time": null,
       "home": "C.D. JUVENTUD PALMONES C.F.",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7) (A)",
+      "ground": "Barrios (Los) - POLIDEPORTIVO GABRIEL CLAVIJO GONZÁLEZ JAVI - PALMONES (F11-F7)",
       "score": null
     },
     {
