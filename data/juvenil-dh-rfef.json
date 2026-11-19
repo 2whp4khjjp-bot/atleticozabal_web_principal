@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-11-18T17:55:45.436Z",
+  "updatedAt": "2026-11-19T18:08:28.506Z",
   "standing": {
     "position": 15,
     "points": 2,
@@ -16,10 +16,7 @@
       "home": "Arenas de Armilla Cultura y Deporte CF",
       "away": "Atlético Zabal",
       "ground": "Campo Municipal de Armilla",
-      "score": [
-        2,
-        1
-      ],
+      "score": null,
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693210&cod_acta=70693210"
     },
     {
@@ -71,7 +68,7 @@
       "ground": "Estadio Virgen del Carmen",
       "score": [
         2,
-        1
+        0
       ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693247&cod_acta=70693247"
     },
@@ -95,7 +92,10 @@
       "home": "Atlético Zabal",
       "away": "Marbella FC",
       "ground": "Estadio Virgen del Carmen",
-      "score": null,
+      "score": [
+        1,
+        2
+      ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693266&cod_acta=70693266"
     },
     {
@@ -194,9 +194,9 @@
       "round": 16,
       "date": "2026-12-16",
       "time": null,
-      "home": "Real Betis",
-      "away": "Atletico Zabal",
-      "ground": null,
+      "home": "Real Betis Balompié",
+      "away": "Atlético Zabal",
+      "ground": "Ciudad Deportiva Rafael Gordillo A-3 HN",
       "score": null,
       "actaUrl": null
     },
