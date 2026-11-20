@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=7",
-  "updatedAt": "2026-11-19T18:39:45.003Z",
+  "updatedAt": "2026-11-20T18:06:19.913Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -166,8 +166,7 @@
         0,
         9
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696428&cod_acta=2696428",
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49223072&CodGrupo=49227064&CodTemporada=22&cod_agrupacion=1&CodJornada=6&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696428&cod_acta=2696428"
     },
     {
       "round": 7,
