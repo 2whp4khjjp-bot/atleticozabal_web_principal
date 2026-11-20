@@ -2,6 +2,9 @@ const fs = require('node:fs');
 
 const teams = [
   ['alevin-atunara-mariano','data/alevin-atunara-mariano-rfaf.json'],
+  ['alevin-atunara-4a','data/alevin-atunara-4a-rfaf.json'],
+  ['prebenjamin-c','data/prebenjamin-c-rfaf.json'],
+  ['prebenjamin-polo','data/prebenjamin-polo-rfaf.json'],
   ['senior', 'data/senior-rfaf.json'],
   ['juvenil-dh', 'data/juvenil-dh-rfef.json'],
   ['juvenil-b', 'data/juvenil-b-rfaf.json'],
