@@ -65,6 +65,9 @@ const groups = {
     competition: '50073897', group: '50075169', calendarDetail: '0',
     files: ['data/benjamin-javi-martin-rfaf.json']
   },
+  'prebenjamin-polo': { competition:'50209510', group:'50210111', files:['data/prebenjamin-polo-rfaf.json'] },
+  'prebenjamin-c': { competition:'50317849', group:'50318948', files:['data/prebenjamin-c-rfaf.json'] },
+  'alevin-atunara-4a': { competition:'49608278', group:'49789556', files:['data/alevin-atunara-4a-rfaf.json'] },
   'prebenjamin-ab': { competition: '50317849', group: '50319316',
     files: ['data/prebenjamin-a-rfaf.json', 'data/prebenjamin-b-rfaf.json'] },
   'bebe-ab': { competition: '50321366', group: '50423452',
