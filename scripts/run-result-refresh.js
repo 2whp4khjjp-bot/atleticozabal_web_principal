@@ -3,6 +3,9 @@ const { spawnSync } = require('node:child_process');
 
 const plan = JSON.parse(process.env.RESULT_REFRESH_PLAN || '[]');
 const commands = {
+  'alevin-atunara-4a': [['sync-rfaf-results.js','alevin-atunara-4a'],'render-alevin-atunara-4a-ics.js'],
+  'prebenjamin-c': [['sync-rfaf-results.js','prebenjamin-c'],'render-new-youth-ics.js'],
+  'prebenjamin-polo': [['sync-rfaf-results.js','prebenjamin-polo'],'render-new-youth-ics.js'],
   'alevin-atunara-mariano': [['sync-rfaf-results.js','alevin-atunara-mariano'],'render-new-youth-ics.js'],
   senior: [['sync-rfaf-results.js', 'senior'], 'render-senior-ics.js', 'validate-senior.js'],
   'juvenil-dh': ['sync-juvenil-dh-rfef.js', 'render-juvenil-dh-ics.js', 'validate-juvenil-dh.js'],
@@ -29,6 +32,9 @@ const commands = {
   'bebe-b': [['sync-rfaf-results.js', 'bebe-ab'], 'render-new-youth-ics.js']
 };
 const teamFiles = {
+  'alevin-atunara-4a': 'data/alevin-atunara-4a-rfaf.json',
+  'prebenjamin-c': 'data/prebenjamin-c-rfaf.json',
+  'prebenjamin-polo': 'data/prebenjamin-polo-rfaf.json',
   'alevin-atunara-mariano':'data/alevin-atunara-mariano-rfaf.json',
   senior: 'data/senior-rfaf.json',
   'juvenil-dh': 'data/juvenil-dh-rfef.json',
