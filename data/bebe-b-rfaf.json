@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-11-20T20:27:23.499Z",
+  "updatedAt": "2026-11-20T20:28:38.977Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50321366",
   "group": "50423452",
@@ -74,8 +74,12 @@
       "home": "C.D. OLIVILLOS 87",
       "away": "ATLETICO ZABAL \"B\"",
       "ground": "San Roque - MANOLO MESA CAMPO MUNICIPAL (F11, F7)",
-      "score": null,
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2794267&cod_acta=2794267"
+      "score": [
+        0,
+        0
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2794267&cod_acta=2794267",
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=50321366&CodGrupo=50423452&CodTemporada=22&cod_agrupacion=12934598&CodJornada=6&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=2"
     },
     {
       "status": null,
