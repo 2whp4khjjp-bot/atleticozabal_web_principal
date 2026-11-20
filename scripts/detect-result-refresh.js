@@ -40,14 +40,24 @@ const parts = Object.fromEntries(formatter.formatToParts(now)
 const localNow = Date.UTC(Number(parts.year), Number(parts.month) - 1,
   Number(parts.day), Number(parts.hour), Number(parts.minute));
 const plan = [];
-const retryOffsets = [
-  // Durante las primeras 12 h, comprobar cada 15 minutos.
-  ...Array.from({ length: 47 }, (_, index) => (index + 2) / 4),
-  // Entre 12 y 24 h, comprobar cada hora para no dejar huecos largos.
-  ...Array.from({ length: 12 }, (_, index) => 13 + index),
-  // Seguir recuperando actas retrasadas hasta ocho días después.
-  36, 48, 72, 96, 120, 144, 168
-];
+// Primera comprobación: una hora después del final estimado de cada categoría.
+// Duración aproximada con descanso: no conocemos el pitido final real.
+const expectedMatchMinutes = team => {
+  if (team === 'senior' || team.startsWith('juvenil')) return 120;
+  if (team.startsWith('cadete')) return 100;
+  if (team.startsWith('infantil')) return 90;
+  if (team.startsWith('alevin')) return 75;
+  if (team.startsWith('benjamin')) return 65;
+  return 55; // Prebenjamín y Bebé
+};
+function retryOffsets(team) {
+  const first = (expectedMatchMinutes(team) + 60) / 60;
+  return [
+    ...Array.from({length:25},(_,i)=>first+i*0.25), // Cada 15 minutos, durante 6 h
+    ...Array.from({length:18},(_,i)=>first+7+i), // Horario, hasta el día siguiente
+    36,48,72,96,120,144,168,192
+  ];
+}
 const resultWindowHours = 192; // ocho días para actas/resultados demorados
 
 function hasFinalScore(match) {
@@ -71,7 +81,7 @@ for (const [team, path] of teams) {
     // Ejecutar una sola franja vencida por partido en cada workflow.
     // Si GitHub retrasa el cron, usamos la franja más reciente que aún no se haya
     // intentado; las franjas posteriores permanecen disponibles para reintentar.
-    const dueOffsets = retryOffsets.filter(offset =>
+    const dueOffsets = retryOffsets(team).filter(offset =>
       localNow >= kickoff + offset * 60 * 60 * 1000);
     const offset = [...dueOffsets].reverse().find(value => {
       const key = [team, match.round, match.date, match.time, value].join(':');
