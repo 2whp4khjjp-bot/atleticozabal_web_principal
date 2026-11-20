@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-18T13:03:02.184Z",
+  "updatedAt": "2026-11-20T20:27:02.809Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50317849",
   "group": "50319316",
@@ -95,7 +95,12 @@
       "home": "C.D. SAN BERNARDO",
       "away": "ATLETICO ZABAL \"A\"",
       "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
-      "score": null
+      "score": [
+        1,
+        2
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=50317849&CodGrupo=50319316&CodTemporada=22&CodJornada=6&Sch_Codigo_Delegacion=&Sch_Tipo_Juego=",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2787402&cod_acta=2787402"
     },
     {
       "status": null,
