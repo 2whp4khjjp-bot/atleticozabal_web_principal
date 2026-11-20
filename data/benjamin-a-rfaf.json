@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-11-18T13:02:10.550Z",
+  "updatedAt": "2026-11-20T17:51:06.431Z",
   "standing": null,
   "matches": [
     {
@@ -29,6 +29,7 @@
         1,
         2
       ],
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723"
     },
     {
@@ -42,8 +43,8 @@
         7,
         3
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663731&cod_acta=2663731"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663731&cod_acta=2663731",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 4,
@@ -56,8 +57,8 @@
         1,
         1
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663740&cod_acta=2663740",
-      "scoreSource": "rfaf-round-results"
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663740&cod_acta=2663740"
     },
     {
       "round": 5,
@@ -98,8 +99,8 @@
         8,
         1
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663765&cod_acta=2663765",
-      "scoreSource": "rfaf-round-results"
+      "scoreSource": "rfaf-round-results",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663765&cod_acta=2663765"
     },
     {
       "round": 8,
@@ -112,8 +113,8 @@
         2,
         5
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663773&cod_acta=2663773"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663773&cod_acta=2663773",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 9,
@@ -126,8 +127,7 @@
         5,
         0
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663780&cod_acta=2663780",
-      "scoreSource": "rfaf-round-results"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663780&cod_acta=2663780"
     },
     {
       "round": 10,
@@ -140,8 +140,7 @@
         3,
         4
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663788&cod_acta=2663788",
-      "scoreSource": "rfaf-round-results"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663788&cod_acta=2663788"
     },
     {
       "round": 11,
