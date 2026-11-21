@@ -1,14 +1,14 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
-  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=7",
-  "updatedAt": "2026-11-21T01:50:43.794Z",
+  "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=8",
+  "updatedAt": "2026-11-21T16:56:34.055Z",
   "standing": {
     "position": 9,
     "points": 4,
-    "played": 3,
-    "goalsFor": 4,
-    "goalsAgainst": 18,
-    "round": 7
+    "played": 4,
+    "goalsFor": 5,
+    "goalsAgainst": 26,
+    "round": 8
   },
   "rounds": [
     {
@@ -188,13 +188,13 @@
       "time": "20:10",
       "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
       "score": [
         1,
         8
       ],
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49223072&CodGrupo=49227064&CodTemporada=22&cod_agrupacion=1&CodJornada=8&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696439&cod_acta=2696439"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2696439&cod_acta=2696439",
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49223072&CodGrupo=49227064&CodTemporada=22&cod_agrupacion=1&CodJornada=8&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
     },
     {
       "round": 9,
@@ -220,7 +220,7 @@
       "time": null,
       "home": "C. D. RVO. PUENTE MAYORGA C.F.",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "San Roque - MANUEL MATEO (F11, F7) (A)",
+      "ground": "San Roque - MANUEL MATEO (F11, F7)",
       "score": null
     },
     {
