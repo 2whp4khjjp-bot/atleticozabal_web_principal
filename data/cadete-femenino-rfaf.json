@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=7",
-  "updatedAt": "2026-11-21T21:52:10.720Z",
+  "updatedAt": "2026-11-21T21:54:49.982Z",
   "standing": {
     "position": 3,
     "points": 3,
@@ -193,7 +193,12 @@
       "home": "C. D. ATLETICO ZABAL",
       "away": "U.D. LOS BARRIOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
-      "score": null
+      "score": [
+        2,
+        1
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49660873&CodGrupo=49660937&CodTemporada=22&cod_agrupacion=1&CodJornada=7&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2738279&cod_acta=2738279"
     },
     {
       "round": 8,

@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-11-21T21:52:16.101Z",
+  "updatedAt": "2026-11-21T21:54:43.565Z",
   "standing": {
     "position": 1,
     "points": 24,
@@ -144,7 +144,12 @@
       "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. MARIANISTAS C.D.",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
-      "score": null
+      "score": [
+        1,
+        2
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650978&cod_acta=2650978",
+      "scoreSource": "acta: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650978&cod_acta=2650978"
     },
     {
       "round": 11,
