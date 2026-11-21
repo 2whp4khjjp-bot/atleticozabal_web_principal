@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-11-20T20:27:23.499Z",
+  "updatedAt": "2026-11-21T21:51:27.405Z",
   "officialTeam": "ATLETICO ZABAL \"A\"",
   "competition": "50321366",
   "group": "50423452",
@@ -121,7 +121,7 @@
       "time": null,
       "home": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
       "away": "ATLETICO ZABAL \"A\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {

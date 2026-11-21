@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=1",
-  "updatedAt": "2026-11-20T20:26:30.801Z",
+  "updatedAt": "2026-11-21T21:51:49.759Z",
   "standing": {
     "position": 7,
     "points": 0,
@@ -123,7 +123,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"A\"",
       "away": "C.D. OLIVILLOS 87",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {

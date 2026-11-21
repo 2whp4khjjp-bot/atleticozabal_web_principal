@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-18T13:01:55.571Z",
+  "updatedAt": "2026-11-21T21:51:22.600Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -160,7 +160,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "ASOC. VETERANOS ALGECIRAS CF",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {

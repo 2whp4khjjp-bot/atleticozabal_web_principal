@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-20T20:27:02.809Z",
+  "updatedAt": "2026-11-21T21:52:41.216Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50317849",
   "group": "50319316",
@@ -100,7 +100,7 @@
       "time": null,
       "home": "BALON LINENSE C.F. C.D. \"A\"",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - ANTONIO REYES (CDAD DVA)",
       "score": null
     },
     {

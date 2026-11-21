@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-11-21T16:41:50.219Z",
+  "updatedAt": "2026-11-21T21:52:21.434Z",
   "standing": {
     "position": 10,
     "points": 10,
@@ -172,7 +172,7 @@
       "time": null,
       "home": "CADIZ C.F., S.A.D.",
       "away": "ATLETICO ZABAL",
-      "ground": "Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2) (A)",
+      "ground": "Puerto Real - PROVINCIA DE CADIZ (EL ROSAL Nº 2)",
       "score": null
     },
     {

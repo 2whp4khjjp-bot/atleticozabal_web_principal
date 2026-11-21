@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-18T13:01:34.684Z",
+  "updatedAt": "2026-11-21T21:50:56.769Z",
   "standing": {
     "position": 14,
     "points": 0,
@@ -125,7 +125,7 @@
     {
       "round": 10,
       "date": "2026-11-21",
-      "time": "18:00",
+      "time": "18:25",
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "PUENTE MAYORGA RVO. \"B\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
@@ -155,7 +155,7 @@
       "time": null,
       "home": "PEÑA RECREATIVA LOLUBA C.F.",
       "away": "ATUNARA ATLETICO C.D. \"B\"",
-      "ground": "Algeciras - TEODOSIO Y TOMAS (F11-F7) (T)",
+      "ground": "Algeciras - TEODOSIO Y TOMAS (F11-F7)",
       "score": null
     },
     {
