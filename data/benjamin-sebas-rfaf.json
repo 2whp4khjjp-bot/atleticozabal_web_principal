@@ -1,13 +1,13 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288358&codcompeticion=49287953&codjornada=7",
-  "updatedAt": "2026-11-21T00:04:47.501Z",
+  "updatedAt": "2026-11-21T16:52:42.253Z",
   "standing": {
     "position": 11,
-    "points": 0,
+    "points": 1,
     "played": 3,
-    "goalsFor": 14,
-    "goalsAgainst": 28,
+    "goalsFor": 20,
+    "goalsAgainst": 34,
     "round": 7
   },
   "rounds": [
@@ -188,7 +188,8 @@
       "home": "CLUB RVO. BAHIA DE ALGECIRAS",
       "away": "C. D. ATLETICO ZABAL \"B\"",
       "ground": "Algeciras - IGNACIO VILLAVERDE",
-      "score": null
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701332&cod_acta=2701332"
     },
     {
       "round": 8,
