@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-11-20T18:02:09.038Z",
+  "updatedAt": "2026-11-22T17:21:38.271Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -125,7 +125,12 @@
       "home": "C.D. S.M. MIRADOR",
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - Sergio Martín",
-      "score": null
+      "score": [
+        0,
+        3
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49145109&CodGrupo=49151057&CodTemporada=22&CodJornada=9&Sch_Codigo_Delegacion=&Sch_Tipo_Juego=",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2691238&cod_acta=2691238"
     },
     {
       "round": 10,
