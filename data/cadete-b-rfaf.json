@@ -1,9 +1,9 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49196403&codcompeticion=49189596&codjornada=8",
-  "updatedAt": "2026-11-21T16:54:35.443Z",
+  "updatedAt": "2026-11-22T17:18:58.977Z",
   "standing": {
-    "position": 3,
+    "position": 2,
     "points": 19,
     "played": 4,
     "goalsFor": 51,
@@ -112,7 +112,7 @@
       "time": "13:30",
       "home": "U.D. LOS BARRIOS \"B\"",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT)",
+      "ground": "Barrios (Los) - SAN RAFAEL PVO (F11-F7) (NAT) (N)",
       "score": [
         1,
         1
@@ -144,7 +144,7 @@
       "time": null,
       "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. TARAGUILLA",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
       "score": null
     },
     {
