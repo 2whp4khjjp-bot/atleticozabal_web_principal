@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49151057&codcompeticion=49145109&codjornada=1",
-  "updatedAt": "2026-11-22T17:25:01.078Z",
+  "updatedAt": "2026-11-23T21:41:10.986Z",
   "standing": {
     "position": 6,
     "points": 3,
@@ -124,7 +124,7 @@
       "time": "14:00",
       "home": "C.D. S.M. MIRADOR",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Algeciras - Sergio Martín",
+      "ground": "Algeciras - Sergio Martín (A)",
       "score": [
         0,
         3
@@ -156,7 +156,7 @@
       "time": null,
       "home": "PEÑA MADRIDISTA LINENSE \"B\"",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "La Línea de La Concepción - PUYOL (A)",
+      "ground": "La Línea de La Concepción - PUYOL",
       "score": null
     },
     {
