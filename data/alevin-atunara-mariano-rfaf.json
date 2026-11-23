@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49789584&codcompeticion=49608278&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-23T01:47:47.328Z",
+  "updatedAt": "2026-11-23T03:08:47.848Z",
   "officialTeam": "ATUNARA ATLETICO C.D. \"B\"",
   "competition": "49608278",
   "group": "49789584",
@@ -79,8 +79,12 @@
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
       "ground": null,
-      "score": null,
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2749770&cod_acta=2749770"
+      "score": [
+        8,
+        1
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2749770&cod_acta=2749770",
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49608278&CodGrupo=49789584&CodTemporada=22&CodJornada=6&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
     },
     {
       "status": null,
