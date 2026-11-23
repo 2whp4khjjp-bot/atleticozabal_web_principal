@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909312&codcompeticion=48909282",
-  "updatedAt": "2026-11-23T19:28:43.637Z",
+  "updatedAt": "2026-11-23T21:42:17.517Z",
   "standing": {
     "position": 1,
     "points": 24,
@@ -22,7 +22,7 @@
         5,
         0
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=1&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=4&cod_agrupacion=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650904&cod_acta=2650904"
     },
     {
@@ -33,11 +33,11 @@
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Puerto De Santa María (El) - CIUDAD DEPORTIVA RAFAEL SANCHEZ (F11-F7,1) (A)",
       "score": [
-        2,
-        4
+        1,
+        2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=5&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650913&cod_acta=2650913"
     },
     {
       "round": 3,
@@ -50,8 +50,8 @@
         4,
         1
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650921&cod_acta=2650921",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=2&cod_agrupacion=1"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=4&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650921&cod_acta=2650921"
     },
     {
       "round": 4,
@@ -78,7 +78,7 @@
         5,
         1
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=7&cod_agrupacion=1",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48909282&CodGrupo=48909312&CodTemporada=22&cod_agrupacion=1&CodJornada=5&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650938&cod_acta=2650938"
     },
     {
@@ -89,11 +89,11 @@
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Arcos De La Frontera - ANTONIO CAMACHO (F11-F7) (A)",
       "score": [
-        2,
+        3,
         4
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=7&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650947&cod_acta=2650947"
     },
     {
       "round": 7,
@@ -106,8 +106,8 @@
         0,
         2
       ],
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=7&cod_agrupacion=1",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650955&cod_acta=2650955"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650955&cod_acta=2650955",
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=7&cod_agrupacion=1"
     },
     {
       "round": 8,
@@ -131,8 +131,8 @@
       "away": "C. D. ATLETICO ZABAL",
       "ground": "Algeciras - Juan Gadiaga Pastores (F11) (A)",
       "score": [
-        0,
-        1
+        1,
+        2
       ],
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650970&cod_acta=2650970",
       "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650970&cod_acta=2650970"
@@ -148,8 +148,8 @@
         1,
         2
       ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650978&cod_acta=2650978",
-      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650978&cod_acta=2650978"
+      "scoreSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909282&codgrupo=48909312&CodJornada=4&cod_agrupacion=1",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650978&cod_acta=2650978"
     },
     {
       "round": 11,
