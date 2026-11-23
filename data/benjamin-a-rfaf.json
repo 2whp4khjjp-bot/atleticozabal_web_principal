@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909542&codgrupo=48909586&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909586&codcompeticion=48909542",
-  "updatedAt": "2026-11-22T17:10:55.040Z",
+  "updatedAt": "2026-11-23T21:28:00.300Z",
   "standing": null,
   "matches": [
     {
@@ -15,8 +15,8 @@
         6,
         2
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663714&cod_acta=2663714"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663714&cod_acta=2663714",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 2,
@@ -29,8 +29,8 @@
         1,
         2
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663723&cod_acta=2663723",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 3,
@@ -43,6 +43,7 @@
         7,
         3
       ],
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663731&cod_acta=2663731"
     },
     {
@@ -70,8 +71,8 @@
         3,
         2
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2810570&cod_acta=2810570"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2810570&cod_acta=2810570",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 6,
@@ -111,8 +112,8 @@
         2,
         5
       ],
-      "scoreSource": "rfaf-round-results",
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663773&cod_acta=2663773"
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663773&cod_acta=2663773",
+      "scoreSource": "rfaf-round-results"
     },
     {
       "round": 9,
@@ -139,6 +140,7 @@
         3,
         4
       ],
+      "scoreSource": "rfaf-round-results",
       "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2663788&cod_acta=2663788"
     },
     {
@@ -158,7 +160,7 @@
     {
       "round": 12,
       "date": "2026-11-28",
-      "time": null,
+      "time": "11:30",
       "home": "C. D. ATLETICO ZABAL",
       "away": "A.D. LOS BURREÑOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
