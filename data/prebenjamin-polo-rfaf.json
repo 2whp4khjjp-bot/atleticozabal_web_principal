@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-22T17:31:49.559Z",
+  "updatedAt": "2026-11-23T01:45:47.377Z",
   "officialTeam": "C. D. ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -25,7 +25,7 @@
       "time": "17:00",
       "home": "C.D. SALESIANOS ALGECIRAS",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": null,
+      "ground": "Algeciras - LA MENACHA PACO LEÓN (F11-F7,3)",
       "score": [
         2,
         12
@@ -57,7 +57,7 @@
       "time": "12:00",
       "home": "C.D. SAN BERNARDO",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
+      "ground": null,
       "score": [
         6,
         8
@@ -73,7 +73,7 @@
       "time": "18:50",
       "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         2,
         3
