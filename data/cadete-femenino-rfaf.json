@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49660937&codcompeticion=49660873&codjornada=7",
-  "updatedAt": "2026-11-23T19:28:38.452Z",
+  "updatedAt": "2026-11-23T21:38:48.112Z",
   "standing": {
     "position": 1,
     "points": 3,
@@ -10,7 +10,7 @@
     "goalsAgainst": null,
     "round": 7
   },
-  "standingUpdatedAt": "2026-11-22T17:21:27.410Z",
+  "standingUpdatedAt": "2026-11-23T21:38:48.112Z",
   "standingVerified": true,
   "rounds": [
     {
@@ -189,16 +189,12 @@
     {
       "round": 7,
       "date": "2026-11-21",
-      "time": "16:00",
+      "time": "16:15",
       "home": "C. D. ATLETICO ZABAL",
       "away": "U.D. LOS BARRIOS",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)",
-      "score": [
-        2,
-        1
-      ],
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2738279&cod_acta=2738279",
-      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49660873&CodGrupo=49660937&CodTemporada=22&cod_agrupacion=1&CodJornada=7&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=1"
+      "score": null,
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2738279&cod_acta=2738279"
     },
     {
       "round": 8,

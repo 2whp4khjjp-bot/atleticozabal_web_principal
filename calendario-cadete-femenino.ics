@@ -7,7 +7,7 @@ X-WR-CALNAME:Atlético Zabal · Cadete Femenino
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-1@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;TZID=Europe/Madrid:20261003T180000
 DTEND;TZID=Europe/Madrid:20261003T190000
 SUMMARY:FINAL · A.D. LOS BURREÑOS – C. D. ATLETICO ZABAL 1–4
@@ -22,7 +22,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-3@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;TZID=Europe/Madrid:20261018T133000
 DTEND;TZID=Europe/Madrid:20261018T143000
 SUMMARY:FINAL · C. D. ATLETICO ZABAL – C.D. GUADALCACIN 3–0
@@ -38,7 +38,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-4@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;TZID=Europe/Madrid:20261025T173000
 DTEND;TZID=Europe/Madrid:20261025T183000
 SUMMARY:FINAL · C.D. RAYO SANLUQUEÑO "B" – C. D. ATLETICO ZABAL 1–6
@@ -54,7 +54,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-5@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;TZID=Europe/Madrid:20261107T200000
 DTEND;TZID=Europe/Madrid:20261107T210000
 SUMMARY:FINAL · C. D. ATLETICO ZABAL – C.D. TRASMALLO F.C. 4–0
@@ -70,7 +70,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-6@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;TZID=Europe/Madrid:20261114T160000
 DTEND;TZID=Europe/Madrid:20261114T170000
 SUMMARY:FINAL · HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL – C. D. ATL
@@ -87,23 +87,19 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-7@atleticozabal.com
-DTSTAMP:20261123T192838Z
-DTSTART;TZID=Europe/Madrid:20261121T160000
-DTEND;TZID=Europe/Madrid:20261121T170000
-SUMMARY:FINAL · C. D. ATLETICO ZABAL – U.D. LOS BARRIOS 2–1
+DTSTAMP:20261123T213848Z
+DTSTART;TZID=Europe/Madrid:20261121T161500
+DTEND;TZID=Europe/Madrid:20261121T171500
+SUMMARY:J7 · C. D. ATLETICO ZABAL – U.D. LOS BARRIOS
 DESCRIPTION:Cadete Femenino · 3ª Andaluza Femenina Cádiz · Grupo único
- \nJornada 7\nHora: 16:00\nCampo: La Línea de La Concepción - VIRGEN DEL 
- CARMEN (LA LINEA)  (A)\nResultado: C. D. ATLETICO ZABAL 2–1 U.D. LOS BA
- RRIOS\n\nGOLEADORES\nNo disponible en el acta\n\nTARJETAS\nNo disponible e
- n el acta\n\nActa oficial: https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?co
- d_primaria=1000120&CodActa=2738279&cod_acta=2738279\n\nCreado por Raúl Co
- te
+ \nJornada 7\nHora: 16:15\nCampo: La Línea de La Concepción - VIRGEN DEL 
+ CARMEN (LA LINEA)  (A)\n\nCreado por Raúl Cote
 LOCATION:La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)  (A)
 URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-8@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;TZID=Europe/Madrid:20261128T110000
 DTEND;TZID=Europe/Madrid:20261128T120000
 SUMMARY:J8 · ARCOS C.F. – C. D. ATLETICO ZABAL
@@ -115,7 +111,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-9@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:J9 · C. D. ATLETICO ZABAL – C.D. GRUPO EMPRESA BAZAN C.F.
@@ -127,7 +123,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-10@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:J10 · C.D. LA SALLE – C. D. ATLETICO ZABAL
@@ -139,7 +135,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-11@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:J11 · C. D. ATLETICO ZABAL – C.D. SPORTING PUERTORREALEÑA
@@ -151,7 +147,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-12@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:J12 · C.D. VEJER BPIE – C. D. ATLETICO ZABAL
@@ -163,7 +159,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-13@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:J13 · C. D. ATLETICO ZABAL – C. D. RVO. PUENTE MAYORGA C.F.
@@ -175,7 +171,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-14@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:J14 · C. D. ATLETICO ZABAL – A.D. LOS BURREÑOS
@@ -187,7 +183,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-16@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:J16 · C.D. GUADALCACIN – C. D. ATLETICO ZABAL
@@ -200,7 +196,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-17@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:J17 · C. D. ATLETICO ZABAL – C.D. RAYO SANLUQUEÑO "B"
@@ -212,7 +208,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-18@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:J18 · C.D. TRASMALLO F.C. – C. D. ATLETICO ZABAL
@@ -225,7 +221,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-19@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:J19 · C. D. ATLETICO ZABAL – HISTORICO RECREATIVO LINENSE CLUB D
@@ -238,7 +234,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-20@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:J20 · U.D. LOS BARRIOS – C. D. ATLETICO ZABAL
@@ -250,7 +246,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-21@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:J21 · C. D. ATLETICO ZABAL – ARCOS C.F.
@@ -262,7 +258,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-22@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:J22 · C.D. GRUPO EMPRESA BAZAN C.F. – C. D. ATLETICO ZABAL
@@ -274,7 +270,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-23@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:J23 · C. D. ATLETICO ZABAL – C.D. LA SALLE
@@ -286,7 +282,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-24@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:J24 · C.D. SPORTING PUERTORREALEÑA – C. D. ATLETICO ZABAL
@@ -298,7 +294,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-25@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:J25 · C. D. ATLETICO ZABAL – C.D. VEJER BPIE
@@ -310,7 +306,7 @@ URL:https://www.atleticozabal.com/calendario-cadete-femenino.html
 END:VEVENT
 BEGIN:VEVENT
 UID:zabal-cadete-femenino-26@atleticozabal.com
-DTSTAMP:20261123T192838Z
+DTSTAMP:20261123T213848Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:J26 · C. D. RVO. PUENTE MAYORGA C.F. – C. D. ATLETICO ZABAL
