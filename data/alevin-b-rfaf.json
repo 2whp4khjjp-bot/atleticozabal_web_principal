@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48909139&codgrupo=48909177&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48909177&codcompeticion=48909139",
-  "updatedAt": "2026-11-21T21:51:10.427Z",
+  "updatedAt": "2026-11-23T19:27:39.518Z",
   "standing": {
     "position": 6,
     "points": 0,
@@ -152,8 +152,8 @@
     },
     {
       "round": 11,
-      "date": "2026-11-28",
-      "time": null,
+      "date": "2026-11-29",
+      "time": "12:10",
       "home": "ATCO. SANLUQUEÑO C.F.",
       "away": "ATLETICO ZABAL",
       "ground": "Sanlúcar de Barrameda - LAS PALMERAS (F11-F7)",
