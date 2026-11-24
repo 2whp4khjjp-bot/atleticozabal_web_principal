@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-21T21:50:56.769Z",
+  "updatedAt": "2026-11-24T04:25:09.458Z",
   "standing": {
     "position": 14,
     "points": 0,
@@ -133,11 +133,11 @@
     },
     {
       "round": 11,
-      "date": "2026-11-28",
-      "time": null,
+      "date": "2026-11-29",
+      "time": "12:00",
       "home": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"B\"",
       "away": "ATUNARA ATLETICO C.D. \"B\"",
-      "ground": "La Línea de La Concepción - Francisco Pozo",
+      "ground": "La Línea de La Concepción - Miguel Ángel Izaguirre",
       "score": null
     },
     {
