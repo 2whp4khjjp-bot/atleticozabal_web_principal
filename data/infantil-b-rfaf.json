@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49227064&codcompeticion=49223072&codjornada=8",
-  "updatedAt": "2026-11-23T21:39:40.585Z",
+  "updatedAt": "2026-11-24T20:20:16.955Z",
   "standing": {
     "position": 9,
     "points": 4,
@@ -198,8 +198,8 @@
     },
     {
       "round": 9,
-      "date": "2026-11-28",
-      "time": "13:30",
+      "date": "2026-11-27",
+      "time": "17:30",
       "home": "C.D. GUADIARO",
       "away": "C. D. ATLETICO ZABAL",
       "ground": "San Roque - SAN ENRIQUE",
