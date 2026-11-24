@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-23T21:52:01.101Z",
+  "updatedAt": "2026-11-24T02:15:26.610Z",
   "officialTeam": "C. D. ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
@@ -14,7 +14,7 @@
       "time": "17:30",
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "U.D. CASTELLAR",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         7
@@ -46,7 +46,7 @@
       "time": "18:15",
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         10
