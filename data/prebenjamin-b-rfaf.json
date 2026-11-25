@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50319316&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-24T04:26:23.257Z",
+  "updatedAt": "2026-11-25T18:11:56.381Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50317849",
   "group": "50319316",
@@ -42,8 +42,8 @@
       "status": null,
       "statusSource": null,
       "round": 4,
-      "date": "2026-12-04",
-      "time": "17:30",
+      "date": "2026-12-02",
+      "time": "18:15",
       "home": "U.D. TESORILLO C.D.",
       "away": "ATLETICO ZABAL \"B\"",
       "ground": "San Martin del Tesorillo - RAFAEL JURADO",
