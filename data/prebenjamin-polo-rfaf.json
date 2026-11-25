@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-24T23:55:14.894Z",
+  "updatedAt": "2026-11-25T19:41:53.656Z",
   "officialTeam": "C. D. ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -25,7 +25,7 @@
       "time": "17:00",
       "home": "C.D. SALESIANOS ALGECIRAS",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Algeciras - LA MENACHA PACO LEÓN (F11-F7,3)",
+      "ground": null,
       "score": [
         2,
         12
@@ -41,7 +41,7 @@
       "time": "09:30",
       "home": "C. D. ATLETICO ZABAL",
       "away": "C.D. JUVENTUD PALMONES C.F.",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
+      "ground": null,
       "score": [
         1,
         3
@@ -57,7 +57,7 @@
       "time": "12:00",
       "home": "C.D. SAN BERNARDO",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": null,
+      "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
       "score": [
         6,
         8
@@ -73,7 +73,7 @@
       "time": "18:50",
       "home": "C. D. ATLETICO ZABAL",
       "away": "BALON LINENSE C.F. C.D.",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         2,
         3
