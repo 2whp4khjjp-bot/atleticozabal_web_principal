@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50210111&codcompeticion=50209510&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-26T19:22:23.864Z",
+  "updatedAt": "2026-11-26T23:52:38.577Z",
   "officialTeam": "C. D. ATLETICO ZABAL",
   "competition": "50209510",
   "group": "50210111",
@@ -25,7 +25,7 @@
       "time": "17:00",
       "home": "C.D. SALESIANOS ALGECIRAS",
       "away": "C. D. ATLETICO ZABAL",
-      "ground": "Algeciras - LA MENACHA PACO LEÓN (F11-F7,3)",
+      "ground": null,
       "score": [
         2,
         12
