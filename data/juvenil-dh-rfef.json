@@ -2,7 +2,7 @@
   "source": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=33836116&codgrupo=33836120&CodJornada=1",
   "resultsSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=33836116&CodGrupo=33836120&CodTemporada=22",
   "classificationSource": "https://marcadores.rfef.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=1&codcompeticion=33836116&codgrupo=33836120",
-  "updatedAt": "2026-11-26T18:56:04.541Z",
+  "updatedAt": "2026-11-27T18:48:28.407Z",
   "standing": {
     "position": 15,
     "points": 2,
@@ -109,7 +109,7 @@
       "away": "Atlético Zabal",
       "ground": "Ciudad Deportiva Jose Ramón Cisneros - Campo 7",
       "score": [
-        6,
+        0,
         0
       ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693276&cod_acta=70693276"
@@ -121,10 +121,7 @@
       "home": "Atlético Zabal",
       "away": "UD Almería",
       "ground": "Estadio Virgen del Carmen",
-      "score": [
-        2,
-        0
-      ],
+      "score": null,
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70705625&cod_acta=70705625"
     },
     {
@@ -147,7 +144,10 @@
       "home": "Atlético Zabal",
       "away": "CD Utrera",
       "ground": "Estadio Virgen del Carmen",
-      "score": null,
+      "score": [
+        3,
+        2
+      ],
       "actaUrl": "https://marcadores.rfef.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=70693304&cod_acta=70693304"
     },
     {
