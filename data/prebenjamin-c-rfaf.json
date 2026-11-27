@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50318948&codcompeticion=50317849&codtemporada=22&CodJornada=1&CDetalle=1",
-  "updatedAt": "2026-11-26T23:53:16.636Z",
+  "updatedAt": "2026-11-27T19:18:02.147Z",
   "officialTeam": "C. D. ATLETICO ZABAL \"C\"",
   "competition": "50317849",
   "group": "50318948",
@@ -14,7 +14,7 @@
       "time": "17:30",
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "U.D. CASTELLAR",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         7
@@ -30,7 +30,7 @@
       "time": "17:00",
       "home": "C.D. JUAN SEBASTIAN ELCANO",
       "away": "C. D. ATLETICO ZABAL \"C\"",
-      "ground": null,
+      "ground": "Algeciras - JUAN SEBASTIAN ELCANO - PULE (F11-F7)",
       "score": [
         10,
         0
@@ -78,7 +78,7 @@
       "time": "18:30",
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "C.D. ATHLETIC CLUB JIMENA",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": [
         0,
         8
@@ -111,7 +111,10 @@
       "home": "C. D. ATLETICO ZABAL \"C\"",
       "away": "LOS CORTIJILLOS A.D. \"A\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
-      "score": null
+      "score": [
+        1,
+        3
+      ]
     },
     {
       "status": null,
