@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=7",
-  "updatedAt": "2026-11-27T19:01:08.121Z",
+  "updatedAt": "2026-11-27T23:22:33.661Z",
   "standing": {
     "position": 2,
     "points": 13,
@@ -183,8 +183,12 @@
       "home": "C.D. SAN BERNARDO",
       "away": "ATUNARA ATLETICO C.D.",
       "ground": "San Roque - ALBERTO UMBRIA (F11, F7)",
-      "score": null,
-      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701207&cod_acta=2701207"
+      "score": [
+        1,
+        4
+      ],
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2701207&cod_acta=2701207",
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49287953&CodGrupo=49288292&CodTemporada=22&cod_agrupacion=&CodJornada=8&Sch_Codigo_Delegacion=&Sch_Tipo_Juego="
     },
     {
       "round": 9,

@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codtemporada=22&codcompeticion=48893775&codgrupo=48894181&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=48894181&codcompeticion=48893775",
-  "updatedAt": "2026-11-25T03:08:44.022Z",
+  "updatedAt": "2026-11-27T23:21:34.004Z",
   "standing": {
     "position": 3,
     "points": 21,
@@ -154,7 +154,12 @@
       "home": "A.D. LOS BURREÑOS",
       "away": "ATLETICO ZABAL",
       "ground": "Conil De La Frontera - BURREÑOS (F11-F7)",
-      "score": null
+      "score": [
+        2,
+        5
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=48893775&CodGrupo=48894181&CodTemporada=22&cod_agrupacion=1&CodJornada=11&Sch_Codigo_Delegacion=3&Sch_Tipo_Juego=2",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2650025&cod_acta=2650025"
     },
     {
       "round": 12,
