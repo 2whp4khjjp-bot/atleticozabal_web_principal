@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49288292&codcompeticion=49287953&codjornada=7",
-  "updatedAt": "2026-11-27T23:22:33.661Z",
+  "updatedAt": "2026-11-28T02:09:27.893Z",
   "standing": {
     "position": 2,
     "points": 13,
@@ -205,7 +205,7 @@
       "time": null,
       "home": "C.D. OLIVILLOS 87",
       "away": "ATUNARA ATLETICO C.D.",
-      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7) (A)",
+      "ground": "San Roque - LOS OLIVILLOS (VICENTE BLANCA)(F11, F7)",
       "score": null
     },
     {

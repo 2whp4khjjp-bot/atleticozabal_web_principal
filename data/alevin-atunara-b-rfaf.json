@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49287025&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-24T04:25:09.458Z",
+  "updatedAt": "2026-11-28T02:08:44.547Z",
   "standing": {
     "position": 14,
     "points": 0,
@@ -164,7 +164,7 @@
       "time": null,
       "home": "ATUNARA ATLETICO C.D. \"B\"",
       "away": "ATLETICO ZABAL \"B\"",
-      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7) (A)",
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {

@@ -1,6 +1,6 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=50423452&codcompeticion=50321366&codtemporada=22&CodJornada=1&CDetalle=1&cod_agrupacion=12934598",
-  "updatedAt": "2026-11-25T22:47:17.981Z",
+  "updatedAt": "2026-11-28T02:09:15.990Z",
   "officialTeam": "ATLETICO ZABAL \"B\"",
   "competition": "50321366",
   "group": "50423452",
@@ -116,7 +116,7 @@
       "time": null,
       "home": "ATLETICO ZABAL \"B\"",
       "away": "C.D. EPRO CAMPO DE GIBRALTAR \"B\"",
-      "ground": null,
+      "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA) (F7)",
       "score": null
     },
     {
