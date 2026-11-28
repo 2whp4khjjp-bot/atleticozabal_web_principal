@@ -1,7 +1,7 @@
 {
   "source": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCalendario_Vis?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codtemporada=22&CodJornada=1&CDetalle=1",
   "classificationSource": "https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=49286942&codcompeticion=49286744&codjornada=1",
-  "updatedAt": "2026-11-28T02:08:38.097Z",
+  "updatedAt": "2026-11-28T13:44:45.306Z",
   "standing": {
     "position": 7,
     "points": 3,
@@ -138,7 +138,12 @@
       "home": "ATLETICO ATUNARA C.D. \"A\"",
       "away": "HISTORICO RECREATIVO LINENSE CLUB DE FÚTBOL \"A\"",
       "ground": "La Línea de La Concepción - VIRGEN DEL CARMEN (LA LINEA)",
-      "score": null
+      "score": [
+        3,
+        4
+      ],
+      "scoreSource": "jornada: https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=49286744&CodGrupo=49286942&CodTemporada=22&CodJornada=11&Sch_Codigo_Delegacion=&Sch_Tipo_Juego=",
+      "actaUrl": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=2709953&cod_acta=2709953"
     },
     {
       "round": 12,
